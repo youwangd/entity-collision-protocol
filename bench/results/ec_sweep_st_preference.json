@@ -1,0 +1,2547 @@
+{
+  "config": {
+    "n_entities": 8,
+    "distractors": 2,
+    "k": 10,
+    "seed": 42,
+    "embed": "st",
+    "tag": "preference",
+    "vector_weight": 0.5,
+    "degrees": [
+      1,
+      2,
+      4,
+      8
+    ]
+  },
+  "sweep": [
+    {
+      "collision_degree": 1,
+      "bm25_floor": 1.0,
+      "bm25_only": {
+        "vector_weight": 0.0,
+        "n_memories": 24,
+        "n_queries": 8,
+        "k": 10,
+        "hit_at_1": 1.0,
+        "hit_at_k": 1.0,
+        "mrr": 1.0,
+        "recall_p50_ms": 1.4,
+        "ingest_seconds": 0.012,
+        "per_query": [
+          {
+            "query": "what does alice like while auditing?",
+            "tag": "preference",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.696
+          },
+          {
+            "query": "what does bob like while shipping?",
+            "tag": "preference",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.455
+          },
+          {
+            "query": "what does carol like while auditing?",
+            "tag": "preference",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.453
+          },
+          {
+            "query": "what does dave like while auditing?",
+            "tag": "preference",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.273
+          },
+          {
+            "query": "what does eve like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.334
+          },
+          {
+            "query": "what does frank like while roadmapping?",
+            "tag": "preference",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.347
+          },
+          {
+            "query": "what does grace like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.531
+          },
+          {
+            "query": "what does henry like while writing up?",
+            "tag": "preference",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.001
+          }
+        ]
+      },
+      "vector_fusion": {
+        "vector_weight": 0.5,
+        "n_memories": 24,
+        "n_queries": 8,
+        "k": 10,
+        "hit_at_1": 1.0,
+        "hit_at_k": 1.0,
+        "mrr": 1.0,
+        "recall_p50_ms": 13.86,
+        "ingest_seconds": 0.415,
+        "per_query": [
+          {
+            "query": "what does alice like while auditing?",
+            "tag": "preference",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 14.964
+          },
+          {
+            "query": "what does bob like while shipping?",
+            "tag": "preference",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 13.326
+          },
+          {
+            "query": "what does carol like while auditing?",
+            "tag": "preference",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 13.445
+          },
+          {
+            "query": "what does dave like while auditing?",
+            "tag": "preference",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 14.821
+          },
+          {
+            "query": "what does eve like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 13.811
+          },
+          {
+            "query": "what does frank like while roadmapping?",
+            "tag": "preference",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 14.68
+          },
+          {
+            "query": "what does grace like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 13.908
+          },
+          {
+            "query": "what does henry like while writing up?",
+            "tag": "preference",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 13.524
+          }
+        ]
+      },
+      "delta_hit_at_1": 0.0,
+      "delta_mrr": 0.0
+    },
+    {
+      "collision_degree": 2,
+      "bm25_floor": 0.5,
+      "bm25_only": {
+        "vector_weight": 0.0,
+        "n_memories": 32,
+        "n_queries": 16,
+        "k": 10,
+        "hit_at_1": 0.5,
+        "hit_at_k": 1.0,
+        "mrr": 0.75,
+        "recall_p50_ms": 1.556,
+        "ingest_seconds": 0.016,
+        "per_query": [
+          {
+            "query": "what does alice like while auditing?",
+            "tag": "preference",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.778
+          },
+          {
+            "query": "what does alice like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 1.486
+          },
+          {
+            "query": "what does bob like while architecting?",
+            "tag": "preference",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 1.515
+          },
+          {
+            "query": "what does bob like while paged?",
+            "tag": "preference",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.543
+          },
+          {
+            "query": "what does carol like while auditing?",
+            "tag": "preference",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 1.568
+          },
+          {
+            "query": "what does carol like while writing up?",
+            "tag": "preference",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.66
+          },
+          {
+            "query": "what does dave like while shipping?",
+            "tag": "preference",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 1.942
+          },
+          {
+            "query": "what does dave like while auditing?",
+            "tag": "preference",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.352
+          },
+          {
+            "query": "what does eve like while shipping?",
+            "tag": "preference",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.393
+          },
+          {
+            "query": "what does eve like while paged?",
+            "tag": "preference",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 1.53
+          },
+          {
+            "query": "what does frank like while shipping?",
+            "tag": "preference",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.534
+          },
+          {
+            "query": "what does frank like while screening?",
+            "tag": "preference",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 1.612
+          },
+          {
+            "query": "what does grace like while architecting?",
+            "tag": "preference",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.614
+          },
+          {
+            "query": "what does grace like while paged?",
+            "tag": "preference",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 1.659
+          },
+          {
+            "query": "what does henry like while shipping?",
+            "tag": "preference",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 1.948
+          },
+          {
+            "query": "what does henry like while roadmapping?",
+            "tag": "preference",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.518
+          }
+        ]
+      },
+      "vector_fusion": {
+        "vector_weight": 0.5,
+        "n_memories": 32,
+        "n_queries": 16,
+        "k": 10,
+        "hit_at_1": 0.5625,
+        "hit_at_k": 1.0,
+        "mrr": 0.7812,
+        "recall_p50_ms": 14.604,
+        "ingest_seconds": 0.496,
+        "per_query": [
+          {
+            "query": "what does alice like while auditing?",
+            "tag": "preference",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.831
+          },
+          {
+            "query": "what does alice like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 15.456
+          },
+          {
+            "query": "what does bob like while architecting?",
+            "tag": "preference",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 15.187
+          },
+          {
+            "query": "what does bob like while paged?",
+            "tag": "preference",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 14.575
+          },
+          {
+            "query": "what does carol like while auditing?",
+            "tag": "preference",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 6.937
+          },
+          {
+            "query": "what does carol like while writing up?",
+            "tag": "preference",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 14.207
+          },
+          {
+            "query": "what does dave like while shipping?",
+            "tag": "preference",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 14.409
+          },
+          {
+            "query": "what does dave like while auditing?",
+            "tag": "preference",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.085
+          },
+          {
+            "query": "what does eve like while shipping?",
+            "tag": "preference",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 14.395
+          },
+          {
+            "query": "what does eve like while paged?",
+            "tag": "preference",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 15.089
+          },
+          {
+            "query": "what does frank like while shipping?",
+            "tag": "preference",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 14.145
+          },
+          {
+            "query": "what does frank like while screening?",
+            "tag": "preference",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 14.928
+          },
+          {
+            "query": "what does grace like while architecting?",
+            "tag": "preference",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 15.13
+          },
+          {
+            "query": "what does grace like while paged?",
+            "tag": "preference",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 14.633
+          },
+          {
+            "query": "what does henry like while shipping?",
+            "tag": "preference",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 14.732
+          },
+          {
+            "query": "what does henry like while roadmapping?",
+            "tag": "preference",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 15.262
+          }
+        ]
+      },
+      "delta_hit_at_1": 0.0625,
+      "delta_mrr": 0.0312
+    },
+    {
+      "collision_degree": 4,
+      "bm25_floor": 0.25,
+      "bm25_only": {
+        "vector_weight": 0.0,
+        "n_memories": 48,
+        "n_queries": 32,
+        "k": 10,
+        "hit_at_1": 0.25,
+        "hit_at_k": 1.0,
+        "mrr": 0.5208,
+        "recall_p50_ms": 2.387,
+        "ingest_seconds": 0.023,
+        "per_query": [
+          {
+            "query": "what does alice like while auditing?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.503
+          },
+          {
+            "query": "what does alice like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 2.329
+          },
+          {
+            "query": "what does alice like while paged?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 2.383
+          },
+          {
+            "query": "what does alice like while architecting?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 2.828
+          },
+          {
+            "query": "what does bob like while auditing?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 2.075
+          },
+          {
+            "query": "what does bob like while paged?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.164
+          },
+          {
+            "query": "what does bob like while roadmapping?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 2.391
+          },
+          {
+            "query": "what does bob like while writing up?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 2.652
+          },
+          {
+            "query": "what does carol like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 2.064
+          },
+          {
+            "query": "what does carol like while screening?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 2.34
+          },
+          {
+            "query": "what does carol like while auditing?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.36
+          },
+          {
+            "query": "what does carol like while paged?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 2.689
+          },
+          {
+            "query": "what does dave like while shipping?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 2.147
+          },
+          {
+            "query": "what does dave like while paged?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 2.261
+          },
+          {
+            "query": "what does dave like while roadmapping?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.451
+          },
+          {
+            "query": "what does dave like while writing up?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 2.694
+          },
+          {
+            "query": "what does eve like while writing up?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 2.092
+          },
+          {
+            "query": "what does eve like while roadmapping?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 2.403
+          },
+          {
+            "query": "what does eve like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.659
+          },
+          {
+            "query": "what does eve like while auditing?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 2.216
+          },
+          {
+            "query": "what does frank like while architecting?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 2.062
+          },
+          {
+            "query": "what does frank like while auditing?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 2.157
+          },
+          {
+            "query": "what does frank like while screening?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 2.593
+          },
+          {
+            "query": "what does frank like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.649
+          },
+          {
+            "query": "what does grace like while paged?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 2.038
+          },
+          {
+            "query": "what does grace like while writing up?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 2.275
+          },
+          {
+            "query": "what does grace like while architecting?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 2.449
+          },
+          {
+            "query": "what does grace like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.792
+          },
+          {
+            "query": "what does henry like while roadmapping?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 2.466
+          },
+          {
+            "query": "what does henry like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.222
+          },
+          {
+            "query": "what does henry like while writing up?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 2.472
+          },
+          {
+            "query": "what does henry like while architecting?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 2.658
+          }
+        ]
+      },
+      "vector_fusion": {
+        "vector_weight": 0.5,
+        "n_memories": 48,
+        "n_queries": 32,
+        "k": 10,
+        "hit_at_1": 0.2812,
+        "hit_at_k": 1.0,
+        "mrr": 0.5833,
+        "recall_p50_ms": 14.478,
+        "ingest_seconds": 0.681,
+        "per_query": [
+          {
+            "query": "what does alice like while auditing?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.448
+          },
+          {
+            "query": "what does alice like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.408
+          },
+          {
+            "query": "what does alice like while paged?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 15.777
+          },
+          {
+            "query": "what does alice like while architecting?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 16.156
+          },
+          {
+            "query": "what does bob like while auditing?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 15.962
+          },
+          {
+            "query": "what does bob like while paged?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.751
+          },
+          {
+            "query": "what does bob like while roadmapping?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 17.1
+          },
+          {
+            "query": "what does bob like while writing up?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 15.461
+          },
+          {
+            "query": "what does carol like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 14.499
+          },
+          {
+            "query": "what does carol like while screening?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 14.84
+          },
+          {
+            "query": "what does carol like while auditing?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.115
+          },
+          {
+            "query": "what does carol like while paged?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 14.384
+          },
+          {
+            "query": "what does dave like while shipping?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.042
+          },
+          {
+            "query": "what does dave like while paged?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 15.363
+          },
+          {
+            "query": "what does dave like while roadmapping?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 26.381
+          },
+          {
+            "query": "what does dave like while writing up?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 17.646
+          },
+          {
+            "query": "what does eve like while writing up?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 14.278
+          },
+          {
+            "query": "what does eve like while roadmapping?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 14.952
+          },
+          {
+            "query": "what does eve like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.808
+          },
+          {
+            "query": "what does eve like while auditing?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 14.935
+          },
+          {
+            "query": "what does frank like while architecting?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 15.828
+          },
+          {
+            "query": "what does frank like while auditing?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 14.06
+          },
+          {
+            "query": "what does frank like while screening?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.054
+          },
+          {
+            "query": "what does frank like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 16.095
+          },
+          {
+            "query": "what does grace like while paged?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.54
+          },
+          {
+            "query": "what does grace like while writing up?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 14.839
+          },
+          {
+            "query": "what does grace like while architecting?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.918
+          },
+          {
+            "query": "what does grace like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.29
+          },
+          {
+            "query": "what does henry like while roadmapping?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.722
+          },
+          {
+            "query": "what does henry like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 14.458
+          },
+          {
+            "query": "what does henry like while writing up?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.847
+          },
+          {
+            "query": "what does henry like while architecting?",
+            "tag": "preference",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 15.158
+          }
+        ]
+      },
+      "delta_hit_at_1": 0.0312,
+      "delta_mrr": 0.0625
+    },
+    {
+      "collision_degree": 8,
+      "bm25_floor": 0.125,
+      "bm25_only": {
+        "vector_weight": 0.0,
+        "n_memories": 80,
+        "n_queries": 64,
+        "k": 10,
+        "hit_at_1": 0.125,
+        "hit_at_k": 1.0,
+        "mrr": 0.3397,
+        "recall_p50_ms": 3.947,
+        "ingest_seconds": 0.038,
+        "per_query": [
+          {
+            "query": "what does alice like while auditing?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 4.23
+          },
+          {
+            "query": "what does alice like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 4.321
+          },
+          {
+            "query": "what does alice like while paged?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.713
+          },
+          {
+            "query": "what does alice like while architecting?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 4.175
+          },
+          {
+            "query": "what does alice like while screening?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.539
+          },
+          {
+            "query": "what does alice like while roadmapping?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 4.095
+          },
+          {
+            "query": "what does alice like while writing up?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.731
+          },
+          {
+            "query": "what does alice like while shipping?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 4.109
+          },
+          {
+            "query": "what does bob like while roadmapping?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.814
+          },
+          {
+            "query": "what does bob like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 4.268
+          },
+          {
+            "query": "what does bob like while screening?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 18.325
+          },
+          {
+            "query": "what does bob like while paged?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.958
+          },
+          {
+            "query": "what does bob like while auditing?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.576
+          },
+          {
+            "query": "what does bob like while writing up?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 4.129
+          },
+          {
+            "query": "what does bob like while architecting?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 3.395
+          },
+          {
+            "query": "what does bob like while shipping?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 4.039
+          },
+          {
+            "query": "what does carol like while roadmapping?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 3.632
+          },
+          {
+            "query": "what does carol like while auditing?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.879
+          },
+          {
+            "query": "what does carol like while shipping?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.476
+          },
+          {
+            "query": "what does carol like while writing up?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.973
+          },
+          {
+            "query": "what does carol like while architecting?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 3.613
+          },
+          {
+            "query": "what does carol like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 4.158
+          },
+          {
+            "query": "what does carol like while paged?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.293
+          },
+          {
+            "query": "what does carol like while screening?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.9
+          },
+          {
+            "query": "what does dave like while paged?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 3.663
+          },
+          {
+            "query": "what does dave like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.927
+          },
+          {
+            "query": "what does dave like while roadmapping?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.485
+          },
+          {
+            "query": "what does dave like while shipping?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 4.021
+          },
+          {
+            "query": "what does dave like while screening?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.609
+          },
+          {
+            "query": "what does dave like while auditing?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 4.116
+          },
+          {
+            "query": "what does dave like while architecting?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.311
+          },
+          {
+            "query": "what does dave like while writing up?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.947
+          },
+          {
+            "query": "what does eve like while auditing?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 17.214
+          },
+          {
+            "query": "what does eve like while shipping?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 4.044
+          },
+          {
+            "query": "what does eve like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 3.317
+          },
+          {
+            "query": "what does eve like while writing up?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 4.02
+          },
+          {
+            "query": "what does eve like while architecting?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.663
+          },
+          {
+            "query": "what does eve like while roadmapping?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 4.098
+          },
+          {
+            "query": "what does eve like while screening?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.561
+          },
+          {
+            "query": "what does eve like while paged?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.948
+          },
+          {
+            "query": "what does frank like while shipping?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 3.636
+          },
+          {
+            "query": "what does frank like while roadmapping?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 4.067
+          },
+          {
+            "query": "what does frank like while architecting?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.309
+          },
+          {
+            "query": "what does frank like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 4.157
+          },
+          {
+            "query": "what does frank like while auditing?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.687
+          },
+          {
+            "query": "what does frank like while writing up?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 4.195
+          },
+          {
+            "query": "what does frank like while screening?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.428
+          },
+          {
+            "query": "what does frank like while paged?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 4.127
+          },
+          {
+            "query": "what does grace like while paged?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.558
+          },
+          {
+            "query": "what does grace like while architecting?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 4.071
+          },
+          {
+            "query": "what does grace like while auditing?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.423
+          },
+          {
+            "query": "what does grace like while roadmapping?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 4.053
+          },
+          {
+            "query": "what does grace like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 13.924
+          },
+          {
+            "query": "what does grace like while writing up?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.41
+          },
+          {
+            "query": "what does grace like while shipping?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 3.47
+          },
+          {
+            "query": "what does grace like while screening?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 4.037
+          },
+          {
+            "query": "what does henry like while shipping?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.635
+          },
+          {
+            "query": "what does henry like while paged?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.974
+          },
+          {
+            "query": "what does henry like while architecting?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.544
+          },
+          {
+            "query": "what does henry like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 4.081
+          },
+          {
+            "query": "what does henry like while auditing?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.575
+          },
+          {
+            "query": "what does henry like while writing up?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 4.254
+          },
+          {
+            "query": "what does henry like while screening?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.497
+          },
+          {
+            "query": "what does henry like while roadmapping?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 4.098
+          }
+        ]
+      },
+      "vector_fusion": {
+        "vector_weight": 0.5,
+        "n_memories": 80,
+        "n_queries": 64,
+        "k": 10,
+        "hit_at_1": 0.2031,
+        "hit_at_k": 1.0,
+        "mrr": 0.4483,
+        "recall_p50_ms": 8.22,
+        "ingest_seconds": 1.027,
+        "per_query": [
+          {
+            "query": "what does alice like while auditing?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.893
+          },
+          {
+            "query": "what does alice like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.476
+          },
+          {
+            "query": "what does alice like while paged?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.212
+          },
+          {
+            "query": "what does alice like while architecting?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.501
+          },
+          {
+            "query": "what does alice like while screening?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 18.11
+          },
+          {
+            "query": "what does alice like while roadmapping?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 17.645
+          },
+          {
+            "query": "what does alice like while writing up?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 17.743
+          },
+          {
+            "query": "what does alice like while shipping?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 17.687
+          },
+          {
+            "query": "what does bob like while roadmapping?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 22.254
+          },
+          {
+            "query": "what does bob like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 18.046
+          },
+          {
+            "query": "what does bob like while screening?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 17.722
+          },
+          {
+            "query": "what does bob like while paged?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.62
+          },
+          {
+            "query": "what does bob like while auditing?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.028
+          },
+          {
+            "query": "what does bob like while writing up?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.525
+          },
+          {
+            "query": "what does bob like while architecting?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.792
+          },
+          {
+            "query": "what does bob like while shipping?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 7.696
+          },
+          {
+            "query": "what does carol like while roadmapping?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 17.501
+          },
+          {
+            "query": "what does carol like while auditing?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.228
+          },
+          {
+            "query": "what does carol like while shipping?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 17.382
+          },
+          {
+            "query": "what does carol like while writing up?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.323
+          },
+          {
+            "query": "what does carol like while architecting?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 17.93
+          },
+          {
+            "query": "what does carol like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.518
+          },
+          {
+            "query": "what does carol like while paged?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.107
+          },
+          {
+            "query": "what does carol like while screening?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 7.985
+          },
+          {
+            "query": "what does dave like while paged?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 7.31
+          },
+          {
+            "query": "what does dave like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 17.928
+          },
+          {
+            "query": "what does dave like while roadmapping?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 21.764
+          },
+          {
+            "query": "what does dave like while shipping?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 7.389
+          },
+          {
+            "query": "what does dave like while screening?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 17.75
+          },
+          {
+            "query": "what does dave like while auditing?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.911
+          },
+          {
+            "query": "what does dave like while architecting?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 17.083
+          },
+          {
+            "query": "what does dave like while writing up?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.998
+          },
+          {
+            "query": "what does eve like while auditing?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 7.546
+          },
+          {
+            "query": "what does eve like while shipping?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 7.942
+          },
+          {
+            "query": "what does eve like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.712
+          },
+          {
+            "query": "what does eve like while writing up?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 7.535
+          },
+          {
+            "query": "what does eve like while architecting?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 19.332
+          },
+          {
+            "query": "what does eve like while roadmapping?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.745
+          },
+          {
+            "query": "what does eve like while screening?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 18.162
+          },
+          {
+            "query": "what does eve like while paged?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.193
+          },
+          {
+            "query": "what does frank like while shipping?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 7.307
+          },
+          {
+            "query": "what does frank like while roadmapping?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.177
+          },
+          {
+            "query": "what does frank like while architecting?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 21.848
+          },
+          {
+            "query": "what does frank like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.617
+          },
+          {
+            "query": "what does frank like while auditing?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.083
+          },
+          {
+            "query": "what does frank like while writing up?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 17.861
+          },
+          {
+            "query": "what does frank like while screening?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 7.994
+          },
+          {
+            "query": "what does frank like while paged?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 17.616
+          },
+          {
+            "query": "what does grace like while paged?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.646
+          },
+          {
+            "query": "what does grace like while architecting?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.016
+          },
+          {
+            "query": "what does grace like while auditing?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 17.047
+          },
+          {
+            "query": "what does grace like while roadmapping?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 17.898
+          },
+          {
+            "query": "what does grace like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.39
+          },
+          {
+            "query": "what does grace like while writing up?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.549
+          },
+          {
+            "query": "what does grace like while shipping?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 18.253
+          },
+          {
+            "query": "what does grace like while screening?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 17.608
+          },
+          {
+            "query": "what does henry like while shipping?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.507
+          },
+          {
+            "query": "what does henry like while paged?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 28.243
+          },
+          {
+            "query": "what does henry like while architecting?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 11.726
+          },
+          {
+            "query": "what does henry like while troubleshooting?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 7.477
+          },
+          {
+            "query": "what does henry like while auditing?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 18.11
+          },
+          {
+            "query": "what does henry like while writing up?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 8.018
+          },
+          {
+            "query": "what does henry like while screening?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 16.97
+          },
+          {
+            "query": "what does henry like while roadmapping?",
+            "tag": "preference",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.173
+          }
+        ]
+      },
+      "delta_hit_at_1": 0.0781,
+      "delta_mrr": 0.1086
+    }
+  ]
+}

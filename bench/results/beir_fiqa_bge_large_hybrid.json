@@ -1,0 +1,21 @@
+{
+  "arm": "hybrid",
+  "config": {
+    "k_ndcg": 10,
+    "k_recall": 100,
+    "split": "test",
+    "vector_weight": 0.3
+  },
+  "embedder": "bge_large",
+  "ingest_ms_total": 2250872.4,
+  "n_corpus": 57638,
+  "n_queries": 648,
+  "ndcg_at_10": 0.3415,
+  "query_ms": {
+    "p50": 276.5,
+    "p95": 343.6,
+    "p99": 371.28
+  },
+  "recall_at_100": 0.6954,
+  "task": "fiqa"
+}

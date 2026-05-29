@@ -1,0 +1,42 @@
+{
+  "n_samples": 10,
+  "n_questions": 1986,
+  "n_questions_scored": 1978,
+  "k": 10,
+  "vector_weight": 1.0,
+  "embedder": "HashTrigram-256",
+  "n_memories_total": 5882,
+  "session_hit_at_1": 0.4221,
+  "session_hit_at_k": 0.7037,
+  "per_category_session_hit_at_1": {
+    "2": 0.1308,
+    "3": 0.1685,
+    "1": 0.3523,
+    "4": 0.5268,
+    "5": 0.5291
+  },
+  "per_category_session_hit_at_k": {
+    "2": 0.2555,
+    "3": 0.5506,
+    "1": 0.7936,
+    "4": 0.8098,
+    "5": 0.8004
+  },
+  "per_category_n": {
+    "2": 321,
+    "3": 89,
+    "1": 281,
+    "4": 841,
+    "5": 446
+  },
+  "ingest_ms": {
+    "p50": 6188.63,
+    "mean": 5646.65,
+    "max": 6559.5
+  },
+  "recall_ms": {
+    "p50": 12.08,
+    "mean": 12.72,
+    "max": 49.7
+  }
+}

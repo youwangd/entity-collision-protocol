@@ -1,0 +1,326 @@
+{
+  "config": {
+    "source": "locomo_merge_for_ci",
+    "embedder": "none(BM25-only)",
+    "k": 10,
+    "n_samples": 10,
+    "n_questions_scored": 1978,
+    "baseline_vw": 0.0
+  },
+  "rows": [
+    {
+      "vector_weight": 0.0,
+      "embedder": "none(BM25-only)",
+      "n_questions_scored": 1978,
+      "session_hit_at_1": 0.5394,
+      "session_hit_at_k": 0.7988,
+      "ci": {
+        "baseline": {
+          "hit_at_1": {
+            "mean": 0.5394,
+            "ci_lo": 0.5177,
+            "ci_hi": 0.5617
+          },
+          "hit_at_k": {
+            "mean": 0.7988,
+            "ci_lo": 0.7811,
+            "ci_hi": 0.8165
+          },
+          "mrr": {
+            "mean": 0.6273,
+            "ci_lo": 0.6085,
+            "ci_hi": 0.6464
+          },
+          "n": 1978
+        },
+        "bm25_only": {
+          "hit_at_1": {
+            "mean": 0.5394,
+            "ci_lo": 0.5177,
+            "ci_hi": 0.5617
+          },
+          "hit_at_k": {
+            "mean": 0.7988,
+            "ci_lo": 0.7811,
+            "ci_hi": 0.8165
+          },
+          "mrr": {
+            "mean": 0.6273,
+            "ci_lo": 0.6085,
+            "ci_hi": 0.6464
+          },
+          "n": 1978
+        },
+        "delta": {
+          "hit_at_1": {
+            "mean": 0.0,
+            "ci_lo": 0.0,
+            "ci_hi": 0.0
+          },
+          "hit_at_k": {
+            "mean": 0.0,
+            "ci_lo": 0.0,
+            "ci_hi": 0.0
+          },
+          "mrr": {
+            "mean": 0.0,
+            "ci_lo": 0.0,
+            "ci_hi": 0.0
+          }
+        }
+      }
+    },
+    {
+      "vector_weight": 0.3,
+      "embedder": "HashTrigram-256",
+      "n_questions_scored": 1978,
+      "session_hit_at_1": 0.4712,
+      "session_hit_at_k": 0.7872,
+      "ci": {
+        "baseline": {
+          "hit_at_1": {
+            "mean": 0.4712,
+            "ci_lo": 0.4489,
+            "ci_hi": 0.4934
+          },
+          "hit_at_k": {
+            "mean": 0.7872,
+            "ci_lo": 0.7695,
+            "ci_hi": 0.8054
+          },
+          "mrr": {
+            "mean": 0.5675,
+            "ci_lo": 0.5481,
+            "ci_hi": 0.5867
+          },
+          "n": 1978
+        },
+        "bm25_only": {
+          "hit_at_1": {
+            "mean": 0.5394,
+            "ci_lo": 0.5177,
+            "ci_hi": 0.5617
+          },
+          "hit_at_k": {
+            "mean": 0.7988,
+            "ci_lo": 0.7811,
+            "ci_hi": 0.8165
+          },
+          "mrr": {
+            "mean": 0.6273,
+            "ci_lo": 0.6085,
+            "ci_hi": 0.6464
+          },
+          "n": 1978
+        },
+        "delta": {
+          "hit_at_1": {
+            "mean": -0.0683,
+            "ci_lo": -0.0885,
+            "ci_hi": -0.049
+          },
+          "hit_at_k": {
+            "mean": -0.0116,
+            "ci_lo": -0.0228,
+            "ci_hi": -0.0005
+          },
+          "mrr": {
+            "mean": -0.0597,
+            "ci_lo": -0.074,
+            "ci_hi": -0.0461
+          }
+        }
+      }
+    },
+    {
+      "vector_weight": 0.5,
+      "embedder": "HashTrigram-256",
+      "n_questions_scored": 1978,
+      "session_hit_at_1": 0.454,
+      "session_hit_at_k": 0.7391,
+      "ci": {
+        "baseline": {
+          "hit_at_1": {
+            "mean": 0.454,
+            "ci_lo": 0.4317,
+            "ci_hi": 0.4757
+          },
+          "hit_at_k": {
+            "mean": 0.7391,
+            "ci_lo": 0.7194,
+            "ci_hi": 0.7588
+          },
+          "mrr": {
+            "mean": 0.5425,
+            "ci_lo": 0.523,
+            "ci_hi": 0.5616
+          },
+          "n": 1978
+        },
+        "bm25_only": {
+          "hit_at_1": {
+            "mean": 0.5394,
+            "ci_lo": 0.5177,
+            "ci_hi": 0.5617
+          },
+          "hit_at_k": {
+            "mean": 0.7988,
+            "ci_lo": 0.7811,
+            "ci_hi": 0.8165
+          },
+          "mrr": {
+            "mean": 0.6273,
+            "ci_lo": 0.6085,
+            "ci_hi": 0.6464
+          },
+          "n": 1978
+        },
+        "delta": {
+          "hit_at_1": {
+            "mean": -0.0854,
+            "ci_lo": -0.1062,
+            "ci_hi": -0.0652
+          },
+          "hit_at_k": {
+            "mean": -0.0597,
+            "ci_lo": -0.0748,
+            "ci_hi": -0.0455
+          },
+          "mrr": {
+            "mean": -0.0848,
+            "ci_lo": -0.1006,
+            "ci_hi": -0.0698
+          }
+        }
+      }
+    },
+    {
+      "vector_weight": 0.7,
+      "embedder": "HashTrigram-256",
+      "n_questions_scored": 1978,
+      "session_hit_at_1": 0.4353,
+      "session_hit_at_k": 0.7194,
+      "ci": {
+        "baseline": {
+          "hit_at_1": {
+            "mean": 0.4353,
+            "ci_lo": 0.4141,
+            "ci_hi": 0.458
+          },
+          "hit_at_k": {
+            "mean": 0.7194,
+            "ci_lo": 0.6997,
+            "ci_hi": 0.7396
+          },
+          "mrr": {
+            "mean": 0.5248,
+            "ci_lo": 0.5059,
+            "ci_hi": 0.5439
+          },
+          "n": 1978
+        },
+        "bm25_only": {
+          "hit_at_1": {
+            "mean": 0.5394,
+            "ci_lo": 0.5177,
+            "ci_hi": 0.5617
+          },
+          "hit_at_k": {
+            "mean": 0.7988,
+            "ci_lo": 0.7811,
+            "ci_hi": 0.8165
+          },
+          "mrr": {
+            "mean": 0.6273,
+            "ci_lo": 0.6085,
+            "ci_hi": 0.6464
+          },
+          "n": 1978
+        },
+        "delta": {
+          "hit_at_1": {
+            "mean": -0.1041,
+            "ci_lo": -0.1264,
+            "ci_hi": -0.0829
+          },
+          "hit_at_k": {
+            "mean": -0.0794,
+            "ci_lo": -0.0956,
+            "ci_hi": -0.0637
+          },
+          "mrr": {
+            "mean": -0.1025,
+            "ci_lo": -0.1188,
+            "ci_hi": -0.0867
+          }
+        }
+      }
+    },
+    {
+      "vector_weight": 1.0,
+      "embedder": "HashTrigram-256",
+      "n_questions_scored": 1978,
+      "session_hit_at_1": 0.4221,
+      "session_hit_at_k": 0.7037,
+      "ci": {
+        "baseline": {
+          "hit_at_1": {
+            "mean": 0.4221,
+            "ci_lo": 0.4014,
+            "ci_hi": 0.4444
+          },
+          "hit_at_k": {
+            "mean": 0.7037,
+            "ci_lo": 0.6835,
+            "ci_hi": 0.724
+          },
+          "mrr": {
+            "mean": 0.5093,
+            "ci_lo": 0.4902,
+            "ci_hi": 0.5288
+          },
+          "n": 1978
+        },
+        "bm25_only": {
+          "hit_at_1": {
+            "mean": 0.5394,
+            "ci_lo": 0.5177,
+            "ci_hi": 0.5617
+          },
+          "hit_at_k": {
+            "mean": 0.7988,
+            "ci_lo": 0.7811,
+            "ci_hi": 0.8165
+          },
+          "mrr": {
+            "mean": 0.6273,
+            "ci_lo": 0.6085,
+            "ci_hi": 0.6464
+          },
+          "n": 1978
+        },
+        "delta": {
+          "hit_at_1": {
+            "mean": -0.1173,
+            "ci_lo": -0.1385,
+            "ci_hi": -0.0956
+          },
+          "hit_at_k": {
+            "mean": -0.095,
+            "ci_lo": -0.1117,
+            "ci_hi": -0.0789
+          },
+          "mrr": {
+            "mean": -0.118,
+            "ci_lo": -0.1347,
+            "ci_hi": -0.102
+          }
+        }
+      }
+    }
+  ],
+  "ci_config": {
+    "resamples": 5000,
+    "seed": 42
+  }
+}

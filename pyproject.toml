@@ -1,0 +1,78 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "engram"
+version = "0.1.0"
+description = "Neuroscience-inspired memory for AI agents"
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.10"
+authors = [{ name = "Anonymous", email = "anonymous@example.com" }]
+keywords = ["ai", "agent", "memory", "neuroscience", "llm"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "pyyaml>=6.0",
+    "click>=8.0",
+]
+
+[project.optional-dependencies]
+llm = ["litellm>=1.0"]
+embeddings = ["sentence-transformers>=2.0"]
+vector = ["sqlite-vec>=0.1"]
+encryption = ["cryptography>=41.0"]
+entity-ner = ["spacy>=3.7"]
+all = ["engram[llm,embeddings,vector,encryption,entity-ner]"]
+dev = ["pytest>=7.0", "pytest-cov", "mypy", "ruff"]
+
+[project.scripts]
+engram = "engram.cli.main:cli"
+
+[project.urls]
+# Homepage = "(anonymized for review)"
+# Repository = "(anonymized for review)"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/engram"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
+markers = [
+    "slow: tests that take >5s (skipped by default; run with -m slow)",
+    "scale: large-data scale tests (10k+ memories; opt-in)",
+    "mega_scale: huge-data tests (100k+; runs in CI nightly only)",
+    "concurrency: tests stressing thread/process safety",
+    "chaos: fault-injection tests",
+    "adversarial: security torture tests",
+    "evals: synthetic / public-benchmark eval harness (opt-in)",
+    "property: hypothesis property-based fuzz tests",
+]
+addopts = "-m 'not slow and not scale and not mega_scale and not chaos and not adversarial and not concurrency and not evals'"
+# Pin pytest-asyncio fixture-loop scope explicitly. Default is "function";
+# unset value emits a PytestDeprecationWarning every collection. Pinning
+# matches current behaviour (no test relies on session-scoped event loops).
+asyncio_default_fixture_loop_scope = "function"
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true

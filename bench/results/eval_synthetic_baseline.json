@@ -1,0 +1,16 @@
+{
+  "n_memories": 700,
+  "n_queries": 100,
+  "k": 10,
+  "hit_at_1": 0.58,
+  "hit_at_5": 0.98,
+  "hit_at_k": 1.0,
+  "mrr": 0.7357,
+  "ndcg_at_k": 0.8015,
+  "recall_latency_ms": {
+    "p50": 4.751,
+    "mean": 5.364,
+    "max": 18.705
+  },
+  "ingest_seconds": 0.406
+}

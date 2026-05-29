@@ -1,0 +1,162 @@
+{
+  "source": "bench/results/locomo_recall_lift_\u00a795_synth_off.json",
+  "recipe": {
+    "schema_family_share": 0.75,
+    "schema_family_tau": 0.2,
+    "schema_family_fragmentation_max": 0.9021,
+    "schema_family_contamination_max": 0.15
+  },
+  "synthesis": false,
+  "n_pairs_total": 301,
+  "min_n_gold": 2,
+  "ci_config": {
+    "resamples": 10000,
+    "seed": 42,
+    "alpha": 0.05,
+    "method": "percentile_paired"
+  },
+  "multi_hop": {
+    "n_pairs": 41,
+    "delta_prk": {
+      "n": 41,
+      "mean": -0.097561,
+      "ci_lo": -0.219512,
+      "ci_hi": 0.0,
+      "p_bootstrap_two_sided": 0.1156,
+      "frac_pairs_treatment_better": 0.0244,
+      "frac_pairs_treatment_worse": 0.122
+    },
+    "delta_grk": {
+      "n": 41,
+      "mean": -0.049593,
+      "ci_lo": -0.126829,
+      "ci_hi": 0.026829,
+      "p_bootstrap_two_sided": 0.2012,
+      "frac_pairs_treatment_better": 0.122,
+      "frac_pairs_treatment_worse": 0.2439
+    },
+    "delta_h1": {
+      "n": 41,
+      "mean": -0.04878,
+      "ci_lo": -0.121951,
+      "ci_hi": 0.0,
+      "p_bootstrap_two_sided": 0.2482,
+      "frac_pairs_treatment_better": 0.0,
+      "frac_pairs_treatment_worse": 0.0488
+    },
+    "delta_hk": {
+      "n": 41,
+      "mean": 0.0,
+      "ci_lo": -0.097561,
+      "ci_hi": 0.097561,
+      "p_bootstrap_two_sided": 1.0,
+      "frac_pairs_treatment_better": 0.0488,
+      "frac_pairs_treatment_worse": 0.0488
+    },
+    "delta_rr": {
+      "n": 41,
+      "mean": -0.054191,
+      "ci_lo": -0.113715,
+      "ci_hi": -0.00392,
+      "p_bootstrap_two_sided": 0.032,
+      "frac_pairs_treatment_better": 0.1463,
+      "frac_pairs_treatment_worse": 0.3415
+    }
+  },
+  "single_hop": {
+    "n_pairs": 260,
+    "delta_prk": {
+      "n": 260,
+      "mean": 0.176923,
+      "ci_lo": 0.123077,
+      "ci_hi": 0.230769,
+      "p_bootstrap_two_sided": 0.0,
+      "frac_pairs_treatment_better": 0.2,
+      "frac_pairs_treatment_worse": 0.0231
+    },
+    "delta_grk": {
+      "n": 260,
+      "mean": 0.176923,
+      "ci_lo": 0.123077,
+      "ci_hi": 0.230769,
+      "p_bootstrap_two_sided": 0.0,
+      "frac_pairs_treatment_better": 0.2,
+      "frac_pairs_treatment_worse": 0.0231
+    },
+    "delta_h1": {
+      "n": 260,
+      "mean": 0.096154,
+      "ci_lo": 0.05,
+      "ci_hi": 0.142308,
+      "p_bootstrap_two_sided": 0.0,
+      "frac_pairs_treatment_better": 0.1231,
+      "frac_pairs_treatment_worse": 0.0269
+    },
+    "delta_hk": {
+      "n": 260,
+      "mean": 0.176923,
+      "ci_lo": 0.123077,
+      "ci_hi": 0.230769,
+      "p_bootstrap_two_sided": 0.0,
+      "frac_pairs_treatment_better": 0.2,
+      "frac_pairs_treatment_worse": 0.0231
+    },
+    "delta_rr": {
+      "n": 260,
+      "mean": 0.112631,
+      "ci_lo": 0.070884,
+      "ci_hi": 0.157015,
+      "p_bootstrap_two_sided": 0.0,
+      "frac_pairs_treatment_better": 0.2385,
+      "frac_pairs_treatment_worse": 0.2
+    }
+  },
+  "all": {
+    "n_pairs": 301,
+    "delta_prk": {
+      "n": 301,
+      "mean": 0.139535,
+      "ci_lo": 0.089701,
+      "ci_hi": 0.189369,
+      "p_bootstrap_two_sided": 0.0,
+      "frac_pairs_treatment_better": 0.1761,
+      "frac_pairs_treatment_worse": 0.0365
+    },
+    "delta_grk": {
+      "n": 301,
+      "mean": 0.146069,
+      "ci_lo": 0.099169,
+      "ci_hi": 0.193522,
+      "p_bootstrap_two_sided": 0.0,
+      "frac_pairs_treatment_better": 0.1894,
+      "frac_pairs_treatment_worse": 0.0532
+    },
+    "delta_h1": {
+      "n": 301,
+      "mean": 0.076412,
+      "ci_lo": 0.036545,
+      "ci_hi": 0.116279,
+      "p_bootstrap_two_sided": 0.0002,
+      "frac_pairs_treatment_better": 0.1063,
+      "frac_pairs_treatment_worse": 0.0299
+    },
+    "delta_hk": {
+      "n": 301,
+      "mean": 0.152824,
+      "ci_lo": 0.106312,
+      "ci_hi": 0.199336,
+      "p_bootstrap_two_sided": 0.0,
+      "frac_pairs_treatment_better": 0.1794,
+      "frac_pairs_treatment_worse": 0.0266
+    },
+    "delta_rr": {
+      "n": 301,
+      "mean": 0.089908,
+      "ci_lo": 0.053241,
+      "ci_hi": 0.128552,
+      "p_bootstrap_two_sided": 0.0,
+      "frac_pairs_treatment_better": 0.2259,
+      "frac_pairs_treatment_worse": 0.2193
+    }
+  }
+}

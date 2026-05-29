@@ -1,0 +1,14 @@
+[scale-1M]   100000/1000000 writes, last-100k p99=3.33ms, tput=1569.5/s
+[scale-1M]   200000/1000000 writes, last-100k p99=3.37ms, tput=1534.7/s
+[scale-1M]   300000/1000000 writes, last-100k p99=3.36ms, tput=1520.6/s
+[scale-1M]   400000/1000000 writes, last-100k p99=3.35ms, tput=1512.3/s
+[scale-1M]   500000/1000000 writes, last-100k p99=3.32ms, tput=1512.6/s
+[scale-1M]   600000/1000000 writes, last-100k p99=3.33ms, tput=1510.5/s
+[scale-1M]   700000/1000000 writes, last-100k p99=3.36ms, tput=1508.9/s
+[scale-1M]   800000/1000000 writes, last-100k p99=3.37ms, tput=1502.4/s
+[scale-1M]   900000/1000000 writes, last-100k p99=3.36ms, tput=1500.5/s
+[scale-1M]  1000000/1000000 writes, last-100k p99=3.34ms, tput=1498.0/s
+
+[scale] wrote /local/home/dyouwang/projects/engram/bench/results/ingest_1m_cb9db19_20260523T182232.json
+.
+1 passed in 673.35s (0:11:13)

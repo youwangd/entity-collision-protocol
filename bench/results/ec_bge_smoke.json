@@ -1,0 +1,322 @@
+{
+  "config": {
+    "n_entities": 4,
+    "distractors": 3,
+    "k": 10,
+    "seed": 42,
+    "embed": "bge_large",
+    "tag": "service",
+    "vector_weight": 0.5,
+    "degrees": [
+      1,
+      2
+    ],
+    "paraphrase_memory": false
+  },
+  "sweep": [
+    {
+      "collision_degree": 1,
+      "bm25_floor": 1.0,
+      "bm25_only": {
+        "vector_weight": 0.0,
+        "n_memories": 16,
+        "n_queries": 4,
+        "k": 10,
+        "hit_at_1": 1.0,
+        "hit_at_k": 1.0,
+        "mrr": 1.0,
+        "recall_p50_ms": 1.134,
+        "ingest_seconds": 0.009,
+        "per_query": [
+          {
+            "query": "which provider does alice use to host code?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.523
+          },
+          {
+            "query": "which provider does bob use to host code?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.085
+          },
+          {
+            "query": "which provider does carol use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.075
+          },
+          {
+            "query": "which provider does dave use to charge customers?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.183
+          }
+        ]
+      },
+      "vector_fusion": {
+        "vector_weight": 0.5,
+        "n_memories": 16,
+        "n_queries": 4,
+        "k": 10,
+        "hit_at_1": 1.0,
+        "hit_at_k": 1.0,
+        "mrr": 1.0,
+        "recall_p50_ms": 73.855,
+        "ingest_seconds": 1.901,
+        "per_query": [
+          {
+            "query": "which provider does alice use to host code?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 75.501
+          },
+          {
+            "query": "which provider does bob use to host code?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 73.12
+          },
+          {
+            "query": "which provider does carol use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 74.591
+          },
+          {
+            "query": "which provider does dave use to charge customers?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 72.643
+          }
+        ]
+      },
+      "delta_hit_at_1": 0.0,
+      "delta_mrr": 0.0
+    },
+    {
+      "collision_degree": 2,
+      "bm25_floor": 0.5,
+      "bm25_only": {
+        "vector_weight": 0.0,
+        "n_memories": 20,
+        "n_queries": 8,
+        "k": 10,
+        "hit_at_1": 0.5,
+        "hit_at_k": 1.0,
+        "mrr": 0.75,
+        "recall_p50_ms": 1.731,
+        "ingest_seconds": 0.011,
+        "per_query": [
+          {
+            "query": "which provider does alice use to host code?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 1.935
+          },
+          {
+            "query": "which provider does alice use to charge customers?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.66
+          },
+          {
+            "query": "which provider does bob use to host code?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 1.715
+          },
+          {
+            "query": "which provider does bob use to gate rollouts?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.747
+          },
+          {
+            "query": "which provider does carol use to charge customers?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 1.747
+          },
+          {
+            "query": "which provider does carol use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 2.051
+          },
+          {
+            "query": "which provider does dave use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.582
+          },
+          {
+            "query": "which provider does dave use to measure usage?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 1.499
+          }
+        ]
+      },
+      "vector_fusion": {
+        "vector_weight": 0.5,
+        "n_memories": 20,
+        "n_queries": 8,
+        "k": 10,
+        "hit_at_1": 0.5,
+        "hit_at_k": 1.0,
+        "mrr": 0.75,
+        "recall_p50_ms": 72.744,
+        "ingest_seconds": 1.684,
+        "per_query": [
+          {
+            "query": "which provider does alice use to host code?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.042
+          },
+          {
+            "query": "which provider does alice use to charge customers?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 74.312
+          },
+          {
+            "query": "which provider does bob use to host code?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.737
+          },
+          {
+            "query": "which provider does bob use to gate rollouts?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 73.934
+          },
+          {
+            "query": "which provider does carol use to charge customers?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 73.026
+          },
+          {
+            "query": "which provider does carol use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.361
+          },
+          {
+            "query": "which provider does dave use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 72.461
+          },
+          {
+            "query": "which provider does dave use to measure usage?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 76.288
+          }
+        ]
+      },
+      "delta_hit_at_1": 0.0,
+      "delta_mrr": 0.0
+    }
+  ]
+}

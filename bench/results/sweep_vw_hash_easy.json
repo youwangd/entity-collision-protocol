@@ -1,0 +1,80 @@
+{
+  "config": {
+    "embed": "hash",
+    "n_sessions": 50,
+    "facts": 5,
+    "distractors": 30,
+    "paraphrase": false,
+    "hard_distractors": 0,
+    "k": 10,
+    "seed": 42
+  },
+  "sweep": [
+    {
+      "vector_weight": 0.0,
+      "baseline_hit_at_1": 0.46,
+      "baseline_hit_at_k": 0.98,
+      "baseline_mrr": 0.6223,
+      "baseline_ndcg_at_k": 0.7081,
+      "bm25_only_hit_at_1": 0.46,
+      "bm25_only_mrr": 0.6223,
+      "delta_hit_at_1_vs_bm25": 0.0,
+      "delta_mrr_vs_bm25": 0.0
+    },
+    {
+      "vector_weight": 0.1,
+      "baseline_hit_at_1": 0.492,
+      "baseline_hit_at_k": 1.0,
+      "baseline_mrr": 0.6691,
+      "baseline_ndcg_at_k": 0.7501,
+      "bm25_only_hit_at_1": 0.46,
+      "bm25_only_mrr": 0.6223,
+      "delta_hit_at_1_vs_bm25": 0.032,
+      "delta_mrr_vs_bm25": 0.0468
+    },
+    {
+      "vector_weight": 0.3,
+      "baseline_hit_at_1": 0.52,
+      "baseline_hit_at_k": 1.0,
+      "baseline_mrr": 0.6871,
+      "baseline_ndcg_at_k": 0.7638,
+      "bm25_only_hit_at_1": 0.46,
+      "bm25_only_mrr": 0.6223,
+      "delta_hit_at_1_vs_bm25": 0.06,
+      "delta_mrr_vs_bm25": 0.0648
+    },
+    {
+      "vector_weight": 0.5,
+      "baseline_hit_at_1": 0.528,
+      "baseline_hit_at_k": 1.0,
+      "baseline_mrr": 0.6958,
+      "baseline_ndcg_at_k": 0.7705,
+      "bm25_only_hit_at_1": 0.46,
+      "bm25_only_mrr": 0.6223,
+      "delta_hit_at_1_vs_bm25": 0.068,
+      "delta_mrr_vs_bm25": 0.0735
+    },
+    {
+      "vector_weight": 0.7,
+      "baseline_hit_at_1": 0.532,
+      "baseline_hit_at_k": 1.0,
+      "baseline_mrr": 0.6993,
+      "baseline_ndcg_at_k": 0.773,
+      "bm25_only_hit_at_1": 0.46,
+      "bm25_only_mrr": 0.6223,
+      "delta_hit_at_1_vs_bm25": 0.072,
+      "delta_mrr_vs_bm25": 0.077
+    },
+    {
+      "vector_weight": 1.0,
+      "baseline_hit_at_1": 0.544,
+      "baseline_hit_at_k": 1.0,
+      "baseline_mrr": 0.7048,
+      "baseline_ndcg_at_k": 0.7769,
+      "bm25_only_hit_at_1": 0.46,
+      "bm25_only_mrr": 0.6223,
+      "delta_hit_at_1_vs_bm25": 0.084,
+      "delta_mrr_vs_bm25": 0.0825
+    }
+  ]
+}

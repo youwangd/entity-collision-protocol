@@ -1,0 +1,97 @@
+{
+  "seeds": [
+    42,
+    7,
+    11
+  ],
+  "embed": "hash256",
+  "fixture": "synth_entity n_entities=12 K=6 distractors_per_entity=4",
+  "weights_compared": [
+    0.0,
+    0.1
+  ],
+  "resamples": 5000,
+  "alpha": 0.05,
+  "within_backend_lift_paired_by_query": {
+    "heuristic": {
+      "d_hit@1": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0,
+        "n": 1080
+      },
+      "d_hit@5": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0,
+        "n": 1080
+      }
+    },
+    "spacy_sm": {
+      "d_hit@1": {
+        "mean": 0.003704,
+        "ci_lo": 0.0,
+        "ci_hi": 0.008333,
+        "n": 1080
+      },
+      "d_hit@5": {
+        "mean": 0.006481,
+        "ci_lo": 0.001852,
+        "ci_hi": 0.011111,
+        "n": 1080
+      }
+    }
+  },
+  "between_backend_gap_paired_by_query": {
+    "spacy_minus_heuristic": {
+      "d_hit@1": {
+        "mean": 0.003704,
+        "ci_lo": 0.0,
+        "ci_hi": 0.008333,
+        "n": 1080
+      },
+      "d_hit@5": {
+        "mean": 0.006481,
+        "ci_lo": 0.001852,
+        "ci_hi": 0.012037,
+        "n": 1080
+      }
+    }
+  },
+  "per_seed_point": [
+    {
+      "seed": 42,
+      "heuristic_h1@0": 0.04722222222222222,
+      "heuristic_h1@.1": 0.04722222222222222,
+      "heuristic_d_h1": 0.0,
+      "heuristic_d_h5": 0.0,
+      "spacy_sm_h1@0": 0.04722222222222222,
+      "spacy_sm_h1@.1": 0.05277777777777778,
+      "spacy_sm_d_h1": 0.005556,
+      "spacy_sm_d_h5": 0.011111
+    },
+    {
+      "seed": 7,
+      "heuristic_h1@0": 0.05555555555555555,
+      "heuristic_h1@.1": 0.05555555555555555,
+      "heuristic_d_h1": 0.0,
+      "heuristic_d_h5": 0.0,
+      "spacy_sm_h1@0": 0.05555555555555555,
+      "spacy_sm_h1@.1": 0.058333333333333334,
+      "spacy_sm_d_h1": 0.002778,
+      "spacy_sm_d_h5": 0.005556
+    },
+    {
+      "seed": 11,
+      "heuristic_h1@0": 0.06111111111111111,
+      "heuristic_h1@.1": 0.06111111111111111,
+      "heuristic_d_h1": 0.0,
+      "heuristic_d_h5": 0.0,
+      "spacy_sm_h1@0": 0.06111111111111111,
+      "spacy_sm_h1@.1": 0.06388888888888888,
+      "spacy_sm_d_h1": 0.002778,
+      "spacy_sm_d_h5": 0.002778
+    }
+  ],
+  "wall_seconds": 191.0
+}

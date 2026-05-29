@@ -1,0 +1,93 @@
+{
+  "n_facts": 240,
+  "seed": 42,
+  "k": 10,
+  "densities": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "points": [
+    {
+      "density": 0,
+      "n_memories": 1680,
+      "n_queries": 240,
+      "baseline_h1": 0.5375,
+      "gated_pref_h1": 0.4917,
+      "delta_h1": -0.0458,
+      "delta_se": 0.0159,
+      "baseline_hk": 0.9958,
+      "gated_pref_hk": 0.9792,
+      "baseline_mrr": 0.7227,
+      "gated_pref_mrr": 0.6641
+    },
+    {
+      "density": 1,
+      "n_memories": 1920,
+      "n_queries": 240,
+      "baseline_h1": 0.4167,
+      "gated_pref_h1": 0.4,
+      "delta_h1": -0.0167,
+      "delta_se": 0.0156,
+      "baseline_hk": 0.9792,
+      "gated_pref_hk": 0.9708,
+      "baseline_mrr": 0.6259,
+      "gated_pref_mrr": 0.5979
+    },
+    {
+      "density": 2,
+      "n_memories": 2160,
+      "n_queries": 240,
+      "baseline_h1": 0.3458,
+      "gated_pref_h1": 0.3125,
+      "delta_h1": -0.0333,
+      "delta_se": 0.0143,
+      "baseline_hk": 0.9792,
+      "gated_pref_hk": 0.975,
+      "baseline_mrr": 0.5442,
+      "gated_pref_mrr": 0.5096
+    },
+    {
+      "density": 3,
+      "n_memories": 2400,
+      "n_queries": 240,
+      "baseline_h1": 0.2875,
+      "gated_pref_h1": 0.2292,
+      "delta_h1": -0.0583,
+      "delta_se": 0.0192,
+      "baseline_hk": 0.8708,
+      "gated_pref_hk": 0.8625,
+      "baseline_mrr": 0.4761,
+      "gated_pref_mrr": 0.4036
+    },
+    {
+      "density": 4,
+      "n_memories": 2640,
+      "n_queries": 240,
+      "baseline_h1": 0.3417,
+      "gated_pref_h1": 0.2958,
+      "delta_h1": -0.0458,
+      "delta_se": 0.0214,
+      "baseline_hk": 0.9042,
+      "gated_pref_hk": 0.8833,
+      "baseline_mrr": 0.5225,
+      "gated_pref_mrr": 0.4575
+    },
+    {
+      "density": 5,
+      "n_memories": 2880,
+      "n_queries": 240,
+      "baseline_h1": 0.2583,
+      "gated_pref_h1": 0.2083,
+      "delta_h1": -0.05,
+      "delta_se": 0.0193,
+      "baseline_hk": 0.875,
+      "gated_pref_hk": 0.8417,
+      "baseline_mrr": 0.4192,
+      "gated_pref_mrr": 0.356
+    }
+  ]
+}

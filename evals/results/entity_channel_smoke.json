@@ -1,0 +1,48 @@
+{
+  "corpus": {
+    "n_facts": 40,
+    "hard_distractors_per_fact": 2,
+    "plain_distractors": 30,
+    "seed": 42,
+    "n_memories": 134,
+    "n_queries": 40
+  },
+  "weights": [
+    0.0,
+    0.1,
+    0.3
+  ],
+  "arms": [
+    {
+      "entity_weight": 0.0,
+      "n_queries": 40,
+      "hit@1": 0.475,
+      "hit@5": 0.9,
+      "hit@10": 1.0,
+      "d_hit@1": 0.0,
+      "d_hit@5": 0.0,
+      "d_hit@10": 0.0
+    },
+    {
+      "entity_weight": 0.1,
+      "n_queries": 40,
+      "hit@1": 0.475,
+      "hit@5": 0.9,
+      "hit@10": 1.0,
+      "d_hit@1": 0.0,
+      "d_hit@5": 0.0,
+      "d_hit@10": 0.0
+    },
+    {
+      "entity_weight": 0.3,
+      "n_queries": 40,
+      "hit@1": 0.475,
+      "hit@5": 0.9,
+      "hit@10": 1.0,
+      "d_hit@1": 0.0,
+      "d_hit@5": 0.0,
+      "d_hit@10": 0.0
+    }
+  ],
+  "wall_seconds": 1.03
+}

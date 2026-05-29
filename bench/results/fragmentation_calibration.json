@@ -1,0 +1,814 @@
+{
+  "contaminations": [
+    0.0,
+    0.05,
+    0.1,
+    0.15,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "cells": [
+    {
+      "regime": {
+        "n_clusters": 125,
+        "cluster_size": 4,
+        "vocab_size": 1000,
+        "core_size": 8,
+        "schema_size": 4,
+        "tau": 0.4,
+        "seed": 827675
+      },
+      "points": [
+        {
+          "true_c": 0.0,
+          "fragmentation": 0.422
+        },
+        {
+          "true_c": 0.05,
+          "fragmentation": 0.488
+        },
+        {
+          "true_c": 0.1,
+          "fragmentation": 0.584
+        },
+        {
+          "true_c": 0.15,
+          "fragmentation": 0.568
+        },
+        {
+          "true_c": 0.25,
+          "fragmentation": 0.72
+        },
+        {
+          "true_c": 0.5,
+          "fragmentation": 0.822
+        },
+        {
+          "true_c": 1.0,
+          "fragmentation": 1.0
+        }
+      ],
+      "frag_at_c0": 0.422,
+      "frag_at_c10": 0.584,
+      "monotone_in_true_c": false
+    },
+    {
+      "regime": {
+        "n_clusters": 125,
+        "cluster_size": 4,
+        "vocab_size": 1000,
+        "core_size": 8,
+        "schema_size": 6,
+        "tau": 0.4,
+        "seed": 827675
+      },
+      "points": [
+        {
+          "true_c": 0.0,
+          "fragmentation": 0.0
+        },
+        {
+          "true_c": 0.05,
+          "fragmentation": 0.056
+        },
+        {
+          "true_c": 0.1,
+          "fragmentation": 0.104
+        },
+        {
+          "true_c": 0.15,
+          "fragmentation": 0.16
+        },
+        {
+          "true_c": 0.25,
+          "fragmentation": 0.27
+        },
+        {
+          "true_c": 0.5,
+          "fragmentation": 0.606
+        },
+        {
+          "true_c": 1.0,
+          "fragmentation": 1.0
+        }
+      ],
+      "frag_at_c0": 0.0,
+      "frag_at_c10": 0.104,
+      "monotone_in_true_c": true
+    },
+    {
+      "regime": {
+        "n_clusters": 200,
+        "cluster_size": 4,
+        "vocab_size": 2000,
+        "core_size": 8,
+        "schema_size": 4,
+        "tau": 0.4,
+        "seed": 827675
+      },
+      "points": [
+        {
+          "true_c": 0.0,
+          "fragmentation": 0.49125
+        },
+        {
+          "true_c": 0.05,
+          "fragmentation": 0.51375
+        },
+        {
+          "true_c": 0.1,
+          "fragmentation": 0.53625
+        },
+        {
+          "true_c": 0.15,
+          "fragmentation": 0.6
+        },
+        {
+          "true_c": 0.25,
+          "fragmentation": 0.68375
+        },
+        {
+          "true_c": 0.5,
+          "fragmentation": 0.81625
+        },
+        {
+          "true_c": 1.0,
+          "fragmentation": 1.0
+        }
+      ],
+      "frag_at_c0": 0.49125,
+      "frag_at_c10": 0.53625,
+      "monotone_in_true_c": true
+    },
+    {
+      "regime": {
+        "n_clusters": 200,
+        "cluster_size": 4,
+        "vocab_size": 2000,
+        "core_size": 8,
+        "schema_size": 6,
+        "tau": 0.4,
+        "seed": 827675
+      },
+      "points": [
+        {
+          "true_c": 0.0,
+          "fragmentation": 0.0
+        },
+        {
+          "true_c": 0.05,
+          "fragmentation": 0.05375
+        },
+        {
+          "true_c": 0.1,
+          "fragmentation": 0.10125
+        },
+        {
+          "true_c": 0.15,
+          "fragmentation": 0.17875
+        },
+        {
+          "true_c": 0.25,
+          "fragmentation": 0.2625
+        },
+        {
+          "true_c": 0.5,
+          "fragmentation": 0.63625
+        },
+        {
+          "true_c": 1.0,
+          "fragmentation": 1.0
+        }
+      ],
+      "frag_at_c0": 0.0,
+      "frag_at_c10": 0.10125,
+      "monotone_in_true_c": true
+    },
+    {
+      "regime": {
+        "n_clusters": 200,
+        "cluster_size": 4,
+        "vocab_size": 4000,
+        "core_size": 8,
+        "schema_size": 4,
+        "tau": 0.4,
+        "seed": 827675
+      },
+      "points": [
+        {
+          "true_c": 0.0,
+          "fragmentation": 0.4475
+        },
+        {
+          "true_c": 0.05,
+          "fragmentation": 0.505
+        },
+        {
+          "true_c": 0.1,
+          "fragmentation": 0.5475
+        },
+        {
+          "true_c": 0.15,
+          "fragmentation": 0.58125
+        },
+        {
+          "true_c": 0.25,
+          "fragmentation": 0.64
+        },
+        {
+          "true_c": 0.5,
+          "fragmentation": 0.825
+        },
+        {
+          "true_c": 1.0,
+          "fragmentation": 1.0
+        }
+      ],
+      "frag_at_c0": 0.4475,
+      "frag_at_c10": 0.5475,
+      "monotone_in_true_c": true
+    },
+    {
+      "regime": {
+        "n_clusters": 200,
+        "cluster_size": 4,
+        "vocab_size": 4000,
+        "core_size": 8,
+        "schema_size": 6,
+        "tau": 0.4,
+        "seed": 827675
+      },
+      "points": [
+        {
+          "true_c": 0.0,
+          "fragmentation": 0.0
+        },
+        {
+          "true_c": 0.05,
+          "fragmentation": 0.05625
+        },
+        {
+          "true_c": 0.1,
+          "fragmentation": 0.1025
+        },
+        {
+          "true_c": 0.15,
+          "fragmentation": 0.17
+        },
+        {
+          "true_c": 0.25,
+          "fragmentation": 0.22875
+        },
+        {
+          "true_c": 0.5,
+          "fragmentation": 0.605
+        },
+        {
+          "true_c": 1.0,
+          "fragmentation": 1.0
+        }
+      ],
+      "frag_at_c0": 0.0,
+      "frag_at_c10": 0.1025,
+      "monotone_in_true_c": true
+    },
+    {
+      "regime": {
+        "n_clusters": 125,
+        "cluster_size": 4,
+        "vocab_size": 1000,
+        "core_size": 8,
+        "schema_size": 4,
+        "tau": 0.5,
+        "seed": 827675
+      },
+      "points": [
+        {
+          "true_c": 0.0,
+          "fragmentation": 0.422
+        },
+        {
+          "true_c": 0.05,
+          "fragmentation": 0.488
+        },
+        {
+          "true_c": 0.1,
+          "fragmentation": 0.584
+        },
+        {
+          "true_c": 0.15,
+          "fragmentation": 0.568
+        },
+        {
+          "true_c": 0.25,
+          "fragmentation": 0.72
+        },
+        {
+          "true_c": 0.5,
+          "fragmentation": 0.822
+        },
+        {
+          "true_c": 1.0,
+          "fragmentation": 1.0
+        }
+      ],
+      "frag_at_c0": 0.422,
+      "frag_at_c10": 0.584,
+      "monotone_in_true_c": false
+    },
+    {
+      "regime": {
+        "n_clusters": 125,
+        "cluster_size": 4,
+        "vocab_size": 1000,
+        "core_size": 8,
+        "schema_size": 6,
+        "tau": 0.5,
+        "seed": 827675
+      },
+      "points": [
+        {
+          "true_c": 0.0,
+          "fragmentation": 0.0
+        },
+        {
+          "true_c": 0.05,
+          "fragmentation": 0.056
+        },
+        {
+          "true_c": 0.1,
+          "fragmentation": 0.104
+        },
+        {
+          "true_c": 0.15,
+          "fragmentation": 0.16
+        },
+        {
+          "true_c": 0.25,
+          "fragmentation": 0.27
+        },
+        {
+          "true_c": 0.5,
+          "fragmentation": 0.606
+        },
+        {
+          "true_c": 1.0,
+          "fragmentation": 1.0
+        }
+      ],
+      "frag_at_c0": 0.0,
+      "frag_at_c10": 0.104,
+      "monotone_in_true_c": true
+    },
+    {
+      "regime": {
+        "n_clusters": 200,
+        "cluster_size": 4,
+        "vocab_size": 2000,
+        "core_size": 8,
+        "schema_size": 4,
+        "tau": 0.5,
+        "seed": 827675
+      },
+      "points": [
+        {
+          "true_c": 0.0,
+          "fragmentation": 0.49125
+        },
+        {
+          "true_c": 0.05,
+          "fragmentation": 0.51375
+        },
+        {
+          "true_c": 0.1,
+          "fragmentation": 0.53625
+        },
+        {
+          "true_c": 0.15,
+          "fragmentation": 0.6
+        },
+        {
+          "true_c": 0.25,
+          "fragmentation": 0.68375
+        },
+        {
+          "true_c": 0.5,
+          "fragmentation": 0.81625
+        },
+        {
+          "true_c": 1.0,
+          "fragmentation": 1.0
+        }
+      ],
+      "frag_at_c0": 0.49125,
+      "frag_at_c10": 0.53625,
+      "monotone_in_true_c": true
+    },
+    {
+      "regime": {
+        "n_clusters": 200,
+        "cluster_size": 4,
+        "vocab_size": 2000,
+        "core_size": 8,
+        "schema_size": 6,
+        "tau": 0.5,
+        "seed": 827675
+      },
+      "points": [
+        {
+          "true_c": 0.0,
+          "fragmentation": 0.0
+        },
+        {
+          "true_c": 0.05,
+          "fragmentation": 0.05375
+        },
+        {
+          "true_c": 0.1,
+          "fragmentation": 0.10125
+        },
+        {
+          "true_c": 0.15,
+          "fragmentation": 0.17875
+        },
+        {
+          "true_c": 0.25,
+          "fragmentation": 0.2625
+        },
+        {
+          "true_c": 0.5,
+          "fragmentation": 0.63625
+        },
+        {
+          "true_c": 1.0,
+          "fragmentation": 1.0
+        }
+      ],
+      "frag_at_c0": 0.0,
+      "frag_at_c10": 0.10125,
+      "monotone_in_true_c": true
+    },
+    {
+      "regime": {
+        "n_clusters": 200,
+        "cluster_size": 4,
+        "vocab_size": 4000,
+        "core_size": 8,
+        "schema_size": 4,
+        "tau": 0.5,
+        "seed": 827675
+      },
+      "points": [
+        {
+          "true_c": 0.0,
+          "fragmentation": 0.4475
+        },
+        {
+          "true_c": 0.05,
+          "fragmentation": 0.505
+        },
+        {
+          "true_c": 0.1,
+          "fragmentation": 0.5475
+        },
+        {
+          "true_c": 0.15,
+          "fragmentation": 0.58125
+        },
+        {
+          "true_c": 0.25,
+          "fragmentation": 0.64
+        },
+        {
+          "true_c": 0.5,
+          "fragmentation": 0.825
+        },
+        {
+          "true_c": 1.0,
+          "fragmentation": 1.0
+        }
+      ],
+      "frag_at_c0": 0.4475,
+      "frag_at_c10": 0.5475,
+      "monotone_in_true_c": true
+    },
+    {
+      "regime": {
+        "n_clusters": 200,
+        "cluster_size": 4,
+        "vocab_size": 4000,
+        "core_size": 8,
+        "schema_size": 6,
+        "tau": 0.5,
+        "seed": 827675
+      },
+      "points": [
+        {
+          "true_c": 0.0,
+          "fragmentation": 0.0
+        },
+        {
+          "true_c": 0.05,
+          "fragmentation": 0.05625
+        },
+        {
+          "true_c": 0.1,
+          "fragmentation": 0.1025
+        },
+        {
+          "true_c": 0.15,
+          "fragmentation": 0.17
+        },
+        {
+          "true_c": 0.25,
+          "fragmentation": 0.22875
+        },
+        {
+          "true_c": 0.5,
+          "fragmentation": 0.605
+        },
+        {
+          "true_c": 1.0,
+          "fragmentation": 1.0
+        }
+      ],
+      "frag_at_c0": 0.0,
+      "frag_at_c10": 0.1025,
+      "monotone_in_true_c": true
+    },
+    {
+      "regime": {
+        "n_clusters": 125,
+        "cluster_size": 4,
+        "vocab_size": 1000,
+        "core_size": 8,
+        "schema_size": 4,
+        "tau": 0.6,
+        "seed": 827675
+      },
+      "points": [
+        {
+          "true_c": 0.0,
+          "fragmentation": 0.422
+        },
+        {
+          "true_c": 0.05,
+          "fragmentation": 0.488
+        },
+        {
+          "true_c": 0.1,
+          "fragmentation": 0.584
+        },
+        {
+          "true_c": 0.15,
+          "fragmentation": 0.568
+        },
+        {
+          "true_c": 0.25,
+          "fragmentation": 0.72
+        },
+        {
+          "true_c": 0.5,
+          "fragmentation": 0.822
+        },
+        {
+          "true_c": 1.0,
+          "fragmentation": 1.0
+        }
+      ],
+      "frag_at_c0": 0.422,
+      "frag_at_c10": 0.584,
+      "monotone_in_true_c": false
+    },
+    {
+      "regime": {
+        "n_clusters": 125,
+        "cluster_size": 4,
+        "vocab_size": 1000,
+        "core_size": 8,
+        "schema_size": 6,
+        "tau": 0.6,
+        "seed": 827675
+      },
+      "points": [
+        {
+          "true_c": 0.0,
+          "fragmentation": 0.13
+        },
+        {
+          "true_c": 0.05,
+          "fragmentation": 0.208
+        },
+        {
+          "true_c": 0.1,
+          "fragmentation": 0.276
+        },
+        {
+          "true_c": 0.15,
+          "fragmentation": 0.352
+        },
+        {
+          "true_c": 0.25,
+          "fragmentation": 0.488
+        },
+        {
+          "true_c": 0.5,
+          "fragmentation": 0.744
+        },
+        {
+          "true_c": 1.0,
+          "fragmentation": 1.0
+        }
+      ],
+      "frag_at_c0": 0.13,
+      "frag_at_c10": 0.276,
+      "monotone_in_true_c": true
+    },
+    {
+      "regime": {
+        "n_clusters": 200,
+        "cluster_size": 4,
+        "vocab_size": 2000,
+        "core_size": 8,
+        "schema_size": 4,
+        "tau": 0.6,
+        "seed": 827675
+      },
+      "points": [
+        {
+          "true_c": 0.0,
+          "fragmentation": 0.49125
+        },
+        {
+          "true_c": 0.05,
+          "fragmentation": 0.51375
+        },
+        {
+          "true_c": 0.1,
+          "fragmentation": 0.53625
+        },
+        {
+          "true_c": 0.15,
+          "fragmentation": 0.6
+        },
+        {
+          "true_c": 0.25,
+          "fragmentation": 0.68375
+        },
+        {
+          "true_c": 0.5,
+          "fragmentation": 0.81625
+        },
+        {
+          "true_c": 1.0,
+          "fragmentation": 1.0
+        }
+      ],
+      "frag_at_c0": 0.49125,
+      "frag_at_c10": 0.53625,
+      "monotone_in_true_c": true
+    },
+    {
+      "regime": {
+        "n_clusters": 200,
+        "cluster_size": 4,
+        "vocab_size": 2000,
+        "core_size": 8,
+        "schema_size": 6,
+        "tau": 0.6,
+        "seed": 827675
+      },
+      "points": [
+        {
+          "true_c": 0.0,
+          "fragmentation": 0.1425
+        },
+        {
+          "true_c": 0.05,
+          "fragmentation": 0.21625
+        },
+        {
+          "true_c": 0.1,
+          "fragmentation": 0.25
+        },
+        {
+          "true_c": 0.15,
+          "fragmentation": 0.375
+        },
+        {
+          "true_c": 0.25,
+          "fragmentation": 0.45125
+        },
+        {
+          "true_c": 0.5,
+          "fragmentation": 0.7725
+        },
+        {
+          "true_c": 1.0,
+          "fragmentation": 1.0
+        }
+      ],
+      "frag_at_c0": 0.1425,
+      "frag_at_c10": 0.25,
+      "monotone_in_true_c": true
+    },
+    {
+      "regime": {
+        "n_clusters": 200,
+        "cluster_size": 4,
+        "vocab_size": 4000,
+        "core_size": 8,
+        "schema_size": 4,
+        "tau": 0.6,
+        "seed": 827675
+      },
+      "points": [
+        {
+          "true_c": 0.0,
+          "fragmentation": 0.4475
+        },
+        {
+          "true_c": 0.05,
+          "fragmentation": 0.505
+        },
+        {
+          "true_c": 0.1,
+          "fragmentation": 0.5475
+        },
+        {
+          "true_c": 0.15,
+          "fragmentation": 0.58125
+        },
+        {
+          "true_c": 0.25,
+          "fragmentation": 0.64
+        },
+        {
+          "true_c": 0.5,
+          "fragmentation": 0.825
+        },
+        {
+          "true_c": 1.0,
+          "fragmentation": 1.0
+        }
+      ],
+      "frag_at_c0": 0.4475,
+      "frag_at_c10": 0.5475,
+      "monotone_in_true_c": true
+    },
+    {
+      "regime": {
+        "n_clusters": 200,
+        "cluster_size": 4,
+        "vocab_size": 4000,
+        "core_size": 8,
+        "schema_size": 6,
+        "tau": 0.6,
+        "seed": 827675
+      },
+      "points": [
+        {
+          "true_c": 0.0,
+          "fragmentation": 0.1525
+        },
+        {
+          "true_c": 0.05,
+          "fragmentation": 0.22625
+        },
+        {
+          "true_c": 0.1,
+          "fragmentation": 0.26625
+        },
+        {
+          "true_c": 0.15,
+          "fragmentation": 0.37
+        },
+        {
+          "true_c": 0.25,
+          "fragmentation": 0.43375
+        },
+        {
+          "true_c": 0.5,
+          "fragmentation": 0.7475
+        },
+        {
+          "true_c": 1.0,
+          "fragmentation": 1.0
+        }
+      ],
+      "frag_at_c0": 0.1525,
+      "frag_at_c10": 0.26625,
+      "monotone_in_true_c": true
+    }
+  ],
+  "summary": {
+    "n_cells": 18,
+    "n_realistic_cells": 6,
+    "median_frag_at_c10": 0.1025,
+    "min_frag_at_c10": 0.10125,
+    "max_frag_at_c10": 0.104,
+    "mean_frag_at_c10": 0.10258333333333332,
+    "stdev_frag_at_c10": 0.0012315302134607395
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "n_samples": 10,
+  "n_schemas": 543,
+  "avg_fingerprint_size": 35.033149171270715,
+  "by_tau": [
+    {
+      "tau": 0.3,
+      "metric": "prop_name_jaccard",
+      "n_clusters": 542,
+      "fragmentation_rate": 0.996316758747698,
+      "contamination_rate": 0.0
+    },
+    {
+      "tau": 0.4,
+      "metric": "prop_name_jaccard",
+      "n_clusters": 543,
+      "fragmentation_rate": 1.0,
+      "contamination_rate": 0.0
+    },
+    {
+      "tau": 0.5,
+      "metric": "prop_name_jaccard",
+      "n_clusters": 543,
+      "fragmentation_rate": 1.0,
+      "contamination_rate": 0.0
+    }
+  ],
+  "cooccurrence_session_only": {
+    "tau": 0.5,
+    "metric": "session_id_jaccard",
+    "n_clusters": 32,
+    "fragmentation_rate": 0.0,
+    "note": "Each schema has window_membership = {its own session}, so every same-session schema collapses; documents that the cooccurrence path needs cross-window evidence to be useful."
+  }
+}

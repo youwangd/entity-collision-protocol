@@ -1,0 +1,5 @@
+[start] 20260523T202326Z sha=4a85b67
+[scale-1M]   100000/1000000 writes, last-100k p99=3.38ms, tput=1452.1/s
+[scale-1M]   200000/1000000 writes, last-100k p99=3.37ms, tput=1446.8/s
+[scale-1M]   300000/1000000 writes, last-100k p99=3.38ms, tput=1440.3/s
+[scale-1M]   400000/1000000 writes, last-100k p99=3.39ms, tput=1435.8/s

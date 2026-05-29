@@ -1,0 +1,2790 @@
+{
+  "n_samples": 30,
+  "n_questions": 343,
+  "n_questions_scored": 343,
+  "k": 10,
+  "vector_weight": 0.3,
+  "embedder": "HashTrigram-256",
+  "n_memories_total": 2880,
+  "session_hit_at_1": 0.3586,
+  "session_hit_at_k": 0.8426,
+  "per_category_session_hit_at_1": {
+    "single_hop": 0.38,
+    "adversarial": 0.38,
+    "multi_hop": 0.2093
+  },
+  "per_category_session_hit_at_k": {
+    "single_hop": 0.86,
+    "adversarial": 0.8133,
+    "multi_hop": 0.8837
+  },
+  "per_category_n": {
+    "single_hop": 150,
+    "adversarial": 150,
+    "multi_hop": 43
+  },
+  "per_query": [
+    {
+      "sample_id": "synth_0000",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0000",
+      "category": "single_hop",
+      "rank": 10,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1
+    },
+    {
+      "sample_id": "synth_0000",
+      "category": "single_hop",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "synth_0000",
+      "category": "single_hop",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0000",
+      "category": "single_hop",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "synth_0000",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0000",
+      "category": "adversarial",
+      "rank": 8,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.125
+    },
+    {
+      "sample_id": "synth_0000",
+      "category": "adversarial",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "synth_0000",
+      "category": "adversarial",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "synth_0000",
+      "category": "adversarial",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "synth_0000",
+      "category": "multi_hop",
+      "rank": 8,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.125
+    },
+    {
+      "sample_id": "synth_0000",
+      "category": "multi_hop",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "synth_0001",
+      "category": "single_hop",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "synth_0001",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0001",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0001",
+      "category": "single_hop",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "synth_0001",
+      "category": "single_hop",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0001",
+      "category": "adversarial",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "synth_0001",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0001",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0001",
+      "category": "adversarial",
+      "rank": 7,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.14285714285714285
+    },
+    {
+      "sample_id": "synth_0001",
+      "category": "adversarial",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0001",
+      "category": "multi_hop",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "synth_0002",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0002",
+      "category": "single_hop",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0002",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0002",
+      "category": "single_hop",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "synth_0002",
+      "category": "single_hop",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "synth_0002",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0002",
+      "category": "adversarial",
+      "rank": 10,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1
+    },
+    {
+      "sample_id": "synth_0002",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0002",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0002",
+      "category": "adversarial",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0002",
+      "category": "multi_hop",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "synth_0003",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0003",
+      "category": "single_hop",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "synth_0003",
+      "category": "single_hop",
+      "rank": 8,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.125
+    },
+    {
+      "sample_id": "synth_0003",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0003",
+      "category": "single_hop",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "synth_0003",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0003",
+      "category": "adversarial",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0003",
+      "category": "adversarial",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0003",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0003",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0003",
+      "category": "multi_hop",
+      "rank": 8,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.125
+    },
+    {
+      "sample_id": "synth_0004",
+      "category": "single_hop",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "synth_0004",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0004",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0004",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0004",
+      "category": "single_hop",
+      "rank": 8,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.125
+    },
+    {
+      "sample_id": "synth_0004",
+      "category": "adversarial",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "synth_0004",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0004",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0004",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0004",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0004",
+      "category": "multi_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0005",
+      "category": "single_hop",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "synth_0005",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0005",
+      "category": "single_hop",
+      "rank": 7,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.14285714285714285
+    },
+    {
+      "sample_id": "synth_0005",
+      "category": "single_hop",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "synth_0005",
+      "category": "single_hop",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "synth_0005",
+      "category": "adversarial",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "synth_0005",
+      "category": "adversarial",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "synth_0005",
+      "category": "adversarial",
+      "rank": 7,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.14285714285714285
+    },
+    {
+      "sample_id": "synth_0005",
+      "category": "adversarial",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "synth_0005",
+      "category": "adversarial",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "synth_0005",
+      "category": "multi_hop",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "synth_0005",
+      "category": "multi_hop",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "synth_0006",
+      "category": "single_hop",
+      "rank": 8,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.125
+    },
+    {
+      "sample_id": "synth_0006",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0006",
+      "category": "single_hop",
+      "rank": 9,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1111111111111111
+    },
+    {
+      "sample_id": "synth_0006",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0006",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0006",
+      "category": "adversarial",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0006",
+      "category": "adversarial",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0006",
+      "category": "adversarial",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "synth_0006",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0006",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0006",
+      "category": "multi_hop",
+      "rank": 10,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1
+    },
+    {
+      "sample_id": "synth_0007",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0007",
+      "category": "single_hop",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0007",
+      "category": "single_hop",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "synth_0007",
+      "category": "single_hop",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "synth_0007",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0007",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0007",
+      "category": "adversarial",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0007",
+      "category": "adversarial",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0007",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0007",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0007",
+      "category": "multi_hop",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "synth_0008",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0008",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0008",
+      "category": "single_hop",
+      "rank": 8,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.125
+    },
+    {
+      "sample_id": "synth_0008",
+      "category": "single_hop",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0008",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0008",
+      "category": "adversarial",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "synth_0008",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0008",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0008",
+      "category": "adversarial",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0008",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0008",
+      "category": "multi_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0009",
+      "category": "single_hop",
+      "rank": 9,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1111111111111111
+    },
+    {
+      "sample_id": "synth_0009",
+      "category": "single_hop",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0009",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0009",
+      "category": "single_hop",
+      "rank": 8,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.125
+    },
+    {
+      "sample_id": "synth_0009",
+      "category": "single_hop",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "synth_0009",
+      "category": "adversarial",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "synth_0009",
+      "category": "adversarial",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "synth_0009",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0009",
+      "category": "adversarial",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "synth_0009",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0009",
+      "category": "multi_hop",
+      "rank": 9,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1111111111111111
+    },
+    {
+      "sample_id": "synth_0009",
+      "category": "multi_hop",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "synth_0010",
+      "category": "single_hop",
+      "rank": 8,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.125
+    },
+    {
+      "sample_id": "synth_0010",
+      "category": "single_hop",
+      "rank": 7,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.14285714285714285
+    },
+    {
+      "sample_id": "synth_0010",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0010",
+      "category": "single_hop",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0010",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0010",
+      "category": "adversarial",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "synth_0010",
+      "category": "adversarial",
+      "rank": 8,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.125
+    },
+    {
+      "sample_id": "synth_0010",
+      "category": "adversarial",
+      "rank": 8,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.125
+    },
+    {
+      "sample_id": "synth_0010",
+      "category": "adversarial",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0010",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0010",
+      "category": "multi_hop",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "synth_0010",
+      "category": "multi_hop",
+      "rank": 7,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.14285714285714285
+    },
+    {
+      "sample_id": "synth_0011",
+      "category": "single_hop",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0011",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0011",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0011",
+      "category": "single_hop",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "synth_0011",
+      "category": "single_hop",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "synth_0011",
+      "category": "adversarial",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0011",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0011",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0011",
+      "category": "adversarial",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "synth_0011",
+      "category": "adversarial",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "synth_0011",
+      "category": "multi_hop",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "synth_0011",
+      "category": "multi_hop",
+      "rank": 7,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.14285714285714285
+    },
+    {
+      "sample_id": "synth_0012",
+      "category": "single_hop",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "synth_0012",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0012",
+      "category": "single_hop",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "synth_0012",
+      "category": "single_hop",
+      "rank": 8,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.125
+    },
+    {
+      "sample_id": "synth_0012",
+      "category": "single_hop",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0012",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0012",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0012",
+      "category": "adversarial",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "synth_0012",
+      "category": "adversarial",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0012",
+      "category": "adversarial",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "synth_0012",
+      "category": "multi_hop",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "synth_0012",
+      "category": "multi_hop",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0013",
+      "category": "single_hop",
+      "rank": 10,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1
+    },
+    {
+      "sample_id": "synth_0013",
+      "category": "single_hop",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "synth_0013",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0013",
+      "category": "single_hop",
+      "rank": 8,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.125
+    },
+    {
+      "sample_id": "synth_0013",
+      "category": "single_hop",
+      "rank": 8,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.125
+    },
+    {
+      "sample_id": "synth_0013",
+      "category": "adversarial",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0013",
+      "category": "adversarial",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0013",
+      "category": "adversarial",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "synth_0013",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0013",
+      "category": "adversarial",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "synth_0013",
+      "category": "multi_hop",
+      "rank": 10,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1
+    },
+    {
+      "sample_id": "synth_0013",
+      "category": "multi_hop",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "synth_0014",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0014",
+      "category": "single_hop",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "synth_0014",
+      "category": "single_hop",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "synth_0014",
+      "category": "single_hop",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "synth_0014",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0014",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0014",
+      "category": "adversarial",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0014",
+      "category": "adversarial",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "synth_0014",
+      "category": "adversarial",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "synth_0014",
+      "category": "adversarial",
+      "rank": 9,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1111111111111111
+    },
+    {
+      "sample_id": "synth_0015",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0015",
+      "category": "single_hop",
+      "rank": 9,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1111111111111111
+    },
+    {
+      "sample_id": "synth_0015",
+      "category": "single_hop",
+      "rank": 7,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.14285714285714285
+    },
+    {
+      "sample_id": "synth_0015",
+      "category": "single_hop",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "synth_0015",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0015",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0015",
+      "category": "adversarial",
+      "rank": 9,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1111111111111111
+    },
+    {
+      "sample_id": "synth_0015",
+      "category": "adversarial",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0015",
+      "category": "adversarial",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "synth_0015",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0016",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0016",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0016",
+      "category": "single_hop",
+      "rank": 9,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1111111111111111
+    },
+    {
+      "sample_id": "synth_0016",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0016",
+      "category": "single_hop",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "synth_0016",
+      "category": "adversarial",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "synth_0016",
+      "category": "adversarial",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "synth_0016",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0016",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0016",
+      "category": "adversarial",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "synth_0016",
+      "category": "multi_hop",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "synth_0017",
+      "category": "single_hop",
+      "rank": 8,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.125
+    },
+    {
+      "sample_id": "synth_0017",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0017",
+      "category": "single_hop",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "synth_0017",
+      "category": "single_hop",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0017",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0017",
+      "category": "adversarial",
+      "rank": 9,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1111111111111111
+    },
+    {
+      "sample_id": "synth_0017",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0017",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0017",
+      "category": "adversarial",
+      "rank": 9,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1111111111111111
+    },
+    {
+      "sample_id": "synth_0017",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0017",
+      "category": "multi_hop",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0018",
+      "category": "single_hop",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0018",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0018",
+      "category": "single_hop",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0018",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0018",
+      "category": "single_hop",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0018",
+      "category": "adversarial",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0018",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0018",
+      "category": "adversarial",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0018",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0018",
+      "category": "adversarial",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "synth_0018",
+      "category": "multi_hop",
+      "rank": 10,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1
+    },
+    {
+      "sample_id": "synth_0018",
+      "category": "multi_hop",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0019",
+      "category": "single_hop",
+      "rank": 9,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1111111111111111
+    },
+    {
+      "sample_id": "synth_0019",
+      "category": "single_hop",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0019",
+      "category": "single_hop",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0019",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0019",
+      "category": "single_hop",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "synth_0019",
+      "category": "adversarial",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "synth_0019",
+      "category": "adversarial",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "synth_0019",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0019",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0019",
+      "category": "adversarial",
+      "rank": 9,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1111111111111111
+    },
+    {
+      "sample_id": "synth_0019",
+      "category": "multi_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0019",
+      "category": "multi_hop",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "synth_0020",
+      "category": "single_hop",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "synth_0020",
+      "category": "single_hop",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "synth_0020",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0020",
+      "category": "single_hop",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "synth_0020",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0020",
+      "category": "adversarial",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "synth_0020",
+      "category": "adversarial",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0020",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0020",
+      "category": "adversarial",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "synth_0020",
+      "category": "adversarial",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0020",
+      "category": "multi_hop",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "synth_0021",
+      "category": "single_hop",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0021",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0021",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0021",
+      "category": "single_hop",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0021",
+      "category": "single_hop",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0021",
+      "category": "adversarial",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "synth_0021",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0021",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0021",
+      "category": "adversarial",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0021",
+      "category": "adversarial",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0021",
+      "category": "multi_hop",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0021",
+      "category": "multi_hop",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0022",
+      "category": "single_hop",
+      "rank": 9,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1111111111111111
+    },
+    {
+      "sample_id": "synth_0022",
+      "category": "single_hop",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "synth_0022",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0022",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0022",
+      "category": "single_hop",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "synth_0022",
+      "category": "adversarial",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0022",
+      "category": "adversarial",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "synth_0022",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0022",
+      "category": "adversarial",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "synth_0022",
+      "category": "adversarial",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "synth_0022",
+      "category": "multi_hop",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "synth_0023",
+      "category": "single_hop",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "synth_0023",
+      "category": "single_hop",
+      "rank": 10,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1
+    },
+    {
+      "sample_id": "synth_0023",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0023",
+      "category": "single_hop",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0023",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0023",
+      "category": "adversarial",
+      "rank": 7,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.14285714285714285
+    },
+    {
+      "sample_id": "synth_0023",
+      "category": "adversarial",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0023",
+      "category": "adversarial",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "synth_0023",
+      "category": "adversarial",
+      "rank": 10,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1
+    },
+    {
+      "sample_id": "synth_0023",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0023",
+      "category": "multi_hop",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "synth_0023",
+      "category": "multi_hop",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "synth_0024",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0024",
+      "category": "single_hop",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "synth_0024",
+      "category": "single_hop",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "synth_0024",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0024",
+      "category": "single_hop",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "synth_0024",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0024",
+      "category": "adversarial",
+      "rank": 9,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1111111111111111
+    },
+    {
+      "sample_id": "synth_0024",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0024",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0024",
+      "category": "adversarial",
+      "rank": 10,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1
+    },
+    {
+      "sample_id": "synth_0024",
+      "category": "multi_hop",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "synth_0025",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0025",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0025",
+      "category": "single_hop",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "synth_0025",
+      "category": "single_hop",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0025",
+      "category": "single_hop",
+      "rank": 10,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1
+    },
+    {
+      "sample_id": "synth_0025",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0025",
+      "category": "adversarial",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "synth_0025",
+      "category": "adversarial",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "synth_0025",
+      "category": "adversarial",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0025",
+      "category": "adversarial",
+      "rank": 9,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1111111111111111
+    },
+    {
+      "sample_id": "synth_0025",
+      "category": "multi_hop",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "synth_0025",
+      "category": "multi_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0026",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0026",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0026",
+      "category": "single_hop",
+      "rank": 9,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1111111111111111
+    },
+    {
+      "sample_id": "synth_0026",
+      "category": "single_hop",
+      "rank": 10,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1
+    },
+    {
+      "sample_id": "synth_0026",
+      "category": "single_hop",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "synth_0026",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0026",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0026",
+      "category": "adversarial",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "synth_0026",
+      "category": "adversarial",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0026",
+      "category": "adversarial",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "synth_0026",
+      "category": "multi_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0026",
+      "category": "multi_hop",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "synth_0027",
+      "category": "single_hop",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0027",
+      "category": "single_hop",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "synth_0027",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0027",
+      "category": "single_hop",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "synth_0027",
+      "category": "single_hop",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "synth_0027",
+      "category": "adversarial",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "synth_0027",
+      "category": "adversarial",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "synth_0027",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0027",
+      "category": "adversarial",
+      "rank": 9,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1111111111111111
+    },
+    {
+      "sample_id": "synth_0027",
+      "category": "adversarial",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0027",
+      "category": "multi_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0027",
+      "category": "multi_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0028",
+      "category": "single_hop",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "synth_0028",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0028",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0028",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0028",
+      "category": "single_hop",
+      "rank": 10,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1
+    },
+    {
+      "sample_id": "synth_0028",
+      "category": "adversarial",
+      "rank": 9,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1111111111111111
+    },
+    {
+      "sample_id": "synth_0028",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0028",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0028",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0028",
+      "category": "adversarial",
+      "rank": 10,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1
+    },
+    {
+      "sample_id": "synth_0028",
+      "category": "multi_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0028",
+      "category": "multi_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0029",
+      "category": "single_hop",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "synth_0029",
+      "category": "single_hop",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0029",
+      "category": "single_hop",
+      "rank": 7,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.14285714285714285
+    },
+    {
+      "sample_id": "synth_0029",
+      "category": "single_hop",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "synth_0029",
+      "category": "single_hop",
+      "rank": 7,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.14285714285714285
+    },
+    {
+      "sample_id": "synth_0029",
+      "category": "adversarial",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "synth_0029",
+      "category": "adversarial",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "synth_0029",
+      "category": "adversarial",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "synth_0029",
+      "category": "adversarial",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "synth_0029",
+      "category": "adversarial",
+      "rank": 9,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1111111111111111
+    },
+    {
+      "sample_id": "synth_0029",
+      "category": "multi_hop",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    }
+  ],
+  "ingest_ms": {
+    "p50": 897.81,
+    "mean": 897.11,
+    "max": 924.34
+  },
+  "recall_ms": {
+    "p50": 12.91,
+    "mean": 14.12,
+    "max": 29.61
+  },
+  "arm": "both",
+  "arm_config": {
+    "qe_dominance": 0.3,
+    "qe_type_purity_min": null,
+    "qe_backend": "heuristic",
+    "sp_alpha": 0.05,
+    "sp_pool": 20
+  }
+}

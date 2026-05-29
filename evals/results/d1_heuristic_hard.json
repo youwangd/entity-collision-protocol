@@ -1,0 +1,93 @@
+{
+  "corpus": {
+    "n_facts": 120,
+    "hard_distractors_per_fact": 6,
+    "plain_distractors": 200,
+    "seed": 42,
+    "n_memories": 1040,
+    "n_queries": 120
+  },
+  "weights": [
+    0.0,
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.5,
+    1.0
+  ],
+  "entity_ner": "heuristic",
+  "arms": [
+    {
+      "entity_weight": 0.0,
+      "n_queries": 120,
+      "hit@1": 0.7,
+      "hit@5": 1.0,
+      "hit@10": 1.0,
+      "d_hit@1": 0.0,
+      "d_hit@5": 0.0,
+      "d_hit@10": 0.0
+    },
+    {
+      "entity_weight": 0.05,
+      "n_queries": 120,
+      "hit@1": 0.7,
+      "hit@5": 1.0,
+      "hit@10": 1.0,
+      "d_hit@1": 0.0,
+      "d_hit@5": 0.0,
+      "d_hit@10": 0.0
+    },
+    {
+      "entity_weight": 0.1,
+      "n_queries": 120,
+      "hit@1": 0.7,
+      "hit@5": 1.0,
+      "hit@10": 1.0,
+      "d_hit@1": 0.0,
+      "d_hit@5": 0.0,
+      "d_hit@10": 0.0
+    },
+    {
+      "entity_weight": 0.2,
+      "n_queries": 120,
+      "hit@1": 0.7,
+      "hit@5": 1.0,
+      "hit@10": 1.0,
+      "d_hit@1": 0.0,
+      "d_hit@5": 0.0,
+      "d_hit@10": 0.0
+    },
+    {
+      "entity_weight": 0.3,
+      "n_queries": 120,
+      "hit@1": 0.7,
+      "hit@5": 1.0,
+      "hit@10": 1.0,
+      "d_hit@1": 0.0,
+      "d_hit@5": 0.0,
+      "d_hit@10": 0.0
+    },
+    {
+      "entity_weight": 0.5,
+      "n_queries": 120,
+      "hit@1": 0.7,
+      "hit@5": 1.0,
+      "hit@10": 1.0,
+      "d_hit@1": 0.0,
+      "d_hit@5": 0.0,
+      "d_hit@10": 0.0
+    },
+    {
+      "entity_weight": 1.0,
+      "n_queries": 120,
+      "hit@1": 0.7,
+      "hit@5": 1.0,
+      "hit@10": 1.0,
+      "d_hit@1": 0.0,
+      "d_hit@5": 0.0,
+      "d_hit@10": 0.0
+    }
+  ],
+  "wall_seconds": 11.51
+}

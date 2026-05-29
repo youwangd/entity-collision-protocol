@@ -1,0 +1,18 @@
+{
+  "n_corpus": 10000,
+  "n_queries": 100,
+  "recall_latency_ms": {
+    "p50": 2.133,
+    "p95": 4.047,
+    "p99": 4.182,
+    "max": 4.32,
+    "mean": 2.602
+  },
+  "hit_rate": 1.0,
+  "mean_results_returned": 1,
+  "meta": {
+    "sha": "cd941b3",
+    "timestamp": "20260519T231722",
+    "name": "recall_at_10k"
+  }
+}

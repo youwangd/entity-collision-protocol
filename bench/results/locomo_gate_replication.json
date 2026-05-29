@@ -1,0 +1,56 @@
+{
+  "n_samples": 10,
+  "n_schemas": 543,
+  "calibration_table": "LOCOMO",
+  "by_tau": [
+    {
+      "tau": 0.1,
+      "calibrated_fmax_max_margin": 0.1486,
+      "fragmentation_rate": 0.07734806629834254,
+      "contamination_rate": 0.9873482921804075,
+      "gate_passes": true,
+      "share_active_and_useful": true,
+      "n_clusters": 44,
+      "n_singletons": 42,
+      "n_non_singleton_clusters": 2,
+      "max_cluster_size": 499,
+      "mean_non_singleton_size": 250.5,
+      "n_owners_with_siblings": 501,
+      "share_credit_rows": 248504
+    },
+    {
+      "tau": 0.15,
+      "calibrated_fmax_max_margin": 0.674,
+      "fragmentation_rate": 0.583793738489871,
+      "contamination_rate": 0.8321428571428572,
+      "gate_passes": true,
+      "share_active_and_useful": true,
+      "n_clusters": 374,
+      "n_singletons": 317,
+      "n_non_singleton_clusters": 57,
+      "max_cluster_size": 29,
+      "mean_non_singleton_size": 3.9649,
+      "n_owners_with_siblings": 226,
+      "share_credit_rows": 2240
+    },
+    {
+      "tau": 0.2,
+      "calibrated_fmax_max_margin": 0.9021,
+      "fragmentation_rate": 0.8729281767955801,
+      "contamination_rate": 0.13953488372093023,
+      "gate_passes": true,
+      "share_active_and_useful": true,
+      "n_clusters": 506,
+      "n_singletons": 474,
+      "n_non_singleton_clusters": 32,
+      "max_cluster_size": 4,
+      "mean_non_singleton_size": 2.1562,
+      "n_owners_with_siblings": 69,
+      "share_credit_rows": 86
+    }
+  ],
+  "summary": {
+    "any_tau_share_active_and_useful": true,
+    "default_flip_defensible": true
+  }
+}

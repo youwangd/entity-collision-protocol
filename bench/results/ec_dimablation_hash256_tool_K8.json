@@ -1,0 +1,5168 @@
+{
+  "config": {
+    "n_entities": 32,
+    "distractors": 3,
+    "k": 10,
+    "seed": 42,
+    "embed": "hash256",
+    "tag": "tool",
+    "vector_weight": 0.5,
+    "degrees": [
+      8
+    ]
+  },
+  "sweep": [
+    {
+      "collision_degree": 8,
+      "bm25_floor": 0.125,
+      "bm25_only": {
+        "vector_weight": 0.0,
+        "n_memories": 352,
+        "n_queries": 256,
+        "k": 10,
+        "hit_at_1": 0.1133,
+        "hit_at_k": 1.0,
+        "mrr": 0.3329,
+        "recall_p50_ms": 3.906,
+        "ingest_seconds": 0.197,
+        "per_query": [
+          {
+            "query": "what does alice rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 5.204
+          },
+          {
+            "query": "what does alice rely on to track code revisions?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 4.279
+          },
+          {
+            "query": "what does alice rely on to serve web traffic?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 3.584
+          },
+          {
+            "query": "what does alice rely on to schedule containers?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 4.077
+          },
+          {
+            "query": "what does alice rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.514
+          },
+          {
+            "query": "what does alice rely on to keep credentials safe?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.962
+          },
+          {
+            "query": "what does alice rely on to manage shell panes?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.455
+          },
+          {
+            "query": "what does alice rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 19.965
+          },
+          {
+            "query": "what does bob rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 3.561
+          },
+          {
+            "query": "what does bob rely on to track code revisions?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 4.07
+          },
+          {
+            "query": "what does bob rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.552
+          },
+          {
+            "query": "what does bob rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 5.259
+          },
+          {
+            "query": "what does bob rely on to route frontend calls?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 3.575
+          },
+          {
+            "query": "what does bob rely on to pass async events?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 4.193
+          },
+          {
+            "query": "what does bob rely on to compile artifacts?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.486
+          },
+          {
+            "query": "what does bob rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 4.14
+          },
+          {
+            "query": "what does carol rely on to keep credentials safe?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.561
+          },
+          {
+            "query": "what does carol rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 5.339
+          },
+          {
+            "query": "what does carol rely on to index documents?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 4.028
+          },
+          {
+            "query": "what does carol rely on to compile artifacts?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 3.579
+          },
+          {
+            "query": "what does carol rely on to schedule containers?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.618
+          },
+          {
+            "query": "what does carol rely on to track code revisions?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 4.116
+          },
+          {
+            "query": "what does carol rely on to manage shell panes?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.874
+          },
+          {
+            "query": "what does carol rely on to speed up reads?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.372
+          },
+          {
+            "query": "what does dave rely on to manage shell panes?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.889
+          },
+          {
+            "query": "what does dave rely on to speed up reads?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.397
+          },
+          {
+            "query": "what does dave rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 4.025
+          },
+          {
+            "query": "what does dave rely on to persist relational data?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.824
+          },
+          {
+            "query": "what does dave rely on to route frontend calls?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 4.038
+          },
+          {
+            "query": "what does dave rely on to compile artifacts?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 17.593
+          },
+          {
+            "query": "what does dave rely on to schedule containers?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.788
+          },
+          {
+            "query": "what does dave rely on to track code revisions?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 3.312
+          },
+          {
+            "query": "what does eve rely on to compile artifacts?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 3.912
+          },
+          {
+            "query": "what does eve rely on to keep credentials safe?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 3.335
+          },
+          {
+            "query": "what does eve rely on to install dependencies?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.823
+          },
+          {
+            "query": "what does eve rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 3.65
+          },
+          {
+            "query": "what does eve rely on to persist relational data?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.591
+          },
+          {
+            "query": "what does eve rely on to route frontend calls?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 4.136
+          },
+          {
+            "query": "what does eve rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 4.962
+          },
+          {
+            "query": "what does eve rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.429
+          },
+          {
+            "query": "what does frank rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 5.1
+          },
+          {
+            "query": "what does frank rely on to speed up reads?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.441
+          },
+          {
+            "query": "what does frank rely on to schedule containers?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 4.296
+          },
+          {
+            "query": "what does frank rely on to index documents?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 3.404
+          },
+          {
+            "query": "what does frank rely on to install dependencies?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.853
+          },
+          {
+            "query": "what does frank rely on to persist relational data?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.444
+          },
+          {
+            "query": "what does frank rely on to manage shell panes?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 4.061
+          },
+          {
+            "query": "what does frank rely on to serve web traffic?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 3.46
+          },
+          {
+            "query": "what does grace rely on to manage shell panes?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 4.107
+          },
+          {
+            "query": "what does grace rely on to compile artifacts?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.444
+          },
+          {
+            "query": "what does grace rely on to install dependencies?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 4.049
+          },
+          {
+            "query": "what does grace rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 3.412
+          },
+          {
+            "query": "what does grace rely on to pass async events?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 19.137
+          },
+          {
+            "query": "what does grace rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 4.762
+          },
+          {
+            "query": "what does grace rely on to route frontend calls?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 4.135
+          },
+          {
+            "query": "what does grace rely on to index documents?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 3.473
+          },
+          {
+            "query": "what does henry rely on to install dependencies?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 3.979
+          },
+          {
+            "query": "what does henry rely on to keep credentials safe?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.806
+          },
+          {
+            "query": "what does henry rely on to route frontend calls?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.445
+          },
+          {
+            "query": "what does henry rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 3.823
+          },
+          {
+            "query": "what does henry rely on to track code revisions?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 4.228
+          },
+          {
+            "query": "what does henry rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 5.005
+          },
+          {
+            "query": "what does henry rely on to serve web traffic?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 3.379
+          },
+          {
+            "query": "what does henry rely on to persist relational data?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.924
+          },
+          {
+            "query": "what does ivy rely on to install dependencies?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.376
+          },
+          {
+            "query": "what does ivy rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 4.989
+          },
+          {
+            "query": "what does ivy rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.484
+          },
+          {
+            "query": "what does ivy rely on to index documents?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 4.019
+          },
+          {
+            "query": "what does ivy rely on to speed up reads?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.424
+          },
+          {
+            "query": "what does ivy rely on to keep credentials safe?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 3.908
+          },
+          {
+            "query": "what does ivy rely on to route frontend calls?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 3.424
+          },
+          {
+            "query": "what does ivy rely on to manage shell panes?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.963
+          },
+          {
+            "query": "what does jack rely on to pass async events?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 16.253
+          },
+          {
+            "query": "what does jack rely on to serve web traffic?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 4.076
+          },
+          {
+            "query": "what does jack rely on to compile artifacts?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.507
+          },
+          {
+            "query": "what does jack rely on to speed up reads?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.983
+          },
+          {
+            "query": "what does jack rely on to keep credentials safe?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 3.385
+          },
+          {
+            "query": "what does jack rely on to route frontend calls?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.968
+          },
+          {
+            "query": "what does jack rely on to persist relational data?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.397
+          },
+          {
+            "query": "what does jack rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 5.078
+          },
+          {
+            "query": "what does kate rely on to schedule containers?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.509
+          },
+          {
+            "query": "what does kate rely on to install dependencies?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 4.442
+          },
+          {
+            "query": "what does kate rely on to manage shell panes?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 5.413
+          },
+          {
+            "query": "what does kate rely on to route frontend calls?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 6.264
+          },
+          {
+            "query": "what does kate rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.944
+          },
+          {
+            "query": "what does kate rely on to speed up reads?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 3.895
+          },
+          {
+            "query": "what does kate rely on to compile artifacts?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 3.516
+          },
+          {
+            "query": "what does kate rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.963
+          },
+          {
+            "query": "what does leo rely on to track code revisions?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.557
+          },
+          {
+            "query": "what does leo rely on to install dependencies?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 4.111
+          },
+          {
+            "query": "what does leo rely on to serve web traffic?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 3.633
+          },
+          {
+            "query": "what does leo rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 4.156
+          },
+          {
+            "query": "what does leo rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.452
+          },
+          {
+            "query": "what does leo rely on to pass async events?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 17.128
+          },
+          {
+            "query": "what does leo rely on to schedule containers?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.437
+          },
+          {
+            "query": "what does leo rely on to persist relational data?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 4.04
+          },
+          {
+            "query": "what does mia rely on to pass async events?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 3.525
+          },
+          {
+            "query": "what does mia rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 4.237
+          },
+          {
+            "query": "what does mia rely on to route frontend calls?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.653
+          },
+          {
+            "query": "what does mia rely on to manage shell panes?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 4.079
+          },
+          {
+            "query": "what does mia rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.533
+          },
+          {
+            "query": "what does mia rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 4.04
+          },
+          {
+            "query": "what does mia rely on to schedule containers?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.437
+          },
+          {
+            "query": "what does mia rely on to serve web traffic?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 4.117
+          },
+          {
+            "query": "what does noah rely on to track code revisions?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.526
+          },
+          {
+            "query": "what does noah rely on to compile artifacts?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 4.13
+          },
+          {
+            "query": "what does noah rely on to persist relational data?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.668
+          },
+          {
+            "query": "what does noah rely on to index documents?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.981
+          },
+          {
+            "query": "what does noah rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 3.506
+          },
+          {
+            "query": "what does noah rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 4.034
+          },
+          {
+            "query": "what does noah rely on to keep credentials safe?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.525
+          },
+          {
+            "query": "what does noah rely on to schedule containers?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 4.037
+          },
+          {
+            "query": "what does olivia rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 3.534
+          },
+          {
+            "query": "what does olivia rely on to keep credentials safe?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 4.268
+          },
+          {
+            "query": "what does olivia rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 3.642
+          },
+          {
+            "query": "what does olivia rely on to route frontend calls?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 17.261
+          },
+          {
+            "query": "what does olivia rely on to pass async events?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 3.478
+          },
+          {
+            "query": "what does olivia rely on to manage shell panes?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 4.037
+          },
+          {
+            "query": "what does olivia rely on to install dependencies?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.582
+          },
+          {
+            "query": "what does olivia rely on to index documents?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.931
+          },
+          {
+            "query": "what does peter rely on to speed up reads?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.499
+          },
+          {
+            "query": "what does peter rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 4.308
+          },
+          {
+            "query": "what does peter rely on to pass async events?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.598
+          },
+          {
+            "query": "what does peter rely on to route frontend calls?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 4.336
+          },
+          {
+            "query": "what does peter rely on to serve web traffic?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 3.465
+          },
+          {
+            "query": "what does peter rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 5.153
+          },
+          {
+            "query": "what does peter rely on to schedule containers?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.499
+          },
+          {
+            "query": "what does peter rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 4.232
+          },
+          {
+            "query": "what does quinn rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 5.459
+          },
+          {
+            "query": "what does quinn rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.757
+          },
+          {
+            "query": "what does quinn rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 3.961
+          },
+          {
+            "query": "what does quinn rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 4.108
+          },
+          {
+            "query": "what does quinn rely on to persist relational data?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.904
+          },
+          {
+            "query": "what does quinn rely on to track code revisions?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 3.41
+          },
+          {
+            "query": "what does quinn rely on to compile artifacts?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 3.867
+          },
+          {
+            "query": "what does quinn rely on to pass async events?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.42
+          },
+          {
+            "query": "what does rachel rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 19.109
+          },
+          {
+            "query": "what does rachel rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 4.93
+          },
+          {
+            "query": "what does rachel rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 4.133
+          },
+          {
+            "query": "what does rachel rely on to track code revisions?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 3.454
+          },
+          {
+            "query": "what does rachel rely on to persist relational data?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.983
+          },
+          {
+            "query": "what does rachel rely on to keep credentials safe?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 3.426
+          },
+          {
+            "query": "what does rachel rely on to pass async events?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 4.043
+          },
+          {
+            "query": "what does rachel rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.437
+          },
+          {
+            "query": "what does sam rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 4.173
+          },
+          {
+            "query": "what does sam rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 4.553
+          },
+          {
+            "query": "what does sam rely on to route frontend calls?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 4.001
+          },
+          {
+            "query": "what does sam rely on to index documents?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.478
+          },
+          {
+            "query": "what does sam rely on to speed up reads?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.861
+          },
+          {
+            "query": "what does sam rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 3.663
+          },
+          {
+            "query": "what does sam rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 4.069
+          },
+          {
+            "query": "what does sam rely on to compile artifacts?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.493
+          },
+          {
+            "query": "what does tina rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 4.205
+          },
+          {
+            "query": "what does tina rely on to install dependencies?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 3.421
+          },
+          {
+            "query": "what does tina rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.988
+          },
+          {
+            "query": "what does tina rely on to keep credentials safe?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 3.547
+          },
+          {
+            "query": "what does tina rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 4.012
+          },
+          {
+            "query": "what does tina rely on to track code revisions?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.59
+          },
+          {
+            "query": "what does tina rely on to speed up reads?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 16.948
+          },
+          {
+            "query": "what does tina rely on to persist relational data?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.608
+          },
+          {
+            "query": "what does uma rely on to schedule containers?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 4.028
+          },
+          {
+            "query": "what does uma rely on to speed up reads?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.407
+          },
+          {
+            "query": "what does uma rely on to manage shell panes?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 4.086
+          },
+          {
+            "query": "what does uma rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 3.499
+          },
+          {
+            "query": "what does uma rely on to index documents?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.902
+          },
+          {
+            "query": "what does uma rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 4.591
+          },
+          {
+            "query": "what does uma rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 4.098
+          },
+          {
+            "query": "what does uma rely on to serve web traffic?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 4.06
+          },
+          {
+            "query": "what does victor rely on to manage shell panes?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 3.592
+          },
+          {
+            "query": "what does victor rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.682
+          },
+          {
+            "query": "what does victor rely on to route frontend calls?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 4.15
+          },
+          {
+            "query": "what does victor rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 4.802
+          },
+          {
+            "query": "what does victor rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.466
+          },
+          {
+            "query": "what does victor rely on to speed up reads?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.804
+          },
+          {
+            "query": "what does victor rely on to index documents?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.464
+          },
+          {
+            "query": "what does victor rely on to compile artifacts?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 3.837
+          },
+          {
+            "query": "what does wendy rely on to route frontend calls?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 3.629
+          },
+          {
+            "query": "what does wendy rely on to schedule containers?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.843
+          },
+          {
+            "query": "what does wendy rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 4.148
+          },
+          {
+            "query": "what does wendy rely on to keep credentials safe?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.884
+          },
+          {
+            "query": "what does wendy rely on to index documents?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 16.568
+          },
+          {
+            "query": "what does wendy rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 3.891
+          },
+          {
+            "query": "what does wendy rely on to speed up reads?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 3.393
+          },
+          {
+            "query": "what does wendy rely on to pass async events?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.896
+          },
+          {
+            "query": "what does xavier rely on to speed up reads?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.663
+          },
+          {
+            "query": "what does xavier rely on to track code revisions?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 3.854
+          },
+          {
+            "query": "what does xavier rely on to compile artifacts?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.979
+          },
+          {
+            "query": "what does xavier rely on to serve web traffic?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.935
+          },
+          {
+            "query": "what does xavier rely on to pass async events?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 3.39
+          },
+          {
+            "query": "what does xavier rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 4.072
+          },
+          {
+            "query": "what does xavier rely on to persist relational data?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.435
+          },
+          {
+            "query": "what does xavier rely on to install dependencies?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.874
+          },
+          {
+            "query": "what does yara rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 3.777
+          },
+          {
+            "query": "what does yara rely on to pass async events?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.863
+          },
+          {
+            "query": "what does yara rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 4.153
+          },
+          {
+            "query": "what does yara rely on to manage shell panes?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.948
+          },
+          {
+            "query": "what does yara rely on to keep credentials safe?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.412
+          },
+          {
+            "query": "what does yara rely on to compile artifacts?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 4.301
+          },
+          {
+            "query": "what does yara rely on to serve web traffic?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 3.441
+          },
+          {
+            "query": "what does yara rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 5.235
+          },
+          {
+            "query": "what does zach rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.55
+          },
+          {
+            "query": "what does zach rely on to compile artifacts?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 17.507
+          },
+          {
+            "query": "what does zach rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 3.409
+          },
+          {
+            "query": "what does zach rely on to speed up reads?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.866
+          },
+          {
+            "query": "what does zach rely on to install dependencies?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.484
+          },
+          {
+            "query": "what does zach rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 3.982
+          },
+          {
+            "query": "what does zach rely on to serve web traffic?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.508
+          },
+          {
+            "query": "what does zach rely on to pass async events?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 4.307
+          },
+          {
+            "query": "what does amelia rely on to index documents?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.467
+          },
+          {
+            "query": "what does amelia rely on to schedule containers?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 4.061
+          },
+          {
+            "query": "what does amelia rely on to speed up reads?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.369
+          },
+          {
+            "query": "what does amelia rely on to manage shell panes?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 4.008
+          },
+          {
+            "query": "what does amelia rely on to install dependencies?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 3.558
+          },
+          {
+            "query": "what does amelia rely on to serve web traffic?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 4.081
+          },
+          {
+            "query": "what does amelia rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.48
+          },
+          {
+            "query": "what does amelia rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 4.271
+          },
+          {
+            "query": "what does bruno rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 4.658
+          },
+          {
+            "query": "what does bruno rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 4.262
+          },
+          {
+            "query": "what does bruno rely on to pass async events?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 3.495
+          },
+          {
+            "query": "what does bruno rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 4.107
+          },
+          {
+            "query": "what does bruno rely on to keep credentials safe?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 3.562
+          },
+          {
+            "query": "what does bruno rely on to schedule containers?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.979
+          },
+          {
+            "query": "what does bruno rely on to manage shell panes?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 19.463
+          },
+          {
+            "query": "what does bruno rely on to persist relational data?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 4.481
+          },
+          {
+            "query": "what does clara rely on to compile artifacts?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.562
+          },
+          {
+            "query": "what does clara rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 4.171
+          },
+          {
+            "query": "what does clara rely on to route frontend calls?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 3.486
+          },
+          {
+            "query": "what does clara rely on to install dependencies?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.951
+          },
+          {
+            "query": "what does clara rely on to pass async events?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.552
+          },
+          {
+            "query": "what does clara rely on to track code revisions?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 4.22
+          },
+          {
+            "query": "what does clara rely on to serve web traffic?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 3.59
+          },
+          {
+            "query": "what does clara rely on to schedule containers?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 4.297
+          },
+          {
+            "query": "what does diego rely on to schedule containers?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.608
+          },
+          {
+            "query": "what does diego rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 4.328
+          },
+          {
+            "query": "what does diego rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 3.541
+          },
+          {
+            "query": "what does diego rely on to compile artifacts?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.991
+          },
+          {
+            "query": "what does diego rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 4.83
+          },
+          {
+            "query": "what does diego rely on to persist relational data?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 4.187
+          },
+          {
+            "query": "what does diego rely on to serve web traffic?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 4.014
+          },
+          {
+            "query": "what does diego rely on to keep credentials safe?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 4.109
+          },
+          {
+            "query": "what does elena rely on to keep credentials safe?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.86
+          },
+          {
+            "query": "what does elena rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 4.287
+          },
+          {
+            "query": "what does elena rely on to schedule containers?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 16.484
+          },
+          {
+            "query": "what does elena rely on to track code revisions?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 4.109
+          },
+          {
+            "query": "what does elena rely on to route frontend calls?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.623
+          },
+          {
+            "query": "what does elena rely on to persist relational data?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 4.178
+          },
+          {
+            "query": "what does elena rely on to manage shell panes?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 3.688
+          },
+          {
+            "query": "what does elena rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 4.696
+          },
+          {
+            "query": "what does felix rely on to track code revisions?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.443
+          },
+          {
+            "query": "what does felix rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.918
+          },
+          {
+            "query": "what does felix rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 3.615
+          },
+          {
+            "query": "what does felix rely on to serve web traffic?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 4.023
+          },
+          {
+            "query": "what does felix rely on to manage shell panes?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.591
+          },
+          {
+            "query": "what does felix rely on to pass async events?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 4.089
+          },
+          {
+            "query": "what does felix rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.637
+          },
+          {
+            "query": "what does felix rely on to persist relational data?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 4.271
+          }
+        ]
+      },
+      "vector_fusion": {
+        "vector_weight": 0.5,
+        "n_memories": 352,
+        "n_queries": 256,
+        "k": 10,
+        "hit_at_1": 0.1797,
+        "hit_at_k": 0.9844,
+        "mrr": 0.4134,
+        "recall_p50_ms": 8.259,
+        "ingest_seconds": 3.535,
+        "per_query": [
+          {
+            "query": "what does alice rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.777
+          },
+          {
+            "query": "what does alice rely on to track code revisions?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.801
+          },
+          {
+            "query": "what does alice rely on to serve web traffic?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.938
+          },
+          {
+            "query": "what does alice rely on to schedule containers?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 7.677
+          },
+          {
+            "query": "what does alice rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.17
+          },
+          {
+            "query": "what does alice rely on to keep credentials safe?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 20.18
+          },
+          {
+            "query": "what does alice rely on to manage shell panes?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 11.362
+          },
+          {
+            "query": "what does alice rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.942
+          },
+          {
+            "query": "what does bob rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.873
+          },
+          {
+            "query": "what does bob rely on to track code revisions?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.603
+          },
+          {
+            "query": "what does bob rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.921
+          },
+          {
+            "query": "what does bob rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": null,
+            "hit_at_1": 0,
+            "hit_at_k": 0,
+            "reciprocal_rank": 0.0,
+            "latency_ms": 8.224
+          },
+          {
+            "query": "what does bob rely on to route frontend calls?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 8.175
+          },
+          {
+            "query": "what does bob rely on to pass async events?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 7.75
+          },
+          {
+            "query": "what does bob rely on to compile artifacts?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 8.268
+          },
+          {
+            "query": "what does bob rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.427
+          },
+          {
+            "query": "what does carol rely on to keep credentials safe?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 7.637
+          },
+          {
+            "query": "what does carol rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.249
+          },
+          {
+            "query": "what does carol rely on to index documents?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 7.93
+          },
+          {
+            "query": "what does carol rely on to compile artifacts?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 7.398
+          },
+          {
+            "query": "what does carol rely on to schedule containers?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 8.088
+          },
+          {
+            "query": "what does carol rely on to track code revisions?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.91
+          },
+          {
+            "query": "what does carol rely on to manage shell panes?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 7.681
+          },
+          {
+            "query": "what does carol rely on to speed up reads?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.859
+          },
+          {
+            "query": "what does dave rely on to manage shell panes?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 21.178
+          },
+          {
+            "query": "what does dave rely on to speed up reads?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 8.268
+          },
+          {
+            "query": "what does dave rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.955
+          },
+          {
+            "query": "what does dave rely on to persist relational data?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 9.557
+          },
+          {
+            "query": "what does dave rely on to route frontend calls?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 8.583
+          },
+          {
+            "query": "what does dave rely on to compile artifacts?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 7.883
+          },
+          {
+            "query": "what does dave rely on to schedule containers?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.623
+          },
+          {
+            "query": "what does dave rely on to track code revisions?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.754
+          },
+          {
+            "query": "what does eve rely on to compile artifacts?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 7.684
+          },
+          {
+            "query": "what does eve rely on to keep credentials safe?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 8.522
+          },
+          {
+            "query": "what does eve rely on to install dependencies?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.978
+          },
+          {
+            "query": "what does eve rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 8.141
+          },
+          {
+            "query": "what does eve rely on to persist relational data?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.461
+          },
+          {
+            "query": "what does eve rely on to route frontend calls?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.815
+          },
+          {
+            "query": "what does eve rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": null,
+            "hit_at_1": 0,
+            "hit_at_k": 0,
+            "reciprocal_rank": 0.0,
+            "latency_ms": 8.194
+          },
+          {
+            "query": "what does eve rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.163
+          },
+          {
+            "query": "what does frank rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 20.814
+          },
+          {
+            "query": "what does frank rely on to speed up reads?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.412
+          },
+          {
+            "query": "what does frank rely on to schedule containers?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.038
+          },
+          {
+            "query": "what does frank rely on to index documents?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 8.129
+          },
+          {
+            "query": "what does frank rely on to install dependencies?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.898
+          },
+          {
+            "query": "what does frank rely on to persist relational data?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.699
+          },
+          {
+            "query": "what does frank rely on to manage shell panes?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 8.279
+          },
+          {
+            "query": "what does frank rely on to serve web traffic?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.19
+          },
+          {
+            "query": "what does grace rely on to manage shell panes?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 7.72
+          },
+          {
+            "query": "what does grace rely on to compile artifacts?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 8.207
+          },
+          {
+            "query": "what does grace rely on to install dependencies?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.195
+          },
+          {
+            "query": "what does grace rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.536
+          },
+          {
+            "query": "what does grace rely on to pass async events?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 8.268
+          },
+          {
+            "query": "what does grace rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.857
+          },
+          {
+            "query": "what does grace rely on to route frontend calls?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.053
+          },
+          {
+            "query": "what does grace rely on to index documents?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 8.285
+          },
+          {
+            "query": "what does henry rely on to install dependencies?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.549
+          },
+          {
+            "query": "what does henry rely on to keep credentials safe?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 24.032
+          },
+          {
+            "query": "what does henry rely on to route frontend calls?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 8.413
+          },
+          {
+            "query": "what does henry rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 7.663
+          },
+          {
+            "query": "what does henry rely on to track code revisions?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.562
+          },
+          {
+            "query": "what does henry rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 7.768
+          },
+          {
+            "query": "what does henry rely on to serve web traffic?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.257
+          },
+          {
+            "query": "what does henry rely on to persist relational data?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 8.068
+          },
+          {
+            "query": "what does ivy rely on to install dependencies?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.632
+          },
+          {
+            "query": "what does ivy rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": null,
+            "hit_at_1": 0,
+            "hit_at_k": 0,
+            "reciprocal_rank": 0.0,
+            "latency_ms": 8.216
+          },
+          {
+            "query": "what does ivy rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 8.339
+          },
+          {
+            "query": "what does ivy rely on to index documents?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 7.941
+          },
+          {
+            "query": "what does ivy rely on to speed up reads?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.328
+          },
+          {
+            "query": "what does ivy rely on to keep credentials safe?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.87
+          },
+          {
+            "query": "what does ivy rely on to route frontend calls?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 8.719
+          },
+          {
+            "query": "what does ivy rely on to manage shell panes?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.261
+          },
+          {
+            "query": "what does jack rely on to pass async events?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.683
+          },
+          {
+            "query": "what does jack rely on to serve web traffic?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.444
+          },
+          {
+            "query": "what does jack rely on to compile artifacts?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 23.404
+          },
+          {
+            "query": "what does jack rely on to speed up reads?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.513
+          },
+          {
+            "query": "what does jack rely on to keep credentials safe?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.386
+          },
+          {
+            "query": "what does jack rely on to route frontend calls?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.881
+          },
+          {
+            "query": "what does jack rely on to persist relational data?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 8.389
+          },
+          {
+            "query": "what does jack rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 8.103
+          },
+          {
+            "query": "what does kate rely on to schedule containers?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.85
+          },
+          {
+            "query": "what does kate rely on to install dependencies?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.303
+          },
+          {
+            "query": "what does kate rely on to manage shell panes?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 7.934
+          },
+          {
+            "query": "what does kate rely on to route frontend calls?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.49
+          },
+          {
+            "query": "what does kate rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.332
+          },
+          {
+            "query": "what does kate rely on to speed up reads?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.224
+          },
+          {
+            "query": "what does kate rely on to compile artifacts?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 8.029
+          },
+          {
+            "query": "what does kate rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.935
+          },
+          {
+            "query": "what does leo rely on to track code revisions?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.248
+          },
+          {
+            "query": "what does leo rely on to install dependencies?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.385
+          },
+          {
+            "query": "what does leo rely on to serve web traffic?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.343
+          },
+          {
+            "query": "what does leo rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.986
+          },
+          {
+            "query": "what does leo rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 21.962
+          },
+          {
+            "query": "what does leo rely on to pass async events?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 8.389
+          },
+          {
+            "query": "what does leo rely on to schedule containers?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.617
+          },
+          {
+            "query": "what does leo rely on to persist relational data?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.376
+          },
+          {
+            "query": "what does mia rely on to pass async events?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 7.961
+          },
+          {
+            "query": "what does mia rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 8.948
+          },
+          {
+            "query": "what does mia rely on to route frontend calls?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 8.458
+          },
+          {
+            "query": "what does mia rely on to manage shell panes?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 8.295
+          },
+          {
+            "query": "what does mia rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.595
+          },
+          {
+            "query": "what does mia rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.895
+          },
+          {
+            "query": "what does mia rely on to schedule containers?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.724
+          },
+          {
+            "query": "what does mia rely on to serve web traffic?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.377
+          },
+          {
+            "query": "what does noah rely on to track code revisions?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.381
+          },
+          {
+            "query": "what does noah rely on to compile artifacts?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 8.542
+          },
+          {
+            "query": "what does noah rely on to persist relational data?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.283
+          },
+          {
+            "query": "what does noah rely on to index documents?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 8.296
+          },
+          {
+            "query": "what does noah rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.454
+          },
+          {
+            "query": "what does noah rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 21.473
+          },
+          {
+            "query": "what does noah rely on to keep credentials safe?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.668
+          },
+          {
+            "query": "what does noah rely on to schedule containers?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.616
+          },
+          {
+            "query": "what does olivia rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.042
+          },
+          {
+            "query": "what does olivia rely on to keep credentials safe?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.432
+          },
+          {
+            "query": "what does olivia rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.022
+          },
+          {
+            "query": "what does olivia rely on to route frontend calls?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 7.877
+          },
+          {
+            "query": "what does olivia rely on to pass async events?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 8.078
+          },
+          {
+            "query": "what does olivia rely on to manage shell panes?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.604
+          },
+          {
+            "query": "what does olivia rely on to install dependencies?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 8.6
+          },
+          {
+            "query": "what does olivia rely on to index documents?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 7.729
+          },
+          {
+            "query": "what does peter rely on to speed up reads?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.471
+          },
+          {
+            "query": "what does peter rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.754
+          },
+          {
+            "query": "what does peter rely on to pass async events?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.076
+          },
+          {
+            "query": "what does peter rely on to route frontend calls?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.598
+          },
+          {
+            "query": "what does peter rely on to serve web traffic?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.122
+          },
+          {
+            "query": "what does peter rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.538
+          },
+          {
+            "query": "what does peter rely on to schedule containers?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 8.117
+          },
+          {
+            "query": "what does peter rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 21.842
+          },
+          {
+            "query": "what does quinn rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.474
+          },
+          {
+            "query": "what does quinn rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.226
+          },
+          {
+            "query": "what does quinn rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.96
+          },
+          {
+            "query": "what does quinn rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.585
+          },
+          {
+            "query": "what does quinn rely on to persist relational data?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.044
+          },
+          {
+            "query": "what does quinn rely on to track code revisions?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 7.689
+          },
+          {
+            "query": "what does quinn rely on to compile artifacts?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 8.297
+          },
+          {
+            "query": "what does quinn rely on to pass async events?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.133
+          },
+          {
+            "query": "what does rachel rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.47
+          },
+          {
+            "query": "what does rachel rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 8.206
+          },
+          {
+            "query": "what does rachel rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 7.585
+          },
+          {
+            "query": "what does rachel rely on to track code revisions?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.265
+          },
+          {
+            "query": "what does rachel rely on to persist relational data?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.291
+          },
+          {
+            "query": "what does rachel rely on to keep credentials safe?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 7.669
+          },
+          {
+            "query": "what does rachel rely on to pass async events?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.304
+          },
+          {
+            "query": "what does rachel rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 8.627
+          },
+          {
+            "query": "what does sam rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 23.366
+          },
+          {
+            "query": "what does sam rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": null,
+            "hit_at_1": 0,
+            "hit_at_k": 0,
+            "reciprocal_rank": 0.0,
+            "latency_ms": 8.54
+          },
+          {
+            "query": "what does sam rely on to route frontend calls?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 8.637
+          },
+          {
+            "query": "what does sam rely on to index documents?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.763
+          },
+          {
+            "query": "what does sam rely on to speed up reads?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 8.463
+          },
+          {
+            "query": "what does sam rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.264
+          },
+          {
+            "query": "what does sam rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.702
+          },
+          {
+            "query": "what does sam rely on to compile artifacts?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 8.015
+          },
+          {
+            "query": "what does tina rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.629
+          },
+          {
+            "query": "what does tina rely on to install dependencies?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 8.255
+          },
+          {
+            "query": "what does tina rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 8.253
+          },
+          {
+            "query": "what does tina rely on to keep credentials safe?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.093
+          },
+          {
+            "query": "what does tina rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.78
+          },
+          {
+            "query": "what does tina rely on to track code revisions?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.3
+          },
+          {
+            "query": "what does tina rely on to speed up reads?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 8.36
+          },
+          {
+            "query": "what does tina rely on to persist relational data?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 21.206
+          },
+          {
+            "query": "what does uma rely on to schedule containers?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.066
+          },
+          {
+            "query": "what does uma rely on to speed up reads?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.645
+          },
+          {
+            "query": "what does uma rely on to manage shell panes?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.451
+          },
+          {
+            "query": "what does uma rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 8.155
+          },
+          {
+            "query": "what does uma rely on to index documents?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 8.422
+          },
+          {
+            "query": "what does uma rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.019
+          },
+          {
+            "query": "what does uma rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.752
+          },
+          {
+            "query": "what does uma rely on to serve web traffic?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.802
+          },
+          {
+            "query": "what does victor rely on to manage shell panes?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.083
+          },
+          {
+            "query": "what does victor rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.491
+          },
+          {
+            "query": "what does victor rely on to route frontend calls?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.936
+          },
+          {
+            "query": "what does victor rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.541
+          },
+          {
+            "query": "what does victor rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 22.051
+          },
+          {
+            "query": "what does victor rely on to speed up reads?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.195
+          },
+          {
+            "query": "what does victor rely on to index documents?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 8.403
+          },
+          {
+            "query": "what does victor rely on to compile artifacts?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 8.503
+          },
+          {
+            "query": "what does wendy rely on to route frontend calls?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.599
+          },
+          {
+            "query": "what does wendy rely on to schedule containers?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 8.272
+          },
+          {
+            "query": "what does wendy rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.414
+          },
+          {
+            "query": "what does wendy rely on to keep credentials safe?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.73
+          },
+          {
+            "query": "what does wendy rely on to index documents?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 8.229
+          },
+          {
+            "query": "what does wendy rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.226
+          },
+          {
+            "query": "what does wendy rely on to speed up reads?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.665
+          },
+          {
+            "query": "what does wendy rely on to pass async events?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 8.276
+          },
+          {
+            "query": "what does xavier rely on to speed up reads?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.701
+          },
+          {
+            "query": "what does xavier rely on to track code revisions?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 21.725
+          },
+          {
+            "query": "what does xavier rely on to compile artifacts?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 8.136
+          },
+          {
+            "query": "what does xavier rely on to serve web traffic?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.849
+          },
+          {
+            "query": "what does xavier rely on to pass async events?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.573
+          },
+          {
+            "query": "what does xavier rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.776
+          },
+          {
+            "query": "what does xavier rely on to persist relational data?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.568
+          },
+          {
+            "query": "what does xavier rely on to install dependencies?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.372
+          },
+          {
+            "query": "what does yara rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.044
+          },
+          {
+            "query": "what does yara rely on to pass async events?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.753
+          },
+          {
+            "query": "what does yara rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.579
+          },
+          {
+            "query": "what does yara rely on to manage shell panes?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 8.187
+          },
+          {
+            "query": "what does yara rely on to keep credentials safe?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.175
+          },
+          {
+            "query": "what does yara rely on to compile artifacts?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 8.019
+          },
+          {
+            "query": "what does yara rely on to serve web traffic?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.424
+          },
+          {
+            "query": "what does yara rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 22.972
+          },
+          {
+            "query": "what does zach rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.271
+          },
+          {
+            "query": "what does zach rely on to compile artifacts?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 8.542
+          },
+          {
+            "query": "what does zach rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.313
+          },
+          {
+            "query": "what does zach rely on to speed up reads?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.52
+          },
+          {
+            "query": "what does zach rely on to install dependencies?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.25
+          },
+          {
+            "query": "what does zach rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.987
+          },
+          {
+            "query": "what does zach rely on to serve web traffic?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.639
+          },
+          {
+            "query": "what does zach rely on to pass async events?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.569
+          },
+          {
+            "query": "what does amelia rely on to index documents?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 7.879
+          },
+          {
+            "query": "what does amelia rely on to schedule containers?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.598
+          },
+          {
+            "query": "what does amelia rely on to speed up reads?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.152
+          },
+          {
+            "query": "what does amelia rely on to manage shell panes?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.931
+          },
+          {
+            "query": "what does amelia rely on to install dependencies?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.216
+          },
+          {
+            "query": "what does amelia rely on to serve web traffic?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.114
+          },
+          {
+            "query": "what does amelia rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.935
+          },
+          {
+            "query": "what does amelia rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.197
+          },
+          {
+            "query": "what does bruno rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 7.572
+          },
+          {
+            "query": "what does bruno rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.311
+          },
+          {
+            "query": "what does bruno rely on to pass async events?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 20.699
+          },
+          {
+            "query": "what does bruno rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 8.089
+          },
+          {
+            "query": "what does bruno rely on to keep credentials safe?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.852
+          },
+          {
+            "query": "what does bruno rely on to schedule containers?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 7.747
+          },
+          {
+            "query": "what does bruno rely on to manage shell panes?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.349
+          },
+          {
+            "query": "what does bruno rely on to persist relational data?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 8.282
+          },
+          {
+            "query": "what does clara rely on to compile artifacts?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 7.657
+          },
+          {
+            "query": "what does clara rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.485
+          },
+          {
+            "query": "what does clara rely on to route frontend calls?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.46
+          },
+          {
+            "query": "what does clara rely on to install dependencies?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.065
+          },
+          {
+            "query": "what does clara rely on to pass async events?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 8.39
+          },
+          {
+            "query": "what does clara rely on to track code revisions?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.272
+          },
+          {
+            "query": "what does clara rely on to serve web traffic?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.625
+          },
+          {
+            "query": "what does clara rely on to schedule containers?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 8.245
+          },
+          {
+            "query": "what does diego rely on to schedule containers?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 16.565
+          },
+          {
+            "query": "what does diego rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.833
+          },
+          {
+            "query": "what does diego rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.681
+          },
+          {
+            "query": "what does diego rely on to compile artifacts?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 8.425
+          },
+          {
+            "query": "what does diego rely on to package services?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 21.073
+          },
+          {
+            "query": "what does diego rely on to persist relational data?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 8.106
+          },
+          {
+            "query": "what does diego rely on to serve web traffic?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.828
+          },
+          {
+            "query": "what does diego rely on to keep credentials safe?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.771
+          },
+          {
+            "query": "what does elena rely on to keep credentials safe?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.932
+          },
+          {
+            "query": "what does elena rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 8.407
+          },
+          {
+            "query": "what does elena rely on to schedule containers?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 7.789
+          },
+          {
+            "query": "what does elena rely on to track code revisions?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.431
+          },
+          {
+            "query": "what does elena rely on to route frontend calls?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 9.206
+          },
+          {
+            "query": "what does elena rely on to persist relational data?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.074
+          },
+          {
+            "query": "what does elena rely on to manage shell panes?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 8.38
+          },
+          {
+            "query": "what does elena rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 8.356
+          },
+          {
+            "query": "what does felix rely on to track code revisions?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.663
+          },
+          {
+            "query": "what does felix rely on to edit source files?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.134
+          },
+          {
+            "query": "what does felix rely on to hold large blobs?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 8.029
+          },
+          {
+            "query": "what does felix rely on to serve web traffic?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.63
+          },
+          {
+            "query": "what does felix rely on to manage shell panes?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 8.829
+          },
+          {
+            "query": "what does felix rely on to pass async events?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 20.752
+          },
+          {
+            "query": "what does felix rely on to chain pipeline steps?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 9.212
+          },
+          {
+            "query": "what does felix rely on to persist relational data?",
+            "tag": "tool",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.331
+          }
+        ]
+      },
+      "delta_hit_at_1": 0.0664,
+      "delta_mrr": 0.0805
+    }
+  ]
+}

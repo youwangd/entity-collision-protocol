@@ -1,0 +1,38 @@
+{
+  "source": "bench/results/locomo_appraisal_rerank_inspect.json",
+  "anchor": "S6_+merge_persist",
+  "probe_stage": "appraisal",
+  "embedder": "HashTrigram-256",
+  "max_instances": 2,
+  "n_questions": 301,
+  "k": 10,
+  "ci_config": {
+    "resamples": 10000,
+    "permutations": 10000,
+    "seed": 42,
+    "alpha": 0.05
+  },
+  "salience_gap_ci": {
+    "n": 106,
+    "mean": 0.0325,
+    "ci_lo": 0.017406,
+    "ci_hi": 0.049953,
+    "p_two_sided": 0.0005,
+    "ci_excludes_zero": true
+  },
+  "rel_gap_ci": {
+    "n": 106,
+    "mean": 0.022642,
+    "ci_lo": 0.008491,
+    "ci_hi": 0.039623,
+    "p_two_sided": 0.0025,
+    "ci_excludes_zero": true
+  },
+  "permutation_lost_minus_gained": {
+    "observed_lost_minus_gained": 4,
+    "permutations": 10000,
+    "p_value_two_sided": 0.2077,
+    "null_mean": 0.0136,
+    "null_stdev": 2.4189
+  }
+}

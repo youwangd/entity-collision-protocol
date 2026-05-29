@@ -1,0 +1,19 @@
+queries: 1978, vws: [0.0, 0.3, 0.5, 0.7, 1.0], metric: hit_at_1
+
+=== Static fixed-vw policies ===
+  vw=0.0: hit_at_1=0.5394
+  vw=0.3: hit_at_1=0.5020
+  vw=0.5: hit_at_1=0.4924
+  vw=0.7: hit_at_1=0.4788
+  vw=1.0: hit_at_1=0.4687
+
+=== Oracle (per-query best vw, upper bound) ===
+  oracle hit_at_1=0.6567
+
+=== Static-best baseline: vw=0.0 hit_at_1=0.5394 ===
+  (259/1978 queries had no BM25 hits — treated as zero-confidence)
+
+=== Signal verdict (paired bootstrap, 95% CI on Δ vs static-best) ===
+                 raw_gap: vw_fb=0.3 tau_q=0.10  Δ=+0.0000 CI=[+0.0000, +0.0000]  ❌ not useful
+          normalized_gap: vw_fb=0.3 tau_q=0.10  Δ=+0.0000 CI=[+0.0000, +0.0000]  ❌ not useful
+      neg_crowdedness_95: vw_fb=0.3 tau_q=0.10  Δ=+0.0000 CI=[+0.0000, +0.0000]  ❌ not useful

@@ -1,0 +1,66 @@
+{
+  "corpus": {
+    "n_slots": 200,
+    "updates_per_slot": 2,
+    "distractors": 100,
+    "seed": 42,
+    "n_memories": 500,
+    "n_queries": 200
+  },
+  "k": 10,
+  "arms": {
+    "default": {
+      "n": 200,
+      "hit_at_1": 0.15,
+      "hit_at_k": 1.0,
+      "stale_at_1": 0.775,
+      "stale_at_k": 0.995,
+      "interference_actions": 122
+    },
+    "addonly": {
+      "n": 200,
+      "hit_at_1": 0.06,
+      "hit_at_k": 1.0,
+      "stale_at_1": 0.88,
+      "stale_at_k": 1.0,
+      "interference_actions": 0
+    }
+  },
+  "ci_config": {
+    "resamples": 10000,
+    "seed": 42,
+    "alpha": 0.05,
+    "method": "percentile_paired_diff"
+  },
+  "summary": {
+    "d_hit_at_1": {
+      "mean_diff_default_minus_addonly": 0.09,
+      "ci_lo": 0.05,
+      "ci_hi": 0.13,
+      "p_bootstrap_two_sided": 0.0,
+      "n_paired": 200
+    },
+    "d_hit_at_k": {
+      "mean_diff_default_minus_addonly": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0,
+      "p_bootstrap_two_sided": 1.0,
+      "n_paired": 200
+    },
+    "d_stale_at_1": {
+      "mean_diff_default_minus_addonly": -0.105,
+      "ci_lo": -0.15,
+      "ci_hi": -0.06,
+      "p_bootstrap_two_sided": 0.0,
+      "n_paired": 200
+    },
+    "d_stale_at_k": {
+      "mean_diff_default_minus_addonly": -0.005,
+      "ci_lo": -0.015,
+      "ci_hi": 0.0,
+      "p_bootstrap_two_sided": 0.7488,
+      "n_paired": 200
+    }
+  },
+  "wall_seconds": 6.48
+}

@@ -1,0 +1,23 @@
+{
+  "n": 10000,
+  "embed_provider": "HashTrigram",
+  "embed_dimension": 256,
+  "vector_weight": 0.5,
+  "wall_seconds": 95.582,
+  "throughput_per_sec": 104.6,
+  "latency_ms": {
+    "p50": 9.6,
+    "p95": 13.159,
+    "p99": 15.358,
+    "max": 24.616,
+    "mean": 9.557
+  },
+  "embed_latency_us_p50": 64.8,
+  "embed_latency_us_p95": 74.9,
+  "vector_count": 10000,
+  "meta": {
+    "sha": "b1d3f19",
+    "timestamp": "20260520T235059",
+    "name": "vector_ingest_10k_hashtrigram"
+  }
+}

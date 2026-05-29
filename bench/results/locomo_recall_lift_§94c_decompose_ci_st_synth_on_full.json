@@ -1,0 +1,70 @@
+{
+  "dataset_path": "bench/data/locomo10.json",
+  "max_instances": 10,
+  "k": 10,
+  "embedder": "st",
+  "synthesis": true,
+  "stage_a": "S1_extraction_only",
+  "stage_b": "S7_full_default",
+  "stages_a": [
+    "extraction"
+  ],
+  "stages_b": null,
+  "n_pairs_a": 1978,
+  "n_pairs_b": 1978,
+  "n_paired": 1978,
+  "ci_config": {
+    "resamples": 10000,
+    "seed": 42,
+    "alpha": 0.05,
+    "method": "percentile_paired_diff"
+  },
+  "summary": {
+    "delta_h1": {
+      "mean_diff_a_minus_b": 0.001011,
+      "ci_lo": -0.006572,
+      "ci_hi": 0.008595,
+      "p_bootstrap_two_sided": 0.8314,
+      "n_paired": 1978
+    },
+    "delta_hk": {
+      "mean_diff_a_minus_b": -0.00455,
+      "ci_lo": -0.009606,
+      "ci_hi": 0.000506,
+      "p_bootstrap_two_sided": 0.087,
+      "n_paired": 1978
+    },
+    "delta_rr": {
+      "mean_diff_a_minus_b": -0.002694,
+      "ci_lo": -0.007168,
+      "ci_hi": 0.001936,
+      "p_bootstrap_two_sided": 0.252,
+      "n_paired": 1978
+    },
+    "delta_prk": {
+      "mean_diff_a_minus_b": -0.00455,
+      "ci_lo": -0.009606,
+      "ci_hi": 0.000506,
+      "p_bootstrap_two_sided": 0.0892,
+      "n_paired": 1978
+    },
+    "delta_grk": {
+      "mean_diff_a_minus_b": -0.005481,
+      "ci_lo": -0.01017,
+      "ci_hi": -0.000833,
+      "p_bootstrap_two_sided": 0.0186,
+      "n_paired": 1978
+    }
+  },
+  "headline_a": {
+    "delta_h1": 0.0789,
+    "delta_hk": 0.0779,
+    "delta_mrr": 0.0674
+  },
+  "headline_b": {
+    "delta_h1": 0.0779,
+    "delta_hk": 0.0824,
+    "delta_mrr": 0.0701
+  },
+  "wall_seconds": 1018.65
+}

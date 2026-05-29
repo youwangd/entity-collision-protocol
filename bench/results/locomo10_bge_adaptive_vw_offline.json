@@ -1,0 +1,77 @@
+{
+  "config": {
+    "source": "locomo_adaptive_vw",
+    "embedder": "BGE-large-1024",
+    "metric": "hit_at_1",
+    "n_queries": 1978,
+    "weights": [
+      0.0,
+      0.3,
+      0.5,
+      0.7
+    ]
+  },
+  "static_fixed_vw": {
+    "vw=0.0": 0.5394,
+    "vw=0.3": 0.5683,
+    "vw=0.5": 0.5703,
+    "vw=0.7": 0.5758
+  },
+  "oracle_per_query_best": 0.6744,
+  "static_best_vw": 0.7,
+  "static_best_hit_at_1": 0.5758,
+  "headroom_to_oracle": 0.0986,
+  "signal_verdicts": [
+    {
+      "signal": "raw_gap",
+      "metric": "hit_at_1",
+      "best_cell": {
+        "tau_q": 0.9,
+        "tau": 0.0108,
+        "vw_fb": 0.7
+      },
+      "adaptive_hit_at_1": 0.5723,
+      "delta_vs_static_best": {
+        "mean": -0.0035,
+        "ci_lo": -0.0101,
+        "ci_hi": 0.004
+      },
+      "useful": false,
+      "n_queries": 1978
+    },
+    {
+      "signal": "normalized_gap",
+      "metric": "hit_at_1",
+      "best_cell": {
+        "tau_q": 0.9,
+        "tau": 0.0635,
+        "vw_fb": 0.7
+      },
+      "adaptive_hit_at_1": 0.5723,
+      "delta_vs_static_best": {
+        "mean": -0.0035,
+        "ci_lo": -0.0101,
+        "ci_hi": 0.003
+      },
+      "useful": false,
+      "n_queries": 1978
+    },
+    {
+      "signal": "neg_crowdedness_95",
+      "metric": "hit_at_1",
+      "best_cell": {
+        "tau_q": 0.9,
+        "tau": -1,
+        "vw_fb": 0.7
+      },
+      "adaptive_hit_at_1": 0.5703,
+      "delta_vs_static_best": {
+        "mean": -0.0056,
+        "ci_lo": -0.0147,
+        "ci_hi": 0.0035
+      },
+      "useful": false,
+      "n_queries": 1978
+    }
+  ]
+}

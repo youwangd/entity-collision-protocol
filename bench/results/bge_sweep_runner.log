@@ -1,0 +1,117 @@
+[17:51:43] BGE-large sweep runner started
+[17:51:43] service: START
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 6960.04it/s]
+/local/home/dyouwang/projects/engram/src/engram/providers/embeddings.py:104: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self._dimension = self._model.get_sentence_embedding_dimension()
+
+=== K=1  n_mem=128 n_q=32 ===
+  bm25 hit@1=1.0 (1/K floor=1.0)  vec hit@1=1.0  Δhit@1=+0.0000  Δmrr=+0.0000
+
+=== K=2  n_mem=160 n_q=64 ===
+  bm25 hit@1=0.5 (1/K floor=0.5)  vec hit@1=0.5156  Δhit@1=+0.0156  Δmrr=+0.0078
+
+=== K=4  n_mem=224 n_q=128 ===
+  bm25 hit@1=0.25 (1/K floor=0.25)  vec hit@1=0.3672  Δhit@1=+0.1172  Δmrr=+0.0957
+
+=== K=8  n_mem=352 n_q=256 ===
+  bm25 hit@1=0.125 (1/K floor=0.125)  vec hit@1=0.2656  Δhit@1=+0.1406  Δmrr=+0.1373
+
+=== K=16  n_mem=608 n_q=512 ===
+  bm25 hit@1=0.0625 (1/K floor=0.0625)  vec hit@1=0.1973  Δhit@1=+0.1348  Δmrr=+0.1633
+
+[ec_sweep] wrote bench/results/ec_bge_large_service_n32_K16.json
+[17:55:03] service: DONE -> bench/results/ec_bge_large_service_n32_K16.json
+[17:55:03] tool: START
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 7368.21it/s]
+/local/home/dyouwang/projects/engram/src/engram/providers/embeddings.py:104: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self._dimension = self._model.get_sentence_embedding_dimension()
+
+=== K=1  n_mem=128 n_q=32 ===
+  bm25 hit@1=1.0 (1/K floor=1.0)  vec hit@1=1.0  Δhit@1=+0.0000  Δmrr=+0.0000
+
+=== K=2  n_mem=160 n_q=64 ===
+  bm25 hit@1=0.4844 (1/K floor=0.5)  vec hit@1=0.5  Δhit@1=+0.0156  Δmrr=+0.0078
+
+=== K=4  n_mem=224 n_q=128 ===
+  bm25 hit@1=0.2344 (1/K floor=0.25)  vec hit@1=0.3203  Δhit@1=+0.0859  Δmrr=+0.0847
+
+=== K=8  n_mem=352 n_q=256 ===
+  bm25 hit@1=0.1133 (1/K floor=0.125)  vec hit@1=0.1797  Δhit@1=+0.0664  Δmrr=+0.0948
+
+=== K=16  n_mem=608 n_q=512 ===
+  bm25 hit@1=0.0469 (1/K floor=0.0625)  vec hit@1=0.1035  Δhit@1=+0.0566  Δmrr=+0.1167
+
+[ec_sweep] wrote bench/results/ec_bge_large_tool_n32_K16.json
+[17:58:07] tool: DONE -> bench/results/ec_bge_large_tool_n32_K16.json
+[17:58:07] preference: START
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 6642.28it/s]
+/local/home/dyouwang/projects/engram/src/engram/providers/embeddings.py:104: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self._dimension = self._model.get_sentence_embedding_dimension()
+
+=== K=1  n_mem=128 n_q=32 ===
+  bm25 hit@1=1.0 (1/K floor=1.0)  vec hit@1=1.0  Δhit@1=+0.0000  Δmrr=+0.0000
+
+=== K=2  n_mem=160 n_q=64 ===
+  bm25 hit@1=0.5 (1/K floor=0.5)  vec hit@1=0.625  Δhit@1=+0.1250  Δmrr=+0.0625
+
+=== K=4  n_mem=224 n_q=128 ===
+  bm25 hit@1=0.25 (1/K floor=0.25)  vec hit@1=0.4453  Δhit@1=+0.1953  Δmrr=+0.1621
+
+=== K=8  n_mem=352 n_q=256 ===
+  bm25 hit@1=0.125 (1/K floor=0.125)  vec hit@1=0.2656  Δhit@1=+0.1406  Δmrr=+0.1673
+
+=== K=16  n_mem=608 n_q=512 ===
+  bm25 hit@1=0.0625 (1/K floor=0.0625)  vec hit@1=0.1992  Δhit@1=+0.1367  Δmrr=+0.1982
+
+[ec_sweep] wrote bench/results/ec_bge_large_preference_n32_K16.json
+[18:01:23] preference: DONE -> bench/results/ec_bge_large_preference_n32_K16.json
+[18:01:23] project: START
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 7437.15it/s]
+/local/home/dyouwang/projects/engram/src/engram/providers/embeddings.py:104: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self._dimension = self._model.get_sentence_embedding_dimension()
+
+=== K=1  n_mem=128 n_q=32 ===
+  bm25 hit@1=1.0 (1/K floor=1.0)  vec hit@1=1.0  Δhit@1=+0.0000  Δmrr=+0.0000
+
+=== K=2  n_mem=160 n_q=64 ===
+  bm25 hit@1=0.5 (1/K floor=0.5)  vec hit@1=0.6094  Δhit@1=+0.1094  Δmrr=+0.0547
+
+=== K=4  n_mem=224 n_q=128 ===
+  bm25 hit@1=0.25 (1/K floor=0.25)  vec hit@1=0.4531  Δhit@1=+0.2031  Δmrr=+0.1660
+
+=== K=8  n_mem=352 n_q=256 ===
+  bm25 hit@1=0.1055 (1/K floor=0.125)  vec hit@1=0.3086  Δhit@1=+0.2031  Δmrr=+0.2299
+
+=== K=16  n_mem=608 n_q=512 ===
+  bm25 hit@1=0.0488 (1/K floor=0.0625)  vec hit@1=0.166  Δhit@1=+0.1172  Δmrr=+0.2102
+
+[ec_sweep] wrote bench/results/ec_bge_large_project_n32_K16.json
+[18:04:30] project: DONE -> bench/results/ec_bge_large_project_n32_K16.json
+[18:04:30] technical: START
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 6720.24it/s]
+/local/home/dyouwang/projects/engram/src/engram/providers/embeddings.py:104: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self._dimension = self._model.get_sentence_embedding_dimension()
+
+=== K=1  n_mem=128 n_q=32 ===
+  bm25 hit@1=1.0 (1/K floor=1.0)  vec hit@1=1.0  Δhit@1=+0.0000  Δmrr=+0.0000
+
+=== K=2  n_mem=160 n_q=64 ===
+  bm25 hit@1=0.5 (1/K floor=0.5)  vec hit@1=0.5469  Δhit@1=+0.0469  Δmrr=+0.0234
+
+=== K=4  n_mem=224 n_q=128 ===
+  bm25 hit@1=0.25 (1/K floor=0.25)  vec hit@1=0.3516  Δhit@1=+0.1016  Δmrr=+0.1120
+
+=== K=8  n_mem=352 n_q=256 ===
+  bm25 hit@1=0.125 (1/K floor=0.125)  vec hit@1=0.1992  Δhit@1=+0.0742  Δmrr=+0.1218
+
+=== K=16  n_mem=608 n_q=512 ===
+  bm25 hit@1=0.0449 (1/K floor=0.0625)  vec hit@1=0.1055  Δhit@1=+0.0606  Δmrr=+0.1624
+
+[ec_sweep] wrote bench/results/ec_bge_large_technical_n32_K16.json
+[18:07:54] technical: DONE -> bench/results/ec_bge_large_technical_n32_K16.json
+[18:07:54] BGE-large sweep runner finished

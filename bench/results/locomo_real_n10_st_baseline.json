@@ -1,0 +1,8013 @@
+{
+  "n_samples": 5,
+  "n_questions": 999,
+  "n_questions_scored": 996,
+  "k": 10,
+  "vector_weight": null,
+  "embedder": "SentenceTransformer-MiniLM-384",
+  "n_memories_total": 2760,
+  "session_hit_at_1": 0.5311,
+  "session_hit_at_k": 0.8032,
+  "per_category_session_hit_at_1": {
+    "2": 0.1987,
+    "3": 0.3864,
+    "1": 0.4326,
+    "4": 0.6483,
+    "5": 0.6287
+  },
+  "per_category_session_hit_at_k": {
+    "2": 0.2692,
+    "3": 0.7955,
+    "1": 0.9149,
+    "4": 0.9091,
+    "5": 0.903
+  },
+  "per_category_n": {
+    "2": 156,
+    "3": 44,
+    "1": 141,
+    "4": 418,
+    "5": 237
+  },
+  "per_query": [
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "3",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "3",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "3",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "rank": 9,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1111111111111111
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "3",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "rank": 7,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.14285714285714285
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "3",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "3",
+      "rank": 9,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1111111111111111
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "3",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "3",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "3",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "3",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "3",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 8,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.125
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 8,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.125
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 9,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1111111111111111
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 10,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 9,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1111111111111111
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "1",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "1",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "1",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "1",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "1",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "1",
+      "rank": 9,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1111111111111111
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "1",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "1",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 7,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.14285714285714285
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 7,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.14285714285714285
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 9,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1111111111111111
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "rank": 8,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.125
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "rank": 9,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1111111111111111
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "2",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "1",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "1",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "1",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "3",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "1",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "3",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "1",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "3",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "1",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "1",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "1",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "1",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "1",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "1",
+      "rank": 9,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1111111111111111
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "1",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "1",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "1",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "3",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "1",
+      "rank": 10,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "3",
+      "rank": 8,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.125
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "2",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "3",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "1",
+      "rank": 9,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1111111111111111
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "3",
+      "rank": 8,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.125
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "1",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "2",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "3",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 8,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.125
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "2",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 7,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.14285714285714285
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 7,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.14285714285714285
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 8,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.125
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 10,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 9,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1111111111111111
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 8,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.125
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-41",
+      "category": "5",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "3",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "3",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 7,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.14285714285714285
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "3",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "3",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 7,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.14285714285714285
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 10,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "3",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 10,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "3",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "3",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "3",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 9,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1111111111111111
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "3",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "3",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "3",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 8,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.125
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 7,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.14285714285714285
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 9,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1111111111111111
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 9,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1111111111111111
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 7,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.14285714285714285
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 8,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.125
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 10,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 7,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.14285714285714285
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 8,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.125
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 8,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.125
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-42",
+      "category": "5",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "3",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "1",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "3",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "2",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "1",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "3",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "1",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "2",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "1",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "2",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "1",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "3",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "2",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "1",
+      "rank": 6,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "3",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "2",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "2",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "1",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "3",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "3",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "2",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "3",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "2",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "3",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "1",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "2",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "1",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "2",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "1",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "2",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "2",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "1",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "1",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "3",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "3",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "1",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "1",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "1",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "2",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "2",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "1",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "3",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "3",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "2",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "2",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "3",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 5,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "4",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 10,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.1
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 3,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 7,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.14285714285714285
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 0,
+      "hit_at_1": 0,
+      "hit_at_k": 0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 2,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 4,
+      "hit_at_1": 0,
+      "hit_at_k": 1,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "sample_id": "conv-43",
+      "category": "5",
+      "rank": 1,
+      "hit_at_1": 1,
+      "hit_at_k": 1,
+      "reciprocal_rank": 1.0
+    }
+  ],
+  "ingest_ms": {
+    "p50": 12486.22,
+    "mean": 10935.06,
+    "max": 13267.37
+  },
+  "recall_ms": {
+    "p50": 20.7,
+    "mean": 21.35,
+    "max": 164.75
+  },
+  "arm": "baseline"
+}

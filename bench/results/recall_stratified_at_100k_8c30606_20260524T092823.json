@@ -1,0 +1,18 @@
+{
+  "n_corpus": 100000,
+  "n_needles": 200,
+  "recall_at_1": 1.0,
+  "recall_at_10": 1.0,
+  "recall_latency_ms": {
+    "p50": 1.129,
+    "p95": 1.555,
+    "p99": 4.151,
+    "max": 23.646,
+    "mean": 1.414
+  },
+  "meta": {
+    "sha": "8c30606",
+    "timestamp": "20260524T092823",
+    "name": "recall_stratified_at_100k"
+  }
+}

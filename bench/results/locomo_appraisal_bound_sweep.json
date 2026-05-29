@@ -1,0 +1,76 @@
+{
+  "dataset": "bench/data/locomo10.json",
+  "max_instances": 2,
+  "k": 10,
+  "embedder": "hashtrigram",
+  "caps": [
+    null,
+    0.9,
+    0.7,
+    0.5,
+    0.3
+  ],
+  "rows": [
+    {
+      "appraisal_salience_cap": null,
+      "n_pairs": 301,
+      "delta_h1": 0.0764,
+      "delta_hk": 0.1528,
+      "delta_prk": 0.1395,
+      "delta_grk": 0.1461,
+      "delta_mrr": 0.0899,
+      "treatment_h1": 0.5349,
+      "treatment_grk": 0.8523,
+      "wall_seconds": 31.62
+    },
+    {
+      "appraisal_salience_cap": 0.9,
+      "n_pairs": 301,
+      "delta_h1": 0.0764,
+      "delta_hk": 0.1528,
+      "delta_prk": 0.1395,
+      "delta_grk": 0.1461,
+      "delta_mrr": 0.0899,
+      "treatment_h1": 0.5349,
+      "treatment_grk": 0.8523,
+      "wall_seconds": 31.55
+    },
+    {
+      "appraisal_salience_cap": 0.7,
+      "n_pairs": 301,
+      "delta_h1": 0.0797,
+      "delta_hk": 0.1528,
+      "delta_prk": 0.1395,
+      "delta_grk": 0.1461,
+      "delta_mrr": 0.0916,
+      "treatment_h1": 0.5382,
+      "treatment_grk": 0.8523,
+      "wall_seconds": 31.64
+    },
+    {
+      "appraisal_salience_cap": 0.5,
+      "n_pairs": 301,
+      "delta_h1": 0.0897,
+      "delta_hk": 0.1429,
+      "delta_prk": 0.1329,
+      "delta_grk": 0.1386,
+      "delta_mrr": 0.0952,
+      "treatment_h1": 0.5482,
+      "treatment_grk": 0.8448,
+      "wall_seconds": 31.95
+    },
+    {
+      "appraisal_salience_cap": 0.3,
+      "n_pairs": 301,
+      "delta_h1": 0.0864,
+      "delta_hk": 0.1528,
+      "delta_prk": 0.1429,
+      "delta_grk": 0.1466,
+      "delta_mrr": 0.097,
+      "treatment_h1": 0.5449,
+      "treatment_grk": 0.8528,
+      "wall_seconds": 31.59
+    }
+  ],
+  "wall_seconds": 158.47
+}

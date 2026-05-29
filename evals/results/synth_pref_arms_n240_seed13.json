@@ -1,0 +1,79 @@
+{
+  "n_memories": 2400,
+  "n_queries": 240,
+  "n_facts": 240,
+  "k": 10,
+  "seed": 13,
+  "arms": {
+    "baseline": {
+      "hit_at_1": 0.3208,
+      "hit_at_k": 0.9375,
+      "mrr": 0.5075,
+      "ingest_s": 1.52,
+      "recall_p50_ms": 7.516
+    },
+    "gated_pref": {
+      "hit_at_1": 0.2625,
+      "hit_at_k": 0.9208,
+      "mrr": 0.4489,
+      "ingest_s": 1.5,
+      "recall_p50_ms": 8.005
+    }
+  },
+  "paired": {
+    "hit_at_1": {
+      "baseline": {
+        "mean": 0.3208,
+        "ci_lo": 0.2625,
+        "ci_hi": 0.3792
+      },
+      "treatment": {
+        "mean": 0.2625,
+        "ci_lo": 0.2083,
+        "ci_hi": 0.3208
+      },
+      "delta": {
+        "mean": -0.0583,
+        "ci_lo": -0.0917,
+        "ci_hi": -0.025
+      },
+      "significant_at_05": true
+    },
+    "hit_at_k": {
+      "baseline": {
+        "mean": 0.9375,
+        "ci_lo": 0.9042,
+        "ci_hi": 0.9667
+      },
+      "treatment": {
+        "mean": 0.9208,
+        "ci_lo": 0.8833,
+        "ci_hi": 0.9542
+      },
+      "delta": {
+        "mean": -0.0167,
+        "ci_lo": -0.0333,
+        "ci_hi": -0.0042
+      },
+      "significant_at_05": true
+    },
+    "mrr": {
+      "baseline": {
+        "mean": 0.5075,
+        "ci_lo": 0.4598,
+        "ci_hi": 0.5536
+      },
+      "treatment": {
+        "mean": 0.4489,
+        "ci_lo": 0.4056,
+        "ci_hi": 0.494
+      },
+      "delta": {
+        "mean": -0.0586,
+        "ci_lo": -0.0847,
+        "ci_hi": -0.0347
+      },
+      "significant_at_05": true
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "config": {
+    "n_entities": 32,
+    "distractors": 3,
+    "k": 10,
+    "seed": 42,
+    "embed": "hash128",
+    "tag": "tool",
+    "vector_weight": 0.5,
+    "degrees": [
+      8
+    ]
+  },
+  "ci_config": {
+    "resamples": 5000,
+    "seed": 42
+  },
+  "rows": [
+    {
+      "collision_degree": 8,
+      "bm25_floor": 0.125,
+      "delta_hit_at_1": -0.0195,
+      "delta_mrr": -0.0171,
+      "bm25_only_summary": {
+        "n": 256,
+        "hit_at_1": {
+          "mean": 0.1133,
+          "ci_lo": 0.0781,
+          "ci_hi": 0.1523
+        },
+        "hit_at_k": {
+          "mean": 1.0,
+          "ci_lo": 1.0,
+          "ci_hi": 1.0
+        },
+        "mrr": {
+          "mean": 0.3329,
+          "ci_lo": 0.3019,
+          "ci_hi": 0.3663
+        }
+      },
+      "vector_fusion_summary": {
+        "n": 256,
+        "hit_at_1": {
+          "mean": 0.0938,
+          "ci_lo": 0.0586,
+          "ci_hi": 0.1289
+        },
+        "hit_at_k": {
+          "mean": 0.9648,
+          "ci_lo": 0.9414,
+          "ci_hi": 0.9844
+        },
+        "mrr": {
+          "mean": 0.3158,
+          "ci_lo": 0.286,
+          "ci_hi": 0.347
+        }
+      },
+      "delta_ci": {
+        "n": 256,
+        "hit_at_1": {
+          "mean": -0.0195,
+          "ci_lo": -0.0742,
+          "ci_hi": 0.0312
+        },
+        "hit_at_k": {
+          "mean": -0.0352,
+          "ci_lo": -0.0586,
+          "ci_hi": -0.0156
+        },
+        "mrr": {
+          "mean": -0.0171,
+          "ci_lo": -0.0614,
+          "ci_hi": 0.0254
+        }
+      }
+    }
+  ]
+}

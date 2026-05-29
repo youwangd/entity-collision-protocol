@@ -1,0 +1,50 @@
+{
+  "config": {
+    "n_sessions": 50,
+    "facts_per_session": 5,
+    "distractors_per_session": 30,
+    "seed": 42,
+    "k": 10,
+    "paraphrase": true,
+    "hard_distractors_per_fact": 0,
+    "embed": "hash"
+  },
+  "results": [
+    {
+      "variant": "baseline",
+      "description": "default config (all signals on)",
+      "n_memories": 1750,
+      "n_queries": 250,
+      "k": 10,
+      "hit_at_1": 0.484,
+      "hit_at_5": 0.788,
+      "hit_at_k": 0.912,
+      "mrr": 0.6222,
+      "ndcg_at_k": 0.6918,
+      "recall_p50_ms": 123.73,
+      "recall_p95_ms": 140.237,
+      "ingest_seconds": 15.731
+    },
+    {
+      "variant": "bm25_only",
+      "description": "naive RAG baseline: pure FTS5",
+      "n_memories": 1750,
+      "n_queries": 250,
+      "k": 10,
+      "hit_at_1": 0.46,
+      "hit_at_5": 0.828,
+      "hit_at_k": 0.98,
+      "mrr": 0.6223,
+      "ndcg_at_k": 0.7081,
+      "recall_p50_ms": 5.672,
+      "recall_p95_ms": 18.974,
+      "ingest_seconds": 1.033,
+      "delta_vs_baseline": {
+        "hit_at_1": -0.024,
+        "hit_at_k": 0.068,
+        "mrr": 0.0001,
+        "ndcg_at_k": 0.0163
+      }
+    }
+  ]
+}

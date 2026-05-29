@@ -1,0 +1,37 @@
+{
+  "n": 1000000,
+  "wall_seconds": 667.575,
+  "throughput_per_sec": 1498.0,
+  "latency_ms": {
+    "p50": 0.461,
+    "p95": 0.765,
+    "p99": 3.349,
+    "p999": 20.443,
+    "max": 117.051,
+    "mean": 0.666
+  },
+  "head_100k_p99_ms": 3.328,
+  "tail_100k_p99_ms": 3.341,
+  "status": {
+    "total_memories": 1000000,
+    "by_state": {
+      "active": 1000000,
+      "fading": 0,
+      "faded": 0,
+      "suppressed": 0
+    },
+    "by_type": {
+      "episode": 0,
+      "fact": 1000000,
+      "skill": 0,
+      "schema": 0
+    },
+    "pins": 0,
+    "buffer_events": 1000000
+  },
+  "meta": {
+    "sha": "cb9db19",
+    "timestamp": "20260523T182232",
+    "name": "ingest_1m"
+  }
+}

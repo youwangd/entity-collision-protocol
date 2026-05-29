@@ -1,0 +1,5553 @@
+{
+  "recipe": {
+    "schema_family_share": 0.75,
+    "schema_family_tau": 0.2,
+    "schema_family_fragmentation_max": 0.9021,
+    "schema_family_contamination_max": 0.15
+  },
+  "synthesis": false,
+  "n_samples": 2,
+  "n_pairs": 301,
+  "k": 10,
+  "embedder": "HashTrigram-256",
+  "wall_seconds": 30.13,
+  "baseline": {
+    "session_hit_at_1": 0.4585,
+    "session_hit_at_k": 0.7409,
+    "mean_reciprocal_rank": 0.5443
+  },
+  "treatment": {
+    "session_hit_at_1": 0.5349,
+    "session_hit_at_k": 0.8937,
+    "mean_reciprocal_rank": 0.6342
+  },
+  "delta": {
+    "session_hit_at_1": 0.0764,
+    "session_hit_at_k": 0.1528,
+    "mean_reciprocal_rank": 0.0899
+  },
+  "per_category": {
+    "2": {
+      "n": 63,
+      "dh1": 25,
+      "dhk": 47,
+      "drr": 31.136904761904763,
+      "mean_delta_h1": 0.3968,
+      "mean_delta_hk": 0.746,
+      "mean_delta_rr": 0.4942
+    },
+    "3": {
+      "n": 11,
+      "dh1": 0,
+      "dhk": -2,
+      "drr": -0.513095238095238,
+      "mean_delta_h1": 0.0,
+      "mean_delta_hk": -0.1818,
+      "mean_delta_rr": -0.0466
+    },
+    "1": {
+      "n": 42,
+      "dh1": -1,
+      "dhk": 1,
+      "drr": -1.0646825396825397,
+      "mean_delta_h1": -0.0238,
+      "mean_delta_hk": 0.0238,
+      "mean_delta_rr": -0.0253
+    },
+    "4": {
+      "n": 114,
+      "dh1": -1,
+      "dhk": 1,
+      "drr": -1.7757936507936516,
+      "mean_delta_h1": -0.0088,
+      "mean_delta_hk": 0.0088,
+      "mean_delta_rr": -0.0156
+    },
+    "5": {
+      "n": 71,
+      "dh1": 0,
+      "dhk": -1,
+      "drr": -0.7210317460317461,
+      "mean_delta_h1": 0.0,
+      "mean_delta_hk": -0.0141,
+      "mean_delta_rr": -0.0102
+    }
+  },
+  "consolidation_errors": [],
+  "per_query_pairs": [
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D1"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 1,
+      "baseline_h1": 0,
+      "treatment_h1": 1,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 1,
+      "delta_hk": 1,
+      "delta_rr": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D1"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 1,
+      "baseline_h1": 0,
+      "treatment_h1": 1,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 1,
+      "delta_hk": 1,
+      "delta_rr": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "3",
+      "gold_sessions": [
+        "D1"
+      ],
+      "baseline_rank": 6,
+      "treatment_rank": 0,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 0,
+      "baseline_rr": 0.16666666666666666,
+      "treatment_rr": 0.0,
+      "delta_h1": 0,
+      "delta_hk": -1,
+      "delta_rr": -0.16666666666666666
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "gold_sessions": [
+        "D2"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 0,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 0,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "gold_sessions": [
+        "D1"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 0,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 0,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D2"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 1,
+      "baseline_h1": 0,
+      "treatment_h1": 1,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 1,
+      "delta_hk": 1,
+      "delta_rr": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D2"
+      ],
+      "baseline_rank": 2,
+      "treatment_rank": 3,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.5,
+      "treatment_rr": 0.3333333333333333,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.16666666666666669
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "gold_sessions": [
+        "D2",
+        "D3"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 0,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 0,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D3"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 7,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.14285714285714285,
+      "delta_h1": 0,
+      "delta_hk": 1,
+      "delta_rr": 0.14285714285714285
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D3"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 1,
+      "baseline_h1": 0,
+      "treatment_h1": 1,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 1,
+      "delta_hk": 1,
+      "delta_rr": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D3"
+      ],
+      "baseline_rank": 2,
+      "treatment_rank": 4,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.5,
+      "treatment_rr": 0.25,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.25
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "gold_sessions": [
+        "D3",
+        "D4"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D4"
+      ],
+      "baseline_rank": 3,
+      "treatment_rank": 4,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.3333333333333333,
+      "treatment_rr": 0.25,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.08333333333333331
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "gold_sessions": [
+        "D1",
+        "D4"
+      ],
+      "baseline_rank": 2,
+      "treatment_rank": 3,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.5,
+      "treatment_rr": 0.3333333333333333,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.16666666666666669
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "3",
+      "gold_sessions": [
+        "D3",
+        "D4"
+      ],
+      "baseline_rank": 2,
+      "treatment_rank": 2,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.5,
+      "treatment_rr": 0.5,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "gold_sessions": [
+        "D1",
+        "D5",
+        "D9"
+      ],
+      "baseline_rank": 2,
+      "treatment_rank": 3,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.5,
+      "treatment_rr": 0.3333333333333333,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.16666666666666669
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D5"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 2,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.5,
+      "delta_h1": 0,
+      "delta_hk": 1,
+      "delta_rr": 0.5
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D5"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "gold_sessions": [
+        "D4",
+        "D6",
+        "D8"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 2,
+      "baseline_h1": 1,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 0.5,
+      "delta_h1": -1,
+      "delta_hk": 0,
+      "delta_rr": -0.5
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "gold_sessions": [
+        "D4",
+        "D6"
+      ],
+      "baseline_rank": 10,
+      "treatment_rank": 0,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 0,
+      "baseline_rr": 0.1,
+      "treatment_rr": 0.0,
+      "delta_h1": 0,
+      "delta_hk": -1,
+      "delta_rr": -0.1
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D6"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 1,
+      "baseline_h1": 0,
+      "treatment_h1": 1,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 1,
+      "delta_hk": 1,
+      "delta_rr": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D6"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 3,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.3333333333333333,
+      "delta_h1": 0,
+      "delta_hk": 1,
+      "delta_rr": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "3",
+      "gold_sessions": [
+        "D6"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "gold_sessions": [
+        "D6",
+        "D7"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "gold_sessions": [
+        "D5",
+        "D7"
+      ],
+      "baseline_rank": 8,
+      "treatment_rank": 2,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.125,
+      "treatment_rr": 0.5,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.375
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D7"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 2,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.5,
+      "delta_h1": 0,
+      "delta_hk": 1,
+      "delta_rr": 0.5
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D7"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 2,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.5,
+      "delta_h1": 0,
+      "delta_hk": 1,
+      "delta_rr": 0.5
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "3",
+      "gold_sessions": [
+        "D7"
+      ],
+      "baseline_rank": 10,
+      "treatment_rank": 7,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.1,
+      "treatment_rr": 0.14285714285714285,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.042857142857142844
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D8"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 1,
+      "baseline_h1": 0,
+      "treatment_h1": 1,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 1,
+      "delta_hk": 1,
+      "delta_rr": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D8"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 5,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.2,
+      "delta_h1": 0,
+      "delta_hk": 1,
+      "delta_rr": 0.2
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D4"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 3,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.3333333333333333,
+      "delta_h1": 0,
+      "delta_hk": 1,
+      "delta_rr": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "gold_sessions": [
+        "D1",
+        "D3",
+        "D5",
+        "D8"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D5"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 8,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.125,
+      "delta_h1": 0,
+      "delta_hk": 1,
+      "delta_rr": 0.125
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "gold_sessions": [
+        "D3",
+        "D9"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 0,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 0,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D9"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 0,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 0,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D9"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 1,
+      "baseline_h1": 0,
+      "treatment_h1": 1,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 1,
+      "delta_hk": 1,
+      "delta_rr": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "gold_sessions": [
+        "D1",
+        "D3",
+        "D6",
+        "D8",
+        "D9"
+      ],
+      "baseline_rank": 3,
+      "treatment_rank": 5,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.3333333333333333,
+      "treatment_rr": 0.2,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.1333333333333333
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "gold_sessions": [
+        "D10",
+        "D5",
+        "D9"
+      ],
+      "baseline_rank": 9,
+      "treatment_rank": 6,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.1111111111111111,
+      "treatment_rr": 0.16666666666666666,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.05555555555555555
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "gold_sessions": [
+        "D10",
+        "D6"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D10"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 1,
+      "baseline_h1": 0,
+      "treatment_h1": 1,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 1,
+      "delta_hk": 1,
+      "delta_rr": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "3",
+      "gold_sessions": [
+        "D10"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 0,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 0,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "gold_sessions": [
+        "D11",
+        "D9"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 0,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 0,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D11"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D11"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 3,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.3333333333333333,
+      "delta_h1": 0,
+      "delta_hk": 1,
+      "delta_rr": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "gold_sessions": [
+        "D12",
+        "D3"
+      ],
+      "baseline_rank": 2,
+      "treatment_rank": 4,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.5,
+      "treatment_rr": 0.25,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.25
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "gold_sessions": [
+        "D12",
+        "D5",
+        "D8"
+      ],
+      "baseline_rank": 2,
+      "treatment_rank": 3,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.5,
+      "treatment_rr": 0.3333333333333333,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.16666666666666669
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D12"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 0,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 0,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "3",
+      "gold_sessions": [
+        "D12"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 0,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 0,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "gold_sessions": [
+        "D1",
+        "D13",
+        "D8"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "gold_sessions": [
+        "D13",
+        "D7"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D13"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 1,
+      "baseline_h1": 0,
+      "treatment_h1": 1,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 1,
+      "delta_hk": 1,
+      "delta_rr": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D13"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 2,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.5,
+      "delta_h1": 0,
+      "delta_hk": 1,
+      "delta_rr": 0.5
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "gold_sessions": [
+        "D14",
+        "D8"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 8,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.125,
+      "delta_h1": 0,
+      "delta_hk": 1,
+      "delta_rr": 0.125
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "gold_sessions": [
+        "D14",
+        "D4"
+      ],
+      "baseline_rank": 9,
+      "treatment_rank": 9,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.1111111111111111,
+      "treatment_rr": 0.1111111111111111,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D14"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 7,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.14285714285714285,
+      "delta_h1": 0,
+      "delta_hk": 1,
+      "delta_rr": 0.14285714285714285
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D14"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 1,
+      "baseline_h1": 0,
+      "treatment_h1": 1,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 1,
+      "delta_hk": 1,
+      "delta_rr": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "3",
+      "gold_sessions": [
+        "D12",
+        "D14"
+      ],
+      "baseline_rank": 4,
+      "treatment_rank": 5,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.25,
+      "treatment_rr": 0.2,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.04999999999999999
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "gold_sessions": [
+        "D15",
+        "D2"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "gold_sessions": [
+        "D11",
+        "D15"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D15"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 4,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.25,
+      "delta_h1": 0,
+      "delta_hk": 1,
+      "delta_rr": 0.25
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D15"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "3",
+      "gold_sessions": [
+        "D15"
+      ],
+      "baseline_rank": 4,
+      "treatment_rank": 7,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.25,
+      "treatment_rr": 0.14285714285714285,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.10714285714285715
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "gold_sessions": [
+        "D11",
+        "D16"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "gold_sessions": [
+        "D10",
+        "D16"
+      ],
+      "baseline_rank": 7,
+      "treatment_rank": 5,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.14285714285714285,
+      "treatment_rr": 0.2,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.05714285714285716
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D16"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 2,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.5,
+      "delta_h1": 0,
+      "delta_hk": 1,
+      "delta_rr": 0.5
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D16"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "3",
+      "gold_sessions": [
+        "D13",
+        "D16",
+        "D7"
+      ],
+      "baseline_rank": 4,
+      "treatment_rank": 7,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.25,
+      "treatment_rr": 0.14285714285714285,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.10714285714285715
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "gold_sessions": [
+        "D15",
+        "D17"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "gold_sessions": [
+        "D17",
+        "D7"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D17"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 1,
+      "baseline_h1": 0,
+      "treatment_h1": 1,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 1,
+      "delta_hk": 1,
+      "delta_rr": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D17"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 3,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.3333333333333333,
+      "delta_h1": 0,
+      "delta_hk": 1,
+      "delta_rr": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D18"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 4,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.25,
+      "delta_h1": 0,
+      "delta_hk": 1,
+      "delta_rr": 0.25
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "gold_sessions": [
+        "D18"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 0,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 0,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "gold_sessions": [
+        "D18"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 1,
+      "baseline_h1": 0,
+      "treatment_h1": 1,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 1,
+      "delta_hk": 1,
+      "delta_rr": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "3",
+      "gold_sessions": [
+        "D18"
+      ],
+      "baseline_rank": 5,
+      "treatment_rank": 5,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.2,
+      "treatment_rr": 0.2,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "1",
+      "gold_sessions": [
+        "D19",
+        "D7"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 8,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.125,
+      "delta_h1": 0,
+      "delta_hk": 1,
+      "delta_rr": 0.125
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D19"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 1,
+      "baseline_h1": 0,
+      "treatment_h1": 1,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 1,
+      "delta_hk": 1,
+      "delta_rr": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "2",
+      "gold_sessions": [
+        "D19"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 1,
+      "baseline_h1": 0,
+      "treatment_h1": 1,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 1,
+      "delta_hk": 1,
+      "delta_rr": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "3",
+      "gold_sessions": [
+        "D19"
+      ],
+      "baseline_rank": 8,
+      "treatment_rank": 0,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 0,
+      "baseline_rr": 0.125,
+      "treatment_rr": 0.0,
+      "delta_h1": 0,
+      "delta_hk": -1,
+      "delta_rr": -0.125
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D2"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D2"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D2"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D2"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D2"
+      ],
+      "baseline_rank": 2,
+      "treatment_rank": 3,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.5,
+      "treatment_rr": 0.3333333333333333,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.16666666666666669
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D2"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D2"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D2"
+      ],
+      "baseline_rank": 6,
+      "treatment_rank": 6,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.16666666666666666,
+      "treatment_rr": 0.16666666666666666,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D3"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D4"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D4"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D4"
+      ],
+      "baseline_rank": 5,
+      "treatment_rank": 8,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.2,
+      "treatment_rr": 0.125,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.07500000000000001
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D4"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 5,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.2,
+      "delta_h1": 0,
+      "delta_hk": 1,
+      "delta_rr": 0.2
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D4"
+      ],
+      "baseline_rank": 5,
+      "treatment_rank": 7,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.2,
+      "treatment_rr": 0.14285714285714285,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.05714285714285716
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D4"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D4"
+      ],
+      "baseline_rank": 6,
+      "treatment_rank": 10,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.16666666666666666,
+      "treatment_rr": 0.1,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.06666666666666665
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D4"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D4"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D4"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D5"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D6"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D6"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D7"
+      ],
+      "baseline_rank": 2,
+      "treatment_rank": 3,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.5,
+      "treatment_rr": 0.3333333333333333,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.16666666666666669
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D7"
+      ],
+      "baseline_rank": 2,
+      "treatment_rank": 3,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.5,
+      "treatment_rr": 0.3333333333333333,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.16666666666666669
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D7"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D7"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D7"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D8"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D8"
+      ],
+      "baseline_rank": 5,
+      "treatment_rank": 9,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.2,
+      "treatment_rr": 0.1111111111111111,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.0888888888888889
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D8"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D8"
+      ],
+      "baseline_rank": 2,
+      "treatment_rank": 3,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.5,
+      "treatment_rr": 0.3333333333333333,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.16666666666666669
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D8"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D8"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D8"
+      ],
+      "baseline_rank": 2,
+      "treatment_rank": 3,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.5,
+      "treatment_rr": 0.3333333333333333,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.16666666666666669
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D9"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D10"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 0,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 0,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D10"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D10"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D11"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 2,
+      "baseline_h1": 1,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 0.5,
+      "delta_h1": -1,
+      "delta_hk": 0,
+      "delta_rr": -0.5
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D11"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D12"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 0,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 0,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D13"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 0,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 0,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D13"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D13"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D13"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 9,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.1111111111111111,
+      "delta_h1": 0,
+      "delta_hk": 1,
+      "delta_rr": 0.1111111111111111
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D14"
+      ],
+      "baseline_rank": 5,
+      "treatment_rank": 7,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.2,
+      "treatment_rr": 0.14285714285714285,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.05714285714285716
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D14"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 2,
+      "baseline_h1": 1,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 0.5,
+      "delta_h1": -1,
+      "delta_hk": 0,
+      "delta_rr": -0.5
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D15"
+      ],
+      "baseline_rank": 3,
+      "treatment_rank": 5,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.3333333333333333,
+      "treatment_rr": 0.2,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.1333333333333333
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D15"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D15"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D16"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D16"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D17"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D17"
+      ],
+      "baseline_rank": 3,
+      "treatment_rank": 7,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.3333333333333333,
+      "treatment_rr": 0.14285714285714285,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.19047619047619047
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D17"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D17"
+      ],
+      "baseline_rank": 6,
+      "treatment_rank": 5,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.16666666666666666,
+      "treatment_rr": 0.2,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.033333333333333354
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D17"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 0,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 0,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D17"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D17"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D17"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 0,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 0,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D17"
+      ],
+      "baseline_rank": 4,
+      "treatment_rank": 7,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.25,
+      "treatment_rr": 0.14285714285714285,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.10714285714285715
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D18"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 1,
+      "baseline_h1": 0,
+      "treatment_h1": 1,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 1,
+      "delta_hk": 1,
+      "delta_rr": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D18"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D18"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D18"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D18"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D18"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D18"
+      ],
+      "baseline_rank": 8,
+      "treatment_rank": 0,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 0,
+      "baseline_rr": 0.125,
+      "treatment_rr": 0.0,
+      "delta_h1": 0,
+      "delta_hk": -1,
+      "delta_rr": -0.125
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D18"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 0,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 0,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "4",
+      "gold_sessions": [
+        "D18"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D2"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D2"
+      ],
+      "baseline_rank": 3,
+      "treatment_rank": 6,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.3333333333333333,
+      "treatment_rr": 0.16666666666666666,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.16666666666666666
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D2"
+      ],
+      "baseline_rank": 2,
+      "treatment_rank": 3,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.5,
+      "treatment_rr": 0.3333333333333333,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.16666666666666669
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D2"
+      ],
+      "baseline_rank": 3,
+      "treatment_rank": 4,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.3333333333333333,
+      "treatment_rr": 0.25,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.08333333333333331
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D2"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D4"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D4"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D4"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 2,
+      "baseline_h1": 1,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 0.5,
+      "delta_h1": -1,
+      "delta_hk": 0,
+      "delta_rr": -0.5
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D4"
+      ],
+      "baseline_rank": 4,
+      "treatment_rank": 6,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.25,
+      "treatment_rr": 0.16666666666666666,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.08333333333333334
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D4"
+      ],
+      "baseline_rank": 7,
+      "treatment_rank": 2,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.14285714285714285,
+      "treatment_rr": 0.5,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.35714285714285715
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D4"
+      ],
+      "baseline_rank": 9,
+      "treatment_rank": 0,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 0,
+      "baseline_rr": 0.1111111111111111,
+      "treatment_rr": 0.0,
+      "delta_h1": 0,
+      "delta_hk": -1,
+      "delta_rr": -0.1111111111111111
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D4"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D4"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D4"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D4"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D5"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D7"
+      ],
+      "baseline_rank": 4,
+      "treatment_rank": 4,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.25,
+      "treatment_rr": 0.25,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D7"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D7"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D8"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D9"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D9"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D10"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 0,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 0,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D10"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D10"
+      ],
+      "baseline_rank": 2,
+      "treatment_rank": 2,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.5,
+      "treatment_rr": 0.5,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D12"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 0,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 0,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D13"
+      ],
+      "baseline_rank": 5,
+      "treatment_rank": 0,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 0,
+      "baseline_rr": 0.2,
+      "treatment_rr": 0.0,
+      "delta_h1": 0,
+      "delta_hk": -1,
+      "delta_rr": -0.2
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D13"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D13"
+      ],
+      "baseline_rank": 10,
+      "treatment_rank": 7,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.1,
+      "treatment_rr": 0.14285714285714285,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.042857142857142844
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D14"
+      ],
+      "baseline_rank": 2,
+      "treatment_rank": 3,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.5,
+      "treatment_rr": 0.3333333333333333,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.16666666666666669
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D14"
+      ],
+      "baseline_rank": 2,
+      "treatment_rank": 2,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.5,
+      "treatment_rr": 0.5,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D15"
+      ],
+      "baseline_rank": 5,
+      "treatment_rank": 4,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.2,
+      "treatment_rr": 0.25,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.04999999999999999
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D15"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D15"
+      ],
+      "baseline_rank": 2,
+      "treatment_rank": 1,
+      "baseline_h1": 0,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.5,
+      "treatment_rr": 1.0,
+      "delta_h1": 1,
+      "delta_hk": 0,
+      "delta_rr": 0.5
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D15"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D16"
+      ],
+      "baseline_rank": 2,
+      "treatment_rank": 3,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.5,
+      "treatment_rr": 0.3333333333333333,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.16666666666666669
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D17"
+      ],
+      "baseline_rank": 5,
+      "treatment_rank": 7,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.2,
+      "treatment_rr": 0.14285714285714285,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.05714285714285716
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D17"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D17"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D18"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 1,
+      "baseline_h1": 0,
+      "treatment_h1": 1,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 1,
+      "delta_hk": 1,
+      "delta_rr": 1.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D18"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D18"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D18"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D18"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D18"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 2,
+      "baseline_h1": 1,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 0.5,
+      "delta_h1": -1,
+      "delta_hk": 0,
+      "delta_rr": -0.5
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D18"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-26",
+      "category": "5",
+      "gold_sessions": [
+        "D18"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "gold_sessions": [
+        "D1"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "gold_sessions": [
+        "D1"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D1"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 0,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 0,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "1",
+      "gold_sessions": [
+        "D1",
+        "D2"
+      ],
+      "baseline_rank": 7,
+      "treatment_rank": 4,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.14285714285714285,
+      "treatment_rr": 0.25,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.10714285714285715
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D1"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "1",
+      "gold_sessions": [
+        "D1",
+        "D2"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "gold_sessions": [
+        "D1"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "gold_sessions": [
+        "D2"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 1,
+      "baseline_h1": 0,
+      "treatment_h1": 1,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 1,
+      "delta_hk": 1,
+      "delta_rr": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "gold_sessions": [
+        "D2"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 2,
+      "baseline_h1": 1,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 0.5,
+      "delta_h1": -1,
+      "delta_hk": 0,
+      "delta_rr": -0.5
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "1",
+      "gold_sessions": [
+        "D15",
+        "D2"
+      ],
+      "baseline_rank": 3,
+      "treatment_rank": 5,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.3333333333333333,
+      "treatment_rr": 0.2,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.1333333333333333
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "gold_sessions": [
+        "D5"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 1,
+      "baseline_h1": 0,
+      "treatment_h1": 1,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 1,
+      "delta_hk": 1,
+      "delta_rr": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "gold_sessions": [
+        "D5"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 3,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.3333333333333333,
+      "delta_h1": 0,
+      "delta_hk": 1,
+      "delta_rr": 0.3333333333333333
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "gold_sessions": [
+        "D6"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 1,
+      "baseline_h1": 0,
+      "treatment_h1": 1,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 1,
+      "delta_hk": 1,
+      "delta_rr": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "gold_sessions": [
+        "D6"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 4,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.25,
+      "delta_h1": 0,
+      "delta_hk": 1,
+      "delta_rr": 0.25
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "gold_sessions": [
+        "D8"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 1,
+      "baseline_h1": 0,
+      "treatment_h1": 1,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 1,
+      "delta_hk": 1,
+      "delta_rr": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "gold_sessions": [
+        "D8"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 1,
+      "baseline_h1": 0,
+      "treatment_h1": 1,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 1,
+      "delta_hk": 1,
+      "delta_rr": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "gold_sessions": [
+        "D10"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 6,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.16666666666666666,
+      "delta_h1": 0,
+      "delta_hk": 1,
+      "delta_rr": 0.16666666666666666
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "1",
+      "gold_sessions": [
+        "D1",
+        "D6"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 0,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 0,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "1",
+      "gold_sessions": [
+        "D1",
+        "D6"
+      ],
+      "baseline_rank": 2,
+      "treatment_rank": 4,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.5,
+      "treatment_rr": 0.25,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.25
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "gold_sessions": [
+        "D11"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 1,
+      "baseline_h1": 0,
+      "treatment_h1": 1,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 1,
+      "delta_hk": 1,
+      "delta_rr": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "gold_sessions": [
+        "D12"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 1,
+      "baseline_h1": 0,
+      "treatment_h1": 1,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 1,
+      "delta_hk": 1,
+      "delta_rr": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "gold_sessions": [
+        "D12"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 1,
+      "baseline_h1": 0,
+      "treatment_h1": 1,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 1,
+      "delta_hk": 1,
+      "delta_rr": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "gold_sessions": [
+        "D13"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "1",
+      "gold_sessions": [
+        "D13",
+        "D16",
+        "D5",
+        "D8"
+      ],
+      "baseline_rank": 6,
+      "treatment_rank": 10,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.16666666666666666,
+      "treatment_rr": 0.1,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.06666666666666665
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "1",
+      "gold_sessions": [
+        "D10",
+        "D16",
+        "D8"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "1",
+      "gold_sessions": [
+        "D13",
+        "D8"
+      ],
+      "baseline_rank": 2,
+      "treatment_rank": 2,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.5,
+      "treatment_rr": 0.5,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "gold_sessions": [
+        "D14"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 10,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.1,
+      "delta_h1": 0,
+      "delta_hk": 1,
+      "delta_rr": 0.1
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "1",
+      "gold_sessions": [
+        "D1",
+        "D14",
+        "D9"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "gold_sessions": [
+        "D15"
+      ],
+      "baseline_rank": 3,
+      "treatment_rank": 7,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.3333333333333333,
+      "treatment_rr": 0.14285714285714285,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.19047619047619047
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "1",
+      "gold_sessions": [
+        "D15",
+        "D2"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 6,
+      "baseline_h1": 1,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 0.16666666666666666,
+      "delta_h1": -1,
+      "delta_hk": 0,
+      "delta_rr": -0.8333333333333334
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "gold_sessions": [
+        "D15"
+      ],
+      "baseline_rank": 2,
+      "treatment_rank": 3,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.5,
+      "treatment_rr": 0.3333333333333333,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.16666666666666669
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "1",
+      "gold_sessions": [
+        "D1",
+        "D15"
+      ],
+      "baseline_rank": 7,
+      "treatment_rank": 0,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 0,
+      "baseline_rr": 0.14285714285714285,
+      "treatment_rr": 0.0,
+      "delta_h1": 0,
+      "delta_hk": -1,
+      "delta_rr": -0.14285714285714285
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "gold_sessions": [
+        "D16"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 1,
+      "baseline_h1": 0,
+      "treatment_h1": 1,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 1,
+      "delta_hk": 1,
+      "delta_rr": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "gold_sessions": [
+        "D16"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 2,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.5,
+      "delta_h1": 0,
+      "delta_hk": 1,
+      "delta_rr": 0.5
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "gold_sessions": [
+        "D17"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 1,
+      "baseline_h1": 0,
+      "treatment_h1": 1,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 1,
+      "delta_hk": 1,
+      "delta_rr": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "gold_sessions": [
+        "D17"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 5,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.2,
+      "delta_h1": 0,
+      "delta_hk": 1,
+      "delta_rr": 0.2
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "gold_sessions": [
+        "D18"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 1,
+      "baseline_h1": 0,
+      "treatment_h1": 1,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 1,
+      "delta_hk": 1,
+      "delta_rr": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "gold_sessions": [
+        "D19"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 1,
+      "baseline_h1": 0,
+      "treatment_h1": 1,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 1,
+      "delta_hk": 1,
+      "delta_rr": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "2",
+      "gold_sessions": [
+        "D19"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 1,
+      "baseline_h1": 0,
+      "treatment_h1": 1,
+      "baseline_hk": 0,
+      "treatment_hk": 1,
+      "baseline_rr": 0.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 1,
+      "delta_hk": 1,
+      "delta_rr": 1.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D1"
+      ],
+      "baseline_rank": 9,
+      "treatment_rank": 10,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.1111111111111111,
+      "treatment_rr": 0.1,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.0111111111111111
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D1"
+      ],
+      "baseline_rank": 6,
+      "treatment_rank": 6,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.16666666666666666,
+      "treatment_rr": 0.16666666666666666,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D1"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D1"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D1"
+      ],
+      "baseline_rank": 2,
+      "treatment_rank": 3,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.5,
+      "treatment_rr": 0.3333333333333333,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.16666666666666669
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D1"
+      ],
+      "baseline_rank": 10,
+      "treatment_rank": 10,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.1,
+      "treatment_rr": 0.1,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D1"
+      ],
+      "baseline_rank": 4,
+      "treatment_rank": 5,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.25,
+      "treatment_rr": 0.2,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.04999999999999999
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D2"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D3"
+      ],
+      "baseline_rank": 5,
+      "treatment_rank": 5,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.2,
+      "treatment_rr": 0.2,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D3"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 0,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 0,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D3"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D3"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 0,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 0,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D3"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D3"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D3"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D4"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D5"
+      ],
+      "baseline_rank": 2,
+      "treatment_rank": 2,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.5,
+      "treatment_rr": 0.5,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D6"
+      ],
+      "baseline_rank": 4,
+      "treatment_rank": 6,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.25,
+      "treatment_rr": 0.16666666666666666,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.08333333333333334
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D7"
+      ],
+      "baseline_rank": 3,
+      "treatment_rank": 2,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.3333333333333333,
+      "treatment_rr": 0.5,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.16666666666666669
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D8"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D8"
+      ],
+      "baseline_rank": 2,
+      "treatment_rank": 3,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.5,
+      "treatment_rr": 0.3333333333333333,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.16666666666666669
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D9"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 0,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 0,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D9"
+      ],
+      "baseline_rank": 2,
+      "treatment_rank": 4,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.5,
+      "treatment_rr": 0.25,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.25
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D10"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D12"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D12"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D12"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D13"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D13"
+      ],
+      "baseline_rank": 8,
+      "treatment_rank": 1,
+      "baseline_h1": 0,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.125,
+      "treatment_rr": 1.0,
+      "delta_h1": 1,
+      "delta_hk": 0,
+      "delta_rr": 0.875
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D14"
+      ],
+      "baseline_rank": 0,
+      "treatment_rank": 0,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 0,
+      "treatment_hk": 0,
+      "baseline_rr": 0.0,
+      "treatment_rr": 0.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D15"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D15"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D15"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 2,
+      "baseline_h1": 1,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 0.5,
+      "delta_h1": -1,
+      "delta_hk": 0,
+      "delta_rr": -0.5
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D15"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D15"
+      ],
+      "baseline_rank": 8,
+      "treatment_rank": 0,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 0,
+      "baseline_rr": 0.125,
+      "treatment_rr": 0.0,
+      "delta_h1": 0,
+      "delta_hk": -1,
+      "delta_rr": -0.125
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D15"
+      ],
+      "baseline_rank": 2,
+      "treatment_rank": 2,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.5,
+      "treatment_rr": 0.5,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D15"
+      ],
+      "baseline_rank": 5,
+      "treatment_rank": 4,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.2,
+      "treatment_rr": 0.25,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.04999999999999999
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D15"
+      ],
+      "baseline_rank": 2,
+      "treatment_rank": 2,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.5,
+      "treatment_rr": 0.5,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D16"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D17"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "gold_sessions": [
+        "D18"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D18"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "4",
+      "gold_sessions": [
+        "D18"
+      ],
+      "baseline_rank": 4,
+      "treatment_rank": 8,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.25,
+      "treatment_rr": 0.125,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.125
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "gold_sessions": [
+        "D1"
+      ],
+      "baseline_rank": 7,
+      "treatment_rank": 8,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.14285714285714285,
+      "treatment_rr": 0.125,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.01785714285714285
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "gold_sessions": [
+        "D1"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "gold_sessions": [
+        "D1"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "gold_sessions": [
+        "D1"
+      ],
+      "baseline_rank": 4,
+      "treatment_rank": 7,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.25,
+      "treatment_rr": 0.14285714285714285,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.10714285714285715
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "gold_sessions": [
+        "D2"
+      ],
+      "baseline_rank": 2,
+      "treatment_rank": 3,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.5,
+      "treatment_rr": 0.3333333333333333,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.16666666666666669
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "gold_sessions": [
+        "D3"
+      ],
+      "baseline_rank": 5,
+      "treatment_rank": 9,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.2,
+      "treatment_rr": 0.1111111111111111,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.0888888888888889
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "gold_sessions": [
+        "D3"
+      ],
+      "baseline_rank": 4,
+      "treatment_rank": 9,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.25,
+      "treatment_rr": 0.1111111111111111,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.1388888888888889
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "gold_sessions": [
+        "D3"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "gold_sessions": [
+        "D3"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "gold_sessions": [
+        "D4"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "gold_sessions": [
+        "D5"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "gold_sessions": [
+        "D8"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "gold_sessions": [
+        "D8"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 2,
+      "baseline_h1": 1,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 0.5,
+      "delta_h1": -1,
+      "delta_hk": 0,
+      "delta_rr": -0.5
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "gold_sessions": [
+        "D9"
+      ],
+      "baseline_rank": 2,
+      "treatment_rank": 4,
+      "baseline_h1": 0,
+      "treatment_h1": 0,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.5,
+      "treatment_rr": 0.25,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": -0.25
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "gold_sessions": [
+        "D12"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "gold_sessions": [
+        "D12"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "gold_sessions": [
+        "D12"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "gold_sessions": [
+        "D12"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "gold_sessions": [
+        "D13"
+      ],
+      "baseline_rank": 5,
+      "treatment_rank": 1,
+      "baseline_h1": 0,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 0.2,
+      "treatment_rr": 1.0,
+      "delta_h1": 1,
+      "delta_hk": 0,
+      "delta_rr": 0.8
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "gold_sessions": [
+        "D15"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "gold_sessions": [
+        "D16"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "gold_sessions": [
+        "D18"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    },
+    {
+      "sample_id": "conv-30",
+      "category": "5",
+      "gold_sessions": [
+        "D18"
+      ],
+      "baseline_rank": 1,
+      "treatment_rank": 1,
+      "baseline_h1": 1,
+      "treatment_h1": 1,
+      "baseline_hk": 1,
+      "treatment_hk": 1,
+      "baseline_rr": 1.0,
+      "treatment_rr": 1.0,
+      "delta_h1": 0,
+      "delta_hk": 0,
+      "delta_rr": 0.0
+    }
+  ]
+}

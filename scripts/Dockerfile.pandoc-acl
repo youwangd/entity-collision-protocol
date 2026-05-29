@@ -1,0 +1,16 @@
+FROM pandoc/extra:latest
+# pandoc/extra ships pandoc + a richer TeX Live (vs the minimal pandoc/latex).
+# We still patch in a few CTAN packages that even 'extra' doesn't ship.
+
+RUN tlmgr update --self || true && \
+    tlmgr install \
+      lineno inconsolata microtype tabu varwidth colortbl \
+      threeparttable multirow wrapfig booktabs longtable \
+      pdflscape enumitem soul lipsum preprint titling \
+      hyperref epstopdf pdfpages placeins \
+      helvetic times psnfss courier symbol zapfding \
+      xkeyval kvoptions etoolbox infwarerr ltxcmds \
+      kvsetkeys generic-misc \
+      tex-gyre tex-gyre-math newunicodechar seqsplit url \
+      collection-fontsrecommended \
+      || true

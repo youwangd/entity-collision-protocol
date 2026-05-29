@@ -1,0 +1,2547 @@
+{
+  "config": {
+    "n_entities": 8,
+    "distractors": 2,
+    "k": 10,
+    "seed": 42,
+    "embed": "st",
+    "tag": "project",
+    "vector_weight": 0.5,
+    "degrees": [
+      1,
+      2,
+      4,
+      8
+    ]
+  },
+  "sweep": [
+    {
+      "collision_degree": 1,
+      "bm25_floor": 1.0,
+      "bm25_only": {
+        "vector_weight": 0.0,
+        "n_memories": 24,
+        "n_queries": 8,
+        "k": 10,
+        "hit_at_1": 1.0,
+        "hit_at_k": 1.0,
+        "mrr": 1.0,
+        "recall_p50_ms": 1.393,
+        "ingest_seconds": 0.012,
+        "per_query": [
+          {
+            "query": "which initiative of alice aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.78
+          },
+          {
+            "query": "which initiative of bob aims to tighten access?",
+            "tag": "project",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.354
+          },
+          {
+            "query": "which initiative of carol aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.348
+          },
+          {
+            "query": "which initiative of dave aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.379
+          },
+          {
+            "query": "which initiative of eve aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.48
+          },
+          {
+            "query": "which initiative of frank aims to acquire customers?",
+            "tag": "project",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.408
+          },
+          {
+            "query": "which initiative of grace aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.797
+          },
+          {
+            "query": "which initiative of henry aims to speed up engineers?",
+            "tag": "project",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.036
+          }
+        ]
+      },
+      "vector_fusion": {
+        "vector_weight": 0.5,
+        "n_memories": 24,
+        "n_queries": 8,
+        "k": 10,
+        "hit_at_1": 1.0,
+        "hit_at_k": 1.0,
+        "mrr": 1.0,
+        "recall_p50_ms": 13.752,
+        "ingest_seconds": 0.435,
+        "per_query": [
+          {
+            "query": "which initiative of alice aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 14.833
+          },
+          {
+            "query": "which initiative of bob aims to tighten access?",
+            "tag": "project",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 13.481
+          },
+          {
+            "query": "which initiative of carol aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 14.169
+          },
+          {
+            "query": "which initiative of dave aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 14.031
+          },
+          {
+            "query": "which initiative of eve aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 13.546
+          },
+          {
+            "query": "which initiative of frank aims to acquire customers?",
+            "tag": "project",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 13.825
+          },
+          {
+            "query": "which initiative of grace aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 13.679
+          },
+          {
+            "query": "which initiative of henry aims to speed up engineers?",
+            "tag": "project",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 13.233
+          }
+        ]
+      },
+      "delta_hit_at_1": 0.0,
+      "delta_mrr": 0.0
+    },
+    {
+      "collision_degree": 2,
+      "bm25_floor": 0.5,
+      "bm25_only": {
+        "vector_weight": 0.0,
+        "n_memories": 32,
+        "n_queries": 16,
+        "k": 10,
+        "hit_at_1": 0.5,
+        "hit_at_k": 1.0,
+        "mrr": 0.75,
+        "recall_p50_ms": 1.629,
+        "ingest_seconds": 0.015,
+        "per_query": [
+          {
+            "query": "which initiative of alice aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.86
+          },
+          {
+            "query": "which initiative of alice aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 1.572
+          },
+          {
+            "query": "which initiative of bob aims to improve uptime?",
+            "tag": "project",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.505
+          },
+          {
+            "query": "which initiative of bob aims to clean up records?",
+            "tag": "project",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 1.583
+          },
+          {
+            "query": "which initiative of carol aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 1.674
+          },
+          {
+            "query": "which initiative of carol aims to speed up engineers?",
+            "tag": "project",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.707
+          },
+          {
+            "query": "which initiative of dave aims to tighten access?",
+            "tag": "project",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.05
+          },
+          {
+            "query": "which initiative of dave aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.376
+          },
+          {
+            "query": "which initiative of eve aims to tighten access?",
+            "tag": "project",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.471
+          },
+          {
+            "query": "which initiative of eve aims to clean up records?",
+            "tag": "project",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 1.495
+          },
+          {
+            "query": "which initiative of frank aims to tighten access?",
+            "tag": "project",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.558
+          },
+          {
+            "query": "which initiative of frank aims to match desktop features?",
+            "tag": "project",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 1.689
+          },
+          {
+            "query": "which initiative of grace aims to improve uptime?",
+            "tag": "project",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.719
+          },
+          {
+            "query": "which initiative of grace aims to clean up records?",
+            "tag": "project",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 1.819
+          },
+          {
+            "query": "which initiative of henry aims to tighten access?",
+            "tag": "project",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.058
+          },
+          {
+            "query": "which initiative of henry aims to acquire customers?",
+            "tag": "project",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.549
+          }
+        ]
+      },
+      "vector_fusion": {
+        "vector_weight": 0.5,
+        "n_memories": 32,
+        "n_queries": 16,
+        "k": 10,
+        "hit_at_1": 0.5625,
+        "hit_at_k": 1.0,
+        "mrr": 0.7812,
+        "recall_p50_ms": 14.772,
+        "ingest_seconds": 0.506,
+        "per_query": [
+          {
+            "query": "which initiative of alice aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.594
+          },
+          {
+            "query": "which initiative of alice aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 17.705
+          },
+          {
+            "query": "which initiative of bob aims to improve uptime?",
+            "tag": "project",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 17.016
+          },
+          {
+            "query": "which initiative of bob aims to clean up records?",
+            "tag": "project",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 16.376
+          },
+          {
+            "query": "which initiative of carol aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.183
+          },
+          {
+            "query": "which initiative of carol aims to speed up engineers?",
+            "tag": "project",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 14.852
+          },
+          {
+            "query": "which initiative of dave aims to tighten access?",
+            "tag": "project",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 14.692
+          },
+          {
+            "query": "which initiative of dave aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.136
+          },
+          {
+            "query": "which initiative of eve aims to tighten access?",
+            "tag": "project",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 14.033
+          },
+          {
+            "query": "which initiative of eve aims to clean up records?",
+            "tag": "project",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 14.541
+          },
+          {
+            "query": "which initiative of frank aims to tighten access?",
+            "tag": "project",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 13.684
+          },
+          {
+            "query": "which initiative of frank aims to match desktop features?",
+            "tag": "project",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 14.587
+          },
+          {
+            "query": "which initiative of grace aims to improve uptime?",
+            "tag": "project",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 16.72
+          },
+          {
+            "query": "which initiative of grace aims to clean up records?",
+            "tag": "project",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 16.769
+          },
+          {
+            "query": "which initiative of henry aims to tighten access?",
+            "tag": "project",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 16.788
+          },
+          {
+            "query": "which initiative of henry aims to acquire customers?",
+            "tag": "project",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 16.886
+          }
+        ]
+      },
+      "delta_hit_at_1": 0.0625,
+      "delta_mrr": 0.0312
+    },
+    {
+      "collision_degree": 4,
+      "bm25_floor": 0.25,
+      "bm25_only": {
+        "vector_weight": 0.0,
+        "n_memories": 48,
+        "n_queries": 32,
+        "k": 10,
+        "hit_at_1": 0.25,
+        "hit_at_k": 1.0,
+        "mrr": 0.5208,
+        "recall_p50_ms": 2.459,
+        "ingest_seconds": 0.023,
+        "per_query": [
+          {
+            "query": "which initiative of alice aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 2.588
+          },
+          {
+            "query": "which initiative of alice aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.549
+          },
+          {
+            "query": "which initiative of alice aims to clean up records?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 2.51
+          },
+          {
+            "query": "which initiative of alice aims to improve uptime?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 2.977
+          },
+          {
+            "query": "which initiative of bob aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 2.086
+          },
+          {
+            "query": "which initiative of bob aims to clean up records?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.242
+          },
+          {
+            "query": "which initiative of bob aims to acquire customers?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 2.435
+          },
+          {
+            "query": "which initiative of bob aims to speed up engineers?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 2.793
+          },
+          {
+            "query": "which initiative of carol aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 2.178
+          },
+          {
+            "query": "which initiative of carol aims to match desktop features?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 2.437
+          },
+          {
+            "query": "which initiative of carol aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 2.549
+          },
+          {
+            "query": "which initiative of carol aims to clean up records?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.807
+          },
+          {
+            "query": "which initiative of dave aims to tighten access?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 2.131
+          },
+          {
+            "query": "which initiative of dave aims to clean up records?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 2.353
+          },
+          {
+            "query": "which initiative of dave aims to acquire customers?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.464
+          },
+          {
+            "query": "which initiative of dave aims to speed up engineers?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 2.836
+          },
+          {
+            "query": "which initiative of eve aims to speed up engineers?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 2.175
+          },
+          {
+            "query": "which initiative of eve aims to acquire customers?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 2.485
+          },
+          {
+            "query": "which initiative of eve aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.871
+          },
+          {
+            "query": "which initiative of eve aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 2.281
+          },
+          {
+            "query": "which initiative of frank aims to improve uptime?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 2.07
+          },
+          {
+            "query": "which initiative of frank aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 2.245
+          },
+          {
+            "query": "which initiative of frank aims to match desktop features?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.504
+          },
+          {
+            "query": "which initiative of frank aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 2.899
+          },
+          {
+            "query": "which initiative of grace aims to clean up records?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 2.111
+          },
+          {
+            "query": "which initiative of grace aims to speed up engineers?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.348
+          },
+          {
+            "query": "which initiative of grace aims to improve uptime?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 2.45
+          },
+          {
+            "query": "which initiative of grace aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 2.948
+          },
+          {
+            "query": "which initiative of henry aims to acquire customers?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 2.184
+          },
+          {
+            "query": "which initiative of henry aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 2.453
+          },
+          {
+            "query": "which initiative of henry aims to speed up engineers?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.475
+          },
+          {
+            "query": "which initiative of henry aims to improve uptime?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 2.847
+          }
+        ]
+      },
+      "vector_fusion": {
+        "vector_weight": 0.5,
+        "n_memories": 48,
+        "n_queries": 32,
+        "k": 10,
+        "hit_at_1": 0.2812,
+        "hit_at_k": 1.0,
+        "mrr": 0.5677,
+        "recall_p50_ms": 14.849,
+        "ingest_seconds": 0.694,
+        "per_query": [
+          {
+            "query": "which initiative of alice aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.194
+          },
+          {
+            "query": "which initiative of alice aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.511
+          },
+          {
+            "query": "which initiative of alice aims to clean up records?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 17.71
+          },
+          {
+            "query": "which initiative of alice aims to improve uptime?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 17.996
+          },
+          {
+            "query": "which initiative of bob aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 17.472
+          },
+          {
+            "query": "which initiative of bob aims to clean up records?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.688
+          },
+          {
+            "query": "which initiative of bob aims to acquire customers?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 16.293
+          },
+          {
+            "query": "which initiative of bob aims to speed up engineers?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 15.478
+          },
+          {
+            "query": "which initiative of carol aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 14.801
+          },
+          {
+            "query": "which initiative of carol aims to match desktop features?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 15.671
+          },
+          {
+            "query": "which initiative of carol aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.045
+          },
+          {
+            "query": "which initiative of carol aims to clean up records?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 15.333
+          },
+          {
+            "query": "which initiative of dave aims to tighten access?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.241
+          },
+          {
+            "query": "which initiative of dave aims to clean up records?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 16.819
+          },
+          {
+            "query": "which initiative of dave aims to acquire customers?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 30.848
+          },
+          {
+            "query": "which initiative of dave aims to speed up engineers?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 19.681
+          },
+          {
+            "query": "which initiative of eve aims to speed up engineers?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 15.008
+          },
+          {
+            "query": "which initiative of eve aims to acquire customers?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 15.397
+          },
+          {
+            "query": "which initiative of eve aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.976
+          },
+          {
+            "query": "which initiative of eve aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 14.523
+          },
+          {
+            "query": "which initiative of frank aims to improve uptime?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 16.308
+          },
+          {
+            "query": "which initiative of frank aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 14.605
+          },
+          {
+            "query": "which initiative of frank aims to match desktop features?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.155
+          },
+          {
+            "query": "which initiative of frank aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 14.897
+          },
+          {
+            "query": "which initiative of grace aims to clean up records?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.537
+          },
+          {
+            "query": "which initiative of grace aims to speed up engineers?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 15.24
+          },
+          {
+            "query": "which initiative of grace aims to improve uptime?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.941
+          },
+          {
+            "query": "which initiative of grace aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.488
+          },
+          {
+            "query": "which initiative of henry aims to acquire customers?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.898
+          },
+          {
+            "query": "which initiative of henry aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 14.794
+          },
+          {
+            "query": "which initiative of henry aims to speed up engineers?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.221
+          },
+          {
+            "query": "which initiative of henry aims to improve uptime?",
+            "tag": "project",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 14.991
+          }
+        ]
+      },
+      "delta_hit_at_1": 0.0312,
+      "delta_mrr": 0.0469
+    },
+    {
+      "collision_degree": 8,
+      "bm25_floor": 0.125,
+      "bm25_only": {
+        "vector_weight": 0.0,
+        "n_memories": 80,
+        "n_queries": 64,
+        "k": 10,
+        "hit_at_1": 0.125,
+        "hit_at_k": 1.0,
+        "mrr": 0.3397,
+        "recall_p50_ms": 4.05,
+        "ingest_seconds": 0.039,
+        "per_query": [
+          {
+            "query": "which initiative of alice aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 4.829
+          },
+          {
+            "query": "which initiative of alice aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 4.431
+          },
+          {
+            "query": "which initiative of alice aims to clean up records?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.772
+          },
+          {
+            "query": "which initiative of alice aims to improve uptime?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 4.531
+          },
+          {
+            "query": "which initiative of alice aims to match desktop features?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.945
+          },
+          {
+            "query": "which initiative of alice aims to acquire customers?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 4.262
+          },
+          {
+            "query": "which initiative of alice aims to speed up engineers?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 3.796
+          },
+          {
+            "query": "which initiative of alice aims to tighten access?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 4.265
+          },
+          {
+            "query": "which initiative of bob aims to acquire customers?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 3.889
+          },
+          {
+            "query": "which initiative of bob aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 4.373
+          },
+          {
+            "query": "which initiative of bob aims to match desktop features?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 18.064
+          },
+          {
+            "query": "which initiative of bob aims to clean up records?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 4.141
+          },
+          {
+            "query": "which initiative of bob aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.755
+          },
+          {
+            "query": "which initiative of bob aims to speed up engineers?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 4.089
+          },
+          {
+            "query": "which initiative of bob aims to improve uptime?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.546
+          },
+          {
+            "query": "which initiative of bob aims to tighten access?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 4.068
+          },
+          {
+            "query": "which initiative of carol aims to acquire customers?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.541
+          },
+          {
+            "query": "which initiative of carol aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 4.182
+          },
+          {
+            "query": "which initiative of carol aims to tighten access?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 3.692
+          },
+          {
+            "query": "which initiative of carol aims to speed up engineers?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 4.125
+          },
+          {
+            "query": "which initiative of carol aims to improve uptime?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.656
+          },
+          {
+            "query": "which initiative of carol aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 4.279
+          },
+          {
+            "query": "which initiative of carol aims to clean up records?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.423
+          },
+          {
+            "query": "which initiative of carol aims to match desktop features?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.945
+          },
+          {
+            "query": "which initiative of dave aims to clean up records?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 3.703
+          },
+          {
+            "query": "which initiative of dave aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 4.125
+          },
+          {
+            "query": "which initiative of dave aims to acquire customers?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.386
+          },
+          {
+            "query": "which initiative of dave aims to tighten access?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 4.152
+          },
+          {
+            "query": "which initiative of dave aims to match desktop features?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 3.673
+          },
+          {
+            "query": "which initiative of dave aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 4.15
+          },
+          {
+            "query": "which initiative of dave aims to improve uptime?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.566
+          },
+          {
+            "query": "which initiative of dave aims to speed up engineers?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 17.737
+          },
+          {
+            "query": "which initiative of eve aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.643
+          },
+          {
+            "query": "which initiative of eve aims to tighten access?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 4.173
+          },
+          {
+            "query": "which initiative of eve aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 3.513
+          },
+          {
+            "query": "which initiative of eve aims to speed up engineers?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 4.058
+          },
+          {
+            "query": "which initiative of eve aims to improve uptime?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.692
+          },
+          {
+            "query": "which initiative of eve aims to acquire customers?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 4.192
+          },
+          {
+            "query": "which initiative of eve aims to match desktop features?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 3.417
+          },
+          {
+            "query": "which initiative of eve aims to clean up records?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 4.126
+          },
+          {
+            "query": "which initiative of frank aims to tighten access?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.582
+          },
+          {
+            "query": "which initiative of frank aims to acquire customers?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 4.043
+          },
+          {
+            "query": "which initiative of frank aims to improve uptime?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.383
+          },
+          {
+            "query": "which initiative of frank aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 4.209
+          },
+          {
+            "query": "which initiative of frank aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 3.71
+          },
+          {
+            "query": "which initiative of frank aims to speed up engineers?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 4.239
+          },
+          {
+            "query": "which initiative of frank aims to match desktop features?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.435
+          },
+          {
+            "query": "which initiative of frank aims to clean up records?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 4.186
+          },
+          {
+            "query": "which initiative of grace aims to clean up records?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.557
+          },
+          {
+            "query": "which initiative of grace aims to improve uptime?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 4.102
+          },
+          {
+            "query": "which initiative of grace aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 3.461
+          },
+          {
+            "query": "which initiative of grace aims to acquire customers?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 17.804
+          },
+          {
+            "query": "which initiative of grace aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.78
+          },
+          {
+            "query": "which initiative of grace aims to speed up engineers?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 4.314
+          },
+          {
+            "query": "which initiative of grace aims to tighten access?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 3.427
+          },
+          {
+            "query": "which initiative of grace aims to match desktop features?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 4.243
+          },
+          {
+            "query": "which initiative of henry aims to tighten access?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.609
+          },
+          {
+            "query": "which initiative of henry aims to clean up records?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 4.076
+          },
+          {
+            "query": "which initiative of henry aims to improve uptime?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.465
+          },
+          {
+            "query": "which initiative of henry aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 4.225
+          },
+          {
+            "query": "which initiative of henry aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 3.644
+          },
+          {
+            "query": "which initiative of henry aims to speed up engineers?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 4.379
+          },
+          {
+            "query": "which initiative of henry aims to match desktop features?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.537
+          },
+          {
+            "query": "which initiative of henry aims to acquire customers?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 4.152
+          }
+        ]
+      },
+      "vector_fusion": {
+        "vector_weight": 0.5,
+        "n_memories": 80,
+        "n_queries": 64,
+        "k": 10,
+        "hit_at_1": 0.1562,
+        "hit_at_k": 1.0,
+        "mrr": 0.4163,
+        "recall_p50_ms": 8.286,
+        "ingest_seconds": 0.994,
+        "per_query": [
+          {
+            "query": "which initiative of alice aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.912
+          },
+          {
+            "query": "which initiative of alice aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.747
+          },
+          {
+            "query": "which initiative of alice aims to clean up records?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.332
+          },
+          {
+            "query": "which initiative of alice aims to improve uptime?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.52
+          },
+          {
+            "query": "which initiative of alice aims to match desktop features?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 18.283
+          },
+          {
+            "query": "which initiative of alice aims to acquire customers?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 17.531
+          },
+          {
+            "query": "which initiative of alice aims to speed up engineers?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 18.082
+          },
+          {
+            "query": "which initiative of alice aims to tighten access?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 17.878
+          },
+          {
+            "query": "which initiative of bob aims to acquire customers?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 21.83
+          },
+          {
+            "query": "which initiative of bob aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 18.091
+          },
+          {
+            "query": "which initiative of bob aims to match desktop features?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 17.523
+          },
+          {
+            "query": "which initiative of bob aims to clean up records?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.614
+          },
+          {
+            "query": "which initiative of bob aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.964
+          },
+          {
+            "query": "which initiative of bob aims to speed up engineers?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.711
+          },
+          {
+            "query": "which initiative of bob aims to improve uptime?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.005
+          },
+          {
+            "query": "which initiative of bob aims to tighten access?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 7.77
+          },
+          {
+            "query": "which initiative of carol aims to acquire customers?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 17.396
+          },
+          {
+            "query": "which initiative of carol aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.294
+          },
+          {
+            "query": "which initiative of carol aims to tighten access?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 16.995
+          },
+          {
+            "query": "which initiative of carol aims to speed up engineers?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.412
+          },
+          {
+            "query": "which initiative of carol aims to improve uptime?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 15.03
+          },
+          {
+            "query": "which initiative of carol aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.889
+          },
+          {
+            "query": "which initiative of carol aims to clean up records?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.278
+          },
+          {
+            "query": "which initiative of carol aims to match desktop features?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 8.195
+          },
+          {
+            "query": "which initiative of dave aims to clean up records?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.339
+          },
+          {
+            "query": "which initiative of dave aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 29.275
+          },
+          {
+            "query": "which initiative of dave aims to acquire customers?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.942
+          },
+          {
+            "query": "which initiative of dave aims to tighten access?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 7.178
+          },
+          {
+            "query": "which initiative of dave aims to match desktop features?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 15.456
+          },
+          {
+            "query": "which initiative of dave aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.003
+          },
+          {
+            "query": "which initiative of dave aims to improve uptime?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 14.666
+          },
+          {
+            "query": "which initiative of dave aims to speed up engineers?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.089
+          },
+          {
+            "query": "which initiative of eve aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 7.554
+          },
+          {
+            "query": "which initiative of eve aims to tighten access?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.043
+          },
+          {
+            "query": "which initiative of eve aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.871
+          },
+          {
+            "query": "which initiative of eve aims to speed up engineers?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 7.482
+          },
+          {
+            "query": "which initiative of eve aims to improve uptime?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 16.101
+          },
+          {
+            "query": "which initiative of eve aims to acquire customers?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.662
+          },
+          {
+            "query": "which initiative of eve aims to match desktop features?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 15.726
+          },
+          {
+            "query": "which initiative of eve aims to clean up records?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.164
+          },
+          {
+            "query": "which initiative of frank aims to tighten access?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 7.343
+          },
+          {
+            "query": "which initiative of frank aims to acquire customers?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 21.908
+          },
+          {
+            "query": "which initiative of frank aims to improve uptime?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.128
+          },
+          {
+            "query": "which initiative of frank aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.762
+          },
+          {
+            "query": "which initiative of frank aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 8.233
+          },
+          {
+            "query": "which initiative of frank aims to speed up engineers?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 15.34
+          },
+          {
+            "query": "which initiative of frank aims to match desktop features?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.194
+          },
+          {
+            "query": "which initiative of frank aims to clean up records?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 15.457
+          },
+          {
+            "query": "which initiative of grace aims to clean up records?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.839
+          },
+          {
+            "query": "which initiative of grace aims to improve uptime?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.244
+          },
+          {
+            "query": "which initiative of grace aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 15.206
+          },
+          {
+            "query": "which initiative of grace aims to acquire customers?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 15.681
+          },
+          {
+            "query": "which initiative of grace aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.389
+          },
+          {
+            "query": "which initiative of grace aims to speed up engineers?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.566
+          },
+          {
+            "query": "which initiative of grace aims to tighten access?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 17.068
+          },
+          {
+            "query": "which initiative of grace aims to match desktop features?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 15.594
+          },
+          {
+            "query": "which initiative of henry aims to tighten access?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 23.413
+          },
+          {
+            "query": "which initiative of henry aims to clean up records?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 15.701
+          },
+          {
+            "query": "which initiative of henry aims to improve uptime?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.148
+          },
+          {
+            "query": "which initiative of henry aims to cut response time?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 7.392
+          },
+          {
+            "query": "which initiative of henry aims to lower spend?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 15.464
+          },
+          {
+            "query": "which initiative of henry aims to speed up engineers?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.093
+          },
+          {
+            "query": "which initiative of henry aims to match desktop features?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 15.088
+          },
+          {
+            "query": "which initiative of henry aims to acquire customers?",
+            "tag": "project",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 8.215
+          }
+        ]
+      },
+      "delta_hit_at_1": 0.0312,
+      "delta_mrr": 0.0766
+    }
+  ]
+}

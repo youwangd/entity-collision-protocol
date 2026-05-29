@@ -1,0 +1,91 @@
+{
+  "config": {
+    "n_clusters": 400,
+    "cluster_size": 4,
+    "n_per_window": 1,
+    "n_windows": 30,
+    "beta_a": 0.4,
+    "beta_b": 0.4,
+    "thresholds": {
+      "promote": 3,
+      "deprecate": 2,
+      "recover": 3
+    },
+    "seed": 14776849,
+    "tightness": 0.5
+  },
+  "shares": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "cells": [
+    {
+      "share": 0.0,
+      "n_high_q": 650,
+      "n_low_q": 585,
+      "ttp_high_q_p50": null,
+      "ttp_high_q_p95": null,
+      "ttd_low_q_p50": null,
+      "ttd_low_q_p95": null,
+      "promote_rate_high": 0.0,
+      "deprecate_rate_low": 0.0,
+      "false_promote_low_q": 0.0,
+      "false_deprecate_high_q": 0.0
+    },
+    {
+      "share": 0.25,
+      "n_high_q": 650,
+      "n_low_q": 585,
+      "ttp_high_q_p50": null,
+      "ttp_high_q_p95": null,
+      "ttd_low_q_p50": null,
+      "ttd_low_q_p95": null,
+      "promote_rate_high": 0.0,
+      "deprecate_rate_low": 0.0,
+      "false_promote_low_q": 0.0,
+      "false_deprecate_high_q": 0.0
+    },
+    {
+      "share": 0.5,
+      "n_high_q": 650,
+      "n_low_q": 585,
+      "ttp_high_q_p50": null,
+      "ttp_high_q_p95": null,
+      "ttd_low_q_p50": 1.0,
+      "ttd_low_q_p95": 2.0,
+      "promote_rate_high": 0.0,
+      "deprecate_rate_low": 1.0,
+      "false_promote_low_q": 0.0,
+      "false_deprecate_high_q": 0.18923076923076923
+    },
+    {
+      "share": 0.75,
+      "n_high_q": 650,
+      "n_low_q": 585,
+      "ttp_high_q_p50": 1.0,
+      "ttp_high_q_p95": 3.0,
+      "ttd_low_q_p50": 1.0,
+      "ttd_low_q_p95": 2.0,
+      "promote_rate_high": 0.9569230769230769,
+      "deprecate_rate_low": 1.0,
+      "false_promote_low_q": 0.0,
+      "false_deprecate_high_q": 0.043076923076923075
+    },
+    {
+      "share": 1.0,
+      "n_high_q": 650,
+      "n_low_q": 585,
+      "ttp_high_q_p50": 1.0,
+      "ttp_high_q_p95": 1.0,
+      "ttd_low_q_p50": 1.0,
+      "ttd_low_q_p95": 1.0,
+      "promote_rate_high": 0.9215384615384615,
+      "deprecate_rate_low": 0.9948717948717949,
+      "false_promote_low_q": 0.005128205128205128,
+      "false_deprecate_high_q": 0.07846153846153846
+    }
+  ]
+}

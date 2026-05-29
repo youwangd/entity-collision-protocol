@@ -1,0 +1,66 @@
+{
+  "corpus": {
+    "n_slots": 200,
+    "updates_per_slot": 2,
+    "distractors": 200,
+    "seed": 42,
+    "n_memories": 600,
+    "n_queries": 200
+  },
+  "k": 10,
+  "arms": {
+    "default": {
+      "n": 200,
+      "hit_at_1": 0.24,
+      "hit_at_k": 0.415,
+      "stale_at_1": 0.085,
+      "stale_at_k": 0.4,
+      "interference_actions": 566
+    },
+    "addonly": {
+      "n": 200,
+      "hit_at_1": 0.06,
+      "hit_at_k": 1.0,
+      "stale_at_1": 0.88,
+      "stale_at_k": 1.0,
+      "interference_actions": 0
+    }
+  },
+  "ci_config": {
+    "resamples": 10000,
+    "seed": 42,
+    "alpha": 0.05,
+    "method": "percentile_paired_diff"
+  },
+  "summary": {
+    "d_hit_at_1": {
+      "mean_diff_default_minus_addonly": 0.18,
+      "ci_lo": 0.115,
+      "ci_hi": 0.245,
+      "p_bootstrap_two_sided": 0.0,
+      "n_paired": 200
+    },
+    "d_hit_at_k": {
+      "mean_diff_default_minus_addonly": -0.585,
+      "ci_lo": -0.655,
+      "ci_hi": -0.515,
+      "p_bootstrap_two_sided": 0.0,
+      "n_paired": 200
+    },
+    "d_stale_at_1": {
+      "mean_diff_default_minus_addonly": -0.795,
+      "ci_lo": -0.855,
+      "ci_hi": -0.73,
+      "p_bootstrap_two_sided": 0.0,
+      "n_paired": 200
+    },
+    "d_stale_at_k": {
+      "mean_diff_default_minus_addonly": -0.6,
+      "ci_lo": -0.665,
+      "ci_hi": -0.53,
+      "p_bootstrap_two_sided": 0.0,
+      "n_paired": 200
+    }
+  },
+  "wall_seconds": 6.43
+}

@@ -1,0 +1,71 @@
+{
+  "n_facts": 240,
+  "seed": 42,
+  "k": 10,
+  "anchor_tokens": 3,
+  "high_df_top3": [
+    "on",
+    "to",
+    "for"
+  ],
+  "arms": {
+    "baseline": {
+      "ingest_s": 1.53,
+      "h1_mean": 0.2333,
+      "hk_mean": 0.8875,
+      "mrr_mean": 0.4258
+    },
+    "prf_real": {
+      "ingest_s": 1.5,
+      "h1_mean": 0.1417,
+      "hk_mean": 0.8583,
+      "mrr_mean": 0.3435
+    },
+    "placebo_stopword": {
+      "ingest_s": 1.45,
+      "h1_mean": 0.2333,
+      "hk_mean": 0.8875,
+      "mrr_mean": 0.4258
+    },
+    "placebo_high_df": {
+      "ingest_s": 1.44,
+      "h1_mean": 0.2333,
+      "hk_mean": 0.8875,
+      "mrr_mean": 0.4258
+    },
+    "placebo_low_df": {
+      "ingest_s": 1.46,
+      "h1_mean": 0.2083,
+      "hk_mean": 0.875,
+      "mrr_mean": 0.3893
+    },
+    "placebo_off_topic_entity": {
+      "ingest_s": 1.46,
+      "h1_mean": 0.125,
+      "hk_mean": 0.3375,
+      "mrr_mean": 0.1664
+    }
+  },
+  "deltas_vs_baseline": {
+    "prf_real": {
+      "delta_h1": -0.0917,
+      "delta_se": 0.0186
+    },
+    "placebo_stopword": {
+      "delta_h1": 0,
+      "delta_se": 0.0
+    },
+    "placebo_high_df": {
+      "delta_h1": 0,
+      "delta_se": 0.0
+    },
+    "placebo_low_df": {
+      "delta_h1": -0.025,
+      "delta_se": 0.0101
+    },
+    "placebo_off_topic_entity": {
+      "delta_h1": -0.1083,
+      "delta_se": 0.0336
+    }
+  }
+}

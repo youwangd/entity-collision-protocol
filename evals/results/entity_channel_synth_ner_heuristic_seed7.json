@@ -1,0 +1,46 @@
+{
+  "corpus": {
+    "fixture": "synth_entity",
+    "tags": [
+      "preference",
+      "service",
+      "project",
+      "tool",
+      "technical"
+    ],
+    "n_entities": 16,
+    "collision_degree": 4,
+    "distractors_per_entity": 3,
+    "seed": 7,
+    "n_memories": 560,
+    "n_queries": 320
+  },
+  "weights": [
+    0.0,
+    0.3
+  ],
+  "entity_ner": "heuristic",
+  "arms": [
+    {
+      "entity_weight": 0.0,
+      "n_queries": 320,
+      "hit@1": 0.075,
+      "hit@5": 0.390625,
+      "hit@10": 0.6,
+      "d_hit@1": 0.0,
+      "d_hit@5": 0.0,
+      "d_hit@10": 0.0
+    },
+    {
+      "entity_weight": 0.3,
+      "n_queries": 320,
+      "hit@1": 0.075,
+      "hit@5": 0.390625,
+      "hit@10": 0.6,
+      "d_hit@1": 0.0,
+      "d_hit@5": 0.0,
+      "d_hit@10": 0.0
+    }
+  ],
+  "wall_seconds": 6.15
+}

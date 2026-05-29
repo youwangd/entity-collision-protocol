@@ -1,0 +1,50 @@
+# Full config — all features enabled
+path: ~/.engram
+
+# Tier 1: Local vector search
+embedding: sentence-transformers
+vector: sqlite-vec
+
+# Tier 2: LLM-powered consolidation
+llm: gpt-4o-mini
+
+# Affect engine
+affect:
+  temperament: curious_researcher
+  mutation_rate: 0.005
+  mood_window_hours: 4
+
+# Consolidation
+consolidation:
+  schedule: manual  # or "hourly", "daily"
+  window_hours: 24
+
+# Forgetting
+forgetting:
+  decay_enabled: true
+  fade_threshold: 0.1
+  auto_suppress: true
+  suppress_threshold: -0.7
+
+# Security
+security:
+  pii_detection: true
+  auto_redact: []
+  encrypt_at_rest: false
+  redact_in_logs: true
+
+# Retention
+retention:
+  buffer_ttl_days: 30
+  faded_ttl_days: 90
+  suppressed_ttl_days: 180
+  audit_ttl_days: 365
+
+# Retrieval weights
+retrieval:
+  bm25_weight: 0.3
+  vector_weight: 0.3
+  salience_weight: 0.2
+  recency_weight: 0.1
+  context_weight: 0.1
+  confidence_threshold: 0.3

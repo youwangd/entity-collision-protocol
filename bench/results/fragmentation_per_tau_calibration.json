@@ -1,0 +1,435 @@
+{
+  "taus": [
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "contaminations": [
+    0.0,
+    0.05,
+    0.1,
+    0.15,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "rows": [
+    {
+      "regime": {
+        "n_clusters": 200,
+        "cluster_size": 4,
+        "vocab_size": 2000,
+        "core_size": 8,
+        "schema_size": 6,
+        "tau": 0.05,
+        "seed": 827675
+      },
+      "points": [
+        {
+          "true_c": 0.0,
+          "fragmentation": 0.0
+        },
+        {
+          "true_c": 0.05,
+          "fragmentation": 0.0
+        },
+        {
+          "true_c": 0.1,
+          "fragmentation": 0.0
+        },
+        {
+          "true_c": 0.15,
+          "fragmentation": 0.00125
+        },
+        {
+          "true_c": 0.25,
+          "fragmentation": 0.0
+        },
+        {
+          "true_c": 0.5,
+          "fragmentation": 0.0
+        },
+        {
+          "true_c": 1.0,
+          "fragmentation": 0.0
+        }
+      ],
+      "frag_at_c0": 0.0,
+      "frag_at_c10": 0.0,
+      "frag_at_c25": 0.0,
+      "monotone_in_true_c": false,
+      "saturated_at_c0": false,
+      "collapsed_at_c0": true,
+      "gateable": false,
+      "recommended_fmax": null
+    },
+    {
+      "regime": {
+        "n_clusters": 200,
+        "cluster_size": 4,
+        "vocab_size": 2000,
+        "core_size": 8,
+        "schema_size": 6,
+        "tau": 0.1,
+        "seed": 827675
+      },
+      "points": [
+        {
+          "true_c": 0.0,
+          "fragmentation": 0.0
+        },
+        {
+          "true_c": 0.05,
+          "fragmentation": 0.05125
+        },
+        {
+          "true_c": 0.1,
+          "fragmentation": 0.0925
+        },
+        {
+          "true_c": 0.15,
+          "fragmentation": 0.17125
+        },
+        {
+          "true_c": 0.25,
+          "fragmentation": 0.24625
+        },
+        {
+          "true_c": 0.5,
+          "fragmentation": 0.58
+        },
+        {
+          "true_c": 1.0,
+          "fragmentation": 0.9125
+        }
+      ],
+      "frag_at_c0": 0.0,
+      "frag_at_c10": 0.0925,
+      "frag_at_c25": 0.24625,
+      "monotone_in_true_c": true,
+      "saturated_at_c0": false,
+      "collapsed_at_c0": false,
+      "gateable": true,
+      "recommended_fmax": 0.0925
+    },
+    {
+      "regime": {
+        "n_clusters": 200,
+        "cluster_size": 4,
+        "vocab_size": 2000,
+        "core_size": 8,
+        "schema_size": 6,
+        "tau": 0.15,
+        "seed": 827675
+      },
+      "points": [
+        {
+          "true_c": 0.0,
+          "fragmentation": 0.0
+        },
+        {
+          "true_c": 0.05,
+          "fragmentation": 0.05125
+        },
+        {
+          "true_c": 0.1,
+          "fragmentation": 0.0925
+        },
+        {
+          "true_c": 0.15,
+          "fragmentation": 0.17125
+        },
+        {
+          "true_c": 0.25,
+          "fragmentation": 0.24625
+        },
+        {
+          "true_c": 0.5,
+          "fragmentation": 0.58
+        },
+        {
+          "true_c": 1.0,
+          "fragmentation": 0.9125
+        }
+      ],
+      "frag_at_c0": 0.0,
+      "frag_at_c10": 0.0925,
+      "frag_at_c25": 0.24625,
+      "monotone_in_true_c": true,
+      "saturated_at_c0": false,
+      "collapsed_at_c0": false,
+      "gateable": true,
+      "recommended_fmax": 0.0925
+    },
+    {
+      "regime": {
+        "n_clusters": 200,
+        "cluster_size": 4,
+        "vocab_size": 2000,
+        "core_size": 8,
+        "schema_size": 6,
+        "tau": 0.2,
+        "seed": 827675
+      },
+      "points": [
+        {
+          "true_c": 0.0,
+          "fragmentation": 0.0
+        },
+        {
+          "true_c": 0.05,
+          "fragmentation": 0.05125
+        },
+        {
+          "true_c": 0.1,
+          "fragmentation": 0.0925
+        },
+        {
+          "true_c": 0.15,
+          "fragmentation": 0.17125
+        },
+        {
+          "true_c": 0.25,
+          "fragmentation": 0.24625
+        },
+        {
+          "true_c": 0.5,
+          "fragmentation": 0.58
+        },
+        {
+          "true_c": 1.0,
+          "fragmentation": 0.9125
+        }
+      ],
+      "frag_at_c0": 0.0,
+      "frag_at_c10": 0.0925,
+      "frag_at_c25": 0.24625,
+      "monotone_in_true_c": true,
+      "saturated_at_c0": false,
+      "collapsed_at_c0": false,
+      "gateable": true,
+      "recommended_fmax": 0.0925
+    },
+    {
+      "regime": {
+        "n_clusters": 200,
+        "cluster_size": 4,
+        "vocab_size": 2000,
+        "core_size": 8,
+        "schema_size": 6,
+        "tau": 0.25,
+        "seed": 827675
+      },
+      "points": [
+        {
+          "true_c": 0.0,
+          "fragmentation": 0.0
+        },
+        {
+          "true_c": 0.05,
+          "fragmentation": 0.05375
+        },
+        {
+          "true_c": 0.1,
+          "fragmentation": 0.10125
+        },
+        {
+          "true_c": 0.15,
+          "fragmentation": 0.17875
+        },
+        {
+          "true_c": 0.25,
+          "fragmentation": 0.2625
+        },
+        {
+          "true_c": 0.5,
+          "fragmentation": 0.63625
+        },
+        {
+          "true_c": 1.0,
+          "fragmentation": 1.0
+        }
+      ],
+      "frag_at_c0": 0.0,
+      "frag_at_c10": 0.10125,
+      "frag_at_c25": 0.2625,
+      "monotone_in_true_c": true,
+      "saturated_at_c0": false,
+      "collapsed_at_c0": false,
+      "gateable": true,
+      "recommended_fmax": 0.10125
+    },
+    {
+      "regime": {
+        "n_clusters": 200,
+        "cluster_size": 4,
+        "vocab_size": 2000,
+        "core_size": 8,
+        "schema_size": 6,
+        "tau": 0.3,
+        "seed": 827675
+      },
+      "points": [
+        {
+          "true_c": 0.0,
+          "fragmentation": 0.0
+        },
+        {
+          "true_c": 0.05,
+          "fragmentation": 0.05375
+        },
+        {
+          "true_c": 0.1,
+          "fragmentation": 0.10125
+        },
+        {
+          "true_c": 0.15,
+          "fragmentation": 0.17875
+        },
+        {
+          "true_c": 0.25,
+          "fragmentation": 0.2625
+        },
+        {
+          "true_c": 0.5,
+          "fragmentation": 0.63625
+        },
+        {
+          "true_c": 1.0,
+          "fragmentation": 1.0
+        }
+      ],
+      "frag_at_c0": 0.0,
+      "frag_at_c10": 0.10125,
+      "frag_at_c25": 0.2625,
+      "monotone_in_true_c": true,
+      "saturated_at_c0": false,
+      "collapsed_at_c0": false,
+      "gateable": true,
+      "recommended_fmax": 0.10125
+    },
+    {
+      "regime": {
+        "n_clusters": 200,
+        "cluster_size": 4,
+        "vocab_size": 2000,
+        "core_size": 8,
+        "schema_size": 6,
+        "tau": 0.4,
+        "seed": 827675
+      },
+      "points": [
+        {
+          "true_c": 0.0,
+          "fragmentation": 0.0
+        },
+        {
+          "true_c": 0.05,
+          "fragmentation": 0.05375
+        },
+        {
+          "true_c": 0.1,
+          "fragmentation": 0.10125
+        },
+        {
+          "true_c": 0.15,
+          "fragmentation": 0.17875
+        },
+        {
+          "true_c": 0.25,
+          "fragmentation": 0.2625
+        },
+        {
+          "true_c": 0.5,
+          "fragmentation": 0.63625
+        },
+        {
+          "true_c": 1.0,
+          "fragmentation": 1.0
+        }
+      ],
+      "frag_at_c0": 0.0,
+      "frag_at_c10": 0.10125,
+      "frag_at_c25": 0.2625,
+      "monotone_in_true_c": true,
+      "saturated_at_c0": false,
+      "collapsed_at_c0": false,
+      "gateable": true,
+      "recommended_fmax": 0.10125
+    },
+    {
+      "regime": {
+        "n_clusters": 200,
+        "cluster_size": 4,
+        "vocab_size": 2000,
+        "core_size": 8,
+        "schema_size": 6,
+        "tau": 0.5,
+        "seed": 827675
+      },
+      "points": [
+        {
+          "true_c": 0.0,
+          "fragmentation": 0.0
+        },
+        {
+          "true_c": 0.05,
+          "fragmentation": 0.05375
+        },
+        {
+          "true_c": 0.1,
+          "fragmentation": 0.10125
+        },
+        {
+          "true_c": 0.15,
+          "fragmentation": 0.17875
+        },
+        {
+          "true_c": 0.25,
+          "fragmentation": 0.2625
+        },
+        {
+          "true_c": 0.5,
+          "fragmentation": 0.63625
+        },
+        {
+          "true_c": 1.0,
+          "fragmentation": 1.0
+        }
+      ],
+      "frag_at_c0": 0.0,
+      "frag_at_c10": 0.10125,
+      "frag_at_c25": 0.2625,
+      "monotone_in_true_c": true,
+      "saturated_at_c0": false,
+      "collapsed_at_c0": false,
+      "gateable": true,
+      "recommended_fmax": 0.10125
+    }
+  ],
+  "summary": {
+    "n_taus": 8,
+    "n_gateable": 7,
+    "n_collapsed": 1,
+    "n_saturated": 0,
+    "gateable_taus": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.4,
+      0.5
+    ],
+    "min_recommended_fmax": 0.0925,
+    "max_recommended_fmax": 0.10125,
+    "median_recommended_fmax": 0.10125,
+    "mean_recommended_fmax": 0.0975,
+    "stdev_recommended_fmax": 0.0046770717334674305
+  }
+}

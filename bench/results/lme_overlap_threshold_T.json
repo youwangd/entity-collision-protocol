@@ -1,0 +1,79 @@
+{
+  "n": 100,
+  "B": 10000,
+  "alpha": 0.05,
+  "seed": 42,
+  "embedders": {
+    "lex": "HashTrigram-256 vw=0.3",
+    "vec": "ST MiniLM-384 vw=0.3"
+  },
+  "stop_words_count": 84,
+  "bins": [
+    {
+      "q": 1,
+      "n": 25,
+      "overlap_lo": 0.0,
+      "overlap_hi": 0.004,
+      "overlap_mean": 0.0027,
+      "hit1_hash": 0.48,
+      "hit1_st": 0.8,
+      "delta": 0.32,
+      "ci": [
+        0.16,
+        0.52
+      ]
+    },
+    {
+      "q": 2,
+      "n": 25,
+      "overlap_lo": 0.004,
+      "overlap_hi": 0.0054,
+      "overlap_mean": 0.0047,
+      "hit1_hash": 0.56,
+      "hit1_st": 0.8,
+      "delta": 0.24,
+      "ci": [
+        0.04,
+        0.44
+      ]
+    },
+    {
+      "q": 3,
+      "n": 25,
+      "overlap_lo": 0.0056,
+      "overlap_hi": 0.0084,
+      "overlap_mean": 0.0068,
+      "hit1_hash": 0.88,
+      "hit1_st": 0.92,
+      "delta": 0.04,
+      "ci": [
+        -0.08,
+        0.16
+      ]
+    },
+    {
+      "q": 4,
+      "n": 25,
+      "overlap_lo": 0.0087,
+      "overlap_hi": 0.0238,
+      "overlap_mean": 0.0117,
+      "hit1_hash": 0.88,
+      "hit1_st": 0.92,
+      "delta": 0.04,
+      "ci": [
+        -0.08,
+        0.2
+      ]
+    }
+  ],
+  "spearman_overlap_vs_delta": -0.2872,
+  "global": {
+    "hit1_hash": 0.7,
+    "hit1_st": 0.86,
+    "delta": 0.16,
+    "ci": [
+      0.08,
+      0.25
+    ]
+  }
+}

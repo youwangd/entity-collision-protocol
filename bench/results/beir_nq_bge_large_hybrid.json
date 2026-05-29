@@ -1,0 +1,22 @@
+{
+  "arm": "hybrid",
+  "config": {
+    "k_ndcg": 10,
+    "k_recall": 100,
+    "split": "test",
+    "vector_weight": 0.3
+  },
+  "embedder": "bge_large",
+  "ingest_ms_total": 82027403.6,
+  "n_corpus": 2681468,
+  "n_ingested_resumed": 0,
+  "n_queries": 1000,
+  "ndcg_at_10": 0.355,
+  "query_ms": {
+    "p50": 16010.95,
+    "p95": 17671.14,
+    "p99": 18529.47
+  },
+  "recall_at_100": 0.8115,
+  "task": "nq"
+}

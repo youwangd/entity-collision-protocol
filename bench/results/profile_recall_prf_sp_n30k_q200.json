@@ -1,0 +1,1019 @@
+{
+  "config": {
+    "n_memories": 30000,
+    "n_queries": 200,
+    "seed": 42,
+    "embed_provider": "HashTrigram-256",
+    "vector_weight": 0.3
+  },
+  "arms": {
+    "baseline": {
+      "ingest_seconds": 291.87,
+      "lat_ms": {
+        "p50": 40.941,
+        "p95": 66.169,
+        "p99": 85.936,
+        "mean": 46.229,
+        "max": 88.731
+      },
+      "top_funcs_cum": [
+        {
+          "func": "engine.py:294(recall)",
+          "ncalls": 200,
+          "tottime_s": 0.0426,
+          "cumtime_s": 9.2411
+        },
+        {
+          "func": "engine.py:187(search)",
+          "ncalls": 200,
+          "tottime_s": 0.0611,
+          "cumtime_s": 7.902
+        },
+        {
+          "func": "~:0(<method 'execute' of 'sqlite3.Connection' objects>)",
+          "ncalls": 14162,
+          "tottime_s": 6.786,
+          "cumtime_s": 6.786
+        },
+        {
+          "func": "vector.py:161(search)",
+          "ncalls": 200,
+          "tottime_s": 0.0137,
+          "cumtime_s": 4.6555
+        },
+        {
+          "func": "memory.py:463(search_text)",
+          "ncalls": 200,
+          "tottime_s": 0.0174,
+          "cumtime_s": 2.1246
+        },
+        {
+          "func": "memory.py:372(get)",
+          "ncalls": 11762,
+          "tottime_s": 0.0245,
+          "cumtime_s": 0.9714
+        },
+        {
+          "func": "memory.py:718(_row_to_memory)",
+          "ncalls": 16575,
+          "tottime_s": 0.3779,
+          "cumtime_s": 0.812
+        },
+        {
+          "func": "memory.py:393(mark_accessed)",
+          "ncalls": 2000,
+          "tottime_s": 0.0065,
+          "cumtime_s": 0.7519
+        },
+        {
+          "func": "~:0(<method 'commit' of 'sqlite3.Connection' objects>)",
+          "ncalls": 2000,
+          "tottime_s": 0.6025,
+          "cumtime_s": 0.6025
+        },
+        {
+          "func": "buffer.py:109(append)",
+          "ncalls": 2200,
+          "tottime_s": 0.0203,
+          "cumtime_s": 0.2881
+        },
+        {
+          "func": "__init__.py:299(loads)",
+          "ncalls": 49725,
+          "tottime_s": 0.0551,
+          "cumtime_s": 0.2645
+        },
+        {
+          "func": "decoder.py:332(decode)",
+          "ncalls": 49725,
+          "tottime_s": 0.0816,
+          "cumtime_s": 0.1933
+        },
+        {
+          "func": "engine.py:420(_compute_score)",
+          "ncalls": 14575,
+          "tottime_s": 0.0946,
+          "cumtime_s": 0.1913
+        },
+        {
+          "func": "~:0(<method '__exit__' of '_io._IOBase' objects>)",
+          "ncalls": 2400,
+          "tottime_s": 0.1235,
+          "cumtime_s": 0.1235
+        },
+        {
+          "func": "~:0(<method 'fetchone' of 'sqlite3.Cursor' objects>)",
+          "ncalls": 11762,
+          "tottime_s": 0.1225,
+          "cumtime_s": 0.1225
+        },
+        {
+          "func": "~:0(<method 'fetchall' of 'sqlite3.Cursor' objects>)",
+          "ncalls": 400,
+          "tottime_s": 0.0786,
+          "cumtime_s": 0.0786
+        },
+        {
+          "func": "~:0(<built-in method builtins.round>)",
+          "ncalls": 118800,
+          "tottime_s": 0.0612,
+          "cumtime_s": 0.0612
+        },
+        {
+          "func": "decoder.py:343(raw_decode)",
+          "ncalls": 49725,
+          "tottime_s": 0.0575,
+          "cumtime_s": 0.0575
+        },
+        {
+          "func": "__init__.py:233(from_dict)",
+          "ncalls": 16575,
+          "tottime_s": 0.0382,
+          "cumtime_s": 0.0532
+        },
+        {
+          "func": "enum.py:688(__call__)",
+          "ncalls": 49727,
+          "tottime_s": 0.0277,
+          "cumtime_s": 0.0495
+        },
+        {
+          "func": "~:0(<built-in method builtins.next>)",
+          "ncalls": 4400,
+          "tottime_s": 0.0025,
+          "cumtime_s": 0.0482
+        },
+        {
+          "func": "buffer.py:89(_flock)",
+          "ncalls": 4400,
+          "tottime_s": 0.0079,
+          "cumtime_s": 0.0457
+        },
+        {
+          "func": "~:0(<built-in method io.open>)",
+          "ncalls": 2400,
+          "tottime_s": 0.0383,
+          "cumtime_s": 0.0406
+        },
+        {
+          "func": "~:0(<method 'match' of 're.Pattern' objects>)",
+          "ncalls": 99450,
+          "tottime_s": 0.0388,
+          "cumtime_s": 0.0388
+        },
+        {
+          "func": "__init__.py:183(dumps)",
+          "ncalls": 2400,
+          "tottime_s": 0.0062,
+          "cumtime_s": 0.0367
+        },
+        {
+          "func": "contextlib.py:132(__enter__)",
+          "ncalls": 2200,
+          "tottime_s": 0.0018,
+          "cumtime_s": 0.0349
+        },
+        {
+          "func": "__init__.py:93(generate_event_id)",
+          "ncalls": 2200,
+          "tottime_s": 0.0077,
+          "cumtime_s": 0.0346
+        },
+        {
+          "func": "embeddings.py:76(embed)",
+          "ncalls": 200,
+          "tottime_s": 0.01,
+          "cumtime_s": 0.031
+        },
+        {
+          "func": "encoder.py:183(encode)",
+          "ncalls": 2400,
+          "tottime_s": 0.0057,
+          "cumtime_s": 0.0281
+        },
+        {
+          "func": "uuid.py:721(uuid4)",
+          "ncalls": 2200,
+          "tottime_s": 0.0049,
+          "cumtime_s": 0.024
+        },
+        {
+          "func": "~:0(<built-in method posix.open>)",
+          "ncalls": 2200,
+          "tottime_s": 0.0232,
+          "cumtime_s": 0.0232
+        },
+        {
+          "func": "engine.py:393(_apply_depth)",
+          "ncalls": 2000,
+          "tottime_s": 0.004,
+          "cumtime_s": 0.0225
+        },
+        {
+          "func": "enum.py:1095(__new__)",
+          "ncalls": 49727,
+          "tottime_s": 0.0218,
+          "cumtime_s": 0.0218
+        },
+        {
+          "func": "~:0(<method 'isoformat' of 'datetime.datetime' objects>)",
+          "ncalls": 4400,
+          "tottime_s": 0.021,
+          "cumtime_s": 0.021
+        },
+        {
+          "func": "encoder.py:205(iterencode)",
+          "ncalls": 2400,
+          "tottime_s": 0.0209,
+          "cumtime_s": 0.0209
+        },
+        {
+          "func": "engine.py:531(_context_boost)",
+          "ncalls": 14575,
+          "tottime_s": 0.0169,
+          "cumtime_s": 0.0198
+        },
+        {
+          "func": "contextlib.py:141(__exit__)",
+          "ncalls": 2200,
+          "tottime_s": 0.0037,
+          "cumtime_s": 0.0188
+        },
+        {
+          "func": "copy.py:66(copy)",
+          "ncalls": 2000,
+          "tottime_s": 0.0061,
+          "cumtime_s": 0.0178
+        },
+        {
+          "func": "log.py:26(log)",
+          "ncalls": 200,
+          "tottime_s": 0.0014,
+          "cumtime_s": 0.0166
+        },
+        {
+          "func": "~:0(<method 'keys' of 'sqlite3.Row' objects>)",
+          "ncalls": 33150,
+          "tottime_s": 0.0151,
+          "cumtime_s": 0.0151
+        }
+      ]
+    },
+    "prf": {
+      "ingest_seconds": 288.89,
+      "lat_ms": {
+        "p50": 40.076,
+        "p95": 61.444,
+        "p99": 80.703,
+        "mean": 44.778,
+        "max": 83.817
+      },
+      "top_funcs_cum": [
+        {
+          "func": "engine.py:294(recall)",
+          "ncalls": 200,
+          "tottime_s": 0.0314,
+          "cumtime_s": 8.951
+        },
+        {
+          "func": "engine.py:187(search)",
+          "ncalls": 400,
+          "tottime_s": 0.0608,
+          "cumtime_s": 7.6686
+        },
+        {
+          "func": "engine.py:116(_search_with_prf)",
+          "ncalls": 200,
+          "tottime_s": 0.0139,
+          "cumtime_s": 7.6679
+        },
+        {
+          "func": "~:0(<method 'execute' of 'sqlite3.Connection' objects>)",
+          "ncalls": 14157,
+          "tottime_s": 6.5227,
+          "cumtime_s": 6.5227
+        },
+        {
+          "func": "vector.py:161(search)",
+          "ncalls": 200,
+          "tottime_s": 0.0134,
+          "cumtime_s": 4.4738
+        },
+        {
+          "func": "memory.py:463(search_text)",
+          "ncalls": 200,
+          "tottime_s": 0.0175,
+          "cumtime_s": 2.0452
+        },
+        {
+          "func": "memory.py:372(get)",
+          "ncalls": 11757,
+          "tottime_s": 0.0248,
+          "cumtime_s": 0.9628
+        },
+        {
+          "func": "memory.py:718(_row_to_memory)",
+          "ncalls": 16570,
+          "tottime_s": 0.3903,
+          "cumtime_s": 0.8069
+        },
+        {
+          "func": "memory.py:393(mark_accessed)",
+          "ncalls": 2000,
+          "tottime_s": 0.0065,
+          "cumtime_s": 0.7803
+        },
+        {
+          "func": "~:0(<method 'commit' of 'sqlite3.Connection' objects>)",
+          "ncalls": 2000,
+          "tottime_s": 0.6321,
+          "cumtime_s": 0.6321
+        },
+        {
+          "func": "__init__.py:299(loads)",
+          "ncalls": 49710,
+          "tottime_s": 0.0552,
+          "cumtime_s": 0.2478
+        },
+        {
+          "func": "buffer.py:109(append)",
+          "ncalls": 2200,
+          "tottime_s": 0.0203,
+          "cumtime_s": 0.2171
+        },
+        {
+          "func": "engine.py:420(_compute_score)",
+          "ncalls": 14570,
+          "tottime_s": 0.094,
+          "cumtime_s": 0.1899
+        },
+        {
+          "func": "decoder.py:332(decode)",
+          "ncalls": 49710,
+          "tottime_s": 0.0812,
+          "cumtime_s": 0.1766
+        },
+        {
+          "func": "~:0(<method 'fetchone' of 'sqlite3.Cursor' objects>)",
+          "ncalls": 11757,
+          "tottime_s": 0.1222,
+          "cumtime_s": 0.1222
+        },
+        {
+          "func": "~:0(<method 'fetchall' of 'sqlite3.Cursor' objects>)",
+          "ncalls": 400,
+          "tottime_s": 0.0767,
+          "cumtime_s": 0.0767
+        },
+        {
+          "func": "~:0(<built-in method builtins.round>)",
+          "ncalls": 118760,
+          "tottime_s": 0.061,
+          "cumtime_s": 0.061
+        },
+        {
+          "func": "__init__.py:233(from_dict)",
+          "ncalls": 16570,
+          "tottime_s": 0.0381,
+          "cumtime_s": 0.0529
+        },
+        {
+          "func": "~:0(<method '__exit__' of '_io._IOBase' objects>)",
+          "ncalls": 2401,
+          "tottime_s": 0.0508,
+          "cumtime_s": 0.0508
+        },
+        {
+          "func": "enum.py:688(__call__)",
+          "ncalls": 49714,
+          "tottime_s": 0.0281,
+          "cumtime_s": 0.05
+        },
+        {
+          "func": "~:0(<built-in method builtins.next>)",
+          "ncalls": 4400,
+          "tottime_s": 0.0025,
+          "cumtime_s": 0.0488
+        },
+        {
+          "func": "buffer.py:89(_flock)",
+          "ncalls": 4400,
+          "tottime_s": 0.0077,
+          "cumtime_s": 0.0464
+        },
+        {
+          "func": "decoder.py:343(raw_decode)",
+          "ncalls": 49710,
+          "tottime_s": 0.043,
+          "cumtime_s": 0.043
+        },
+        {
+          "func": "~:0(<built-in method io.open>)",
+          "ncalls": 2400,
+          "tottime_s": 0.0381,
+          "cumtime_s": 0.0404
+        },
+        {
+          "func": "~:0(<method 'match' of 're.Pattern' objects>)",
+          "ncalls": 99420,
+          "tottime_s": 0.0375,
+          "cumtime_s": 0.0375
+        },
+        {
+          "func": "__init__.py:183(dumps)",
+          "ncalls": 2400,
+          "tottime_s": 0.0061,
+          "cumtime_s": 0.0363
+        },
+        {
+          "func": "contextlib.py:132(__enter__)",
+          "ncalls": 2200,
+          "tottime_s": 0.0018,
+          "cumtime_s": 0.0352
+        },
+        {
+          "func": "__init__.py:93(generate_event_id)",
+          "ncalls": 2200,
+          "tottime_s": 0.0078,
+          "cumtime_s": 0.0348
+        },
+        {
+          "func": "embeddings.py:76(embed)",
+          "ncalls": 200,
+          "tottime_s": 0.01,
+          "cumtime_s": 0.031
+        },
+        {
+          "func": "encoder.py:183(encode)",
+          "ncalls": 2400,
+          "tottime_s": 0.0057,
+          "cumtime_s": 0.0278
+        },
+        {
+          "func": "uuid.py:721(uuid4)",
+          "ncalls": 2200,
+          "tottime_s": 0.0049,
+          "cumtime_s": 0.0241
+        },
+        {
+          "func": "~:0(<built-in method posix.open>)",
+          "ncalls": 2200,
+          "tottime_s": 0.0237,
+          "cumtime_s": 0.0237
+        },
+        {
+          "func": "engine.py:393(_apply_depth)",
+          "ncalls": 2000,
+          "tottime_s": 0.0039,
+          "cumtime_s": 0.0224
+        },
+        {
+          "func": "expansion.py:32(expand_query)",
+          "ncalls": 200,
+          "tottime_s": 0.0022,
+          "cumtime_s": 0.0222
+        },
+        {
+          "func": "enum.py:1095(__new__)",
+          "ncalls": 49714,
+          "tottime_s": 0.0219,
+          "cumtime_s": 0.0219
+        },
+        {
+          "func": "~:0(<method 'isoformat' of 'datetime.datetime' objects>)",
+          "ncalls": 4400,
+          "tottime_s": 0.021,
+          "cumtime_s": 0.021
+        },
+        {
+          "func": "encoder.py:205(iterencode)",
+          "ncalls": 2400,
+          "tottime_s": 0.0208,
+          "cumtime_s": 0.0208
+        },
+        {
+          "func": "engine.py:531(_context_boost)",
+          "ncalls": 14570,
+          "tottime_s": 0.0166,
+          "cumtime_s": 0.0195
+        },
+        {
+          "func": "contextlib.py:141(__exit__)",
+          "ncalls": 2200,
+          "tottime_s": 0.0037,
+          "cumtime_s": 0.0191
+        },
+        {
+          "func": "copy.py:66(copy)",
+          "ncalls": 2000,
+          "tottime_s": 0.0061,
+          "cumtime_s": 0.0178
+        }
+      ]
+    },
+    "sp": {
+      "ingest_seconds": 275.9,
+      "lat_ms": {
+        "p50": 40.383,
+        "p95": 62.535,
+        "p99": 85.921,
+        "mean": 45.102,
+        "max": 88.623
+      },
+      "top_funcs_cum": [
+        {
+          "func": "engine.py:294(recall)",
+          "ncalls": 200,
+          "tottime_s": 0.0446,
+          "cumtime_s": 9.0158
+        },
+        {
+          "func": "engine.py:187(search)",
+          "ncalls": 200,
+          "tottime_s": 0.0631,
+          "cumtime_s": 7.7367
+        },
+        {
+          "func": "~:0(<method 'execute' of 'sqlite3.Connection' objects>)",
+          "ncalls": 14157,
+          "tottime_s": 6.5737,
+          "cumtime_s": 6.5737
+        },
+        {
+          "func": "vector.py:161(search)",
+          "ncalls": 200,
+          "tottime_s": 0.0132,
+          "cumtime_s": 4.5045
+        },
+        {
+          "func": "memory.py:463(search_text)",
+          "ncalls": 200,
+          "tottime_s": 0.0176,
+          "cumtime_s": 2.0654
+        },
+        {
+          "func": "memory.py:372(get)",
+          "ncalls": 11757,
+          "tottime_s": 0.0246,
+          "cumtime_s": 0.971
+        },
+        {
+          "func": "memory.py:718(_row_to_memory)",
+          "ncalls": 16570,
+          "tottime_s": 0.3792,
+          "cumtime_s": 0.8142
+        },
+        {
+          "func": "memory.py:393(mark_accessed)",
+          "ncalls": 2000,
+          "tottime_s": 0.0069,
+          "cumtime_s": 0.7667
+        },
+        {
+          "func": "~:0(<method 'commit' of 'sqlite3.Connection' objects>)",
+          "ncalls": 2000,
+          "tottime_s": 0.6171,
+          "cumtime_s": 0.6171
+        },
+        {
+          "func": "__init__.py:299(loads)",
+          "ncalls": 49710,
+          "tottime_s": 0.055,
+          "cumtime_s": 0.2657
+        },
+        {
+          "func": "buffer.py:109(append)",
+          "ncalls": 2200,
+          "tottime_s": 0.0201,
+          "cumtime_s": 0.2143
+        },
+        {
+          "func": "decoder.py:332(decode)",
+          "ncalls": 49710,
+          "tottime_s": 0.0825,
+          "cumtime_s": 0.1943
+        },
+        {
+          "func": "engine.py:420(_compute_score)",
+          "ncalls": 14570,
+          "tottime_s": 0.095,
+          "cumtime_s": 0.1918
+        },
+        {
+          "func": "~:0(<method 'fetchone' of 'sqlite3.Cursor' objects>)",
+          "ncalls": 11757,
+          "tottime_s": 0.1234,
+          "cumtime_s": 0.1234
+        },
+        {
+          "func": "~:0(<method 'fetchall' of 'sqlite3.Cursor' objects>)",
+          "ncalls": 400,
+          "tottime_s": 0.0776,
+          "cumtime_s": 0.0776
+        },
+        {
+          "func": "~:0(<built-in method builtins.round>)",
+          "ncalls": 118760,
+          "tottime_s": 0.0611,
+          "cumtime_s": 0.0611
+        },
+        {
+          "func": "decoder.py:343(raw_decode)",
+          "ncalls": 49710,
+          "tottime_s": 0.0588,
+          "cumtime_s": 0.0588
+        },
+        {
+          "func": "__init__.py:233(from_dict)",
+          "ncalls": 16570,
+          "tottime_s": 0.0383,
+          "cumtime_s": 0.0532
+        },
+        {
+          "func": "~:0(<method '__exit__' of '_io._IOBase' objects>)",
+          "ncalls": 2400,
+          "tottime_s": 0.0502,
+          "cumtime_s": 0.0502
+        },
+        {
+          "func": "enum.py:688(__call__)",
+          "ncalls": 49710,
+          "tottime_s": 0.0276,
+          "cumtime_s": 0.0492
+        },
+        {
+          "func": "~:0(<built-in method builtins.next>)",
+          "ncalls": 4400,
+          "tottime_s": 0.0024,
+          "cumtime_s": 0.0484
+        },
+        {
+          "func": "buffer.py:89(_flock)",
+          "ncalls": 4400,
+          "tottime_s": 0.0077,
+          "cumtime_s": 0.0459
+        },
+        {
+          "func": "rerank.py:84(apply_reranker)",
+          "ncalls": 200,
+          "tottime_s": 0.0012,
+          "cumtime_s": 0.0428
+        },
+        {
+          "func": "share_prior.py:81(share_prior_reranker)",
+          "ncalls": 200,
+          "tottime_s": 0.0016,
+          "cumtime_s": 0.0412
+        },
+        {
+          "func": "~:0(<built-in method io.open>)",
+          "ncalls": 2400,
+          "tottime_s": 0.038,
+          "cumtime_s": 0.0403
+        },
+        {
+          "func": "share_prior.py:108(<listcomp>)",
+          "ncalls": 200,
+          "tottime_s": 0.0017,
+          "cumtime_s": 0.0394
+        },
+        {
+          "func": "~:0(<method 'match' of 're.Pattern' objects>)",
+          "ncalls": 99420,
+          "tottime_s": 0.038,
+          "cumtime_s": 0.038
+        },
+        {
+          "func": "share_prior.py:65(_entities_for)",
+          "ncalls": 4000,
+          "tottime_s": 0.0037,
+          "cumtime_s": 0.0376
+        },
+        {
+          "func": "__init__.py:183(dumps)",
+          "ncalls": 2400,
+          "tottime_s": 0.006,
+          "cumtime_s": 0.0355
+        },
+        {
+          "func": "contextlib.py:132(__enter__)",
+          "ncalls": 2200,
+          "tottime_s": 0.0018,
+          "cumtime_s": 0.0348
+        },
+        {
+          "func": "entities.py:49(extract_entities)",
+          "ncalls": 4000,
+          "tottime_s": 0.0021,
+          "cumtime_s": 0.034
+        },
+        {
+          "func": "__init__.py:93(generate_event_id)",
+          "ncalls": 2200,
+          "tottime_s": 0.0075,
+          "cumtime_s": 0.0339
+        },
+        {
+          "func": "entities.py:77(_extract_heuristic)",
+          "ncalls": 4000,
+          "tottime_s": 0.025,
+          "cumtime_s": 0.0318
+        },
+        {
+          "func": "embeddings.py:76(embed)",
+          "ncalls": 200,
+          "tottime_s": 0.0102,
+          "cumtime_s": 0.0308
+        },
+        {
+          "func": "encoder.py:183(encode)",
+          "ncalls": 2400,
+          "tottime_s": 0.0056,
+          "cumtime_s": 0.0271
+        },
+        {
+          "func": "uuid.py:721(uuid4)",
+          "ncalls": 2200,
+          "tottime_s": 0.0048,
+          "cumtime_s": 0.0235
+        },
+        {
+          "func": "~:0(<built-in method posix.open>)",
+          "ncalls": 2200,
+          "tottime_s": 0.0232,
+          "cumtime_s": 0.0232
+        },
+        {
+          "func": "engine.py:393(_apply_depth)",
+          "ncalls": 2000,
+          "tottime_s": 0.004,
+          "cumtime_s": 0.0228
+        },
+        {
+          "func": "enum.py:1095(__new__)",
+          "ncalls": 49710,
+          "tottime_s": 0.0216,
+          "cumtime_s": 0.0216
+        },
+        {
+          "func": "~:0(<method 'isoformat' of 'datetime.datetime' objects>)",
+          "ncalls": 4400,
+          "tottime_s": 0.0209,
+          "cumtime_s": 0.0209
+        }
+      ]
+    },
+    "both": {
+      "ingest_seconds": 280.77,
+      "lat_ms": {
+        "p50": 46.852,
+        "p95": 82.18,
+        "p99": 86.094,
+        "mean": 49.021,
+        "max": 88.287
+      },
+      "top_funcs_cum": [
+        {
+          "func": "engine.py:294(recall)",
+          "ncalls": 200,
+          "tottime_s": 0.0358,
+          "cumtime_s": 9.7982
+        },
+        {
+          "func": "engine.py:187(search)",
+          "ncalls": 400,
+          "tottime_s": 0.0749,
+          "cumtime_s": 8.4049
+        },
+        {
+          "func": "engine.py:116(_search_with_prf)",
+          "ncalls": 200,
+          "tottime_s": 0.0193,
+          "cumtime_s": 8.404
+        },
+        {
+          "func": "~:0(<method 'execute' of 'sqlite3.Connection' objects>)",
+          "ncalls": 14157,
+          "tottime_s": 7.032,
+          "cumtime_s": 7.032
+        },
+        {
+          "func": "vector.py:161(search)",
+          "ncalls": 200,
+          "tottime_s": 0.0167,
+          "cumtime_s": 4.7703
+        },
+        {
+          "func": "memory.py:463(search_text)",
+          "ncalls": 200,
+          "tottime_s": 0.0201,
+          "cumtime_s": 2.2591
+        },
+        {
+          "func": "memory.py:372(get)",
+          "ncalls": 11757,
+          "tottime_s": 0.0284,
+          "cumtime_s": 1.1073
+        },
+        {
+          "func": "memory.py:718(_row_to_memory)",
+          "ncalls": 16570,
+          "tottime_s": 0.4497,
+          "cumtime_s": 0.9262
+        },
+        {
+          "func": "memory.py:393(mark_accessed)",
+          "ncalls": 2000,
+          "tottime_s": 0.0077,
+          "cumtime_s": 0.8285
+        },
+        {
+          "func": "~:0(<method 'commit' of 'sqlite3.Connection' objects>)",
+          "ncalls": 2000,
+          "tottime_s": 0.6586,
+          "cumtime_s": 0.6586
+        },
+        {
+          "func": "__init__.py:299(loads)",
+          "ncalls": 49710,
+          "tottime_s": 0.0619,
+          "cumtime_s": 0.2825
+        },
+        {
+          "func": "buffer.py:109(append)",
+          "ncalls": 2200,
+          "tottime_s": 0.0229,
+          "cumtime_s": 0.24
+        },
+        {
+          "func": "engine.py:420(_compute_score)",
+          "ncalls": 14570,
+          "tottime_s": 0.1082,
+          "cumtime_s": 0.219
+        },
+        {
+          "func": "decoder.py:332(decode)",
+          "ncalls": 49710,
+          "tottime_s": 0.091,
+          "cumtime_s": 0.2018
+        },
+        {
+          "func": "~:0(<method 'fetchone' of 'sqlite3.Cursor' objects>)",
+          "ncalls": 11757,
+          "tottime_s": 0.1398,
+          "cumtime_s": 0.1398
+        },
+        {
+          "func": "~:0(<method 'fetchall' of 'sqlite3.Cursor' objects>)",
+          "ncalls": 400,
+          "tottime_s": 0.0897,
+          "cumtime_s": 0.0897
+        },
+        {
+          "func": "~:0(<built-in method builtins.round>)",
+          "ncalls": 118760,
+          "tottime_s": 0.0699,
+          "cumtime_s": 0.0699
+        },
+        {
+          "func": "__init__.py:233(from_dict)",
+          "ncalls": 16570,
+          "tottime_s": 0.044,
+          "cumtime_s": 0.0608
+        },
+        {
+          "func": "enum.py:688(__call__)",
+          "ncalls": 49710,
+          "tottime_s": 0.0315,
+          "cumtime_s": 0.0565
+        },
+        {
+          "func": "~:0(<method '__exit__' of '_io._IOBase' objects>)",
+          "ncalls": 2400,
+          "tottime_s": 0.0554,
+          "cumtime_s": 0.0554
+        },
+        {
+          "func": "entities.py:49(extract_entities)",
+          "ncalls": 6000,
+          "tottime_s": 0.0035,
+          "cumtime_s": 0.055
+        },
+        {
+          "func": "~:0(<built-in method builtins.next>)",
+          "ncalls": 4400,
+          "tottime_s": 0.0028,
+          "cumtime_s": 0.0532
+        },
+        {
+          "func": "decoder.py:343(raw_decode)",
+          "ncalls": 49710,
+          "tottime_s": 0.0518,
+          "cumtime_s": 0.0518
+        },
+        {
+          "func": "entities.py:77(_extract_heuristic)",
+          "ncalls": 6000,
+          "tottime_s": 0.0402,
+          "cumtime_s": 0.0516
+        },
+        {
+          "func": "buffer.py:89(_flock)",
+          "ncalls": 4400,
+          "tottime_s": 0.0089,
+          "cumtime_s": 0.0504
+        },
+        {
+          "func": "rerank.py:84(apply_reranker)",
+          "ncalls": 200,
+          "tottime_s": 0.0015,
+          "cumtime_s": 0.0483
+        },
+        {
+          "func": "share_prior.py:81(share_prior_reranker)",
+          "ncalls": 200,
+          "tottime_s": 0.0018,
+          "cumtime_s": 0.0464
+        },
+        {
+          "func": "~:0(<built-in method io.open>)",
+          "ncalls": 2400,
+          "tottime_s": 0.0424,
+          "cumtime_s": 0.0449
+        },
+        {
+          "func": "share_prior.py:108(<listcomp>)",
+          "ncalls": 200,
+          "tottime_s": 0.0019,
+          "cumtime_s": 0.0443
+        },
+        {
+          "func": "~:0(<method 'match' of 're.Pattern' objects>)",
+          "ncalls": 99420,
+          "tottime_s": 0.0424,
+          "cumtime_s": 0.0424
+        },
+        {
+          "func": "share_prior.py:65(_entities_for)",
+          "ncalls": 4000,
+          "tottime_s": 0.0043,
+          "cumtime_s": 0.0424
+        },
+        {
+          "func": "__init__.py:183(dumps)",
+          "ncalls": 2400,
+          "tottime_s": 0.0069,
+          "cumtime_s": 0.0406
+        },
+        {
+          "func": "__init__.py:93(generate_event_id)",
+          "ncalls": 2200,
+          "tottime_s": 0.0087,
+          "cumtime_s": 0.0388
+        },
+        {
+          "func": "contextlib.py:132(__enter__)",
+          "ncalls": 2200,
+          "tottime_s": 0.002,
+          "cumtime_s": 0.0385
+        },
+        {
+          "func": "embeddings.py:76(embed)",
+          "ncalls": 200,
+          "tottime_s": 0.0116,
+          "cumtime_s": 0.0356
+        },
+        {
+          "func": "encoder.py:183(encode)",
+          "ncalls": 2400,
+          "tottime_s": 0.0063,
+          "cumtime_s": 0.031
+        },
+        {
+          "func": "uuid.py:721(uuid4)",
+          "ncalls": 2200,
+          "tottime_s": 0.0056,
+          "cumtime_s": 0.0268
+        },
+        {
+          "func": "engine.py:393(_apply_depth)",
+          "ncalls": 2000,
+          "tottime_s": 0.0046,
+          "cumtime_s": 0.0256
+        },
+        {
+          "func": "~:0(<built-in method posix.open>)",
+          "ncalls": 2200,
+          "tottime_s": 0.0255,
+          "cumtime_s": 0.0255
+        },
+        {
+          "func": "enum.py:1095(__new__)",
+          "ncalls": 49710,
+          "tottime_s": 0.025,
+          "cumtime_s": 0.025
+        }
+      ]
+    }
+  }
+}

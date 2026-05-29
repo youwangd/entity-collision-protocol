@@ -1,0 +1,33 @@
+{
+  "config": {
+    "n_memories": 30000,
+    "n_queries": 200,
+    "seed": 42,
+    "embed": "HashTrigram-256",
+    "vector_weight": 0.3,
+    "anchor_share_max": 0.5,
+    "min_dominance": 0.3
+  },
+  "arms": {
+    "both": {
+      "ingest_seconds": 306.8,
+      "lat_ms": {
+        "p50": 60.727,
+        "p95": 102.705,
+        "p99": 120.794,
+        "mean": 70.923,
+        "max": 127.047
+      }
+    },
+    "both_skip": {
+      "ingest_seconds": 315.95,
+      "lat_ms": {
+        "p50": 60.526,
+        "p95": 101.177,
+        "p99": 113.621,
+        "mean": 70.103,
+        "max": 119.513
+      }
+    }
+  }
+}

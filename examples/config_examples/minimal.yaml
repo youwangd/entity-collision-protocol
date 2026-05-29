@@ -1,0 +1,3 @@
+# Minimal config — Tier 0: BM25 only, no external dependencies
+# Works on a Raspberry Pi with just Python + SQLite
+path: ~/.engram

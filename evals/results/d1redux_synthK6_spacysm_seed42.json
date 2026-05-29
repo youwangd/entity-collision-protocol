@@ -1,0 +1,80 @@
+{
+  "corpus": {
+    "fixture": "synth_entity",
+    "tags": [
+      "preference",
+      "service",
+      "project",
+      "tool",
+      "technical"
+    ],
+    "n_entities": 12,
+    "collision_degree": 6,
+    "distractors_per_entity": 4,
+    "seed": 42,
+    "n_memories": 600,
+    "n_queries": 360
+  },
+  "weights": [
+    0.0,
+    0.1,
+    0.3,
+    0.5,
+    1.0
+  ],
+  "entity_ner": "spacy_sm",
+  "embed": "hash256",
+  "arms": [
+    {
+      "entity_weight": 0.0,
+      "n_queries": 360,
+      "hit@1": 0.04722222222222222,
+      "hit@5": 0.2916666666666667,
+      "hit@10": 0.5055555555555555,
+      "d_hit@1": 0.0,
+      "d_hit@5": 0.0,
+      "d_hit@10": 0.0
+    },
+    {
+      "entity_weight": 0.1,
+      "n_queries": 360,
+      "hit@1": 0.05277777777777778,
+      "hit@5": 0.30277777777777776,
+      "hit@10": 0.5083333333333333,
+      "d_hit@1": 0.005556,
+      "d_hit@5": 0.011111,
+      "d_hit@10": 0.002778
+    },
+    {
+      "entity_weight": 0.3,
+      "n_queries": 360,
+      "hit@1": 0.05277777777777778,
+      "hit@5": 0.3,
+      "hit@10": 0.5083333333333333,
+      "d_hit@1": 0.005556,
+      "d_hit@5": 0.008333,
+      "d_hit@10": 0.002778
+    },
+    {
+      "entity_weight": 0.5,
+      "n_queries": 360,
+      "hit@1": 0.05277777777777778,
+      "hit@5": 0.3,
+      "hit@10": 0.5055555555555555,
+      "d_hit@1": 0.005556,
+      "d_hit@5": 0.008333,
+      "d_hit@10": 0.0
+    },
+    {
+      "entity_weight": 1.0,
+      "n_queries": 360,
+      "hit@1": 0.05277777777777778,
+      "hit@5": 0.3,
+      "hit@10": 0.5027777777777778,
+      "d_hit@1": 0.005556,
+      "d_hit@5": 0.008333,
+      "d_hit@10": -0.002778
+    }
+  ],
+  "wall_seconds": 136.52
+}

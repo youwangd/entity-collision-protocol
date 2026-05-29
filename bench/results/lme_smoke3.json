@@ -1,0 +1,26 @@
+{
+  "n_instances": 3,
+  "k": 10,
+  "n_memories_total": 1576,
+  "session_hit_at_1": 0.6667,
+  "session_hit_at_k": 1.0,
+  "per_type_session_hit_at_1": {
+    "single-session-user": 0.6667
+  },
+  "per_type_session_hit_at_k": {
+    "single-session-user": 1.0
+  },
+  "per_type_n": {
+    "single-session-user": 3
+  },
+  "ingest_ms": {
+    "p50": 585.17,
+    "mean": 576.71,
+    "max": 586.85
+  },
+  "recall_ms": {
+    "p50": 6.86,
+    "mean": 6.15,
+    "max": 8.42
+  }
+}

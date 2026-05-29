@@ -1,0 +1,48 @@
+{
+  "embed_provider": "HashTrigram",
+  "embed_dimension": 256,
+  "dataset": "strict_paraphrase n_sessions=20 facts=5 distractors=10",
+  "cells": {
+    "bm25_only": {
+      "vector_weight": 0.0,
+      "n_memories": 300,
+      "n_queries": 100,
+      "hit_at_1": 0.64,
+      "hit_at_5": 0.98,
+      "hit_at_10": 1.0,
+      "mrr": 0.7788,
+      "recall_lat_ms_p50": 7.747,
+      "recall_lat_ms_p95": 18.116,
+      "recall_lat_ms_p99": 21.986
+    },
+    "hybrid_05": {
+      "vector_weight": 0.5,
+      "n_memories": 300,
+      "n_queries": 100,
+      "hit_at_1": 0.6,
+      "hit_at_5": 0.88,
+      "hit_at_10": 0.96,
+      "mrr": 0.7236,
+      "recall_lat_ms_p50": 7.711,
+      "recall_lat_ms_p95": 21.453,
+      "recall_lat_ms_p99": 22.414
+    },
+    "vector_only": {
+      "vector_weight": 1.0,
+      "n_memories": 300,
+      "n_queries": 100,
+      "hit_at_1": 0.61,
+      "hit_at_5": 0.84,
+      "hit_at_10": 0.93,
+      "mrr": 0.7061,
+      "recall_lat_ms_p50": 7.827,
+      "recall_lat_ms_p95": 21.221,
+      "recall_lat_ms_p99": 22.41
+    }
+  },
+  "meta": {
+    "sha": "b1d3f19",
+    "timestamp": "20260520T235110",
+    "name": "vector_recall_strict_hashtrigram"
+  }
+}

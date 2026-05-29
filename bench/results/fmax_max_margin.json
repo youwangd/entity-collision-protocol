@@ -1,0 +1,47 @@
+{
+  "source": "bench/results/locomo_fragmentation_per_tau_bootstrap.json",
+  "n_boot": 100,
+  "n_schemas": 543,
+  "by_tau": [
+    {
+      "tau": 0.1,
+      "n_boot": 100,
+      "f0_mean": 0.10490783410138256,
+      "f10_mean": 0.20723502304147476,
+      "fmax_midpoint": 0.1561,
+      "fmax_max_margin": 0.1486,
+      "margin_midpoint": 1.0,
+      "margin_max_margin": 1.0,
+      "lift": 0.0,
+      "skipped": false
+    },
+    {
+      "tau": 0.15,
+      "n_boot": 100,
+      "f0_mean": 0.6422811059907843,
+      "f10_mean": 0.6980414746543783,
+      "fmax_midpoint": 0.6702,
+      "fmax_max_margin": 0.674,
+      "margin_midpoint": 0.9025,
+      "margin_max_margin": 0.9118,
+      "lift": 0.0093,
+      "skipped": false
+    },
+    {
+      "tau": 0.2,
+      "n_boot": 100,
+      "f0_mean": 0.8982949308755778,
+      "f10_mean": 0.9167741935483885,
+      "fmax_midpoint": 0.9075,
+      "fmax_max_margin": 0.9021,
+      "margin_midpoint": 0.5772,
+      "margin_max_margin": 0.5785,
+      "lift": 0.0013,
+      "skipped": false
+    }
+  ],
+  "summary": {
+    "any_lift_positive": true,
+    "max_lift_tau": 0.15
+  }
+}

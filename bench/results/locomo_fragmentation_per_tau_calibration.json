@@ -1,0 +1,393 @@
+{
+  "n_samples": 10,
+  "n_schemas": 543,
+  "seed": 12648430,
+  "contaminations": [
+    0.0,
+    0.025,
+    0.05,
+    0.075,
+    0.1,
+    0.15,
+    0.2,
+    0.25
+  ],
+  "by_tau": [
+    {
+      "tau": 0.1,
+      "frag_at_c0": 0.07734806629834254,
+      "frag_at_c10": 0.18232044198895028,
+      "frag_at_c25": 0.3406998158379374,
+      "monotone": true,
+      "saturated_at_c0": false,
+      "collapsed_at_c0": false,
+      "gateable": false,
+      "recommended_fmax": null,
+      "points": [
+        {
+          "true_c": 0.0,
+          "fragmentation": 0.07734806629834254,
+          "contamination": 0.9873482921804075
+        },
+        {
+          "true_c": 0.025,
+          "fragmentation": 0.09944751381215469,
+          "contamination": 0.9870134314312602
+        },
+        {
+          "true_c": 0.05,
+          "fragmentation": 0.1289134438305709,
+          "contamination": 0.986996943686975
+        },
+        {
+          "true_c": 0.075,
+          "fragmentation": 0.1289134438305709,
+          "contamination": 0.9872727272727273
+        },
+        {
+          "true_c": 0.1,
+          "fragmentation": 0.18232044198895028,
+          "contamination": 0.9868666762430486
+        },
+        {
+          "true_c": 0.15,
+          "fragmentation": 0.23756906077348067,
+          "contamination": 0.9867138955478431
+        },
+        {
+          "true_c": 0.2,
+          "fragmentation": 0.3149171270718232,
+          "contamination": 0.9860325159435911
+        },
+        {
+          "true_c": 0.25,
+          "fragmentation": 0.3406998158379374,
+          "contamination": 0.9858109692766442
+        }
+      ]
+    },
+    {
+      "tau": 0.15,
+      "frag_at_c0": 0.583793738489871,
+      "frag_at_c10": 0.6574585635359116,
+      "frag_at_c25": 0.7403314917127072,
+      "monotone": false,
+      "saturated_at_c0": false,
+      "collapsed_at_c0": false,
+      "gateable": false,
+      "recommended_fmax": null,
+      "points": [
+        {
+          "true_c": 0.0,
+          "fragmentation": 0.583793738489871,
+          "contamination": 0.8321428571428572
+        },
+        {
+          "true_c": 0.025,
+          "fragmentation": 0.6040515653775322,
+          "contamination": 0.8278529980657641
+        },
+        {
+          "true_c": 0.05,
+          "fragmentation": 0.6077348066298343,
+          "contamination": 0.8294346978557505
+        },
+        {
+          "true_c": 0.075,
+          "fragmentation": 0.6224677716390423,
+          "contamination": 0.8123569794050344
+        },
+        {
+          "true_c": 0.1,
+          "fragmentation": 0.6574585635359116,
+          "contamination": 0.7804511278195488
+        },
+        {
+          "true_c": 0.15,
+          "fragmentation": 0.6813996316758748,
+          "contamination": 0.7735849056603774
+        },
+        {
+          "true_c": 0.2,
+          "fragmentation": 0.7550644567219152,
+          "contamination": 0.7633410672853829
+        },
+        {
+          "true_c": 0.25,
+          "fragmentation": 0.7403314917127072,
+          "contamination": 0.7228260869565217
+        }
+      ]
+    },
+    {
+      "tau": 0.2,
+      "frag_at_c0": 0.8729281767955801,
+      "frag_at_c10": 0.8931860036832413,
+      "frag_at_c25": 0.9318600368324125,
+      "monotone": true,
+      "saturated_at_c0": false,
+      "collapsed_at_c0": false,
+      "gateable": false,
+      "recommended_fmax": null,
+      "points": [
+        {
+          "true_c": 0.0,
+          "fragmentation": 0.8729281767955801,
+          "contamination": 0.13953488372093023
+        },
+        {
+          "true_c": 0.025,
+          "fragmentation": 0.8766114180478821,
+          "contamination": 0.14285714285714285
+        },
+        {
+          "true_c": 0.05,
+          "fragmentation": 0.8802946593001841,
+          "contamination": 0.14634146341463414
+        },
+        {
+          "true_c": 0.075,
+          "fragmentation": 0.8876611418047882,
+          "contamination": 0.15384615384615385
+        },
+        {
+          "true_c": 0.1,
+          "fragmentation": 0.8931860036832413,
+          "contamination": 0.0625
+        },
+        {
+          "true_c": 0.15,
+          "fragmentation": 0.9060773480662984,
+          "contamination": 0.1
+        },
+        {
+          "true_c": 0.2,
+          "fragmentation": 0.9300184162062615,
+          "contamination": 0.09090909090909091
+        },
+        {
+          "true_c": 0.25,
+          "fragmentation": 0.9318600368324125,
+          "contamination": 0.05
+        }
+      ]
+    },
+    {
+      "tau": 0.25,
+      "frag_at_c0": 0.9742173112338858,
+      "frag_at_c10": 0.9779005524861878,
+      "frag_at_c25": 0.9852670349907919,
+      "monotone": false,
+      "saturated_at_c0": true,
+      "collapsed_at_c0": false,
+      "gateable": false,
+      "recommended_fmax": null,
+      "points": [
+        {
+          "true_c": 0.0,
+          "fragmentation": 0.9742173112338858,
+          "contamination": 0.0
+        },
+        {
+          "true_c": 0.025,
+          "fragmentation": 0.9779005524861878,
+          "contamination": 0.0
+        },
+        {
+          "true_c": 0.05,
+          "fragmentation": 0.9742173112338858,
+          "contamination": 0.0
+        },
+        {
+          "true_c": 0.075,
+          "fragmentation": 0.9779005524861878,
+          "contamination": 0.0
+        },
+        {
+          "true_c": 0.1,
+          "fragmentation": 0.9779005524861878,
+          "contamination": 0.0
+        },
+        {
+          "true_c": 0.15,
+          "fragmentation": 0.9779005524861878,
+          "contamination": 0.0
+        },
+        {
+          "true_c": 0.2,
+          "fragmentation": 0.992633517495396,
+          "contamination": 0.0
+        },
+        {
+          "true_c": 0.25,
+          "fragmentation": 0.9852670349907919,
+          "contamination": 0.0
+        }
+      ]
+    },
+    {
+      "tau": 0.3,
+      "frag_at_c0": 0.996316758747698,
+      "frag_at_c10": 0.996316758747698,
+      "frag_at_c25": 0.996316758747698,
+      "monotone": false,
+      "saturated_at_c0": true,
+      "collapsed_at_c0": false,
+      "gateable": false,
+      "recommended_fmax": null,
+      "points": [
+        {
+          "true_c": 0.0,
+          "fragmentation": 0.996316758747698,
+          "contamination": 0.0
+        },
+        {
+          "true_c": 0.025,
+          "fragmentation": 1.0,
+          "contamination": 0.0
+        },
+        {
+          "true_c": 0.05,
+          "fragmentation": 0.996316758747698,
+          "contamination": 0.0
+        },
+        {
+          "true_c": 0.075,
+          "fragmentation": 0.996316758747698,
+          "contamination": 0.0
+        },
+        {
+          "true_c": 0.1,
+          "fragmentation": 0.996316758747698,
+          "contamination": 0.0
+        },
+        {
+          "true_c": 0.15,
+          "fragmentation": 0.996316758747698,
+          "contamination": 0.0
+        },
+        {
+          "true_c": 0.2,
+          "fragmentation": 0.996316758747698,
+          "contamination": 0.0
+        },
+        {
+          "true_c": 0.25,
+          "fragmentation": 0.996316758747698,
+          "contamination": 0.0
+        }
+      ]
+    },
+    {
+      "tau": 0.4,
+      "frag_at_c0": 1.0,
+      "frag_at_c10": 1.0,
+      "frag_at_c25": 1.0,
+      "monotone": true,
+      "saturated_at_c0": true,
+      "collapsed_at_c0": false,
+      "gateable": false,
+      "recommended_fmax": null,
+      "points": [
+        {
+          "true_c": 0.0,
+          "fragmentation": 1.0,
+          "contamination": 0.0
+        },
+        {
+          "true_c": 0.025,
+          "fragmentation": 1.0,
+          "contamination": 0.0
+        },
+        {
+          "true_c": 0.05,
+          "fragmentation": 1.0,
+          "contamination": 0.0
+        },
+        {
+          "true_c": 0.075,
+          "fragmentation": 1.0,
+          "contamination": 0.0
+        },
+        {
+          "true_c": 0.1,
+          "fragmentation": 1.0,
+          "contamination": 0.0
+        },
+        {
+          "true_c": 0.15,
+          "fragmentation": 1.0,
+          "contamination": 0.0
+        },
+        {
+          "true_c": 0.2,
+          "fragmentation": 1.0,
+          "contamination": 0.0
+        },
+        {
+          "true_c": 0.25,
+          "fragmentation": 1.0,
+          "contamination": 0.0
+        }
+      ]
+    },
+    {
+      "tau": 0.5,
+      "frag_at_c0": 1.0,
+      "frag_at_c10": 1.0,
+      "frag_at_c25": 1.0,
+      "monotone": true,
+      "saturated_at_c0": true,
+      "collapsed_at_c0": false,
+      "gateable": false,
+      "recommended_fmax": null,
+      "points": [
+        {
+          "true_c": 0.0,
+          "fragmentation": 1.0,
+          "contamination": 0.0
+        },
+        {
+          "true_c": 0.025,
+          "fragmentation": 1.0,
+          "contamination": 0.0
+        },
+        {
+          "true_c": 0.05,
+          "fragmentation": 1.0,
+          "contamination": 0.0
+        },
+        {
+          "true_c": 0.075,
+          "fragmentation": 1.0,
+          "contamination": 0.0
+        },
+        {
+          "true_c": 0.1,
+          "fragmentation": 1.0,
+          "contamination": 0.0
+        },
+        {
+          "true_c": 0.15,
+          "fragmentation": 1.0,
+          "contamination": 0.0
+        },
+        {
+          "true_c": 0.2,
+          "fragmentation": 1.0,
+          "contamination": 0.0
+        },
+        {
+          "true_c": 0.25,
+          "fragmentation": 1.0,
+          "contamination": 0.0
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "n_taus": 7,
+    "n_gateable": 0,
+    "median_recommended_fmax": null
+  }
+}

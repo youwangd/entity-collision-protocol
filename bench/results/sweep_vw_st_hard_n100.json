@@ -1,0 +1,90 @@
+{
+  "config": {
+    "embed": "st",
+    "n_sessions": 100,
+    "facts": 5,
+    "distractors": 30,
+    "paraphrase": true,
+    "hard_distractors": 5,
+    "k": 10,
+    "seed": 42,
+    "n_queries": 500,
+    "n_memories": 6000,
+    "note": "Merged 5-cell n=500 ST hard sweep \u2014 vw=1.0 added 2026-05-24 from background cron run.",
+    "paired_bootstrap": {
+      "n_resamples": 5000,
+      "seed": 42
+    }
+  },
+  "sweep": [
+    {
+      "vector_weight": 0.0,
+      "baseline_hit_at_1": 0.274,
+      "baseline_hit_at_k": 0.698,
+      "baseline_mrr": 0.3864,
+      "baseline_ndcg_at_k": 0.4602,
+      "bm25_only_hit_at_1": 0.274,
+      "bm25_only_mrr": 0.3864,
+      "delta_hit_at_1_vs_bm25": 0.0,
+      "delta_mrr_vs_bm25": 0.0
+    },
+    {
+      "vector_weight": 0.3,
+      "baseline_hit_at_1": 0.186,
+      "baseline_hit_at_k": 0.836,
+      "baseline_mrr": 0.3547,
+      "baseline_ndcg_at_k": 0.4674,
+      "bm25_only_hit_at_1": 0.274,
+      "bm25_only_mrr": 0.3864,
+      "delta_hit_at_1_vs_bm25": -0.088,
+      "delta_mrr_vs_bm25": -0.0317
+    },
+    {
+      "vector_weight": 0.5,
+      "baseline_hit_at_1": 0.212,
+      "baseline_hit_at_k": 0.762,
+      "baseline_mrr": 0.3596,
+      "baseline_ndcg_at_k": 0.4544,
+      "bm25_only_hit_at_1": 0.274,
+      "bm25_only_mrr": 0.3864,
+      "delta_hit_at_1_vs_bm25": -0.062,
+      "delta_mrr_vs_bm25": -0.0268
+    },
+    {
+      "vector_weight": 0.7,
+      "baseline_hit_at_1": 0.242,
+      "baseline_hit_at_k": 0.728,
+      "baseline_mrr": 0.3744,
+      "baseline_ndcg_at_k": 0.458,
+      "bm25_only_hit_at_1": 0.274,
+      "bm25_only_mrr": 0.3864,
+      "delta_hit_at_1_vs_bm25": -0.032,
+      "delta_mrr_vs_bm25": -0.012
+    },
+    {
+      "vector_weight": 1.0,
+      "baseline_hit_at_1": 0.262,
+      "baseline_hit_at_1_ci95": [
+        0.226,
+        0.3
+      ],
+      "baseline_hit_at_k": 0.7,
+      "baseline_mrr": 0.3847,
+      "baseline_ndcg_at_k": 0.4593,
+      "bm25_only_hit_at_1": 0.274,
+      "bm25_only_hit_at_1_ci95": [
+        0.234,
+        0.314
+      ],
+      "bm25_only_mrr": 0.3864,
+      "delta_hit_at_1_vs_bm25": -0.012,
+      "delta_hit_at_1_vs_bm25_ci95": [
+        -0.07,
+        0.046
+      ],
+      "delta_mrr_vs_bm25": -0.0017,
+      "n_queries": 500,
+      "n_resamples": 5000
+    }
+  ]
+}

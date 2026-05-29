@@ -1,0 +1,142 @@
+{
+  "dataset_path": "bench/data/locomo10.json",
+  "max_instances": 2,
+  "k": 10,
+  "embedder": "hashtrigram",
+  "synthesis": false,
+  "wall_seconds": 215.82,
+  "rows": [
+    {
+      "name": "S1_extraction_only",
+      "stages": [
+        "extraction"
+      ],
+      "n_pairs": 301,
+      "n_consolidation_errors": 0,
+      "delta_h1": 0.0831,
+      "delta_hk": 0.1429,
+      "delta_mrr": 0.0907,
+      "delta_prk_overall": 0.1329,
+      "delta_grk_overall": 0.1386,
+      "delta_prk_multihop": -0.122,
+      "delta_grk_multihop": -0.0801,
+      "n_multihop": 41,
+      "wall_seconds": 30.58
+    },
+    {
+      "name": "S2_+fact",
+      "stages": [
+        "extraction",
+        "fact_extraction"
+      ],
+      "n_pairs": 301,
+      "n_consolidation_errors": 0,
+      "delta_h1": 0.0831,
+      "delta_hk": 0.1429,
+      "delta_mrr": 0.0907,
+      "delta_prk_overall": 0.1329,
+      "delta_grk_overall": 0.1386,
+      "delta_prk_multihop": -0.122,
+      "delta_grk_multihop": -0.0801,
+      "n_multihop": 41,
+      "wall_seconds": 30.53
+    },
+    {
+      "name": "S3_+interference",
+      "stages": [
+        "extraction",
+        "fact_extraction",
+        "interference"
+      ],
+      "n_pairs": 301,
+      "n_consolidation_errors": 0,
+      "delta_h1": 0.0831,
+      "delta_hk": 0.1429,
+      "delta_mrr": 0.0907,
+      "delta_prk_overall": 0.1329,
+      "delta_grk_overall": 0.1386,
+      "delta_prk_multihop": -0.122,
+      "delta_grk_multihop": -0.0801,
+      "n_multihop": 41,
+      "wall_seconds": 30.89
+    },
+    {
+      "name": "S4_+schema_update",
+      "stages": [
+        "extraction",
+        "fact_extraction",
+        "interference",
+        "schema_update"
+      ],
+      "n_pairs": 301,
+      "n_consolidation_errors": 0,
+      "delta_h1": 0.0831,
+      "delta_hk": 0.1429,
+      "delta_mrr": 0.0907,
+      "delta_prk_overall": 0.1329,
+      "delta_grk_overall": 0.1386,
+      "delta_prk_multihop": -0.122,
+      "delta_grk_multihop": -0.0801,
+      "n_multihop": 41,
+      "wall_seconds": 30.31
+    },
+    {
+      "name": "S5_+somatic",
+      "stages": [
+        "extraction",
+        "fact_extraction",
+        "interference",
+        "schema_update",
+        "somatic_marking"
+      ],
+      "n_pairs": 301,
+      "n_consolidation_errors": 0,
+      "delta_h1": 0.0864,
+      "delta_hk": 0.1429,
+      "delta_mrr": 0.0938,
+      "delta_prk_overall": 0.1329,
+      "delta_grk_overall": 0.1386,
+      "delta_prk_multihop": -0.122,
+      "delta_grk_multihop": -0.0801,
+      "n_multihop": 41,
+      "wall_seconds": 30.65
+    },
+    {
+      "name": "S6_+merge_persist",
+      "stages": [
+        "extraction",
+        "fact_extraction",
+        "interference",
+        "schema_update",
+        "somatic_marking",
+        "mechanical_merge"
+      ],
+      "n_pairs": 301,
+      "n_consolidation_errors": 0,
+      "delta_h1": 0.0864,
+      "delta_hk": 0.1429,
+      "delta_mrr": 0.0938,
+      "delta_prk_overall": 0.1329,
+      "delta_grk_overall": 0.1386,
+      "delta_prk_multihop": -0.122,
+      "delta_grk_multihop": -0.0801,
+      "n_multihop": 41,
+      "wall_seconds": 31.46
+    },
+    {
+      "name": "S7_full_default",
+      "stages": null,
+      "n_pairs": 301,
+      "n_consolidation_errors": 0,
+      "delta_h1": 0.0764,
+      "delta_hk": 0.1528,
+      "delta_mrr": 0.0899,
+      "delta_prk_overall": 0.1395,
+      "delta_grk_overall": 0.1461,
+      "delta_prk_multihop": -0.0976,
+      "delta_grk_multihop": -0.0496,
+      "n_multihop": 41,
+      "wall_seconds": 31.4
+    }
+  ]
+}

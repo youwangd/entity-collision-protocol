@@ -1,0 +1,78 @@
+{
+  "config": {
+    "n_clusters": 400,
+    "cluster_size": 4,
+    "n_per_window": 1,
+    "n_windows": 30,
+    "beta_a": 0.4,
+    "beta_b": 0.4,
+    "thresholds": {
+      "promote": 3,
+      "deprecate": 2,
+      "recover": 3
+    },
+    "seed": 14776849,
+    "tightness": 1.0,
+    "contamination": 0.5
+  },
+  "shares": [
+    0.0,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "cells": [
+    {
+      "share": 0.0,
+      "n_high_q": 576,
+      "n_low_q": 676,
+      "ttp_high_q_p50": null,
+      "ttp_high_q_p95": null,
+      "ttd_low_q_p50": null,
+      "ttd_low_q_p95": null,
+      "promote_rate_high": 0.0,
+      "deprecate_rate_low": 0.0,
+      "false_promote_low_q": 0.0,
+      "false_deprecate_high_q": 0.0
+    },
+    {
+      "share": 0.5,
+      "n_high_q": 576,
+      "n_low_q": 676,
+      "ttp_high_q_p50": null,
+      "ttp_high_q_p95": null,
+      "ttd_low_q_p50": 1.0,
+      "ttd_low_q_p95": 5.0,
+      "promote_rate_high": 0.0,
+      "deprecate_rate_low": 1.0,
+      "false_promote_low_q": 0.0,
+      "false_deprecate_high_q": 0.3385416666666667
+    },
+    {
+      "share": 0.75,
+      "n_high_q": 576,
+      "n_low_q": 676,
+      "ttp_high_q_p50": 1.0,
+      "ttp_high_q_p95": 5.0,
+      "ttd_low_q_p50": 1.0,
+      "ttd_low_q_p95": 4.0,
+      "promote_rate_high": 0.8784722222222222,
+      "deprecate_rate_low": 0.9748520710059172,
+      "false_promote_low_q": 0.02514792899408284,
+      "false_deprecate_high_q": 0.12152777777777778
+    },
+    {
+      "share": 1.0,
+      "n_high_q": 576,
+      "n_low_q": 676,
+      "ttp_high_q_p50": 1.0,
+      "ttp_high_q_p95": 1.0,
+      "ttd_low_q_p50": 1.0,
+      "ttd_low_q_p95": 1.0,
+      "promote_rate_high": 0.7083333333333334,
+      "deprecate_rate_low": 0.8949704142011834,
+      "false_promote_low_q": 0.10502958579881656,
+      "false_deprecate_high_q": 0.2916666666666667
+    }
+  ]
+}

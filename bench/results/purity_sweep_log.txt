@@ -1,0 +1,81 @@
+=== purity_min=0.5 ===
+[s=3][prf_heur          ] h1=0.058 h5=0.28 h10=0.508 Δ1=-0.0120 Δ5=-0.0620 Δ10=-0.0800 p50=7.804ms wall=6.9s
+[s=3][prf_typed_spacy   ] h1=0.058 h5=0.28 h10=0.508 Δ1=-0.0120 Δ5=-0.0620 Δ10=-0.0800 p50=69.902ms wall=38.0s
+[s=3][prf_typed_heur    ] h1=0.058 h5=0.28 h10=0.508 Δ1=-0.0120 Δ5=-0.0620 Δ10=-0.0800 p50=7.049ms wall=6.5s
+
+[meh-typed-ci] paired-bootstrap Δ vs baseline:
+  [prf_heur          ] Δhit@1 : -0.0107 [-0.0220, +0.0007]
+  [prf_heur          ] Δhit@5 : -0.0387 [-0.0500, -0.0280]
+  [prf_heur          ] Δhit@10: -0.0613 [-0.0740, -0.0500]
+  [prf_typed_spacy   ] Δhit@1 : -0.0067 [-0.0167, +0.0033]
+  [prf_typed_spacy   ] Δhit@5 : -0.0320 [-0.0420, -0.0220]
+  [prf_typed_spacy   ] Δhit@10: -0.0473 [-0.0580, -0.0373]
+  [prf_typed_heur    ] Δhit@1 : -0.0107 [-0.0220, +0.0007]
+  [prf_typed_heur    ] Δhit@5 : -0.0387 [-0.0500, -0.0280]
+  [prf_typed_heur    ] Δhit@10: -0.0613 [-0.0740, -0.0500]
+[meh-typed] wrote bench/results/purity_sweep/typed_3seed_p0.5.json
+=== purity_min=0.6 ===
+[s=3][prf_heur          ] h1=0.058 h5=0.28 h10=0.508 Δ1=-0.0120 Δ5=-0.0620 Δ10=-0.0800 p50=6.965ms wall=6.3s
+[s=3][prf_typed_spacy   ] h1=0.064 h5=0.302 h10=0.536 Δ1=-0.0060 Δ5=-0.0400 Δ10=-0.0520 p50=68.302ms wall=36.8s
+[s=3][prf_typed_heur    ] h1=0.058 h5=0.28 h10=0.508 Δ1=-0.0120 Δ5=-0.0620 Δ10=-0.0800 p50=6.943ms wall=6.4s
+
+[meh-typed-ci] paired-bootstrap Δ vs baseline:
+  [prf_heur          ] Δhit@1 : -0.0107 [-0.0220, +0.0007]
+  [prf_heur          ] Δhit@5 : -0.0387 [-0.0500, -0.0280]
+  [prf_heur          ] Δhit@10: -0.0613 [-0.0740, -0.0500]
+  [prf_typed_spacy   ] Δhit@1 : -0.0027 [-0.0113, +0.0060]
+  [prf_typed_spacy   ] Δhit@5 : -0.0213 [-0.0293, -0.0140]
+  [prf_typed_spacy   ] Δhit@10: -0.0320 [-0.0413, -0.0240]
+  [prf_typed_heur    ] Δhit@1 : -0.0107 [-0.0220, +0.0007]
+  [prf_typed_heur    ] Δhit@5 : -0.0387 [-0.0500, -0.0280]
+  [prf_typed_heur    ] Δhit@10: -0.0613 [-0.0740, -0.0500]
+[meh-typed] wrote bench/results/purity_sweep/typed_3seed_p0.6.json
+=== purity_min=0.7 ===
+[s=3][prf_heur          ] h1=0.058 h5=0.28 h10=0.508 Δ1=-0.0120 Δ5=-0.0620 Δ10=-0.0800 p50=6.964ms wall=6.3s
+[s=3][prf_typed_spacy   ] h1=0.066 h5=0.324 h10=0.574 Δ1=-0.0040 Δ5=-0.0180 Δ10=-0.0140 p50=68.732ms wall=36.8s
+[s=3][prf_typed_heur    ] h1=0.058 h5=0.28 h10=0.508 Δ1=-0.0120 Δ5=-0.0620 Δ10=-0.0800 p50=7.05ms wall=6.5s
+
+[meh-typed-ci] paired-bootstrap Δ vs baseline:
+  [prf_heur          ] Δhit@1 : -0.0107 [-0.0220, +0.0007]
+  [prf_heur          ] Δhit@5 : -0.0387 [-0.0500, -0.0280]
+  [prf_heur          ] Δhit@10: -0.0613 [-0.0740, -0.0500]
+  [prf_typed_spacy   ] Δhit@1 : +0.0027 [-0.0033, +0.0087]
+  [prf_typed_spacy   ] Δhit@5 : -0.0080 [-0.0133, -0.0033]
+  [prf_typed_spacy   ] Δhit@10: -0.0120 [-0.0180, -0.0067]
+  [prf_typed_heur    ] Δhit@1 : -0.0107 [-0.0220, +0.0007]
+  [prf_typed_heur    ] Δhit@5 : -0.0387 [-0.0500, -0.0280]
+  [prf_typed_heur    ] Δhit@10: -0.0613 [-0.0740, -0.0500]
+[meh-typed] wrote bench/results/purity_sweep/typed_3seed_p0.7.json
+=== purity_min=0.8 ===
+[s=3][prf_heur          ] h1=0.058 h5=0.28 h10=0.508 Δ1=-0.0120 Δ5=-0.0620 Δ10=-0.0800 p50=7.007ms wall=6.7s
+[s=3][prf_typed_spacy   ] h1=0.07 h5=0.342 h10=0.588 Δ1=+0.0000 Δ5=+0.0000 Δ10=+0.0000 p50=69.471ms wall=37.1s
+[s=3][prf_typed_heur    ] h1=0.058 h5=0.28 h10=0.508 Δ1=-0.0120 Δ5=-0.0620 Δ10=-0.0800 p50=7.17ms wall=6.7s
+
+[meh-typed-ci] paired-bootstrap Δ vs baseline:
+  [prf_heur          ] Δhit@1 : -0.0107 [-0.0220, +0.0007]
+  [prf_heur          ] Δhit@5 : -0.0387 [-0.0500, -0.0280]
+  [prf_heur          ] Δhit@10: -0.0613 [-0.0740, -0.0500]
+  [prf_typed_spacy   ] Δhit@1 : +0.0020 [-0.0013, +0.0053]
+  [prf_typed_spacy   ] Δhit@5 : -0.0027 [-0.0053, -0.0007]
+  [prf_typed_spacy   ] Δhit@10: -0.0040 [-0.0073, -0.0013]
+  [prf_typed_heur    ] Δhit@1 : -0.0107 [-0.0220, +0.0007]
+  [prf_typed_heur    ] Δhit@5 : -0.0387 [-0.0500, -0.0280]
+  [prf_typed_heur    ] Δhit@10: -0.0613 [-0.0740, -0.0500]
+[meh-typed] wrote bench/results/purity_sweep/typed_3seed_p0.8.json
+=== purity_min=0.9 ===
+[s=3][prf_heur          ] h1=0.058 h5=0.28 h10=0.508 Δ1=-0.0120 Δ5=-0.0620 Δ10=-0.0800 p50=7.147ms wall=6.5s
+[s=3][prf_typed_spacy   ] h1=0.07 h5=0.342 h10=0.588 Δ1=+0.0000 Δ5=+0.0000 Δ10=+0.0000 p50=70.544ms wall=37.8s
+[s=3][prf_typed_heur    ] h1=0.058 h5=0.28 h10=0.508 Δ1=-0.0120 Δ5=-0.0620 Δ10=-0.0800 p50=7.269ms wall=7.0s
+
+[meh-typed-ci] paired-bootstrap Δ vs baseline:
+  [prf_heur          ] Δhit@1 : -0.0107 [-0.0220, +0.0007]
+  [prf_heur          ] Δhit@5 : -0.0387 [-0.0500, -0.0280]
+  [prf_heur          ] Δhit@10: -0.0613 [-0.0740, -0.0500]
+  [prf_typed_spacy   ] Δhit@1 : +0.0000 [+0.0000, +0.0000]
+  [prf_typed_spacy   ] Δhit@5 : +0.0000 [+0.0000, +0.0000]
+  [prf_typed_spacy   ] Δhit@10: +0.0000 [+0.0000, +0.0000]
+  [prf_typed_heur    ] Δhit@1 : -0.0107 [-0.0220, +0.0007]
+  [prf_typed_heur    ] Δhit@5 : -0.0387 [-0.0500, -0.0280]
+  [prf_typed_heur    ] Δhit@10: -0.0613 [-0.0740, -0.0500]
+[meh-typed] wrote bench/results/purity_sweep/typed_3seed_p0.9.json
+=== sweep complete ===

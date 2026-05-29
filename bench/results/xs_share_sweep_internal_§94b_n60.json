@@ -1,0 +1,81 @@
+{
+  "embedder": "HashTrigram-256",
+  "corpus": {
+    "n_facts": 60,
+    "n_sessions": 10,
+    "distractors_per_session": 10,
+    "seed": 42
+  },
+  "k": 10,
+  "shares": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "points": [
+    {
+      "share": 0.0,
+      "n_calls": 0,
+      "n_borrowed": 0,
+      "decision_histogram": {}
+    },
+    {
+      "share": 0.25,
+      "n_calls": 9,
+      "n_borrowed": 0,
+      "decision_histogram": {
+        "PROMOTE": 9
+      }
+    },
+    {
+      "share": 0.5,
+      "n_calls": 9,
+      "n_borrowed": 0,
+      "decision_histogram": {
+        "PROMOTE": 9
+      }
+    },
+    {
+      "share": 0.75,
+      "n_calls": 9,
+      "n_borrowed": 0,
+      "decision_histogram": {
+        "PROMOTE": 9
+      }
+    },
+    {
+      "share": 1.0,
+      "n_calls": 9,
+      "n_borrowed": 0,
+      "decision_histogram": {
+        "PROMOTE": 9
+      }
+    }
+  ],
+  "decision_seq_equality": [
+    {
+      "share": 0.0,
+      "decisions_equal_to_share0": true
+    },
+    {
+      "share": 0.25,
+      "decisions_equal_to_share0": false
+    },
+    {
+      "share": 0.5,
+      "decisions_equal_to_share0": false
+    },
+    {
+      "share": 0.75,
+      "decisions_equal_to_share0": false
+    },
+    {
+      "share": 1.0,
+      "decisions_equal_to_share0": false
+    }
+  ],
+  "verdict": "case_a': decide_with_family is called but n_borrowed==0 on every call across every share>0 (siblings always empty in the consolidation window). The share knob is structurally inert because there is never any sibling evidence to share. Implication: \u00a796 retrieval-side post-rerank is the right attack point \u2014 the consolidation-side knob has no surface.",
+  "wall_seconds": 26.53
+}

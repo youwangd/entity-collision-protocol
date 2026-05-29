@@ -1,0 +1,326 @@
+{
+  "config": {
+    "source": "locomo_merge_for_ci",
+    "embedder": "none(BM25-only)",
+    "k": 10,
+    "n_samples": 10,
+    "n_questions_scored": 1978,
+    "baseline_vw": 0.0
+  },
+  "rows": [
+    {
+      "vector_weight": 0.0,
+      "embedder": "none(BM25-only)",
+      "n_questions_scored": 1978,
+      "session_hit_at_1": 0.5394,
+      "session_hit_at_k": 0.7988,
+      "ci": {
+        "baseline": {
+          "hit_at_1": {
+            "mean": 0.5394,
+            "ci_lo": 0.5177,
+            "ci_hi": 0.5617
+          },
+          "hit_at_k": {
+            "mean": 0.7988,
+            "ci_lo": 0.7811,
+            "ci_hi": 0.8165
+          },
+          "mrr": {
+            "mean": 0.6273,
+            "ci_lo": 0.6085,
+            "ci_hi": 0.6464
+          },
+          "n": 1978
+        },
+        "bm25_only": {
+          "hit_at_1": {
+            "mean": 0.5394,
+            "ci_lo": 0.5177,
+            "ci_hi": 0.5617
+          },
+          "hit_at_k": {
+            "mean": 0.7988,
+            "ci_lo": 0.7811,
+            "ci_hi": 0.8165
+          },
+          "mrr": {
+            "mean": 0.6273,
+            "ci_lo": 0.6085,
+            "ci_hi": 0.6464
+          },
+          "n": 1978
+        },
+        "delta": {
+          "hit_at_1": {
+            "mean": 0.0,
+            "ci_lo": 0.0,
+            "ci_hi": 0.0
+          },
+          "hit_at_k": {
+            "mean": 0.0,
+            "ci_lo": 0.0,
+            "ci_hi": 0.0
+          },
+          "mrr": {
+            "mean": 0.0,
+            "ci_lo": 0.0,
+            "ci_hi": 0.0
+          }
+        }
+      }
+    },
+    {
+      "vector_weight": 0.3,
+      "embedder": "SentenceTransformer-MiniLM-384",
+      "n_questions_scored": 1978,
+      "session_hit_at_1": 0.502,
+      "session_hit_at_k": 0.7983,
+      "ci": {
+        "baseline": {
+          "hit_at_1": {
+            "mean": 0.502,
+            "ci_lo": 0.4803,
+            "ci_hi": 0.5243
+          },
+          "hit_at_k": {
+            "mean": 0.7983,
+            "ci_lo": 0.7806,
+            "ci_hi": 0.8165
+          },
+          "mrr": {
+            "mean": 0.5977,
+            "ci_lo": 0.579,
+            "ci_hi": 0.6172
+          },
+          "n": 1978
+        },
+        "bm25_only": {
+          "hit_at_1": {
+            "mean": 0.5394,
+            "ci_lo": 0.5177,
+            "ci_hi": 0.5617
+          },
+          "hit_at_k": {
+            "mean": 0.7988,
+            "ci_lo": 0.7811,
+            "ci_hi": 0.8165
+          },
+          "mrr": {
+            "mean": 0.6273,
+            "ci_lo": 0.6085,
+            "ci_hi": 0.6464
+          },
+          "n": 1978
+        },
+        "delta": {
+          "hit_at_1": {
+            "mean": -0.0374,
+            "ci_lo": -0.0576,
+            "ci_hi": -0.0177
+          },
+          "hit_at_k": {
+            "mean": -0.0005,
+            "ci_lo": -0.0116,
+            "ci_hi": 0.0106
+          },
+          "mrr": {
+            "mean": -0.0296,
+            "ci_lo": -0.0436,
+            "ci_hi": -0.0153
+          }
+        }
+      }
+    },
+    {
+      "vector_weight": 0.5,
+      "embedder": "SentenceTransformer-MiniLM-384",
+      "n_questions_scored": 1978,
+      "session_hit_at_1": 0.4924,
+      "session_hit_at_k": 0.771,
+      "ci": {
+        "baseline": {
+          "hit_at_1": {
+            "mean": 0.4924,
+            "ci_lo": 0.4707,
+            "ci_hi": 0.5152
+          },
+          "hit_at_k": {
+            "mean": 0.771,
+            "ci_lo": 0.7523,
+            "ci_hi": 0.7897
+          },
+          "mrr": {
+            "mean": 0.5831,
+            "ci_lo": 0.5641,
+            "ci_hi": 0.6029
+          },
+          "n": 1978
+        },
+        "bm25_only": {
+          "hit_at_1": {
+            "mean": 0.5394,
+            "ci_lo": 0.5177,
+            "ci_hi": 0.5617
+          },
+          "hit_at_k": {
+            "mean": 0.7988,
+            "ci_lo": 0.7811,
+            "ci_hi": 0.8165
+          },
+          "mrr": {
+            "mean": 0.6273,
+            "ci_lo": 0.6085,
+            "ci_hi": 0.6464
+          },
+          "n": 1978
+        },
+        "delta": {
+          "hit_at_1": {
+            "mean": -0.047,
+            "ci_lo": -0.0683,
+            "ci_hi": -0.0258
+          },
+          "hit_at_k": {
+            "mean": -0.0278,
+            "ci_lo": -0.042,
+            "ci_hi": -0.0137
+          },
+          "mrr": {
+            "mean": -0.0442,
+            "ci_lo": -0.0596,
+            "ci_hi": -0.0284
+          }
+        }
+      }
+    },
+    {
+      "vector_weight": 0.7,
+      "embedder": "SentenceTransformer-MiniLM-384",
+      "n_questions_scored": 1978,
+      "session_hit_at_1": 0.4788,
+      "session_hit_at_k": 0.7578,
+      "ci": {
+        "baseline": {
+          "hit_at_1": {
+            "mean": 0.4788,
+            "ci_lo": 0.457,
+            "ci_hi": 0.501
+          },
+          "hit_at_k": {
+            "mean": 0.7578,
+            "ci_lo": 0.7386,
+            "ci_hi": 0.7776
+          },
+          "mrr": {
+            "mean": 0.5709,
+            "ci_lo": 0.5516,
+            "ci_hi": 0.5906
+          },
+          "n": 1978
+        },
+        "bm25_only": {
+          "hit_at_1": {
+            "mean": 0.5394,
+            "ci_lo": 0.5177,
+            "ci_hi": 0.5617
+          },
+          "hit_at_k": {
+            "mean": 0.7988,
+            "ci_lo": 0.7811,
+            "ci_hi": 0.8165
+          },
+          "mrr": {
+            "mean": 0.6273,
+            "ci_lo": 0.6085,
+            "ci_hi": 0.6464
+          },
+          "n": 1978
+        },
+        "delta": {
+          "hit_at_1": {
+            "mean": -0.0607,
+            "ci_lo": -0.0819,
+            "ci_hi": -0.0389
+          },
+          "hit_at_k": {
+            "mean": -0.041,
+            "ci_lo": -0.0556,
+            "ci_hi": -0.0253
+          },
+          "mrr": {
+            "mean": -0.0563,
+            "ci_lo": -0.0721,
+            "ci_hi": -0.0401
+          }
+        }
+      }
+    },
+    {
+      "vector_weight": 1.0,
+      "embedder": "SentenceTransformer-MiniLM-384",
+      "n_questions_scored": 1978,
+      "session_hit_at_1": 0.4687,
+      "session_hit_at_k": 0.7447,
+      "ci": {
+        "baseline": {
+          "hit_at_1": {
+            "mean": 0.4687,
+            "ci_lo": 0.4469,
+            "ci_hi": 0.4909
+          },
+          "hit_at_k": {
+            "mean": 0.7447,
+            "ci_lo": 0.7255,
+            "ci_hi": 0.7644
+          },
+          "mrr": {
+            "mean": 0.5597,
+            "ci_lo": 0.5408,
+            "ci_hi": 0.5793
+          },
+          "n": 1978
+        },
+        "bm25_only": {
+          "hit_at_1": {
+            "mean": 0.5394,
+            "ci_lo": 0.5177,
+            "ci_hi": 0.5617
+          },
+          "hit_at_k": {
+            "mean": 0.7988,
+            "ci_lo": 0.7811,
+            "ci_hi": 0.8165
+          },
+          "mrr": {
+            "mean": 0.6273,
+            "ci_lo": 0.6085,
+            "ci_hi": 0.6464
+          },
+          "n": 1978
+        },
+        "delta": {
+          "hit_at_1": {
+            "mean": -0.0708,
+            "ci_lo": -0.092,
+            "ci_hi": -0.049
+          },
+          "hit_at_k": {
+            "mean": -0.0541,
+            "ci_lo": -0.0703,
+            "ci_hi": -0.0374
+          },
+          "mrr": {
+            "mean": -0.0675,
+            "ci_lo": -0.0839,
+            "ci_hi": -0.0506
+          }
+        }
+      }
+    }
+  ],
+  "ci_config": {
+    "resamples": 5000,
+    "seed": 42
+  }
+}

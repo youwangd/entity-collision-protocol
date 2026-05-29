@@ -1,0 +1,541 @@
+{
+  "alpha": 0.1,
+  "entity_weights": [
+    0.0,
+    0.1,
+    0.2,
+    0.3
+  ],
+  "pool_size": 20,
+  "corpus": {
+    "n_pairs": 120,
+    "plain_distractors": 200,
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ]
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "arms": [
+        {
+          "label": "baseline",
+          "reranker": null,
+          "alpha": 0.0,
+          "entity_weight": 0.0,
+          "pool_size": 20,
+          "n_queries": 80,
+          "pair_recall@5": 0.0,
+          "pair_recall@10": 0.0,
+          "any_hit@1": 1.0,
+          "any_hit@5": 1.0
+        },
+        {
+          "label": "share_prior+ew=0.0",
+          "reranker": "share_prior",
+          "alpha": 0.1,
+          "entity_weight": 0.0,
+          "pool_size": 20,
+          "n_queries": 80,
+          "pair_recall@5": 0.0,
+          "pair_recall@10": 0.125,
+          "any_hit@1": 1.0,
+          "any_hit@5": 1.0,
+          "d_pair@5": 0.0,
+          "d_pair@10": 0.125
+        },
+        {
+          "label": "share_prior+ew=0.1",
+          "reranker": "share_prior",
+          "alpha": 0.1,
+          "entity_weight": 0.1,
+          "pool_size": 20,
+          "n_queries": 80,
+          "pair_recall@5": 0.0,
+          "pair_recall@10": 0.1375,
+          "any_hit@1": 1.0,
+          "any_hit@5": 1.0,
+          "d_pair@5": 0.0,
+          "d_pair@10": 0.1375
+        },
+        {
+          "label": "share_prior+ew=0.2",
+          "reranker": "share_prior",
+          "alpha": 0.1,
+          "entity_weight": 0.2,
+          "pool_size": 20,
+          "n_queries": 80,
+          "pair_recall@5": 0.0,
+          "pair_recall@10": 0.1375,
+          "any_hit@1": 1.0,
+          "any_hit@5": 1.0,
+          "d_pair@5": 0.0,
+          "d_pair@10": 0.1375
+        },
+        {
+          "label": "share_prior+ew=0.3",
+          "reranker": "share_prior",
+          "alpha": 0.1,
+          "entity_weight": 0.3,
+          "pool_size": 20,
+          "n_queries": 80,
+          "pair_recall@5": 0.0,
+          "pair_recall@10": 0.1375,
+          "any_hit@1": 1.0,
+          "any_hit@5": 1.0,
+          "d_pair@5": 0.0,
+          "d_pair@10": 0.1375
+        }
+      ]
+    },
+    {
+      "seed": 43,
+      "arms": [
+        {
+          "label": "baseline",
+          "reranker": null,
+          "alpha": 0.0,
+          "entity_weight": 0.0,
+          "pool_size": 20,
+          "n_queries": 80,
+          "pair_recall@5": 0.0,
+          "pair_recall@10": 0.0125,
+          "any_hit@1": 1.0,
+          "any_hit@5": 1.0
+        },
+        {
+          "label": "share_prior+ew=0.0",
+          "reranker": "share_prior",
+          "alpha": 0.1,
+          "entity_weight": 0.0,
+          "pool_size": 20,
+          "n_queries": 80,
+          "pair_recall@5": 0.0125,
+          "pair_recall@10": 0.125,
+          "any_hit@1": 1.0,
+          "any_hit@5": 1.0,
+          "d_pair@5": 0.0125,
+          "d_pair@10": 0.1125
+        },
+        {
+          "label": "share_prior+ew=0.1",
+          "reranker": "share_prior",
+          "alpha": 0.1,
+          "entity_weight": 0.1,
+          "pool_size": 20,
+          "n_queries": 80,
+          "pair_recall@5": 0.025,
+          "pair_recall@10": 0.125,
+          "any_hit@1": 1.0,
+          "any_hit@5": 1.0,
+          "d_pair@5": 0.025,
+          "d_pair@10": 0.1125
+        },
+        {
+          "label": "share_prior+ew=0.2",
+          "reranker": "share_prior",
+          "alpha": 0.1,
+          "entity_weight": 0.2,
+          "pool_size": 20,
+          "n_queries": 80,
+          "pair_recall@5": 0.025,
+          "pair_recall@10": 0.125,
+          "any_hit@1": 1.0,
+          "any_hit@5": 1.0,
+          "d_pair@5": 0.025,
+          "d_pair@10": 0.1125
+        },
+        {
+          "label": "share_prior+ew=0.3",
+          "reranker": "share_prior",
+          "alpha": 0.1,
+          "entity_weight": 0.3,
+          "pool_size": 20,
+          "n_queries": 80,
+          "pair_recall@5": 0.025,
+          "pair_recall@10": 0.125,
+          "any_hit@1": 1.0,
+          "any_hit@5": 1.0,
+          "d_pair@5": 0.025,
+          "d_pair@10": 0.1125
+        }
+      ]
+    },
+    {
+      "seed": 44,
+      "arms": [
+        {
+          "label": "baseline",
+          "reranker": null,
+          "alpha": 0.0,
+          "entity_weight": 0.0,
+          "pool_size": 20,
+          "n_queries": 80,
+          "pair_recall@5": 0.0,
+          "pair_recall@10": 0.0125,
+          "any_hit@1": 1.0,
+          "any_hit@5": 1.0
+        },
+        {
+          "label": "share_prior+ew=0.0",
+          "reranker": "share_prior",
+          "alpha": 0.1,
+          "entity_weight": 0.0,
+          "pool_size": 20,
+          "n_queries": 80,
+          "pair_recall@5": 0.0,
+          "pair_recall@10": 0.1125,
+          "any_hit@1": 1.0,
+          "any_hit@5": 1.0,
+          "d_pair@5": 0.0,
+          "d_pair@10": 0.1
+        },
+        {
+          "label": "share_prior+ew=0.1",
+          "reranker": "share_prior",
+          "alpha": 0.1,
+          "entity_weight": 0.1,
+          "pool_size": 20,
+          "n_queries": 80,
+          "pair_recall@5": 0.0,
+          "pair_recall@10": 0.1625,
+          "any_hit@1": 1.0,
+          "any_hit@5": 1.0,
+          "d_pair@5": 0.0,
+          "d_pair@10": 0.15
+        },
+        {
+          "label": "share_prior+ew=0.2",
+          "reranker": "share_prior",
+          "alpha": 0.1,
+          "entity_weight": 0.2,
+          "pool_size": 20,
+          "n_queries": 80,
+          "pair_recall@5": 0.0,
+          "pair_recall@10": 0.1625,
+          "any_hit@1": 1.0,
+          "any_hit@5": 1.0,
+          "d_pair@5": 0.0,
+          "d_pair@10": 0.15
+        },
+        {
+          "label": "share_prior+ew=0.3",
+          "reranker": "share_prior",
+          "alpha": 0.1,
+          "entity_weight": 0.3,
+          "pool_size": 20,
+          "n_queries": 80,
+          "pair_recall@5": 0.0,
+          "pair_recall@10": 0.1625,
+          "any_hit@1": 1.0,
+          "any_hit@5": 1.0,
+          "d_pair@5": 0.0,
+          "d_pair@10": 0.15
+        }
+      ]
+    },
+    {
+      "seed": 45,
+      "arms": [
+        {
+          "label": "baseline",
+          "reranker": null,
+          "alpha": 0.0,
+          "entity_weight": 0.0,
+          "pool_size": 20,
+          "n_queries": 80,
+          "pair_recall@5": 0.0,
+          "pair_recall@10": 0.0,
+          "any_hit@1": 1.0,
+          "any_hit@5": 1.0
+        },
+        {
+          "label": "share_prior+ew=0.0",
+          "reranker": "share_prior",
+          "alpha": 0.1,
+          "entity_weight": 0.0,
+          "pool_size": 20,
+          "n_queries": 80,
+          "pair_recall@5": 0.0,
+          "pair_recall@10": 0.125,
+          "any_hit@1": 1.0,
+          "any_hit@5": 1.0,
+          "d_pair@5": 0.0,
+          "d_pair@10": 0.125
+        },
+        {
+          "label": "share_prior+ew=0.1",
+          "reranker": "share_prior",
+          "alpha": 0.1,
+          "entity_weight": 0.1,
+          "pool_size": 20,
+          "n_queries": 80,
+          "pair_recall@5": 0.0125,
+          "pair_recall@10": 0.125,
+          "any_hit@1": 1.0,
+          "any_hit@5": 1.0,
+          "d_pair@5": 0.0125,
+          "d_pair@10": 0.125
+        },
+        {
+          "label": "share_prior+ew=0.2",
+          "reranker": "share_prior",
+          "alpha": 0.1,
+          "entity_weight": 0.2,
+          "pool_size": 20,
+          "n_queries": 80,
+          "pair_recall@5": 0.0125,
+          "pair_recall@10": 0.125,
+          "any_hit@1": 1.0,
+          "any_hit@5": 1.0,
+          "d_pair@5": 0.0125,
+          "d_pair@10": 0.125
+        },
+        {
+          "label": "share_prior+ew=0.3",
+          "reranker": "share_prior",
+          "alpha": 0.1,
+          "entity_weight": 0.3,
+          "pool_size": 20,
+          "n_queries": 80,
+          "pair_recall@5": 0.0125,
+          "pair_recall@10": 0.125,
+          "any_hit@1": 1.0,
+          "any_hit@5": 1.0,
+          "d_pair@5": 0.0125,
+          "d_pair@10": 0.125
+        }
+      ]
+    },
+    {
+      "seed": 46,
+      "arms": [
+        {
+          "label": "baseline",
+          "reranker": null,
+          "alpha": 0.0,
+          "entity_weight": 0.0,
+          "pool_size": 20,
+          "n_queries": 80,
+          "pair_recall@5": 0.0,
+          "pair_recall@10": 0.0125,
+          "any_hit@1": 1.0,
+          "any_hit@5": 1.0
+        },
+        {
+          "label": "share_prior+ew=0.0",
+          "reranker": "share_prior",
+          "alpha": 0.1,
+          "entity_weight": 0.0,
+          "pool_size": 20,
+          "n_queries": 80,
+          "pair_recall@5": 0.0,
+          "pair_recall@10": 0.125,
+          "any_hit@1": 1.0,
+          "any_hit@5": 1.0,
+          "d_pair@5": 0.0,
+          "d_pair@10": 0.1125
+        },
+        {
+          "label": "share_prior+ew=0.1",
+          "reranker": "share_prior",
+          "alpha": 0.1,
+          "entity_weight": 0.1,
+          "pool_size": 20,
+          "n_queries": 80,
+          "pair_recall@5": 0.075,
+          "pair_recall@10": 0.1375,
+          "any_hit@1": 1.0,
+          "any_hit@5": 1.0,
+          "d_pair@5": 0.075,
+          "d_pair@10": 0.125
+        },
+        {
+          "label": "share_prior+ew=0.2",
+          "reranker": "share_prior",
+          "alpha": 0.1,
+          "entity_weight": 0.2,
+          "pool_size": 20,
+          "n_queries": 80,
+          "pair_recall@5": 0.075,
+          "pair_recall@10": 0.1375,
+          "any_hit@1": 1.0,
+          "any_hit@5": 1.0,
+          "d_pair@5": 0.075,
+          "d_pair@10": 0.125
+        },
+        {
+          "label": "share_prior+ew=0.3",
+          "reranker": "share_prior",
+          "alpha": 0.1,
+          "entity_weight": 0.3,
+          "pool_size": 20,
+          "n_queries": 80,
+          "pair_recall@5": 0.075,
+          "pair_recall@10": 0.1375,
+          "any_hit@1": 1.0,
+          "any_hit@5": 1.0,
+          "d_pair@5": 0.075,
+          "d_pair@10": 0.125
+        }
+      ]
+    }
+  ],
+  "aggregates": {
+    "baseline": {
+      "pair@5": {
+        "mean": 0.0,
+        "std": 0.0,
+        "n": 5,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "pair@10": {
+        "mean": 0.0075,
+        "std": 0.006124,
+        "n": 5,
+        "min": 0.0,
+        "max": 0.0125
+      },
+      "d_pair@5": {
+        "mean": 0.0,
+        "std": 0.0,
+        "n": 5,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "d_pair@10": {
+        "mean": 0.0,
+        "std": 0.0,
+        "n": 5,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    "share_prior+ew=0.0": {
+      "pair@5": {
+        "mean": 0.0025,
+        "std": 0.005,
+        "n": 5,
+        "min": 0.0,
+        "max": 0.0125
+      },
+      "pair@10": {
+        "mean": 0.1225,
+        "std": 0.005,
+        "n": 5,
+        "min": 0.1125,
+        "max": 0.125
+      },
+      "d_pair@5": {
+        "mean": 0.0025,
+        "std": 0.005,
+        "n": 5,
+        "min": 0.0,
+        "max": 0.0125
+      },
+      "d_pair@10": {
+        "mean": 0.115,
+        "std": 0.009354,
+        "n": 5,
+        "min": 0.1,
+        "max": 0.125
+      }
+    },
+    "share_prior+ew=0.1": {
+      "pair@5": {
+        "mean": 0.0225,
+        "std": 0.027839,
+        "n": 5,
+        "min": 0.0,
+        "max": 0.075
+      },
+      "pair@10": {
+        "mean": 0.1375,
+        "std": 0.013693,
+        "n": 5,
+        "min": 0.125,
+        "max": 0.1625
+      },
+      "d_pair@5": {
+        "mean": 0.0225,
+        "std": 0.027839,
+        "n": 5,
+        "min": 0.0,
+        "max": 0.075
+      },
+      "d_pair@10": {
+        "mean": 0.13,
+        "std": 0.012748,
+        "n": 5,
+        "min": 0.1125,
+        "max": 0.15
+      }
+    },
+    "share_prior+ew=0.2": {
+      "pair@5": {
+        "mean": 0.0225,
+        "std": 0.027839,
+        "n": 5,
+        "min": 0.0,
+        "max": 0.075
+      },
+      "pair@10": {
+        "mean": 0.1375,
+        "std": 0.013693,
+        "n": 5,
+        "min": 0.125,
+        "max": 0.1625
+      },
+      "d_pair@5": {
+        "mean": 0.0225,
+        "std": 0.027839,
+        "n": 5,
+        "min": 0.0,
+        "max": 0.075
+      },
+      "d_pair@10": {
+        "mean": 0.13,
+        "std": 0.012748,
+        "n": 5,
+        "min": 0.1125,
+        "max": 0.15
+      }
+    },
+    "share_prior+ew=0.3": {
+      "pair@5": {
+        "mean": 0.0225,
+        "std": 0.027839,
+        "n": 5,
+        "min": 0.0,
+        "max": 0.075
+      },
+      "pair@10": {
+        "mean": 0.1375,
+        "std": 0.013693,
+        "n": 5,
+        "min": 0.125,
+        "max": 0.1625
+      },
+      "d_pair@5": {
+        "mean": 0.0225,
+        "std": 0.027839,
+        "n": 5,
+        "min": 0.0,
+        "max": 0.075
+      },
+      "d_pair@10": {
+        "mean": 0.13,
+        "std": 0.012748,
+        "n": 5,
+        "min": 0.1125,
+        "max": 0.15
+      }
+    }
+  },
+  "wall_seconds": 22.35
+}

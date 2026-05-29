@@ -1,0 +1,511 @@
+{
+  "source": "evals/results/prf_x_shareprior_alpha.json",
+  "axis_key": "by_alpha",
+  "level_key": "alpha",
+  "resamples": 5000,
+  "seed": 17,
+  "n_seeds": 3,
+  "levels": [
+    {
+      "alpha": 0.05,
+      "bridge": {
+        "pair_recall@10": {
+          "cells": {
+            "C0_baseline": 0.325,
+            "CP_prf_only": 0.3583,
+            "CR_share_prior_only": 0.325,
+            "CB_both": 0.425
+          },
+          "delta_prf": {
+            "point": 0.0333,
+            "ci95": [
+              -0.05,
+              0.15
+            ],
+            "p_two_sided_vs_0": 0.5904
+          },
+          "delta_sp": {
+            "point": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "p_two_sided_vs_0": 1.0
+          },
+          "delta_both": {
+            "point": 0.1,
+            "ci95": [
+              0.0,
+              0.2
+            ],
+            "p_two_sided_vs_0": 0.0748
+          },
+          "interaction": {
+            "point": 0.0667,
+            "ci95": [
+              0.05,
+              0.1
+            ],
+            "p_two_sided_vs_0": 0.0
+          }
+        },
+        "pair_recall@20": {
+          "cells": {
+            "C0_baseline": 0.5,
+            "CP_prf_only": 0.6,
+            "CR_share_prior_only": 0.5,
+            "CB_both": 0.6167
+          },
+          "delta_prf": {
+            "point": 0.1,
+            "ci95": [
+              0.0,
+              0.2
+            ],
+            "p_two_sided_vs_0": 0.0748
+          },
+          "delta_sp": {
+            "point": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "p_two_sided_vs_0": 1.0
+          },
+          "delta_both": {
+            "point": 0.1167,
+            "ci95": [
+              0.0,
+              0.225
+            ],
+            "p_two_sided_vs_0": 0.0748
+          },
+          "interaction": {
+            "point": 0.0167,
+            "ci95": [
+              0.0,
+              0.025
+            ],
+            "p_two_sided_vs_0": 0.0748
+          }
+        }
+      },
+      "unique": {
+        "hit@1": {
+          "cells": {
+            "C0_baseline": 0.8208,
+            "CP_prf_only": 0.8333,
+            "CR_share_prior_only": 0.8208,
+            "CB_both": 0.8417
+          },
+          "delta_prf": {
+            "point": 0.0125,
+            "ci95": [
+              0.0,
+              0.025
+            ],
+            "p_two_sided_vs_0": 0.0708
+          },
+          "delta_sp": {
+            "point": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "p_two_sided_vs_0": 1.0
+          },
+          "delta_both": {
+            "point": 0.0209,
+            "ci95": [
+              0.0125,
+              0.0375
+            ],
+            "p_two_sided_vs_0": 0.0
+          },
+          "interaction": {
+            "point": 0.0084,
+            "ci95": [
+              0.0,
+              0.0125
+            ],
+            "p_two_sided_vs_0": 0.0748
+          }
+        },
+        "hit@5": {
+          "cells": {
+            "C0_baseline": 1.0,
+            "CP_prf_only": 0.975,
+            "CR_share_prior_only": 1.0,
+            "CB_both": 0.9583
+          },
+          "delta_prf": {
+            "point": -0.025,
+            "ci95": [
+              -0.0375,
+              -0.0125
+            ],
+            "p_two_sided_vs_0": 0.0
+          },
+          "delta_sp": {
+            "point": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "p_two_sided_vs_0": 1.0
+          },
+          "delta_both": {
+            "point": -0.0417,
+            "ci95": [
+              -0.0625,
+              -0.025
+            ],
+            "p_two_sided_vs_0": 0.0
+          },
+          "interaction": {
+            "point": -0.0167,
+            "ci95": [
+              -0.025,
+              -0.0125
+            ],
+            "p_two_sided_vs_0": 0.0
+          }
+        }
+      }
+    },
+    {
+      "alpha": 0.1,
+      "bridge": {
+        "pair_recall@10": {
+          "cells": {
+            "C0_baseline": 0.325,
+            "CP_prf_only": 0.3583,
+            "CR_share_prior_only": 0.3417,
+            "CB_both": 0.3667
+          },
+          "delta_prf": {
+            "point": 0.0333,
+            "ci95": [
+              -0.05,
+              0.15
+            ],
+            "p_two_sided_vs_0": 0.5904
+          },
+          "delta_sp": {
+            "point": 0.0167,
+            "ci95": [
+              0.0,
+              0.025
+            ],
+            "p_two_sided_vs_0": 0.0748
+          },
+          "delta_both": {
+            "point": 0.0417,
+            "ci95": [
+              -0.05,
+              0.125
+            ],
+            "p_two_sided_vs_0": 0.2864
+          },
+          "interaction": {
+            "point": -0.0083,
+            "ci95": [
+              -0.05,
+              0.025
+            ],
+            "p_two_sided_vs_0": 0.8132
+          }
+        },
+        "pair_recall@20": {
+          "cells": {
+            "C0_baseline": 0.5,
+            "CP_prf_only": 0.6,
+            "CR_share_prior_only": 0.5,
+            "CB_both": 0.6333
+          },
+          "delta_prf": {
+            "point": 0.1,
+            "ci95": [
+              0.0,
+              0.2
+            ],
+            "p_two_sided_vs_0": 0.0748
+          },
+          "delta_sp": {
+            "point": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "p_two_sided_vs_0": 1.0
+          },
+          "delta_both": {
+            "point": 0.1333,
+            "ci95": [
+              0.0,
+              0.25
+            ],
+            "p_two_sided_vs_0": 0.0748
+          },
+          "interaction": {
+            "point": 0.0333,
+            "ci95": [
+              0.0,
+              0.05
+            ],
+            "p_two_sided_vs_0": 0.0748
+          }
+        }
+      },
+      "unique": {
+        "hit@1": {
+          "cells": {
+            "C0_baseline": 0.8208,
+            "CP_prf_only": 0.8333,
+            "CR_share_prior_only": 0.8208,
+            "CB_both": 0.8083
+          },
+          "delta_prf": {
+            "point": 0.0125,
+            "ci95": [
+              0.0,
+              0.025
+            ],
+            "p_two_sided_vs_0": 0.0708
+          },
+          "delta_sp": {
+            "point": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "p_two_sided_vs_0": 1.0
+          },
+          "delta_both": {
+            "point": -0.0125,
+            "ci95": [
+              -0.025,
+              0.0
+            ],
+            "p_two_sided_vs_0": 0.0688
+          },
+          "interaction": {
+            "point": -0.025,
+            "ci95": [
+              -0.0375,
+              -0.0125
+            ],
+            "p_two_sided_vs_0": 0.0
+          }
+        },
+        "hit@5": {
+          "cells": {
+            "C0_baseline": 1.0,
+            "CP_prf_only": 0.975,
+            "CR_share_prior_only": 1.0,
+            "CB_both": 0.8708
+          },
+          "delta_prf": {
+            "point": -0.025,
+            "ci95": [
+              -0.0375,
+              -0.0125
+            ],
+            "p_two_sided_vs_0": 0.0
+          },
+          "delta_sp": {
+            "point": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "p_two_sided_vs_0": 1.0
+          },
+          "delta_both": {
+            "point": -0.1292,
+            "ci95": [
+              -0.175,
+              -0.1
+            ],
+            "p_two_sided_vs_0": 0.0
+          },
+          "interaction": {
+            "point": -0.1042,
+            "ci95": [
+              -0.1625,
+              -0.075
+            ],
+            "p_two_sided_vs_0": 0.0
+          }
+        }
+      }
+    },
+    {
+      "alpha": 0.2,
+      "bridge": {
+        "pair_recall@10": {
+          "cells": {
+            "C0_baseline": 0.325,
+            "CP_prf_only": 0.3583,
+            "CR_share_prior_only": 0.3333,
+            "CB_both": 0.3667
+          },
+          "delta_prf": {
+            "point": 0.0333,
+            "ci95": [
+              -0.05,
+              0.15
+            ],
+            "p_two_sided_vs_0": 0.5904
+          },
+          "delta_sp": {
+            "point": 0.0083,
+            "ci95": [
+              0.0,
+              0.025
+            ],
+            "p_two_sided_vs_0": 0.5964
+          },
+          "delta_both": {
+            "point": 0.0417,
+            "ci95": [
+              -0.05,
+              0.15
+            ],
+            "p_two_sided_vs_0": 0.5196
+          },
+          "interaction": {
+            "point": 0.0001,
+            "ci95": [
+              -0.0,
+              0.0
+            ],
+            "p_two_sided_vs_0": 1.0
+          }
+        },
+        "pair_recall@20": {
+          "cells": {
+            "C0_baseline": 0.5,
+            "CP_prf_only": 0.6,
+            "CR_share_prior_only": 0.5,
+            "CB_both": 0.6417
+          },
+          "delta_prf": {
+            "point": 0.1,
+            "ci95": [
+              0.0,
+              0.2
+            ],
+            "p_two_sided_vs_0": 0.0748
+          },
+          "delta_sp": {
+            "point": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "p_two_sided_vs_0": 1.0
+          },
+          "delta_both": {
+            "point": 0.1417,
+            "ci95": [
+              0.0,
+              0.25
+            ],
+            "p_two_sided_vs_0": 0.0748
+          },
+          "interaction": {
+            "point": 0.0417,
+            "ci95": [
+              0.0,
+              0.075
+            ],
+            "p_two_sided_vs_0": 0.0748
+          }
+        }
+      },
+      "unique": {
+        "hit@1": {
+          "cells": {
+            "C0_baseline": 0.8208,
+            "CP_prf_only": 0.8333,
+            "CR_share_prior_only": 0.8208,
+            "CB_both": 0.8042
+          },
+          "delta_prf": {
+            "point": 0.0125,
+            "ci95": [
+              0.0,
+              0.025
+            ],
+            "p_two_sided_vs_0": 0.0708
+          },
+          "delta_sp": {
+            "point": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "p_two_sided_vs_0": 1.0
+          },
+          "delta_both": {
+            "point": -0.0166,
+            "ci95": [
+              -0.0375,
+              0.0
+            ],
+            "p_two_sided_vs_0": 0.0688
+          },
+          "interaction": {
+            "point": -0.0291,
+            "ci95": [
+              -0.05,
+              -0.0125
+            ],
+            "p_two_sided_vs_0": 0.0
+          }
+        },
+        "hit@5": {
+          "cells": {
+            "C0_baseline": 1.0,
+            "CP_prf_only": 0.975,
+            "CR_share_prior_only": 1.0,
+            "CB_both": 0.8917
+          },
+          "delta_prf": {
+            "point": -0.025,
+            "ci95": [
+              -0.0375,
+              -0.0125
+            ],
+            "p_two_sided_vs_0": 0.0
+          },
+          "delta_sp": {
+            "point": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "p_two_sided_vs_0": 1.0
+          },
+          "delta_both": {
+            "point": -0.1083,
+            "ci95": [
+              -0.1625,
+              -0.075
+            ],
+            "p_two_sided_vs_0": 0.0
+          },
+          "interaction": {
+            "point": -0.0833,
+            "ci95": [
+              -0.15,
+              -0.0375
+            ],
+            "p_two_sided_vs_0": 0.0
+          }
+        }
+      }
+    }
+  ]
+}

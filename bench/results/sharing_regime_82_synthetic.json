@@ -1,0 +1,162 @@
+{
+  "default": {
+    "rows": [
+      {
+        "tau": 0.05,
+        "regime": "COLLAPSED",
+        "recommended_fmax": null,
+        "frag_at_c0": 0.0,
+        "frag_at_c10": 0.0
+      },
+      {
+        "tau": 0.1,
+        "regime": "GATEABLE",
+        "recommended_fmax": 0.0925,
+        "frag_at_c0": 0.0,
+        "frag_at_c10": 0.0925
+      },
+      {
+        "tau": 0.15,
+        "regime": "GATEABLE",
+        "recommended_fmax": 0.0925,
+        "frag_at_c0": 0.0,
+        "frag_at_c10": 0.0925
+      },
+      {
+        "tau": 0.2,
+        "regime": "GATEABLE",
+        "recommended_fmax": 0.0925,
+        "frag_at_c0": 0.0,
+        "frag_at_c10": 0.0925
+      },
+      {
+        "tau": 0.25,
+        "regime": "GATEABLE",
+        "recommended_fmax": 0.1013,
+        "frag_at_c0": 0.0,
+        "frag_at_c10": 0.10125
+      },
+      {
+        "tau": 0.3,
+        "regime": "GATEABLE",
+        "recommended_fmax": 0.1013,
+        "frag_at_c0": 0.0,
+        "frag_at_c10": 0.10125
+      },
+      {
+        "tau": 0.4,
+        "regime": "GATEABLE",
+        "recommended_fmax": 0.1013,
+        "frag_at_c0": 0.0,
+        "frag_at_c10": 0.10125
+      },
+      {
+        "tau": 0.5,
+        "regime": "GATEABLE",
+        "recommended_fmax": 0.1013,
+        "frag_at_c0": 0.0,
+        "frag_at_c10": 0.10125
+      }
+    ],
+    "summary": {
+      "n_taus": 8,
+      "by_regime": {
+        "COLLAPSED": 1,
+        "SINGLETON_CLIFF": 0,
+        "NATURALLY_FRAGMENTED": 0,
+        "GATEABLE": 7
+      },
+      "gateable_taus": [
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.4,
+        0.5
+      ],
+      "median_recommended_fmax": 0.1013,
+      "operable": true
+    }
+  },
+  "debiased": {
+    "rows": [
+      {
+        "tau": 0.05,
+        "regime": "COLLAPSED",
+        "recommended_fmax": null,
+        "frag_at_c0": 0.0,
+        "frag_at_c10": 0.0
+      },
+      {
+        "tau": 0.1,
+        "regime": "GATEABLE",
+        "recommended_fmax": 0.0462,
+        "frag_at_c0": 0.0,
+        "frag_at_c10": 0.0925
+      },
+      {
+        "tau": 0.15,
+        "regime": "GATEABLE",
+        "recommended_fmax": 0.0462,
+        "frag_at_c0": 0.0,
+        "frag_at_c10": 0.0925
+      },
+      {
+        "tau": 0.2,
+        "regime": "GATEABLE",
+        "recommended_fmax": 0.0462,
+        "frag_at_c0": 0.0,
+        "frag_at_c10": 0.0925
+      },
+      {
+        "tau": 0.25,
+        "regime": "GATEABLE",
+        "recommended_fmax": 0.0506,
+        "frag_at_c0": 0.0,
+        "frag_at_c10": 0.10125
+      },
+      {
+        "tau": 0.3,
+        "regime": "GATEABLE",
+        "recommended_fmax": 0.0506,
+        "frag_at_c0": 0.0,
+        "frag_at_c10": 0.10125
+      },
+      {
+        "tau": 0.4,
+        "regime": "GATEABLE",
+        "recommended_fmax": 0.0506,
+        "frag_at_c0": 0.0,
+        "frag_at_c10": 0.10125
+      },
+      {
+        "tau": 0.5,
+        "regime": "GATEABLE",
+        "recommended_fmax": 0.0506,
+        "frag_at_c0": 0.0,
+        "frag_at_c10": 0.10125
+      }
+    ],
+    "summary": {
+      "n_taus": 8,
+      "by_regime": {
+        "COLLAPSED": 1,
+        "SINGLETON_CLIFF": 0,
+        "NATURALLY_FRAGMENTED": 0,
+        "GATEABLE": 7
+      },
+      "gateable_taus": [
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.4,
+        0.5
+      ],
+      "median_recommended_fmax": 0.0506,
+      "operable": true
+    }
+  }
+}

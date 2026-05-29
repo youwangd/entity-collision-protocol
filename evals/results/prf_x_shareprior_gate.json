@@ -1,0 +1,1185 @@
+{
+  "config": {
+    "seeds": [
+      17,
+      42,
+      101
+    ],
+    "n_pairs": 60,
+    "plain_distractors": 80,
+    "n_facts": 80,
+    "top_k_for_prf": 10,
+    "max_entities": 2,
+    "gate_levels": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5
+    ],
+    "share_prior_alpha": 0.05
+  },
+  "by_gate": [
+    {
+      "min_dominance": 0.1,
+      "bridge": {
+        "C0_baseline": {
+          "any_hit@10": 1.0,
+          "any_hit@20": 1.0,
+          "pair_recall@10": 0.325,
+          "pair_recall@20": 0.5
+        },
+        "CP_prf_only": {
+          "any_hit@10": 1.0,
+          "any_hit@20": 1.0,
+          "pair_recall@10": 0.2833,
+          "pair_recall@20": 0.65
+        },
+        "CR_share_prior_only": {
+          "any_hit@10": 1.0,
+          "any_hit@20": 1.0,
+          "pair_recall@10": 0.325,
+          "pair_recall@20": 0.5
+        },
+        "CB_both": {
+          "any_hit@10": 0.9917,
+          "any_hit@20": 1.0,
+          "pair_recall@10": 0.3833,
+          "pair_recall@20": 0.675
+        }
+      },
+      "unique_donoharm": {
+        "C0_baseline": {
+          "hit@1": 0.8208,
+          "hit@5": 1.0
+        },
+        "CP_prf_only": {
+          "hit@1": 0.3417,
+          "hit@5": 0.7583
+        },
+        "CR_share_prior_only": {
+          "hit@1": 0.8208,
+          "hit@5": 1.0
+        },
+        "CB_both": {
+          "hit@1": 0.3458,
+          "hit@5": 0.5792
+        }
+      },
+      "interactions": {
+        "pair_recall@10": {
+          "delta_PRF": -0.0417,
+          "delta_SP": 0.0,
+          "delta_BOTH": 0.0583,
+          "interaction": 0.1
+        },
+        "pair_recall@20": {
+          "delta_PRF": 0.15,
+          "delta_SP": 0.0,
+          "delta_BOTH": 0.175,
+          "interaction": 0.025
+        }
+      },
+      "per_seed": {
+        "seeds": [
+          17,
+          42,
+          101
+        ],
+        "bridge": {
+          "C0_baseline": [
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.15,
+              "pair_recall@10": 0.35,
+              "pair_recall@20": 0.5
+            },
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.2,
+              "pair_recall@10": 0.3,
+              "pair_recall@20": 0.5
+            },
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.125,
+              "pair_recall@10": 0.325,
+              "pair_recall@20": 0.5
+            }
+          ],
+          "CP_prf_only": [
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.275,
+              "pair_recall@10": 0.35,
+              "pair_recall@20": 0.65
+            },
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.225,
+              "pair_recall@10": 0.25,
+              "pair_recall@20": 0.575
+            },
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.175,
+              "pair_recall@10": 0.25,
+              "pair_recall@20": 0.725
+            }
+          ],
+          "CR_share_prior_only": [
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.25,
+              "pair_recall@10": 0.35,
+              "pair_recall@20": 0.5
+            },
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.2,
+              "pair_recall@10": 0.3,
+              "pair_recall@20": 0.5
+            },
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.25,
+              "pair_recall@10": 0.325,
+              "pair_recall@20": 0.5
+            }
+          ],
+          "CB_both": [
+            {
+              "any_hit@5": 0.95,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.275,
+              "pair_recall@10": 0.45,
+              "pair_recall@20": 0.65
+            },
+            {
+              "any_hit@5": 0.8,
+              "any_hit@10": 0.975,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.25,
+              "pair_recall@10": 0.3,
+              "pair_recall@20": 0.625
+            },
+            {
+              "any_hit@5": 0.85,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.25,
+              "pair_recall@10": 0.4,
+              "pair_recall@20": 0.75
+            }
+          ]
+        },
+        "unique": {
+          "C0_baseline": [
+            {
+              "hit@1": 0.825,
+              "hit@5": 1.0
+            },
+            {
+              "hit@1": 0.825,
+              "hit@5": 1.0
+            },
+            {
+              "hit@1": 0.8125,
+              "hit@5": 1.0
+            }
+          ],
+          "CP_prf_only": [
+            {
+              "hit@1": 0.3375,
+              "hit@5": 0.7625
+            },
+            {
+              "hit@1": 0.3375,
+              "hit@5": 0.7875
+            },
+            {
+              "hit@1": 0.35,
+              "hit@5": 0.725
+            }
+          ],
+          "CR_share_prior_only": [
+            {
+              "hit@1": 0.825,
+              "hit@5": 1.0
+            },
+            {
+              "hit@1": 0.825,
+              "hit@5": 1.0
+            },
+            {
+              "hit@1": 0.8125,
+              "hit@5": 1.0
+            }
+          ],
+          "CB_both": [
+            {
+              "hit@1": 0.35,
+              "hit@5": 0.6
+            },
+            {
+              "hit@1": 0.3375,
+              "hit@5": 0.575
+            },
+            {
+              "hit@1": 0.35,
+              "hit@5": 0.5625
+            }
+          ]
+        }
+      }
+    },
+    {
+      "min_dominance": 0.2,
+      "bridge": {
+        "C0_baseline": {
+          "any_hit@10": 1.0,
+          "any_hit@20": 1.0,
+          "pair_recall@10": 0.325,
+          "pair_recall@20": 0.5
+        },
+        "CP_prf_only": {
+          "any_hit@10": 1.0,
+          "any_hit@20": 1.0,
+          "pair_recall@10": 0.2833,
+          "pair_recall@20": 0.65
+        },
+        "CR_share_prior_only": {
+          "any_hit@10": 1.0,
+          "any_hit@20": 1.0,
+          "pair_recall@10": 0.325,
+          "pair_recall@20": 0.5
+        },
+        "CB_both": {
+          "any_hit@10": 0.9917,
+          "any_hit@20": 1.0,
+          "pair_recall@10": 0.3833,
+          "pair_recall@20": 0.675
+        }
+      },
+      "unique_donoharm": {
+        "C0_baseline": {
+          "hit@1": 0.8208,
+          "hit@5": 1.0
+        },
+        "CP_prf_only": {
+          "hit@1": 0.3542,
+          "hit@5": 0.7667
+        },
+        "CR_share_prior_only": {
+          "hit@1": 0.8208,
+          "hit@5": 1.0
+        },
+        "CB_both": {
+          "hit@1": 0.3458,
+          "hit@5": 0.5792
+        }
+      },
+      "interactions": {
+        "pair_recall@10": {
+          "delta_PRF": -0.0417,
+          "delta_SP": 0.0,
+          "delta_BOTH": 0.0583,
+          "interaction": 0.1
+        },
+        "pair_recall@20": {
+          "delta_PRF": 0.15,
+          "delta_SP": 0.0,
+          "delta_BOTH": 0.175,
+          "interaction": 0.025
+        }
+      },
+      "per_seed": {
+        "seeds": [
+          17,
+          42,
+          101
+        ],
+        "bridge": {
+          "C0_baseline": [
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.15,
+              "pair_recall@10": 0.35,
+              "pair_recall@20": 0.5
+            },
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.2,
+              "pair_recall@10": 0.3,
+              "pair_recall@20": 0.5
+            },
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.125,
+              "pair_recall@10": 0.325,
+              "pair_recall@20": 0.5
+            }
+          ],
+          "CP_prf_only": [
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.275,
+              "pair_recall@10": 0.35,
+              "pair_recall@20": 0.65
+            },
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.225,
+              "pair_recall@10": 0.25,
+              "pair_recall@20": 0.575
+            },
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.175,
+              "pair_recall@10": 0.25,
+              "pair_recall@20": 0.725
+            }
+          ],
+          "CR_share_prior_only": [
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.25,
+              "pair_recall@10": 0.35,
+              "pair_recall@20": 0.5
+            },
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.2,
+              "pair_recall@10": 0.3,
+              "pair_recall@20": 0.5
+            },
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.25,
+              "pair_recall@10": 0.325,
+              "pair_recall@20": 0.5
+            }
+          ],
+          "CB_both": [
+            {
+              "any_hit@5": 0.95,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.275,
+              "pair_recall@10": 0.45,
+              "pair_recall@20": 0.65
+            },
+            {
+              "any_hit@5": 0.8,
+              "any_hit@10": 0.975,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.25,
+              "pair_recall@10": 0.3,
+              "pair_recall@20": 0.625
+            },
+            {
+              "any_hit@5": 0.85,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.25,
+              "pair_recall@10": 0.4,
+              "pair_recall@20": 0.75
+            }
+          ]
+        },
+        "unique": {
+          "C0_baseline": [
+            {
+              "hit@1": 0.825,
+              "hit@5": 1.0
+            },
+            {
+              "hit@1": 0.825,
+              "hit@5": 1.0
+            },
+            {
+              "hit@1": 0.8125,
+              "hit@5": 1.0
+            }
+          ],
+          "CP_prf_only": [
+            {
+              "hit@1": 0.3625,
+              "hit@5": 0.775
+            },
+            {
+              "hit@1": 0.3375,
+              "hit@5": 0.7875
+            },
+            {
+              "hit@1": 0.3625,
+              "hit@5": 0.7375
+            }
+          ],
+          "CR_share_prior_only": [
+            {
+              "hit@1": 0.825,
+              "hit@5": 1.0
+            },
+            {
+              "hit@1": 0.825,
+              "hit@5": 1.0
+            },
+            {
+              "hit@1": 0.8125,
+              "hit@5": 1.0
+            }
+          ],
+          "CB_both": [
+            {
+              "hit@1": 0.35,
+              "hit@5": 0.6
+            },
+            {
+              "hit@1": 0.3375,
+              "hit@5": 0.575
+            },
+            {
+              "hit@1": 0.35,
+              "hit@5": 0.5625
+            }
+          ]
+        }
+      }
+    },
+    {
+      "min_dominance": 0.3,
+      "bridge": {
+        "C0_baseline": {
+          "any_hit@10": 1.0,
+          "any_hit@20": 1.0,
+          "pair_recall@10": 0.325,
+          "pair_recall@20": 0.5
+        },
+        "CP_prf_only": {
+          "any_hit@10": 1.0,
+          "any_hit@20": 1.0,
+          "pair_recall@10": 0.2833,
+          "pair_recall@20": 0.6333
+        },
+        "CR_share_prior_only": {
+          "any_hit@10": 1.0,
+          "any_hit@20": 1.0,
+          "pair_recall@10": 0.325,
+          "pair_recall@20": 0.5
+        },
+        "CB_both": {
+          "any_hit@10": 0.9917,
+          "any_hit@20": 1.0,
+          "pair_recall@10": 0.3833,
+          "pair_recall@20": 0.675
+        }
+      },
+      "unique_donoharm": {
+        "C0_baseline": {
+          "hit@1": 0.8208,
+          "hit@5": 1.0
+        },
+        "CP_prf_only": {
+          "hit@1": 0.8333,
+          "hit@5": 0.9667
+        },
+        "CR_share_prior_only": {
+          "hit@1": 0.8208,
+          "hit@5": 1.0
+        },
+        "CB_both": {
+          "hit@1": 0.8375,
+          "hit@5": 0.9375
+        }
+      },
+      "interactions": {
+        "pair_recall@10": {
+          "delta_PRF": -0.0417,
+          "delta_SP": 0.0,
+          "delta_BOTH": 0.0583,
+          "interaction": 0.1
+        },
+        "pair_recall@20": {
+          "delta_PRF": 0.1333,
+          "delta_SP": 0.0,
+          "delta_BOTH": 0.175,
+          "interaction": 0.0417
+        }
+      },
+      "per_seed": {
+        "seeds": [
+          17,
+          42,
+          101
+        ],
+        "bridge": {
+          "C0_baseline": [
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.15,
+              "pair_recall@10": 0.35,
+              "pair_recall@20": 0.5
+            },
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.2,
+              "pair_recall@10": 0.3,
+              "pair_recall@20": 0.5
+            },
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.125,
+              "pair_recall@10": 0.325,
+              "pair_recall@20": 0.5
+            }
+          ],
+          "CP_prf_only": [
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.275,
+              "pair_recall@10": 0.35,
+              "pair_recall@20": 0.625
+            },
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.225,
+              "pair_recall@10": 0.25,
+              "pair_recall@20": 0.575
+            },
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.175,
+              "pair_recall@10": 0.25,
+              "pair_recall@20": 0.7
+            }
+          ],
+          "CR_share_prior_only": [
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.25,
+              "pair_recall@10": 0.35,
+              "pair_recall@20": 0.5
+            },
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.2,
+              "pair_recall@10": 0.3,
+              "pair_recall@20": 0.5
+            },
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.25,
+              "pair_recall@10": 0.325,
+              "pair_recall@20": 0.5
+            }
+          ],
+          "CB_both": [
+            {
+              "any_hit@5": 0.95,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.275,
+              "pair_recall@10": 0.45,
+              "pair_recall@20": 0.65
+            },
+            {
+              "any_hit@5": 0.8,
+              "any_hit@10": 0.975,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.25,
+              "pair_recall@10": 0.3,
+              "pair_recall@20": 0.625
+            },
+            {
+              "any_hit@5": 0.85,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.25,
+              "pair_recall@10": 0.4,
+              "pair_recall@20": 0.75
+            }
+          ]
+        },
+        "unique": {
+          "C0_baseline": [
+            {
+              "hit@1": 0.825,
+              "hit@5": 1.0
+            },
+            {
+              "hit@1": 0.825,
+              "hit@5": 1.0
+            },
+            {
+              "hit@1": 0.8125,
+              "hit@5": 1.0
+            }
+          ],
+          "CP_prf_only": [
+            {
+              "hit@1": 0.825,
+              "hit@5": 0.9625
+            },
+            {
+              "hit@1": 0.8375,
+              "hit@5": 0.975
+            },
+            {
+              "hit@1": 0.8375,
+              "hit@5": 0.9625
+            }
+          ],
+          "CR_share_prior_only": [
+            {
+              "hit@1": 0.825,
+              "hit@5": 1.0
+            },
+            {
+              "hit@1": 0.825,
+              "hit@5": 1.0
+            },
+            {
+              "hit@1": 0.8125,
+              "hit@5": 1.0
+            }
+          ],
+          "CB_both": [
+            {
+              "hit@1": 0.8375,
+              "hit@5": 0.9
+            },
+            {
+              "hit@1": 0.8375,
+              "hit@5": 0.975
+            },
+            {
+              "hit@1": 0.8375,
+              "hit@5": 0.9375
+            }
+          ]
+        }
+      }
+    },
+    {
+      "min_dominance": 0.4,
+      "bridge": {
+        "C0_baseline": {
+          "any_hit@10": 1.0,
+          "any_hit@20": 1.0,
+          "pair_recall@10": 0.325,
+          "pair_recall@20": 0.5
+        },
+        "CP_prf_only": {
+          "any_hit@10": 1.0,
+          "any_hit@20": 1.0,
+          "pair_recall@10": 0.3167,
+          "pair_recall@20": 0.4667
+        },
+        "CR_share_prior_only": {
+          "any_hit@10": 1.0,
+          "any_hit@20": 1.0,
+          "pair_recall@10": 0.325,
+          "pair_recall@20": 0.5
+        },
+        "CB_both": {
+          "any_hit@10": 0.9917,
+          "any_hit@20": 1.0,
+          "pair_recall@10": 0.35,
+          "pair_recall@20": 0.4917
+        }
+      },
+      "unique_donoharm": {
+        "C0_baseline": {
+          "hit@1": 0.8208,
+          "hit@5": 1.0
+        },
+        "CP_prf_only": {
+          "hit@1": 0.8167,
+          "hit@5": 0.9958
+        },
+        "CR_share_prior_only": {
+          "hit@1": 0.8208,
+          "hit@5": 1.0
+        },
+        "CB_both": {
+          "hit@1": 0.8208,
+          "hit@5": 0.9917
+        }
+      },
+      "interactions": {
+        "pair_recall@10": {
+          "delta_PRF": -0.0083,
+          "delta_SP": 0.0,
+          "delta_BOTH": 0.025,
+          "interaction": 0.0333
+        },
+        "pair_recall@20": {
+          "delta_PRF": -0.0333,
+          "delta_SP": 0.0,
+          "delta_BOTH": -0.0083,
+          "interaction": 0.025
+        }
+      },
+      "per_seed": {
+        "seeds": [
+          17,
+          42,
+          101
+        ],
+        "bridge": {
+          "C0_baseline": [
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.15,
+              "pair_recall@10": 0.35,
+              "pair_recall@20": 0.5
+            },
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.2,
+              "pair_recall@10": 0.3,
+              "pair_recall@20": 0.5
+            },
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.125,
+              "pair_recall@10": 0.325,
+              "pair_recall@20": 0.5
+            }
+          ],
+          "CP_prf_only": [
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.2,
+              "pair_recall@10": 0.35,
+              "pair_recall@20": 0.575
+            },
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.225,
+              "pair_recall@10": 0.25,
+              "pair_recall@20": 0.325
+            },
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.175,
+              "pair_recall@10": 0.35,
+              "pair_recall@20": 0.5
+            }
+          ],
+          "CR_share_prior_only": [
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.25,
+              "pair_recall@10": 0.35,
+              "pair_recall@20": 0.5
+            },
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.2,
+              "pair_recall@10": 0.3,
+              "pair_recall@20": 0.5
+            },
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.25,
+              "pair_recall@10": 0.325,
+              "pair_recall@20": 0.5
+            }
+          ],
+          "CB_both": [
+            {
+              "any_hit@5": 0.95,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.275,
+              "pair_recall@10": 0.4,
+              "pair_recall@20": 0.6
+            },
+            {
+              "any_hit@5": 0.8,
+              "any_hit@10": 0.975,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.25,
+              "pair_recall@10": 0.25,
+              "pair_recall@20": 0.375
+            },
+            {
+              "any_hit@5": 0.95,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.3,
+              "pair_recall@10": 0.4,
+              "pair_recall@20": 0.5
+            }
+          ]
+        },
+        "unique": {
+          "C0_baseline": [
+            {
+              "hit@1": 0.825,
+              "hit@5": 1.0
+            },
+            {
+              "hit@1": 0.825,
+              "hit@5": 1.0
+            },
+            {
+              "hit@1": 0.8125,
+              "hit@5": 1.0
+            }
+          ],
+          "CP_prf_only": [
+            {
+              "hit@1": 0.825,
+              "hit@5": 0.9875
+            },
+            {
+              "hit@1": 0.8125,
+              "hit@5": 1.0
+            },
+            {
+              "hit@1": 0.8125,
+              "hit@5": 1.0
+            }
+          ],
+          "CR_share_prior_only": [
+            {
+              "hit@1": 0.825,
+              "hit@5": 1.0
+            },
+            {
+              "hit@1": 0.825,
+              "hit@5": 1.0
+            },
+            {
+              "hit@1": 0.8125,
+              "hit@5": 1.0
+            }
+          ],
+          "CB_both": [
+            {
+              "hit@1": 0.8375,
+              "hit@5": 0.9875
+            },
+            {
+              "hit@1": 0.8125,
+              "hit@5": 0.9875
+            },
+            {
+              "hit@1": 0.8125,
+              "hit@5": 1.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "min_dominance": 0.5,
+      "bridge": {
+        "C0_baseline": {
+          "any_hit@10": 1.0,
+          "any_hit@20": 1.0,
+          "pair_recall@10": 0.325,
+          "pair_recall@20": 0.5
+        },
+        "CP_prf_only": {
+          "any_hit@10": 1.0,
+          "any_hit@20": 1.0,
+          "pair_recall@10": 0.325,
+          "pair_recall@20": 0.5
+        },
+        "CR_share_prior_only": {
+          "any_hit@10": 1.0,
+          "any_hit@20": 1.0,
+          "pair_recall@10": 0.325,
+          "pair_recall@20": 0.5
+        },
+        "CB_both": {
+          "any_hit@10": 1.0,
+          "any_hit@20": 1.0,
+          "pair_recall@10": 0.325,
+          "pair_recall@20": 0.5
+        }
+      },
+      "unique_donoharm": {
+        "C0_baseline": {
+          "hit@1": 0.8208,
+          "hit@5": 1.0
+        },
+        "CP_prf_only": {
+          "hit@1": 0.8208,
+          "hit@5": 1.0
+        },
+        "CR_share_prior_only": {
+          "hit@1": 0.8208,
+          "hit@5": 1.0
+        },
+        "CB_both": {
+          "hit@1": 0.8208,
+          "hit@5": 1.0
+        }
+      },
+      "interactions": {
+        "pair_recall@10": {
+          "delta_PRF": 0.0,
+          "delta_SP": 0.0,
+          "delta_BOTH": 0.0,
+          "interaction": 0.0
+        },
+        "pair_recall@20": {
+          "delta_PRF": 0.0,
+          "delta_SP": 0.0,
+          "delta_BOTH": 0.0,
+          "interaction": 0.0
+        }
+      },
+      "per_seed": {
+        "seeds": [
+          17,
+          42,
+          101
+        ],
+        "bridge": {
+          "C0_baseline": [
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.15,
+              "pair_recall@10": 0.35,
+              "pair_recall@20": 0.5
+            },
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.2,
+              "pair_recall@10": 0.3,
+              "pair_recall@20": 0.5
+            },
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.125,
+              "pair_recall@10": 0.325,
+              "pair_recall@20": 0.5
+            }
+          ],
+          "CP_prf_only": [
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.15,
+              "pair_recall@10": 0.35,
+              "pair_recall@20": 0.5
+            },
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.225,
+              "pair_recall@10": 0.3,
+              "pair_recall@20": 0.5
+            },
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.125,
+              "pair_recall@10": 0.325,
+              "pair_recall@20": 0.5
+            }
+          ],
+          "CR_share_prior_only": [
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.25,
+              "pair_recall@10": 0.35,
+              "pair_recall@20": 0.5
+            },
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.2,
+              "pair_recall@10": 0.3,
+              "pair_recall@20": 0.5
+            },
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.25,
+              "pair_recall@10": 0.325,
+              "pair_recall@20": 0.5
+            }
+          ],
+          "CB_both": [
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.275,
+              "pair_recall@10": 0.35,
+              "pair_recall@20": 0.5
+            },
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.25,
+              "pair_recall@10": 0.3,
+              "pair_recall@20": 0.5
+            },
+            {
+              "any_hit@5": 1.0,
+              "any_hit@10": 1.0,
+              "any_hit@20": 1.0,
+              "pair_recall@5": 0.25,
+              "pair_recall@10": 0.325,
+              "pair_recall@20": 0.5
+            }
+          ]
+        },
+        "unique": {
+          "C0_baseline": [
+            {
+              "hit@1": 0.825,
+              "hit@5": 1.0
+            },
+            {
+              "hit@1": 0.825,
+              "hit@5": 1.0
+            },
+            {
+              "hit@1": 0.8125,
+              "hit@5": 1.0
+            }
+          ],
+          "CP_prf_only": [
+            {
+              "hit@1": 0.825,
+              "hit@5": 1.0
+            },
+            {
+              "hit@1": 0.825,
+              "hit@5": 1.0
+            },
+            {
+              "hit@1": 0.8125,
+              "hit@5": 1.0
+            }
+          ],
+          "CR_share_prior_only": [
+            {
+              "hit@1": 0.825,
+              "hit@5": 1.0
+            },
+            {
+              "hit@1": 0.825,
+              "hit@5": 1.0
+            },
+            {
+              "hit@1": 0.8125,
+              "hit@5": 1.0
+            }
+          ],
+          "CB_both": [
+            {
+              "hit@1": 0.825,
+              "hit@5": 1.0
+            },
+            {
+              "hit@1": 0.825,
+              "hit@5": 1.0
+            },
+            {
+              "hit@1": 0.8125,
+              "hit@5": 1.0
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "wall_seconds": 101.89
+}

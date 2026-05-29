@@ -1,0 +1,67 @@
+{
+  "source": "bench/results/locomo_fragmentation_per_tau_calibration.json",
+  "n_schemas": 543,
+  "rows": [
+    {
+      "tau": 0.1,
+      "regime": "NATURALLY_FRAGMENTED",
+      "recommended_fmax": null,
+      "frag_at_c0": 0.07734806629834254,
+      "frag_at_c10": 0.18232044198895028
+    },
+    {
+      "tau": 0.15,
+      "regime": "NATURALLY_FRAGMENTED",
+      "recommended_fmax": null,
+      "frag_at_c0": 0.583793738489871,
+      "frag_at_c10": 0.6574585635359116
+    },
+    {
+      "tau": 0.2,
+      "regime": "NATURALLY_FRAGMENTED",
+      "recommended_fmax": null,
+      "frag_at_c0": 0.8729281767955801,
+      "frag_at_c10": 0.8931860036832413
+    },
+    {
+      "tau": 0.25,
+      "regime": "SINGLETON_CLIFF",
+      "recommended_fmax": null,
+      "frag_at_c0": 0.9742173112338858,
+      "frag_at_c10": 0.9779005524861878
+    },
+    {
+      "tau": 0.3,
+      "regime": "SINGLETON_CLIFF",
+      "recommended_fmax": null,
+      "frag_at_c0": 0.996316758747698,
+      "frag_at_c10": 0.996316758747698
+    },
+    {
+      "tau": 0.4,
+      "regime": "SINGLETON_CLIFF",
+      "recommended_fmax": null,
+      "frag_at_c0": 1.0,
+      "frag_at_c10": 1.0
+    },
+    {
+      "tau": 0.5,
+      "regime": "SINGLETON_CLIFF",
+      "recommended_fmax": null,
+      "frag_at_c0": 1.0,
+      "frag_at_c10": 1.0
+    }
+  ],
+  "summary": {
+    "n_taus": 7,
+    "by_regime": {
+      "COLLAPSED": 0,
+      "SINGLETON_CLIFF": 4,
+      "NATURALLY_FRAGMENTED": 3,
+      "GATEABLE": 0
+    },
+    "gateable_taus": [],
+    "median_recommended_fmax": null,
+    "operable": false
+  }
+}

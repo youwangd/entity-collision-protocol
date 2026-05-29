@@ -1,0 +1,341 @@
+{
+  "baseline_artifact": "bench/results/lme_n500_bge_large_baseline.json",
+  "arm_artifacts": [
+    "bench/results/lme_n500_bge_large_prf.json",
+    "bench/results/lme_n500_bge_large_both.json"
+  ],
+  "boot_resamples": 5000,
+  "boot_seed": 42,
+  "delta": {
+    "prf": {
+      "n_paired": 500,
+      "overall": {
+        "hit_at_1": {
+          "arm_rate": 0.852,
+          "baseline_rate": 0.868,
+          "delta": -0.016,
+          "ci95": [
+            -0.034,
+            0.002
+          ],
+          "sig": false
+        },
+        "hit_at_k": {
+          "arm_rate": 0.948,
+          "baseline_rate": 0.956,
+          "delta": -0.008,
+          "ci95": [
+            -0.016,
+            -0.002
+          ],
+          "sig": true
+        }
+      },
+      "per_type": {
+        "single-session-user": {
+          "n": 70,
+          "hit_at_1": {
+            "arm_rate": 0.8,
+            "baseline_rate": 0.9,
+            "delta": -0.1,
+            "ci95": [
+              -0.17142857142857143,
+              -0.04285714285714286
+            ],
+            "sig": true
+          },
+          "hit_at_k": {
+            "arm_rate": 0.9428571428571428,
+            "baseline_rate": 0.9571428571428572,
+            "delta": -0.014285714285714285,
+            "ci95": [
+              -0.04285714285714286,
+              0.0
+            ],
+            "sig": false
+          }
+        },
+        "multi-session": {
+          "n": 133,
+          "hit_at_1": {
+            "arm_rate": 0.9097744360902256,
+            "baseline_rate": 0.8872180451127819,
+            "delta": 0.022556390977443608,
+            "ci95": [
+              -0.015037593984962405,
+              0.06015037593984962
+            ],
+            "sig": false
+          },
+          "hit_at_k": {
+            "arm_rate": 0.9774436090225563,
+            "baseline_rate": 0.9774436090225563,
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sig": false
+          }
+        },
+        "single-session-preference": {
+          "n": 30,
+          "hit_at_1": {
+            "arm_rate": 0.5666666666666667,
+            "baseline_rate": 0.5333333333333333,
+            "delta": 0.03333333333333333,
+            "ci95": [
+              0.0,
+              0.1
+            ],
+            "sig": false
+          },
+          "hit_at_k": {
+            "arm_rate": 0.9333333333333333,
+            "baseline_rate": 0.9666666666666667,
+            "delta": -0.03333333333333333,
+            "ci95": [
+              -0.1,
+              0.0
+            ],
+            "sig": false
+          }
+        },
+        "temporal-reasoning": {
+          "n": 133,
+          "hit_at_1": {
+            "arm_rate": 0.849624060150376,
+            "baseline_rate": 0.8796992481203008,
+            "delta": -0.03007518796992481,
+            "ci95": [
+              -0.06015037593984962,
+              -0.007518796992481203
+            ],
+            "sig": true
+          },
+          "hit_at_k": {
+            "arm_rate": 0.9473684210526315,
+            "baseline_rate": 0.9624060150375939,
+            "delta": -0.015037593984962405,
+            "ci95": [
+              -0.03759398496240601,
+              0.0
+            ],
+            "sig": false
+          }
+        },
+        "knowledge-update": {
+          "n": 78,
+          "hit_at_1": {
+            "arm_rate": 0.8846153846153846,
+            "baseline_rate": 0.8974358974358975,
+            "delta": -0.01282051282051282,
+            "ci95": [
+              -0.0641025641025641,
+              0.02564102564102564
+            ],
+            "sig": false
+          },
+          "hit_at_k": {
+            "arm_rate": 0.9230769230769231,
+            "baseline_rate": 0.9230769230769231,
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sig": false
+          }
+        },
+        "single-session-assistant": {
+          "n": 56,
+          "hit_at_1": {
+            "arm_rate": 0.8928571428571429,
+            "baseline_rate": 0.8928571428571429,
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sig": false
+          },
+          "hit_at_k": {
+            "arm_rate": 0.9285714285714286,
+            "baseline_rate": 0.9285714285714286,
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sig": false
+          }
+        }
+      }
+    },
+    "both": {
+      "n_paired": 500,
+      "overall": {
+        "hit_at_1": {
+          "arm_rate": 0.842,
+          "baseline_rate": 0.868,
+          "delta": -0.026,
+          "ci95": [
+            -0.046,
+            -0.006
+          ],
+          "sig": true
+        },
+        "hit_at_k": {
+          "arm_rate": 0.936,
+          "baseline_rate": 0.956,
+          "delta": -0.02,
+          "ci95": [
+            -0.034,
+            -0.008
+          ],
+          "sig": true
+        }
+      },
+      "per_type": {
+        "single-session-user": {
+          "n": 70,
+          "hit_at_1": {
+            "arm_rate": 0.8,
+            "baseline_rate": 0.9,
+            "delta": -0.1,
+            "ci95": [
+              -0.17142857142857143,
+              -0.04285714285714286
+            ],
+            "sig": true
+          },
+          "hit_at_k": {
+            "arm_rate": 0.9428571428571428,
+            "baseline_rate": 0.9571428571428572,
+            "delta": -0.014285714285714285,
+            "ci95": [
+              -0.04285714285714286,
+              0.0
+            ],
+            "sig": false
+          }
+        },
+        "multi-session": {
+          "n": 133,
+          "hit_at_1": {
+            "arm_rate": 0.8872180451127819,
+            "baseline_rate": 0.8872180451127819,
+            "delta": 0.0,
+            "ci95": [
+              -0.03759398496240601,
+              0.03759398496240601
+            ],
+            "sig": false
+          },
+          "hit_at_k": {
+            "arm_rate": 0.9774436090225563,
+            "baseline_rate": 0.9774436090225563,
+            "delta": 0.0,
+            "ci95": [
+              -0.022556390977443608,
+              0.022556390977443608
+            ],
+            "sig": false
+          }
+        },
+        "single-session-preference": {
+          "n": 30,
+          "hit_at_1": {
+            "arm_rate": 0.5666666666666667,
+            "baseline_rate": 0.5333333333333333,
+            "delta": 0.03333333333333333,
+            "ci95": [
+              -0.06666666666666667,
+              0.13333333333333333
+            ],
+            "sig": false
+          },
+          "hit_at_k": {
+            "arm_rate": 0.8666666666666667,
+            "baseline_rate": 0.9666666666666667,
+            "delta": -0.1,
+            "ci95": [
+              -0.2,
+              0.0
+            ],
+            "sig": false
+          }
+        },
+        "temporal-reasoning": {
+          "n": 133,
+          "hit_at_1": {
+            "arm_rate": 0.8345864661654135,
+            "baseline_rate": 0.8796992481203008,
+            "delta": -0.045112781954887216,
+            "ci95": [
+              -0.08270676691729323,
+              -0.015037593984962405
+            ],
+            "sig": true
+          },
+          "hit_at_k": {
+            "arm_rate": 0.9172932330827067,
+            "baseline_rate": 0.9624060150375939,
+            "delta": -0.045112781954887216,
+            "ci95": [
+              -0.08270676691729323,
+              -0.015037593984962405
+            ],
+            "sig": true
+          }
+        },
+        "knowledge-update": {
+          "n": 78,
+          "hit_at_1": {
+            "arm_rate": 0.8846153846153846,
+            "baseline_rate": 0.8974358974358975,
+            "delta": -0.01282051282051282,
+            "ci95": [
+              -0.05128205128205128,
+              0.02564102564102564
+            ],
+            "sig": false
+          },
+          "hit_at_k": {
+            "arm_rate": 0.9230769230769231,
+            "baseline_rate": 0.9230769230769231,
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sig": false
+          }
+        },
+        "single-session-assistant": {
+          "n": 56,
+          "hit_at_1": {
+            "arm_rate": 0.8928571428571429,
+            "baseline_rate": 0.8928571428571429,
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sig": false
+          },
+          "hit_at_k": {
+            "arm_rate": 0.9285714285714286,
+            "baseline_rate": 0.9285714285714286,
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "sig": false
+          }
+        }
+      }
+    }
+  }
+}

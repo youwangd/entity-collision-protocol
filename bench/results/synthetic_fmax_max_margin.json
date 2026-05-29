@@ -1,0 +1,71 @@
+{
+  "source": "bench/results/synthetic_fragmentation_per_tau_bootstrap.json",
+  "n_boot": 100,
+  "n_schemas": 800,
+  "by_tau": [
+    {
+      "tau": 0.1,
+      "n_boot": 100,
+      "f0_mean": 0.0,
+      "f10_mean": 0.09582500000000001,
+      "fmax_midpoint": 0.0479,
+      "fmax_max_margin": 0.0381,
+      "margin_midpoint": 1.0,
+      "margin_max_margin": 1.0,
+      "lift": 0.0,
+      "skipped": false
+    },
+    {
+      "tau": 0.15,
+      "n_boot": 100,
+      "f0_mean": 0.0,
+      "f10_mean": 0.09660000000000003,
+      "fmax_midpoint": 0.0483,
+      "fmax_max_margin": 0.0381,
+      "margin_midpoint": 1.0,
+      "margin_max_margin": 1.0,
+      "lift": 0.0,
+      "skipped": false
+    },
+    {
+      "tau": 0.2,
+      "n_boot": 100,
+      "f0_mean": 0.0,
+      "f10_mean": 0.09743750000000005,
+      "fmax_midpoint": 0.0487,
+      "fmax_max_margin": 0.0369,
+      "margin_midpoint": 1.0,
+      "margin_max_margin": 1.0,
+      "lift": 0.0,
+      "skipped": false
+    },
+    {
+      "tau": 0.25,
+      "n_boot": 100,
+      "f0_mean": 0.0,
+      "f10_mean": 0.10159999999999997,
+      "fmax_midpoint": 0.0508,
+      "fmax_max_margin": 0.0381,
+      "margin_midpoint": 1.0,
+      "margin_max_margin": 1.0,
+      "lift": 0.0,
+      "skipped": false
+    },
+    {
+      "tau": 0.3,
+      "n_boot": 100,
+      "f0_mean": 0.0,
+      "f10_mean": 0.10112500000000002,
+      "fmax_midpoint": 0.0506,
+      "fmax_max_margin": 0.0387,
+      "margin_midpoint": 1.0,
+      "margin_max_margin": 1.0,
+      "lift": 0.0,
+      "skipped": false
+    }
+  ],
+  "summary": {
+    "any_lift_positive": false,
+    "max_lift_tau": 0.1
+  }
+}

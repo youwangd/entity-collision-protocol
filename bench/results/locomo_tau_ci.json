@@ -1,0 +1,71 @@
+{
+  "dataset_path": "bench/data/locomo10.json",
+  "max_instances": 2,
+  "k": 10,
+  "embedder": "hashtrigram",
+  "synthesis": true,
+  "tau_a": 0.3,
+  "tau_b": 0.05,
+  "min_supports": 2,
+  "n_pairs_a": 301,
+  "n_pairs_b": 301,
+  "n_paired": 301,
+  "ci_config": {
+    "resamples": 10000,
+    "seed": 42,
+    "alpha": 0.05,
+    "method": "percentile_paired_diff"
+  },
+  "summary": {
+    "delta_h1": {
+      "mean_diff_a_minus_b": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0,
+      "p_bootstrap_two_sided": 1.0,
+      "n_paired": 301
+    },
+    "delta_hk": {
+      "mean_diff_a_minus_b": -0.006645,
+      "ci_lo": -0.016611,
+      "ci_hi": 0.0,
+      "p_bootstrap_two_sided": 0.2664,
+      "n_paired": 301
+    },
+    "delta_rr": {
+      "mean_diff_a_minus_b": -0.000991,
+      "ci_lo": -0.003229,
+      "ci_hi": 0.00113,
+      "p_bootstrap_two_sided": 0.3524,
+      "n_paired": 301
+    },
+    "delta_prk": {
+      "mean_diff_a_minus_b": -0.006645,
+      "ci_lo": -0.016611,
+      "ci_hi": 0.0,
+      "p_bootstrap_two_sided": 0.2664,
+      "n_paired": 301
+    },
+    "delta_grk": {
+      "mean_diff_a_minus_b": -0.006645,
+      "ci_lo": -0.016611,
+      "ci_hi": 0.0,
+      "p_bootstrap_two_sided": 0.2664,
+      "n_paired": 301
+    }
+  },
+  "headline_a": {
+    "delta_h1": 0.0731,
+    "delta_hk": 0.1462,
+    "delta_mrr": 0.0874,
+    "delta_grk": 0.1394,
+    "delta_prk": 0.1329
+  },
+  "headline_b": {
+    "delta_h1": 0.0731,
+    "delta_hk": 0.1528,
+    "delta_mrr": 0.0884,
+    "delta_grk": 0.1461,
+    "delta_prk": 0.1395
+  },
+  "wall_seconds": 70.65
+}

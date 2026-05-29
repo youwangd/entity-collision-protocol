@@ -1,0 +1,134 @@
+{
+  "config": {
+    "n_clusters": 200,
+    "cluster_size": 4,
+    "vocab_size": 2000,
+    "core_size": 8,
+    "schema_size": 6,
+    "tau": 0.5,
+    "seed": 827675
+  },
+  "cells": [
+    {
+      "true_c": 0.0,
+      "meter_rate": 0.0,
+      "mean_per_nonsingleton": 0.0,
+      "n_clusters": 200,
+      "n_singletons": 0,
+      "n_nonsingleton_clusters": 200,
+      "fragmentation": 0.0,
+      "max_cluster_size": 4,
+      "mean_cluster_size": 4.0
+    },
+    {
+      "true_c": 0.025,
+      "meter_rate": 0.0,
+      "mean_per_nonsingleton": 0.0,
+      "n_clusters": 215,
+      "n_singletons": 15,
+      "n_nonsingleton_clusters": 200,
+      "fragmentation": 0.01875,
+      "max_cluster_size": 4,
+      "mean_cluster_size": 3.7209302325581395
+    },
+    {
+      "true_c": 0.05,
+      "meter_rate": 0.0,
+      "mean_per_nonsingleton": 0.0,
+      "n_clusters": 243,
+      "n_singletons": 43,
+      "n_nonsingleton_clusters": 200,
+      "fragmentation": 0.05375,
+      "max_cluster_size": 4,
+      "mean_cluster_size": 3.292181069958848
+    },
+    {
+      "true_c": 0.075,
+      "meter_rate": 0.0,
+      "mean_per_nonsingleton": 0.0,
+      "n_clusters": 254,
+      "n_singletons": 55,
+      "n_nonsingleton_clusters": 199,
+      "fragmentation": 0.06875,
+      "max_cluster_size": 4,
+      "mean_cluster_size": 3.1496062992125986
+    },
+    {
+      "true_c": 0.1,
+      "meter_rate": 0.0,
+      "mean_per_nonsingleton": 0.0,
+      "n_clusters": 281,
+      "n_singletons": 81,
+      "n_nonsingleton_clusters": 200,
+      "fragmentation": 0.10125,
+      "max_cluster_size": 4,
+      "mean_cluster_size": 2.8469750889679717
+    },
+    {
+      "true_c": 0.15,
+      "meter_rate": 0.0,
+      "mean_per_nonsingleton": 0.0,
+      "n_clusters": 339,
+      "n_singletons": 143,
+      "n_nonsingleton_clusters": 196,
+      "fragmentation": 0.17875,
+      "max_cluster_size": 4,
+      "mean_cluster_size": 2.359882005899705
+    },
+    {
+      "true_c": 0.2,
+      "meter_rate": 0.0,
+      "mean_per_nonsingleton": 0.0,
+      "n_clusters": 351,
+      "n_singletons": 154,
+      "n_nonsingleton_clusters": 197,
+      "fragmentation": 0.1925,
+      "max_cluster_size": 4,
+      "mean_cluster_size": 2.2792022792022792
+    },
+    {
+      "true_c": 0.25,
+      "meter_rate": 0.0,
+      "mean_per_nonsingleton": 0.0,
+      "n_clusters": 401,
+      "n_singletons": 210,
+      "n_nonsingleton_clusters": 191,
+      "fragmentation": 0.2625,
+      "max_cluster_size": 4,
+      "mean_cluster_size": 1.9950124688279303
+    },
+    {
+      "true_c": 0.5,
+      "meter_rate": 0.0,
+      "mean_per_nonsingleton": 0.0,
+      "n_clusters": 626,
+      "n_singletons": 509,
+      "n_nonsingleton_clusters": 117,
+      "fragmentation": 0.63625,
+      "max_cluster_size": 4,
+      "mean_cluster_size": 1.2779552715654952
+    },
+    {
+      "true_c": 0.75,
+      "meter_rate": 0.0,
+      "mean_per_nonsingleton": 0.0,
+      "n_clusters": 730,
+      "n_singletons": 675,
+      "n_nonsingleton_clusters": 55,
+      "fragmentation": 0.84375,
+      "max_cluster_size": 4,
+      "mean_cluster_size": 1.095890410958904
+    },
+    {
+      "true_c": 1.0,
+      "meter_rate": 0.0,
+      "mean_per_nonsingleton": 0.0,
+      "n_clusters": 800,
+      "n_singletons": 800,
+      "n_nonsingleton_clusters": 0,
+      "fragmentation": 1.0,
+      "max_cluster_size": 1,
+      "mean_cluster_size": 1.0
+    }
+  ]
+}

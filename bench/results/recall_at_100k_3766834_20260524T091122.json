@@ -1,0 +1,18 @@
+{
+  "n_corpus": 100000,
+  "n_queries": 200,
+  "recall_latency_ms": {
+    "p50": 1.119,
+    "p95": 1.504,
+    "p99": 4.311,
+    "max": 24.42,
+    "mean": 1.387
+  },
+  "hit_rate": 1.0,
+  "mean_results_returned": 1,
+  "meta": {
+    "sha": "3766834",
+    "timestamp": "20260524T091122",
+    "name": "recall_at_100k"
+  }
+}

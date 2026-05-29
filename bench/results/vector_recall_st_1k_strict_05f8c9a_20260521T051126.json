@@ -1,0 +1,92 @@
+{
+  "embed_provider": "SentenceTransformer",
+  "embed_model": "all-MiniLM-L6-v2",
+  "embed_dimension": 384,
+  "dataset": "strict_paraphrase n_sessions=50 facts=5 distractors=15",
+  "n_memories": 1000,
+  "n_queries": 250,
+  "ingest_walls_seconds": {
+    "bm25_only": 20.638,
+    "hybrid_03": 21.337,
+    "hybrid_05": 18.658,
+    "hybrid_07": 17.895,
+    "vector_only": 17.599
+  },
+  "cells": {
+    "bm25_only": {
+      "vector_weight": 0.0,
+      "n_memories": 1000,
+      "n_queries": 250,
+      "hit_at_1": 0.484,
+      "hit_at_5": 0.836,
+      "hit_at_10": 0.948,
+      "mrr": 0.6415,
+      "ingest_lat_ms_p50": 20.128,
+      "ingest_lat_ms_p99": 30.196,
+      "recall_lat_ms_p50": 20.331,
+      "recall_lat_ms_p95": 32.089,
+      "recall_lat_ms_p99": 35.852
+    },
+    "hybrid_03": {
+      "vector_weight": 0.3,
+      "n_memories": 1000,
+      "n_queries": 250,
+      "hit_at_1": 0.464,
+      "hit_at_5": 0.904,
+      "hit_at_10": 0.996,
+      "mrr": 0.6569,
+      "ingest_lat_ms_p50": 20.162,
+      "ingest_lat_ms_p99": 34.909,
+      "recall_lat_ms_p50": 20.077,
+      "recall_lat_ms_p95": 31.237,
+      "recall_lat_ms_p99": 35.67
+    },
+    "hybrid_05": {
+      "vector_weight": 0.5,
+      "n_memories": 1000,
+      "n_queries": 250,
+      "hit_at_1": 0.428,
+      "hit_at_5": 0.792,
+      "hit_at_10": 0.9,
+      "mrr": 0.5872,
+      "ingest_lat_ms_p50": 18.466,
+      "ingest_lat_ms_p99": 29.71,
+      "recall_lat_ms_p50": 17.021,
+      "recall_lat_ms_p95": 30.037,
+      "recall_lat_ms_p99": 35.415
+    },
+    "hybrid_07": {
+      "vector_weight": 0.7,
+      "n_memories": 1000,
+      "n_queries": 250,
+      "hit_at_1": 0.444,
+      "hit_at_5": 0.784,
+      "hit_at_10": 0.88,
+      "mrr": 0.5918,
+      "ingest_lat_ms_p50": 17.6,
+      "ingest_lat_ms_p99": 22.555,
+      "recall_lat_ms_p50": 17.08,
+      "recall_lat_ms_p95": 29.972,
+      "recall_lat_ms_p99": 33.24
+    },
+    "vector_only": {
+      "vector_weight": 1.0,
+      "n_memories": 1000,
+      "n_queries": 250,
+      "hit_at_1": 0.456,
+      "hit_at_5": 0.772,
+      "hit_at_10": 0.88,
+      "mrr": 0.5976,
+      "ingest_lat_ms_p50": 17.347,
+      "ingest_lat_ms_p99": 22.968,
+      "recall_lat_ms_p50": 18.176,
+      "recall_lat_ms_p95": 37.045,
+      "recall_lat_ms_p99": 93.65
+    }
+  },
+  "meta": {
+    "sha": "05f8c9a",
+    "timestamp": "20260521T051126",
+    "name": "vector_recall_st_1k_strict"
+  }
+}

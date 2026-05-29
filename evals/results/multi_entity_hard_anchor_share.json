@@ -1,0 +1,66 @@
+{
+  "n_facts": 500,
+  "n_sessions": 25,
+  "n_memories": 3000,
+  "n_queries": 500,
+  "k": 10,
+  "share_points": "None,0.7,0.5,0.4,0.3",
+  "points": [
+    {
+      "arm": "baseline",
+      "share_max": null,
+      "hit@1": 0.082,
+      "hit@5": 0.386,
+      "hit@10": 0.59,
+      "delta_vs_prf_h1": 0.006
+    },
+    {
+      "arm": "prf_with_gate",
+      "share_max": null,
+      "hit@1": 0.076,
+      "hit@5": 0.324,
+      "hit@10": 0.486,
+      "delta_vs_prf_h1": 0.0
+    },
+    {
+      "arm": "prf_with_gate",
+      "share_max": 0.7,
+      "hit@1": 0.076,
+      "hit@5": 0.324,
+      "hit@10": 0.486,
+      "delta_vs_prf_h1": 0.0,
+      "delta_vs_prf_h5": 0.0,
+      "delta_vs_prf_h10": 0.0
+    },
+    {
+      "arm": "prf_with_gate",
+      "share_max": 0.5,
+      "hit@1": 0.076,
+      "hit@5": 0.324,
+      "hit@10": 0.486,
+      "delta_vs_prf_h1": 0.0,
+      "delta_vs_prf_h5": 0.0,
+      "delta_vs_prf_h10": 0.0
+    },
+    {
+      "arm": "prf_with_gate",
+      "share_max": 0.4,
+      "hit@1": 0.076,
+      "hit@5": 0.324,
+      "hit@10": 0.486,
+      "delta_vs_prf_h1": 0.0,
+      "delta_vs_prf_h5": 0.0,
+      "delta_vs_prf_h10": 0.0
+    },
+    {
+      "arm": "prf_with_gate",
+      "share_max": 0.3,
+      "hit@1": 0.076,
+      "hit@5": 0.324,
+      "hit@10": 0.486,
+      "delta_vs_prf_h1": 0.0,
+      "delta_vs_prf_h5": 0.0,
+      "delta_vs_prf_h10": 0.0
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "config": {
+    "seeds": [
+      17,
+      42,
+      101
+    ],
+    "n_pairs": 60,
+    "plain_distractors": 80,
+    "n_facts": 80,
+    "top_k_for_prf": 10,
+    "max_entities": 4,
+    "min_dominance": 0.3
+  },
+  "bridge": {
+    "baseline": {
+      "any_hit@5": {
+        "mean": 1.0,
+        "stdev": 0.0
+      },
+      "any_hit@10": {
+        "mean": 1.0,
+        "stdev": 0.0
+      },
+      "any_hit@20": {
+        "mean": 1.0,
+        "stdev": 0.0
+      },
+      "pair_recall@5": {
+        "mean": 0.1583,
+        "stdev": 0.0382
+      },
+      "pair_recall@10": {
+        "mean": 0.325,
+        "stdev": 0.025
+      },
+      "pair_recall@20": {
+        "mean": 0.5,
+        "stdev": 0.0
+      }
+    },
+    "expand": {
+      "any_hit@5": {
+        "mean": 1.0,
+        "stdev": 0.0
+      },
+      "any_hit@10": {
+        "mean": 1.0,
+        "stdev": 0.0
+      },
+      "any_hit@20": {
+        "mean": 1.0,
+        "stdev": 0.0
+      },
+      "pair_recall@5": {
+        "mean": 0.2083,
+        "stdev": 0.0722
+      },
+      "pair_recall@10": {
+        "mean": 0.3583,
+        "stdev": 0.1127
+      },
+      "pair_recall@20": {
+        "mean": 0.6,
+        "stdev": 0.1
+      }
+    },
+    "delta": {
+      "any_hit@5": 0.0,
+      "any_hit@10": 0.0,
+      "any_hit@20": 0.0,
+      "pair_recall@5": 0.05,
+      "pair_recall@10": 0.0333,
+      "pair_recall@20": 0.1
+    },
+    "_per_seed_baseline": [
+      {
+        "expand": false,
+        "n_queries": 40,
+        "any_hit@5": 1.0,
+        "any_hit@10": 1.0,
+        "any_hit@20": 1.0,
+        "pair_recall@5": 0.15,
+        "pair_recall@10": 0.35,
+        "pair_recall@20": 0.5,
+        "_expansions_sample": []
+      },
+      {
+        "expand": false,
+        "n_queries": 40,
+        "any_hit@5": 1.0,
+        "any_hit@10": 1.0,
+        "any_hit@20": 1.0,
+        "pair_recall@5": 0.2,
+        "pair_recall@10": 0.3,
+        "pair_recall@20": 0.5,
+        "_expansions_sample": []
+      },
+      {
+        "expand": false,
+        "n_queries": 40,
+        "any_hit@5": 1.0,
+        "any_hit@10": 1.0,
+        "any_hit@20": 1.0,
+        "pair_recall@5": 0.125,
+        "pair_recall@10": 0.325,
+        "pair_recall@20": 0.5,
+        "_expansions_sample": []
+      }
+    ],
+    "_per_seed_expand": [
+      {
+        "expand": true,
+        "n_queries": 40,
+        "any_hit@5": 1.0,
+        "any_hit@10": 1.0,
+        "any_hit@20": 1.0,
+        "pair_recall@5": 0.25,
+        "pair_recall@10": 0.35,
+        "pair_recall@20": 0.6,
+        "_expansions_sample": [
+          {
+            "q": "which executive ultimately owns the work Aria Alvarez leads?",
+            "added": [
+              "project atlas",
+              "project delta",
+              "project gemini",
+              "project juno"
+            ]
+          },
+          {
+            "q": "what flagship product does Cyra Alvarez's division ship?",
+            "added": [
+              "project cipher",
+              "project fortuna",
+              "project iris",
+              "nimbusos"
+            ]
+          },
+          {
+            "q": "which executive ultimately owns the work Devon Alvarez leads?",
+            "added": [
+              "project atlas",
+              "project delta",
+              "project gemini",
+              "project juno"
+            ]
+          },
+          {
+            "q": "what flagship product does Finn Alvarez's division ship?",
+            "added": [
+              "project fortuna",
+              "project iris",
+              "nimbusos",
+              "project cipher"
+            ]
+          },
+          {
+            "q": "which executive ultimately owns the work Gita Alvarez leads?",
+            "added": [
+              "project atlas",
+              "project delta",
+              "project gemini",
+              "project juno"
+            ]
+          }
+        ]
+      },
+      {
+        "expand": true,
+        "n_queries": 40,
+        "any_hit@5": 1.0,
+        "any_hit@10": 1.0,
+        "any_hit@20": 1.0,
+        "pair_recall@5": 0.125,
+        "pair_recall@10": 0.25,
+        "pair_recall@20": 0.5,
+        "_expansions_sample": [
+          {
+            "q": "which executive ultimately owns the work Aria Alvarez leads?",
+            "added": [
+              "project atlas",
+              "project delta",
+              "project gemini",
+              "project juno"
+            ]
+          },
+          {
+            "q": "what flagship product does Cyra Alvarez's division ship?",
+            "added": [
+              "project cipher",
+              "project iris",
+              "nimbusos",
+              "aegisguard"
+            ]
+          },
+          {
+            "q": "which executive ultimately owns the work Devon Alvarez leads?",
+            "added": [
+              "project atlas",
+              "project delta",
+              "project gemini",
+              "project juno"
+            ]
+          },
+          {
+            "q": "what flagship product does Finn Alvarez's division ship?",
+            "added": [
+              "project iris",
+              "nimbusos",
+              "project cipher",
+              "aegisguard"
+            ]
+          },
+          {
+            "q": "which executive ultimately owns the work Gita Alvarez leads?",
+            "added": [
+              "project atlas",
+              "project delta",
+              "project gemini",
+              "project juno"
+            ]
+          }
+        ]
+      },
+      {
+        "expand": true,
+        "n_queries": 40,
+        "any_hit@5": 1.0,
+        "any_hit@10": 1.0,
+        "any_hit@20": 1.0,
+        "pair_recall@5": 0.25,
+        "pair_recall@10": 0.475,
+        "pair_recall@20": 0.7,
+        "_expansions_sample": [
+          {
+            "q": "which executive ultimately owns the work Aria Alvarez leads?",
+            "added": [
+              "project atlas",
+              "project delta",
+              "project gemini",
+              "project juno"
+            ]
+          },
+          {
+            "q": "what flagship product does Cyra Alvarez's division ship?",
+            "added": [
+              "nimbusos",
+              "project iris",
+              "project cipher",
+              "project fortuna"
+            ]
+          },
+          {
+            "q": "which executive ultimately owns the work Devon Alvarez leads?",
+            "added": [
+              "project atlas",
+              "project delta",
+              "project gemini",
+              "project juno"
+            ]
+          },
+          {
+            "q": "what flagship product does Finn Alvarez's division ship?",
+            "added": [
+              "nimbusos",
+              "project fortuna",
+              "project iris",
+              "project lumen"
+            ]
+          },
+          {
+            "q": "which executive ultimately owns the work Gita Alvarez leads?",
+            "added": [
+              "project atlas",
+              "project delta",
+              "project gemini",
+              "project juno"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "unique_donoharm": {
+    "baseline": {
+      "hit@1": {
+        "mean": 0.8208,
+        "stdev": 0.0072
+      },
+      "hit@5": {
+        "mean": 1.0,
+        "stdev": 0.0
+      }
+    },
+    "expand": {
+      "hit@1": {
+        "mean": 0.8333,
+        "stdev": 0.0072
+      },
+      "hit@5": {
+        "mean": 0.975,
+        "stdev": 0.0125
+      }
+    },
+    "delta": {
+      "hit@1": 0.0125,
+      "hit@5": -0.025
+    }
+  },
+  "wall_seconds": 10.11
+}

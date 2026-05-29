@@ -1,0 +1,41 @@
+{
+  "source": "bench/results/locomo_recall_lift_\u00a794c_synth_on.json",
+  "recipe": {
+    "schema_family_share": 0.75,
+    "schema_family_tau": 0.2,
+    "schema_family_fragmentation_max": 0.9021,
+    "schema_family_contamination_max": 0.15
+  },
+  "synthesis": true,
+  "n_pairs": 301,
+  "ci_config": {
+    "resamples": 10000,
+    "seed": 42,
+    "alpha": 0.05,
+    "method": "percentile_paired"
+  },
+  "overall": {
+    "n_pairs": 301,
+    "delta_h1": {
+      "mean": 0.07309,
+      "ci_lo": 0.033223,
+      "ci_hi": 0.112957,
+      "p_bootstrap_two_sided": 0.0016,
+      "frac_pairs_treatment_better": 0.1063
+    },
+    "delta_hk": {
+      "mean": 0.149502,
+      "ci_lo": 0.10299,
+      "ci_hi": 0.199336,
+      "p_bootstrap_two_sided": 0.0,
+      "frac_pairs_treatment_better": 0.1794
+    },
+    "delta_rr": {
+      "mean": 0.087538,
+      "ci_lo": 0.050236,
+      "ci_hi": 0.126459,
+      "p_bootstrap_two_sided": 0.0002,
+      "frac_pairs_treatment_better": 0.2259
+    }
+  }
+}

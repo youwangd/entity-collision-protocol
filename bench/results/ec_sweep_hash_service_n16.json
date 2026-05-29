@@ -1,0 +1,4947 @@
+{
+  "config": {
+    "n_entities": 16,
+    "distractors": 3,
+    "k": 10,
+    "seed": 42,
+    "embed": "hash",
+    "tag": "service",
+    "vector_weight": 0.5,
+    "degrees": [
+      1,
+      2,
+      4,
+      8
+    ]
+  },
+  "sweep": [
+    {
+      "collision_degree": 1,
+      "bm25_floor": 1.0,
+      "bm25_only": {
+        "vector_weight": 0.0,
+        "n_memories": 64,
+        "n_queries": 16,
+        "k": 10,
+        "hit_at_1": 1.0,
+        "hit_at_k": 1.0,
+        "mrr": 1.0,
+        "recall_p50_ms": 1.298,
+        "ingest_seconds": 0.033,
+        "per_query": [
+          {
+            "query": "which provider does alice use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.62
+          },
+          {
+            "query": "which provider does bob use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.11
+          },
+          {
+            "query": "which provider does carol use to charge customers?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.202
+          },
+          {
+            "query": "which provider does dave use to charge customers?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.2
+          },
+          {
+            "query": "which provider does eve use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.164
+          },
+          {
+            "query": "which provider does frank use to watch service health?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.242
+          },
+          {
+            "query": "which provider does grace use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.23
+          },
+          {
+            "query": "which provider does henry use to run servers?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.28
+          },
+          {
+            "query": "which provider does ivy use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.316
+          },
+          {
+            "query": "which provider does jack use to host code?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.388
+          },
+          {
+            "query": "which provider does kate use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.42
+          },
+          {
+            "query": "which provider does leo use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.388
+          },
+          {
+            "query": "which provider does mia use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.415
+          },
+          {
+            "query": "which provider does noah use to watch service health?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.576
+          },
+          {
+            "query": "which provider does olivia use to host code?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.81
+          },
+          {
+            "query": "which provider does peter use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.171
+          }
+        ]
+      },
+      "vector_fusion": {
+        "vector_weight": 0.5,
+        "n_memories": 64,
+        "n_queries": 16,
+        "k": 10,
+        "hit_at_1": 1.0,
+        "hit_at_k": 1.0,
+        "mrr": 1.0,
+        "recall_p50_ms": 8.407,
+        "ingest_seconds": 0.608,
+        "per_query": [
+          {
+            "query": "which provider does alice use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 9.105
+          },
+          {
+            "query": "which provider does bob use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.701
+          },
+          {
+            "query": "which provider does carol use to charge customers?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.723
+          },
+          {
+            "query": "which provider does dave use to charge customers?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.671
+          },
+          {
+            "query": "which provider does eve use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.428
+          },
+          {
+            "query": "which provider does frank use to watch service health?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.085
+          },
+          {
+            "query": "which provider does grace use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.839
+          },
+          {
+            "query": "which provider does henry use to run servers?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.531
+          },
+          {
+            "query": "which provider does ivy use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.724
+          },
+          {
+            "query": "which provider does jack use to host code?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.739
+          },
+          {
+            "query": "which provider does kate use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 25.635
+          },
+          {
+            "query": "which provider does leo use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.387
+          },
+          {
+            "query": "which provider does mia use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.451
+          },
+          {
+            "query": "which provider does noah use to watch service health?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.728
+          },
+          {
+            "query": "which provider does olivia use to host code?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.143
+          },
+          {
+            "query": "which provider does peter use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 1,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.02
+          }
+        ]
+      },
+      "delta_hit_at_1": 0.0,
+      "delta_mrr": 0.0
+    },
+    {
+      "collision_degree": 2,
+      "bm25_floor": 0.5,
+      "bm25_only": {
+        "vector_weight": 0.0,
+        "n_memories": 80,
+        "n_queries": 32,
+        "k": 10,
+        "hit_at_1": 0.5,
+        "hit_at_k": 1.0,
+        "mrr": 0.75,
+        "recall_p50_ms": 1.734,
+        "ingest_seconds": 0.039,
+        "per_query": [
+          {
+            "query": "which provider does alice use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 1.952
+          },
+          {
+            "query": "which provider does alice use to charge customers?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.613
+          },
+          {
+            "query": "which provider does bob use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.65
+          },
+          {
+            "query": "which provider does bob use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 1.717
+          },
+          {
+            "query": "which provider does carol use to charge customers?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.788
+          },
+          {
+            "query": "which provider does carol use to verify identity?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 1.881
+          },
+          {
+            "query": "which provider does dave use to host code?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 1.883
+          },
+          {
+            "query": "which provider does dave use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 2.149
+          },
+          {
+            "query": "which provider does eve use to run servers?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 1.508
+          },
+          {
+            "query": "which provider does eve use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.638
+          },
+          {
+            "query": "which provider does frank use to run servers?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.651
+          },
+          {
+            "query": "which provider does frank use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 1.739
+          },
+          {
+            "query": "which provider does grace use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.783
+          },
+          {
+            "query": "which provider does grace use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 1.881
+          },
+          {
+            "query": "which provider does henry use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 2.128
+          },
+          {
+            "query": "which provider does henry use to host code?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 1.493
+          },
+          {
+            "query": "which provider does ivy use to host code?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 1.513
+          },
+          {
+            "query": "which provider does ivy use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.578
+          },
+          {
+            "query": "which provider does jack use to host code?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 1.621
+          },
+          {
+            "query": "which provider does jack use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.704
+          },
+          {
+            "query": "which provider does kate use to watch service health?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.866
+          },
+          {
+            "query": "which provider does kate use to verify identity?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 1.876
+          },
+          {
+            "query": "which provider does leo use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.204
+          },
+          {
+            "query": "which provider does leo use to run servers?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.643
+          },
+          {
+            "query": "which provider does mia use to verify identity?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.394
+          },
+          {
+            "query": "which provider does mia use to host code?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 1.551
+          },
+          {
+            "query": "which provider does noah use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 1.685
+          },
+          {
+            "query": "which provider does noah use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.728
+          },
+          {
+            "query": "which provider does olivia use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.802
+          },
+          {
+            "query": "which provider does olivia use to verify identity?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 1.869
+          },
+          {
+            "query": "which provider does peter use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 1.91
+          },
+          {
+            "query": "which provider does peter use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.206
+          }
+        ]
+      },
+      "vector_fusion": {
+        "vector_weight": 0.5,
+        "n_memories": 80,
+        "n_queries": 32,
+        "k": 10,
+        "hit_at_1": 0.7188,
+        "hit_at_k": 1.0,
+        "mrr": 0.8594,
+        "recall_p50_ms": 8.122,
+        "ingest_seconds": 0.744,
+        "per_query": [
+          {
+            "query": "which provider does alice use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.819
+          },
+          {
+            "query": "which provider does alice use to charge customers?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.535
+          },
+          {
+            "query": "which provider does bob use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.097
+          },
+          {
+            "query": "which provider does bob use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.415
+          },
+          {
+            "query": "which provider does carol use to charge customers?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.364
+          },
+          {
+            "query": "which provider does carol use to verify identity?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.87
+          },
+          {
+            "query": "which provider does dave use to host code?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.58
+          },
+          {
+            "query": "which provider does dave use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 22.042
+          },
+          {
+            "query": "which provider does eve use to run servers?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.461
+          },
+          {
+            "query": "which provider does eve use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.221
+          },
+          {
+            "query": "which provider does frank use to run servers?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.981
+          },
+          {
+            "query": "which provider does frank use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.694
+          },
+          {
+            "query": "which provider does grace use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.277
+          },
+          {
+            "query": "which provider does grace use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.942
+          },
+          {
+            "query": "which provider does henry use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.16
+          },
+          {
+            "query": "which provider does henry use to host code?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.074
+          },
+          {
+            "query": "which provider does ivy use to host code?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.597
+          },
+          {
+            "query": "which provider does ivy use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.278
+          },
+          {
+            "query": "which provider does jack use to host code?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.783
+          },
+          {
+            "query": "which provider does jack use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.476
+          },
+          {
+            "query": "which provider does kate use to watch service health?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.135
+          },
+          {
+            "query": "which provider does kate use to verify identity?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.838
+          },
+          {
+            "query": "which provider does leo use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.278
+          },
+          {
+            "query": "which provider does leo use to run servers?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 20.935
+          },
+          {
+            "query": "which provider does mia use to verify identity?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.676
+          },
+          {
+            "query": "which provider does mia use to host code?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.246
+          },
+          {
+            "query": "which provider does noah use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.108
+          },
+          {
+            "query": "which provider does noah use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.582
+          },
+          {
+            "query": "which provider does olivia use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.198
+          },
+          {
+            "query": "which provider does olivia use to verify identity?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.084
+          },
+          {
+            "query": "which provider does peter use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.719
+          },
+          {
+            "query": "which provider does peter use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 2,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.226
+          }
+        ]
+      },
+      "delta_hit_at_1": 0.2188,
+      "delta_mrr": 0.1094
+    },
+    {
+      "collision_degree": 4,
+      "bm25_floor": 0.25,
+      "bm25_only": {
+        "vector_weight": 0.0,
+        "n_memories": 112,
+        "n_queries": 64,
+        "k": 10,
+        "hit_at_1": 0.25,
+        "hit_at_k": 1.0,
+        "mrr": 0.5208,
+        "recall_p50_ms": 2.502,
+        "ingest_seconds": 0.053,
+        "per_query": [
+          {
+            "query": "which provider does alice use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 2.716
+          },
+          {
+            "query": "which provider does alice use to charge customers?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.408
+          },
+          {
+            "query": "which provider does alice use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 2.642
+          },
+          {
+            "query": "which provider does alice use to watch service health?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.362
+          },
+          {
+            "query": "which provider does bob use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 2.238
+          },
+          {
+            "query": "which provider does bob use to run servers?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 2.323
+          },
+          {
+            "query": "which provider does bob use to host code?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 2.507
+          },
+          {
+            "query": "which provider does bob use to charge customers?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.936
+          },
+          {
+            "query": "which provider does carol use to charge customers?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 2.242
+          },
+          {
+            "query": "which provider does carol use to run servers?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.404
+          },
+          {
+            "query": "which provider does carol use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 2.504
+          },
+          {
+            "query": "which provider does carol use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 16.877
+          },
+          {
+            "query": "which provider does dave use to watch service health?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.26
+          },
+          {
+            "query": "which provider does dave use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 2.359
+          },
+          {
+            "query": "which provider does dave use to host code?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 2.444
+          },
+          {
+            "query": "which provider does dave use to verify identity?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 2.959
+          },
+          {
+            "query": "which provider does eve use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 2.252
+          },
+          {
+            "query": "which provider does eve use to charge customers?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 2.351
+          },
+          {
+            "query": "which provider does eve use to watch service health?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 2.895
+          },
+          {
+            "query": "which provider does eve use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.326
+          },
+          {
+            "query": "which provider does frank use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 2.155
+          },
+          {
+            "query": "which provider does frank use to host code?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 2.281
+          },
+          {
+            "query": "which provider does frank use to charge customers?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.355
+          },
+          {
+            "query": "which provider does frank use to run servers?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 2.878
+          },
+          {
+            "query": "which provider does grace use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 2.21
+          },
+          {
+            "query": "which provider does grace use to charge customers?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.419
+          },
+          {
+            "query": "which provider does grace use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 2.478
+          },
+          {
+            "query": "which provider does grace use to verify identity?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 2.924
+          },
+          {
+            "query": "which provider does henry use to verify identity?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 2.262
+          },
+          {
+            "query": "which provider does henry use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.461
+          },
+          {
+            "query": "which provider does henry use to watch service health?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 2.664
+          },
+          {
+            "query": "which provider does henry use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 2.903
+          },
+          {
+            "query": "which provider does ivy use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 2.336
+          },
+          {
+            "query": "which provider does ivy use to run servers?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 2.479
+          },
+          {
+            "query": "which provider does ivy use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 2.627
+          },
+          {
+            "query": "which provider does ivy use to verify identity?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.037
+          },
+          {
+            "query": "which provider does jack use to run servers?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 2.309
+          },
+          {
+            "query": "which provider does jack use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 2.818
+          },
+          {
+            "query": "which provider does jack use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.561
+          },
+          {
+            "query": "which provider does jack use to verify identity?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.312
+          },
+          {
+            "query": "which provider does kate use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 2.879
+          },
+          {
+            "query": "which provider does kate use to host code?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 2.457
+          },
+          {
+            "query": "which provider does kate use to watch service health?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.893
+          },
+          {
+            "query": "which provider does kate use to charge customers?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.943
+          },
+          {
+            "query": "which provider does leo use to verify identity?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.315
+          },
+          {
+            "query": "which provider does leo use to host code?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 3.344
+          },
+          {
+            "query": "which provider does leo use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 13.481
+          },
+          {
+            "query": "which provider does leo use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 2.975
+          },
+          {
+            "query": "which provider does mia use to run servers?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.364
+          },
+          {
+            "query": "which provider does mia use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 2.502
+          },
+          {
+            "query": "which provider does mia use to verify identity?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.055
+          },
+          {
+            "query": "which provider does mia use to host code?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 2.331
+          },
+          {
+            "query": "which provider does noah use to verify identity?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 2.18
+          },
+          {
+            "query": "which provider does noah use to charge customers?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 2.402
+          },
+          {
+            "query": "which provider does noah use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 2.569
+          },
+          {
+            "query": "which provider does noah use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.944
+          },
+          {
+            "query": "which provider does olivia use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 2.286
+          },
+          {
+            "query": "which provider does olivia use to host code?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 2.424
+          },
+          {
+            "query": "which provider does olivia use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 2.612
+          },
+          {
+            "query": "which provider does olivia use to run servers?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.018
+          },
+          {
+            "query": "which provider does peter use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 2.312
+          },
+          {
+            "query": "which provider does peter use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 2.502
+          },
+          {
+            "query": "which provider does peter use to run servers?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 2.668
+          },
+          {
+            "query": "which provider does peter use to watch service health?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.145
+          }
+        ]
+      },
+      "vector_fusion": {
+        "vector_weight": 0.5,
+        "n_memories": 112,
+        "n_queries": 64,
+        "k": 10,
+        "hit_at_1": 0.3125,
+        "hit_at_k": 1.0,
+        "mrr": 0.5729,
+        "recall_p50_ms": 8.231,
+        "ingest_seconds": 1.008,
+        "per_query": [
+          {
+            "query": "which provider does alice use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.995
+          },
+          {
+            "query": "which provider does alice use to charge customers?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.839
+          },
+          {
+            "query": "which provider does alice use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.834
+          },
+          {
+            "query": "which provider does alice use to watch service health?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.813
+          },
+          {
+            "query": "which provider does bob use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 22.324
+          },
+          {
+            "query": "which provider does bob use to run servers?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.866
+          },
+          {
+            "query": "which provider does bob use to host code?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.622
+          },
+          {
+            "query": "which provider does bob use to charge customers?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.384
+          },
+          {
+            "query": "which provider does carol use to charge customers?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.576
+          },
+          {
+            "query": "which provider does carol use to run servers?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.392
+          },
+          {
+            "query": "which provider does carol use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.085
+          },
+          {
+            "query": "which provider does carol use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.786
+          },
+          {
+            "query": "which provider does dave use to watch service health?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.36
+          },
+          {
+            "query": "which provider does dave use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.09
+          },
+          {
+            "query": "which provider does dave use to host code?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.661
+          },
+          {
+            "query": "which provider does dave use to verify identity?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.063
+          },
+          {
+            "query": "which provider does eve use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.684
+          },
+          {
+            "query": "which provider does eve use to charge customers?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 21.336
+          },
+          {
+            "query": "which provider does eve use to watch service health?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.851
+          },
+          {
+            "query": "which provider does eve use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.822
+          },
+          {
+            "query": "which provider does frank use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.343
+          },
+          {
+            "query": "which provider does frank use to host code?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.57
+          },
+          {
+            "query": "which provider does frank use to charge customers?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.465
+          },
+          {
+            "query": "which provider does frank use to run servers?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.097
+          },
+          {
+            "query": "which provider does grace use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.782
+          },
+          {
+            "query": "which provider does grace use to charge customers?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.452
+          },
+          {
+            "query": "which provider does grace use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.176
+          },
+          {
+            "query": "which provider does grace use to verify identity?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.928
+          },
+          {
+            "query": "which provider does henry use to verify identity?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.342
+          },
+          {
+            "query": "which provider does henry use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 18.018
+          },
+          {
+            "query": "which provider does henry use to watch service health?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 12.132
+          },
+          {
+            "query": "which provider does henry use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.263
+          },
+          {
+            "query": "which provider does ivy use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.611
+          },
+          {
+            "query": "which provider does ivy use to run servers?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.666
+          },
+          {
+            "query": "which provider does ivy use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.995
+          },
+          {
+            "query": "which provider does ivy use to verify identity?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.671
+          },
+          {
+            "query": "which provider does jack use to run servers?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 9.431
+          },
+          {
+            "query": "which provider does jack use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.042
+          },
+          {
+            "query": "which provider does jack use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.812
+          },
+          {
+            "query": "which provider does jack use to verify identity?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.769
+          },
+          {
+            "query": "which provider does kate use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.771
+          },
+          {
+            "query": "which provider does kate use to host code?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.824
+          },
+          {
+            "query": "which provider does kate use to watch service health?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 21.751
+          },
+          {
+            "query": "which provider does kate use to charge customers?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.66
+          },
+          {
+            "query": "which provider does leo use to verify identity?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.516
+          },
+          {
+            "query": "which provider does leo use to host code?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.087
+          },
+          {
+            "query": "which provider does leo use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.77
+          },
+          {
+            "query": "which provider does leo use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.86
+          },
+          {
+            "query": "which provider does mia use to run servers?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 7.49
+          },
+          {
+            "query": "which provider does mia use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.215
+          },
+          {
+            "query": "which provider does mia use to verify identity?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.773
+          },
+          {
+            "query": "which provider does mia use to host code?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.288
+          },
+          {
+            "query": "which provider does noah use to verify identity?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.661
+          },
+          {
+            "query": "which provider does noah use to charge customers?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.409
+          },
+          {
+            "query": "which provider does noah use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.161
+          },
+          {
+            "query": "which provider does noah use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 7.807
+          },
+          {
+            "query": "which provider does olivia use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.32
+          },
+          {
+            "query": "which provider does olivia use to host code?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.037
+          },
+          {
+            "query": "which provider does olivia use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 20.942
+          },
+          {
+            "query": "which provider does olivia use to run servers?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.851
+          },
+          {
+            "query": "which provider does peter use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.37
+          },
+          {
+            "query": "which provider does peter use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.76
+          },
+          {
+            "query": "which provider does peter use to run servers?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.247
+          },
+          {
+            "query": "which provider does peter use to watch service health?",
+            "tag": "service",
+            "collision_degree": 4,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.191
+          }
+        ]
+      },
+      "delta_hit_at_1": 0.0625,
+      "delta_mrr": 0.0521
+    },
+    {
+      "collision_degree": 8,
+      "bm25_floor": 0.125,
+      "bm25_only": {
+        "vector_weight": 0.0,
+        "n_memories": 176,
+        "n_queries": 128,
+        "k": 10,
+        "hit_at_1": 0.125,
+        "hit_at_k": 1.0,
+        "mrr": 0.3397,
+        "recall_p50_ms": 4.047,
+        "ingest_seconds": 0.101,
+        "per_query": [
+          {
+            "query": "which provider does alice use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 4.043
+          },
+          {
+            "query": "which provider does alice use to charge customers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 4.548
+          },
+          {
+            "query": "which provider does alice use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.827
+          },
+          {
+            "query": "which provider does alice use to watch service health?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 4.285
+          },
+          {
+            "query": "which provider does alice use to verify identity?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.69
+          },
+          {
+            "query": "which provider does alice use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 4.279
+          },
+          {
+            "query": "which provider does alice use to run servers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 3.652
+          },
+          {
+            "query": "which provider does alice use to host code?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 4.648
+          },
+          {
+            "query": "which provider does bob use to charge customers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.839
+          },
+          {
+            "query": "which provider does bob use to verify identity?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 4.631
+          },
+          {
+            "query": "which provider does bob use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 3.701
+          },
+          {
+            "query": "which provider does bob use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 4.214
+          },
+          {
+            "query": "which provider does bob use to run servers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 4.192
+          },
+          {
+            "query": "which provider does bob use to watch service health?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 4.436
+          },
+          {
+            "query": "which provider does bob use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.718
+          },
+          {
+            "query": "which provider does bob use to host code?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 17.882
+          },
+          {
+            "query": "which provider does carol use to verify identity?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.744
+          },
+          {
+            "query": "which provider does carol use to run servers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 4.97
+          },
+          {
+            "query": "which provider does carol use to watch service health?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 3.458
+          },
+          {
+            "query": "which provider does carol use to charge customers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 4.046
+          },
+          {
+            "query": "which provider does carol use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.397
+          },
+          {
+            "query": "which provider does carol use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 4.083
+          },
+          {
+            "query": "which provider does carol use to host code?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.498
+          },
+          {
+            "query": "which provider does carol use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 4.116
+          },
+          {
+            "query": "which provider does dave use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 3.624
+          },
+          {
+            "query": "which provider does dave use to charge customers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 4.491
+          },
+          {
+            "query": "which provider does dave use to watch service health?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.511
+          },
+          {
+            "query": "which provider does dave use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 4.088
+          },
+          {
+            "query": "which provider does dave use to run servers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 3.495
+          },
+          {
+            "query": "which provider does dave use to verify identity?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 4.103
+          },
+          {
+            "query": "which provider does dave use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.709
+          },
+          {
+            "query": "which provider does dave use to host code?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 4.034
+          },
+          {
+            "query": "which provider does eve use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.764
+          },
+          {
+            "query": "which provider does eve use to run servers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 4.249
+          },
+          {
+            "query": "which provider does eve use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 3.444
+          },
+          {
+            "query": "which provider does eve use to charge customers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 4.101
+          },
+          {
+            "query": "which provider does eve use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 3.936
+          },
+          {
+            "query": "which provider does eve use to watch service health?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 17.605
+          },
+          {
+            "query": "which provider does eve use to host code?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.725
+          },
+          {
+            "query": "which provider does eve use to verify identity?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 4.534
+          },
+          {
+            "query": "which provider does frank use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.813
+          },
+          {
+            "query": "which provider does frank use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 4.215
+          },
+          {
+            "query": "which provider does frank use to watch service health?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.455
+          },
+          {
+            "query": "which provider does frank use to verify identity?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 4.047
+          },
+          {
+            "query": "which provider does frank use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 3.455
+          },
+          {
+            "query": "which provider does frank use to run servers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 4.121
+          },
+          {
+            "query": "which provider does frank use to host code?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.546
+          },
+          {
+            "query": "which provider does frank use to charge customers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 4.195
+          },
+          {
+            "query": "which provider does grace use to watch service health?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 3.987
+          },
+          {
+            "query": "which provider does grace use to host code?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 4.515
+          },
+          {
+            "query": "which provider does grace use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.551
+          },
+          {
+            "query": "which provider does grace use to verify identity?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 4.265
+          },
+          {
+            "query": "which provider does grace use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.622
+          },
+          {
+            "query": "which provider does grace use to run servers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 4.227
+          },
+          {
+            "query": "which provider does grace use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 3.621
+          },
+          {
+            "query": "which provider does grace use to charge customers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 4.048
+          },
+          {
+            "query": "which provider does henry use to host code?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.648
+          },
+          {
+            "query": "which provider does henry use to run servers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 4.321
+          },
+          {
+            "query": "which provider does henry use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.4
+          },
+          {
+            "query": "which provider does henry use to watch service health?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 4.292
+          },
+          {
+            "query": "which provider does henry use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 16.439
+          },
+          {
+            "query": "which provider does henry use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 4.233
+          },
+          {
+            "query": "which provider does henry use to verify identity?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.511
+          },
+          {
+            "query": "which provider does henry use to charge customers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 4.137
+          },
+          {
+            "query": "which provider does ivy use to run servers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.552
+          },
+          {
+            "query": "which provider does ivy use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 4.314
+          },
+          {
+            "query": "which provider does ivy use to verify identity?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 3.451
+          },
+          {
+            "query": "which provider does ivy use to host code?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 4.048
+          },
+          {
+            "query": "which provider does ivy use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.447
+          },
+          {
+            "query": "which provider does ivy use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 4.225
+          },
+          {
+            "query": "which provider does ivy use to charge customers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 3.478
+          },
+          {
+            "query": "which provider does ivy use to watch service health?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 4.245
+          },
+          {
+            "query": "which provider does jack use to watch service health?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.652
+          },
+          {
+            "query": "which provider does jack use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 4.354
+          },
+          {
+            "query": "which provider does jack use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.669
+          },
+          {
+            "query": "which provider does jack use to host code?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 4.031
+          },
+          {
+            "query": "which provider does jack use to charge customers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 3.573
+          },
+          {
+            "query": "which provider does jack use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 4.214
+          },
+          {
+            "query": "which provider does jack use to verify identity?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.514
+          },
+          {
+            "query": "which provider does jack use to run servers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 4.151
+          },
+          {
+            "query": "which provider does kate use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 3.571
+          },
+          {
+            "query": "which provider does kate use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 4.238
+          },
+          {
+            "query": "which provider does kate use to run servers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.525
+          },
+          {
+            "query": "which provider does kate use to watch service health?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 17.264
+          },
+          {
+            "query": "which provider does kate use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.751
+          },
+          {
+            "query": "which provider does kate use to charge customers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 4.226
+          },
+          {
+            "query": "which provider does kate use to verify identity?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.674
+          },
+          {
+            "query": "which provider does kate use to host code?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 4.12
+          },
+          {
+            "query": "which provider does leo use to watch service health?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.664
+          },
+          {
+            "query": "which provider does leo use to run servers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 4.248
+          },
+          {
+            "query": "which provider does leo use to charge customers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 3.627
+          },
+          {
+            "query": "which provider does leo use to verify identity?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 4.279
+          },
+          {
+            "query": "which provider does leo use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.745
+          },
+          {
+            "query": "which provider does leo use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 4.23
+          },
+          {
+            "query": "which provider does leo use to host code?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.524
+          },
+          {
+            "query": "which provider does leo use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 4.117
+          },
+          {
+            "query": "which provider does mia use to charge customers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 3.659
+          },
+          {
+            "query": "which provider does mia use to verify identity?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 4.345
+          },
+          {
+            "query": "which provider does mia use to watch service health?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 3.718
+          },
+          {
+            "query": "which provider does mia use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 4.227
+          },
+          {
+            "query": "which provider does mia use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.493
+          },
+          {
+            "query": "which provider does mia use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 4.076
+          },
+          {
+            "query": "which provider does mia use to run servers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 18.953
+          },
+          {
+            "query": "which provider does mia use to host code?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 4.125
+          },
+          {
+            "query": "which provider does noah use to watch service health?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 3.676
+          },
+          {
+            "query": "which provider does noah use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 4.409
+          },
+          {
+            "query": "which provider does noah use to host code?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.624
+          },
+          {
+            "query": "which provider does noah use to run servers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 4.306
+          },
+          {
+            "query": "which provider does noah use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.535
+          },
+          {
+            "query": "which provider does noah use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 4.159
+          },
+          {
+            "query": "which provider does noah use to verify identity?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 3.641
+          },
+          {
+            "query": "which provider does noah use to charge customers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 4.183
+          },
+          {
+            "query": "which provider does olivia use to run servers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.653
+          },
+          {
+            "query": "which provider does olivia use to host code?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 4.41
+          },
+          {
+            "query": "which provider does olivia use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.642
+          },
+          {
+            "query": "which provider does olivia use to watch service health?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 4.456
+          },
+          {
+            "query": "which provider does olivia use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 3.643
+          },
+          {
+            "query": "which provider does olivia use to verify identity?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 4.172
+          },
+          {
+            "query": "which provider does olivia use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 3.549
+          },
+          {
+            "query": "which provider does olivia use to charge customers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 4.159
+          },
+          {
+            "query": "which provider does peter use to host code?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 3.623
+          },
+          {
+            "query": "which provider does peter use to run servers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 4.407
+          },
+          {
+            "query": "which provider does peter use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 3.628
+          },
+          {
+            "query": "which provider does peter use to charge customers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 17.023
+          },
+          {
+            "query": "which provider does peter use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 3.688
+          },
+          {
+            "query": "which provider does peter use to watch service health?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 4.301
+          },
+          {
+            "query": "which provider does peter use to verify identity?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 3.598
+          },
+          {
+            "query": "which provider does peter use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 4.384
+          }
+        ]
+      },
+      "vector_fusion": {
+        "vector_weight": 0.5,
+        "n_memories": 176,
+        "n_queries": 128,
+        "k": 10,
+        "hit_at_1": 0.1562,
+        "hit_at_k": 1.0,
+        "mrr": 0.3875,
+        "recall_p50_ms": 8.055,
+        "ingest_seconds": 1.644,
+        "per_query": [
+          {
+            "query": "which provider does alice use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.792
+          },
+          {
+            "query": "which provider does alice use to charge customers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.602
+          },
+          {
+            "query": "which provider does alice use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 7.68
+          },
+          {
+            "query": "which provider does alice use to watch service health?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 8.482
+          },
+          {
+            "query": "which provider does alice use to verify identity?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.303
+          },
+          {
+            "query": "which provider does alice use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.789
+          },
+          {
+            "query": "which provider does alice use to run servers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 8.699
+          },
+          {
+            "query": "which provider does alice use to host code?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 8.603
+          },
+          {
+            "query": "which provider does bob use to charge customers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.783
+          },
+          {
+            "query": "which provider does bob use to verify identity?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.412
+          },
+          {
+            "query": "which provider does bob use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 7.742
+          },
+          {
+            "query": "which provider does bob use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.318
+          },
+          {
+            "query": "which provider does bob use to run servers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 22.152
+          },
+          {
+            "query": "which provider does bob use to watch service health?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 8.032
+          },
+          {
+            "query": "which provider does bob use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 9.16
+          },
+          {
+            "query": "which provider does bob use to host code?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 7.917
+          },
+          {
+            "query": "which provider does carol use to verify identity?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.367
+          },
+          {
+            "query": "which provider does carol use to run servers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 7.826
+          },
+          {
+            "query": "which provider does carol use to watch service health?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 7.876
+          },
+          {
+            "query": "which provider does carol use to charge customers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.429
+          },
+          {
+            "query": "which provider does carol use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.948
+          },
+          {
+            "query": "which provider does carol use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 7.957
+          },
+          {
+            "query": "which provider does carol use to host code?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 7.969
+          },
+          {
+            "query": "which provider does carol use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.784
+          },
+          {
+            "query": "which provider does dave use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 7.515
+          },
+          {
+            "query": "which provider does dave use to charge customers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.123
+          },
+          {
+            "query": "which provider does dave use to watch service health?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 7.956
+          },
+          {
+            "query": "which provider does dave use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 7.676
+          },
+          {
+            "query": "which provider does dave use to run servers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 8.137
+          },
+          {
+            "query": "which provider does dave use to verify identity?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.588
+          },
+          {
+            "query": "which provider does dave use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 21.204
+          },
+          {
+            "query": "which provider does dave use to host code?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 8.019
+          },
+          {
+            "query": "which provider does eve use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 7.778
+          },
+          {
+            "query": "which provider does eve use to run servers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.597
+          },
+          {
+            "query": "which provider does eve use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.647
+          },
+          {
+            "query": "which provider does eve use to charge customers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.262
+          },
+          {
+            "query": "which provider does eve use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 8.077
+          },
+          {
+            "query": "which provider does eve use to watch service health?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 7.701
+          },
+          {
+            "query": "which provider does eve use to host code?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.35
+          },
+          {
+            "query": "which provider does eve use to verify identity?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.306
+          },
+          {
+            "query": "which provider does frank use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 7.371
+          },
+          {
+            "query": "which provider does frank use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.939
+          },
+          {
+            "query": "which provider does frank use to watch service health?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.795
+          },
+          {
+            "query": "which provider does frank use to verify identity?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.43
+          },
+          {
+            "query": "which provider does frank use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.164
+          },
+          {
+            "query": "which provider does frank use to run servers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 7.834
+          },
+          {
+            "query": "which provider does frank use to host code?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.071
+          },
+          {
+            "query": "which provider does frank use to charge customers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.018
+          },
+          {
+            "query": "which provider does grace use to watch service health?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 21.067
+          },
+          {
+            "query": "which provider does grace use to host code?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.352
+          },
+          {
+            "query": "which provider does grace use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.154
+          },
+          {
+            "query": "which provider does grace use to verify identity?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 7.629
+          },
+          {
+            "query": "which provider does grace use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.336
+          },
+          {
+            "query": "which provider does grace use to run servers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 7.644
+          },
+          {
+            "query": "which provider does grace use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 8.279
+          },
+          {
+            "query": "which provider does grace use to charge customers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.011
+          },
+          {
+            "query": "which provider does henry use to host code?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.279
+          },
+          {
+            "query": "which provider does henry use to run servers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 8.123
+          },
+          {
+            "query": "which provider does henry use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 7.764
+          },
+          {
+            "query": "which provider does henry use to watch service health?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 7.563
+          },
+          {
+            "query": "which provider does henry use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.003
+          },
+          {
+            "query": "which provider does henry use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.62
+          },
+          {
+            "query": "which provider does henry use to verify identity?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.098
+          },
+          {
+            "query": "which provider does henry use to charge customers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.057
+          },
+          {
+            "query": "which provider does ivy use to run servers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.325
+          },
+          {
+            "query": "which provider does ivy use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 8.299
+          },
+          {
+            "query": "which provider does ivy use to verify identity?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 20.958
+          },
+          {
+            "query": "which provider does ivy use to host code?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.053
+          },
+          {
+            "query": "which provider does ivy use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 8.182
+          },
+          {
+            "query": "which provider does ivy use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.438
+          },
+          {
+            "query": "which provider does ivy use to charge customers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.172
+          },
+          {
+            "query": "which provider does ivy use to watch service health?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 8.347
+          },
+          {
+            "query": "which provider does jack use to watch service health?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 7.399
+          },
+          {
+            "query": "which provider does jack use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.931
+          },
+          {
+            "query": "which provider does jack use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.994
+          },
+          {
+            "query": "which provider does jack use to host code?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.252
+          },
+          {
+            "query": "which provider does jack use to charge customers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.117
+          },
+          {
+            "query": "which provider does jack use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 7.816
+          },
+          {
+            "query": "which provider does jack use to verify identity?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 7.656
+          },
+          {
+            "query": "which provider does jack use to run servers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 8.156
+          },
+          {
+            "query": "which provider does kate use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.478
+          },
+          {
+            "query": "which provider does kate use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.036
+          },
+          {
+            "query": "which provider does kate use to run servers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 8.001
+          },
+          {
+            "query": "which provider does kate use to watch service health?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 17.555
+          },
+          {
+            "query": "which provider does kate use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 11.668
+          },
+          {
+            "query": "which provider does kate use to charge customers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.615
+          },
+          {
+            "query": "which provider does kate use to verify identity?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.082
+          },
+          {
+            "query": "which provider does kate use to host code?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 7.826
+          },
+          {
+            "query": "which provider does leo use to watch service health?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 7.478
+          },
+          {
+            "query": "which provider does leo use to run servers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 9.677
+          },
+          {
+            "query": "which provider does leo use to charge customers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 11.327
+          },
+          {
+            "query": "which provider does leo use to verify identity?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 9.09
+          },
+          {
+            "query": "which provider does leo use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.462
+          },
+          {
+            "query": "which provider does leo use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 7.495
+          },
+          {
+            "query": "which provider does leo use to host code?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.091
+          },
+          {
+            "query": "which provider does leo use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.043
+          },
+          {
+            "query": "which provider does mia use to charge customers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.525
+          },
+          {
+            "query": "which provider does mia use to verify identity?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.364
+          },
+          {
+            "query": "which provider does mia use to watch service health?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 7.882
+          },
+          {
+            "query": "which provider does mia use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.394
+          },
+          {
+            "query": "which provider does mia use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 23.307
+          },
+          {
+            "query": "which provider does mia use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.389
+          },
+          {
+            "query": "which provider does mia use to run servers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 8.438
+          },
+          {
+            "query": "which provider does mia use to host code?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.277
+          },
+          {
+            "query": "which provider does noah use to watch service health?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 7.644
+          },
+          {
+            "query": "which provider does noah use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 8.24
+          },
+          {
+            "query": "which provider does noah use to host code?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 3,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.25,
+            "latency_ms": 7.755
+          },
+          {
+            "query": "which provider does noah use to run servers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 8.243
+          },
+          {
+            "query": "which provider does noah use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 8.194
+          },
+          {
+            "query": "which provider does noah use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.717
+          },
+          {
+            "query": "which provider does noah use to verify identity?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.469
+          },
+          {
+            "query": "which provider does noah use to charge customers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.274
+          },
+          {
+            "query": "which provider does olivia use to run servers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 7,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.125,
+            "latency_ms": 7.435
+          },
+          {
+            "query": "which provider does olivia use to host code?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 6,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.14285714285714285,
+            "latency_ms": 8.022
+          },
+          {
+            "query": "which provider does olivia use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 8.115
+          },
+          {
+            "query": "which provider does olivia use to watch service health?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.564
+          },
+          {
+            "query": "which provider does olivia use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 22.21
+          },
+          {
+            "query": "which provider does olivia use to verify identity?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 7.936
+          },
+          {
+            "query": "which provider does olivia use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 8.215
+          },
+          {
+            "query": "which provider does olivia use to charge customers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.28
+          },
+          {
+            "query": "which provider does peter use to host code?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 7.734
+          },
+          {
+            "query": "which provider does peter use to run servers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 4,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.2,
+            "latency_ms": 8.296
+          },
+          {
+            "query": "which provider does peter use to page on incidents?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.186
+          },
+          {
+            "query": "which provider does peter use to charge customers?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 0,
+            "hit_at_1": 1,
+            "hit_at_k": 1,
+            "reciprocal_rank": 1.0,
+            "latency_ms": 8.126
+          },
+          {
+            "query": "which provider does peter use to resolve domains?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 8.529
+          },
+          {
+            "query": "which provider does peter use to watch service health?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 1,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.5,
+            "latency_ms": 7.933
+          },
+          {
+            "query": "which provider does peter use to verify identity?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 2,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.3333333333333333,
+            "latency_ms": 8.826
+          },
+          {
+            "query": "which provider does peter use to broadcast updates?",
+            "tag": "service",
+            "collision_degree": 8,
+            "rank": 5,
+            "hit_at_1": 0,
+            "hit_at_k": 1,
+            "reciprocal_rank": 0.16666666666666666,
+            "latency_ms": 8.661
+          }
+        ]
+      },
+      "delta_hit_at_1": 0.0312,
+      "delta_mrr": 0.0478
+    }
+  ]
+}

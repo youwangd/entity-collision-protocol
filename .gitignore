@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+!paper/dist/
+build/
+.pytest_cache/
+*.db
+.coverage
+htmlcov/
+.venv/
+*.partial.json
+bench/data/
+data/longmemeval/
+data/locomo/
+data/synthetic_locomo/
+logs/
+bench/results/_*.log
+
+# Paper build artifacts (paper/build.sh)
+paper/build/

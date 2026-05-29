@@ -1,0 +1,41 @@
+{
+  "n_samples": 10,
+  "n_questions": 1986,
+  "n_questions_scored": 1978,
+  "k": 10,
+  "vector_weight": 0.7,
+  "n_memories_total": 5882,
+  "session_hit_at_1": 0.5394,
+  "session_hit_at_k": 0.7988,
+  "per_category_session_hit_at_1": {
+    "2": 0.162,
+    "3": 0.3371,
+    "1": 0.427,
+    "4": 0.6754,
+    "5": 0.6659
+  },
+  "per_category_session_hit_at_k": {
+    "2": 0.2804,
+    "3": 0.7079,
+    "1": 0.8754,
+    "4": 0.9215,
+    "5": 0.9103
+  },
+  "per_category_n": {
+    "2": 321,
+    "3": 89,
+    "1": 281,
+    "4": 841,
+    "5": 446
+  },
+  "ingest_ms": {
+    "p50": 427.19,
+    "mean": 385.04,
+    "max": 446.01
+  },
+  "recall_ms": {
+    "p50": 8.54,
+    "mean": 9.19,
+    "max": 30.17
+  }
+}
